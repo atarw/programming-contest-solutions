@@ -1,0 +1,19 @@
+import java.io.*;
+
+public class VMSS_2016_JAYDEN_WATCHES_VIDEOS {
+  public static void main (String [] args) throws IOException {
+    BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
+    String [] t = in.readLine ().split (" ");
+    int L = Integer.parseInt (t [0]), X = Integer.parseInt (t [1]);
+    
+    for (int l = 1; l <= L * X; l++) {
+      if (l / X > L - l) {
+        System.out.print (l * X);
+        break;
+      }
+    }
+  }
+}
+
+//takes L * X to download completely
+//

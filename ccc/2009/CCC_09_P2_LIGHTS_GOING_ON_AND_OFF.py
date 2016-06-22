@@ -3,30 +3,26 @@ import sys
 
 R = int (sys.stdin.readline ())
 L = int (sys.stdin.readline ())
-comb = 0
-bot = set ()
-arr = []
+amt = 0
 
-for r in xrange (0, R):
-        arr.append ([int (x) for x in sys.stdin.readline ().split ()])
+matrix = [0] * R
+cache = [[0] * (R + 1) for x in xrange (1 << L)]
 
-def ways (curr, uplight):
-    global comb
+for r in xrange (R):
+    s = sys.stdin.readline ().split ()
 
-    if curr == R - 1:
-        hash = ''.join (str (e) for e in uplight)
-        if hash not in bot:
-            comb = comb + 1
-            bot.add (hash)
-    else:
-        ways (curr + 1, uplight)#no press
-        newlist = []
+    for l in xrange (L):
+        matrix [r] ^= ((-int (s [l])) << l) & (1 << l)
 
-        for x in xrange (0, L):
-            newlist.append (arr [curr][x] ^ uplight [x])
+def ways (row, above):
+    if (cache [row][above] == 0):
+        cache [row][above] = 1
 
-        if newlist != uplight:
-            ways (curr + 1, newlist)#press
+        if (row == R):
+            amt = amt + 1
+        else:
+            ways (row + 1, matrix [row] ^ above);
+            ways (row + 1, matrix [row]);
 
-ways (1, arr [1])
-print (comb)
+ways (1, matrix [0])
+print (amt)

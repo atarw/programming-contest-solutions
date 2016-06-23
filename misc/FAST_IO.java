@@ -13,8 +13,8 @@ class FAST_IO_JAVA {
       this.stream = stream;
     }
     
-    public int read () throws IOException {
-      if (numChars == -1) throw new InputMismatchException ();
+    public int cscan () throws IOException {
+      //if (numChars == -1) throw new InputMismatchException ();
       
       if (curChar >= numChars) {
         curChar = 0;
@@ -26,108 +26,108 @@ class FAST_IO_JAVA {
       return buf [curChar++];
     }
     
-    public int readInt () throws IOException {
-      int c = read (), sgn = 1;
-      while (isSpaceChar (c)) c = read ();
+    public int iscan () throws IOException {
+      int c = cscan (), sgn = 1;
+      while (space (c)) c = cscan ();
       
       if (c == '-') {
         sgn = -1;
-        c = read ();
+        c = cscan ();
       }
       
       int res = 0;
       
       do
       {
-        if (c < '0' || c > '9') throw new InputMismatchException ();
+        //if (c < '0' || c > '9') throw new InputMismatchException ();
         res *= 10;
         res += c - '0';
         
-        c = read ();
+        c = cscan ();
       }
-      while (!isSpaceChar (c));
+      while (!space (c));
       
       return res * sgn;
     }
     
-    public String readString () throws IOException {
-      int c = read ();
-      while (isSpaceChar (c)) c = read();
+    public String sscan () throws IOException {
+      int c = cscan ();
+      while (space (c)) c = cscan();
       
       StringBuilder res = new StringBuilder();
       
       do
       {
         res.appendCodePoint (c);
-        c = read ();
+        c = cscan ();
       }
-      while (!isSpaceChar (c));
+      while (!space (c));
       
       return res.toString ();
     }
     
-    public double readDouble () throws IOException {
-      int c = read (), sgn = 1;
-      while (isSpaceChar (c)) c = read ();
+    public double dscan () throws IOException {
+      int c = cscan (), sgn = 1;
+      while (space (c)) c = cscan ();
       
       if (c == '-') {
         sgn = -1;
-        c = read ();
+        c = cscan ();
       }
       
       double res = 0;
       
-      while (!isSpaceChar (c) && c != '.') {
-        if (c == 'e' || c == 'E') return res * Math.pow (10, readInt ());
-        if (c < '0' || c > '9') throw new InputMismatchException ();
+      while (!space (c) && c != '.') {
+        if (c == 'e' || c == 'E') return res * Math.pow (10, iscan ());
+        //if (c < '0' || c > '9') throw new InputMismatchException ();
         
         res *= 10;
         res += c - '0';
-        c = read ();
+        c = cscan ();
       }
       
       if (c == '.') {
-        c = read ();
+        c = cscan ();
         double m = 1;
         
-        while (!isSpaceChar (c)) {
-          if (c == 'e' || c == 'E') return res * Math.pow (10, readInt ());
-          if (c < '0' || c > '9') throw new InputMismatchException ();
+        while (!space (c)) {
+          if (c == 'e' || c == 'E') return res * Math.pow (10, iscan ());
+          //if (c < '0' || c > '9') throw new InputMismatchException ();
           
           m /= 10;
           res += (c - '0') * m;
-          c = read ();
+          c = cscan ();
         }
       }
       
       return res * sgn;
     }
     
-    public long readLong () throws IOException {
-      int c = read (), sgn = 1;
-      while (isSpaceChar (c)) c = read ();
+    public long lscan () throws IOException {
+      int c = cscan (), sgn = 1;
+      while (space (c)) c = cscan ();
       
       if (c == '-') {
         sgn = -1;
-        c = read ();
+        c = cscan ();
       }
       
       long res = 0;
       
       do {
-        if (c < '0' || c > '9') throw new InputMismatchException();
+        //if (c < '0' || c > '9') throw new InputMismatchException();
         
         res *= 10;
         res += c - '0';
-        c = read ();
+        c = cscan ();
         
       }
-      while (!isSpaceChar (c));
+      while (!space (c));
       
       return res * sgn;
     }
     
-    public boolean isSpaceChar (int c) {
+    public boolean space (int c) {
       return c == ' ' || c == '\n' || c == '\r' || c == '\t' || c == -1;
     }
   }

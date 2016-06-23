@@ -3,9 +3,6 @@ import java.util.*;
 
 public class CCO_15_P1_CARS_ON_ICE {
   
-  static char [][] maze;
-  static int [][] lot;
-  
   public static void main (String [] t) throws IOException {
     BufferedReader inp = new BufferedReader (new InputStreamReader (System.in));
     t = inp.readLine ().split (" ");
@@ -13,7 +10,8 @@ public class CCO_15_P1_CARS_ON_ICE {
     int N = Integer.parseInt (t [0]), M = Integer.parseInt (t [1]), C = 0;
     String ln;
     
-    maze = new char [N][M]; lot = new int [N][M];
+    char [][] maze = new char [N][M];
+    int [][] lot = new int [N][M];
     
     for (int n = 0; n < N; n++) {
       ln = inp.readLine ();
@@ -23,7 +21,6 @@ public class CCO_15_P1_CARS_ON_ICE {
         
         if (maze [n][m] != '.') {
           lot [n][m] = C;
-          //map.put (C, new P (n, m));
           C++;
         }
       }
@@ -77,8 +74,6 @@ public class CCO_15_P1_CARS_ON_ICE {
         }
       }
     }
-    
-    maze = null;
     
     Deque <Integer> queue = new ArrayDeque <Integer> (ord.length);
     

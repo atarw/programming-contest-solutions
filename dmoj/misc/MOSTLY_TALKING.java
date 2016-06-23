@@ -18,32 +18,28 @@ public class MOSTLY_TALKING {
     reverse [E].add (new Edge (S, W));
   }
   
-  public static int [] path (int S, List <Edge> [] graph) {
+  public static int [] path (int S, List <Edge> [] graph, int zerovalue) {
     int [] cache = new int [graph.length];
-    boolean [] visited = new boolean [graph.length];
     Queue <Integer> queue = new ArrayDeque <Integer> ();
     int curr;
     
     queue.offer (S);
     Arrays.fill (cache, Integer.MAX_VALUE);
     cache [S] = 0;
+    cache [0] = zerovalue;
     
     while (!queue.isEmpty ()) {
       curr = queue.poll ();
       
-      for (Edge e : graph [curr]) {
-        if (cache [e.E] > cache [curr] + e.W) {
-          cache [e.E] = cache [curr] + e.W;
+      for (int e = 0; e < graph [curr].size (); e++) {
+        if (cache [graph [curr].get (e).E] > cache [curr] + graph [curr].get (e).W) {
+          cache [graph [curr].get (e).E] = cache [curr] + graph [curr].get (e).W;
           
-          if (!visited [e.E] && graph [e.E] != null) {
-            queue.offer (e.E);
+          if (graph [graph [curr].get (e).E] != null) {
+            queue.offer (graph [curr].get (e).E);
           }
-          
-          visited [e.E] = true;
         }
       }
-      
-      visited [curr] = true;
     }
     
     return cache;
@@ -64,9 +60,9 @@ public class MOSTLY_TALKING {
     
     int D = Integer.parseInt (in.readLine ());
     
-    int [] start = path (0, map);
+    int [] start = path (0, map, 0);
     map = null;
-    int [] end = path (N - 1, reverse);
+    int [] end = path (N - 1, reverse, start [N - 1]);
     reverse = null;
     int min = start [N - 1];
     

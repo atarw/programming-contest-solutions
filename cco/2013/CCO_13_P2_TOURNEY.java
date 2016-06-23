@@ -64,24 +64,6 @@ public class CCO_13_P2_TOURNEY {
         break;
       }
     }
-    
-    /*for (int i = curr; i > 0; ) {
-     if (i % 2 == 0) {
-     if (tree [(i - 1) / 2] == -1 || arr [tree [(i - 1) / 2]] < arr [tree [i]]) {
-     tree [(i - 1) / 2] = tree [i];
-     }
-     i = (i - 1) / 2;
-     }
-     else if (i % 2 != 0) {
-     if (tree [i / 2] == -1 || arr [tree [i / 2]] < arr [tree [i]]) {
-     tree [i / 2] = tree [i];
-     }
-     i = i / 2;
-     }
-     else {
-     break;
-     }
-     }*/
   }
   
   public static void main (String [] t) throws IOException {
@@ -89,7 +71,7 @@ public class CCO_13_P2_TOURNEY {
     t = in.readLine ().split (" ");
     
     int N = Integer.parseInt (t [0]), M = Integer.parseInt (t [1]);
-    powN = (int) Math.pow (2, N);
+    powN = 1 << N;
     
     tree = new int [powN * 2 - 1];
     arr = new int [powN];

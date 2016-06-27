@@ -3,18 +3,19 @@ import java.util.*;
 
 public class CCO_15_P1_CARS_ON_ICE {
   
+  static char [][] maze;
+  static int [][] lot;
+  
   public static void main (String [] t) throws IOException {
-    BufferedReader inp = new BufferedReader (new InputStreamReader (System.in));
-    t = inp.readLine ().split (" ");
+    INPUT inp = new INPUT (System.in);
     
-    int N = Integer.parseInt (t [0]), M = Integer.parseInt (t [1]), C = 0;
+    int N = inp.readInt (), M = inp.readInt (), C = 0;
     String ln;
     
-    char [][] maze = new char [N][M];
-    int [][] lot = new int [N][M];
+    maze = new char [N][M]; lot = new int [N][M];
     
     for (int n = 0; n < N; n++) {
-      ln = inp.readLine ();
+      ln = inp.readString ();
       
       for (int m = 0; m < M; m++) {
         maze [n][m] = ln.charAt (m);
@@ -97,8 +98,105 @@ public class CCO_15_P1_CARS_ON_ICE {
       }
     }
     
+    OUTPUT out = new OUTPUT (System.out);
+    
     for (int i = ord.length - 1; i >= 0; i--) {
-      System.out.println ("(" + xc [ord [i]] + "," + yc [ord [i]] + ")");
+      out.println ("(" + xc [ord [i]] + "," + yc [ord [i]] + ")");
+    }
+    
+    out.close ();
+  }
+  
+  private static class INPUT {
+    
+    private InputStream stream;
+    private byte [] buf = new byte [1024];
+    private int curChar, numChars;
+    
+    public INPUT (InputStream stream) {
+      this.stream = stream;
+    }
+    
+    public int read () throws IOException {
+      if (numChars == -1) throw new InputMismatchException ();
+      
+      if (curChar >= numChars) {
+        curChar = 0;
+        numChars = stream.read (buf);
+        
+        if (numChars <= 0) return -1;
+      }
+      
+      return buf [curChar++];
+    }
+    
+    public int readInt () throws IOException {
+      int c = read (), sgn = 1;
+      while (isSpaceChar (c)) c = read ();
+      
+      if (c == '-') {
+        sgn = -1;
+        c = read ();
+      }
+      
+      int res = 0;
+      
+      do
+      {
+        if (c < '0' || c > '9') throw new InputMismatchException ();
+        res *= 10;
+        res += c - '0';
+        
+        c = read ();
+      }
+      while (!isSpaceChar (c));
+      
+      return res * sgn;
+    }
+    
+    public String readString () throws IOException {
+      int c = read ();
+      while (isSpaceChar (c)) c = read();
+      
+      StringBuilder res = new StringBuilder();
+      
+      do
+      {
+        res.appendCodePoint (c);
+        c = read ();
+      }
+      while (!isSpaceChar (c));
+      
+      return res.toString ();
+    }
+    
+    public boolean isSpaceChar (int c) {
+      return c == ' ' || c == '\n' || c == '\r' || c == '\t' || c == -1;
+    }
+  }
+  
+  private static class OUTPUT {
+    
+    private final PrintWriter writer;
+    
+    public OUTPUT (OutputStream outputStream) {
+      writer = new PrintWriter (new BufferedWriter (new OutputStreamWriter (outputStream)));
+    }
+    
+    public void print (Object...objects) {
+      for (int i = 0; i < objects.length; ++i) {
+        if (i != 0) writer.print (' ');
+        writer.print (objects [i]);
+      }
+    }
+    
+    public void println (Object...objects) {
+      print (objects);
+      writer.println ();
+    }
+    
+    public void close () {
+      writer.close ();
     }
   }
 }

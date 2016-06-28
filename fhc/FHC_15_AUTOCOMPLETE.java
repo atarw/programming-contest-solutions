@@ -28,24 +28,29 @@ public class FHC_15_AUTOCOMPLETE {
     return length + (exists ? 0 : 1);
   }
   
-  public static void main (String [] args) throws IOException {
+  public static void main (String [] words) throws IOException {
     INPUT in = new INPUT (System.in);
     PrintWriter out = new PrintWriter (System.out);
     
     int T = in.iscan ();
-    int N, total;
+    int N, total, size;
     
     for (int t = 1; t <= T; ++t) {
-      trie = new int [1000001][26];//1000001 is the max number of nodes in trie, 26 is the max number of children of each node, returns address of node underneath
-      
-      System.gc ();//hopefully this works...
-      
       insertionPoint = 1;
       
-      N = in.iscan (); total = 0;
+      N = in.iscan (); total = 0; size = 0;
+      words = new String [N];
       
-      while (N --> 0) {
-        total += insert (in.sscan ());
+      for (int n = 0; n < N; ++n) {
+        words [n] = in.sscan ();
+        size += words [n].length ();
+      }
+      
+      trie = new int [size + 1][26];
+      System.gc ();
+      
+      for (int n = 0; n < N; ++n) {
+        total += insert (words [n]);
       }
       
       out.print ("Case #"); out.print (t); out.print (": "); out.println (total);

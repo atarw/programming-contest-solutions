@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class DMPG_14_S4_SIGNAL_HILL {
+public class DMPG_15_S4_SIGNAL_HILL {
   
   static int [] x, y, r;
   static boolean [][] matrix;

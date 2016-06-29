@@ -1,5 +1,4 @@
 import java.io.*;
-import java.util.InputMismatchException;
 
 class FAST_IO_JAVA {
   
@@ -20,7 +19,7 @@ class FAST_IO_JAVA {
         curChar = 0;
         numChars = stream.read (buf);
         
-        if (numChars <= 0) return -1;
+        //if (numChars <= 0) return -1;
       }
       
       return buf [curChar++];

@@ -1,41 +1,47 @@
 #include <stdio.h>
 #include <string.h>
+#include <vector>
 
 #define scan(x) do{while((x=getchar())<'0'); for(x-='0'; '0'<=(_=getchar()); x=(x<<3)+(x<<1)+_-'0');}while(0)
-#define max(a,b) ((a)>(b)?(a):(b))
+#define max(a,b) ((a) < (b) ? (b) : (a))
+
 char _;
 
 using namespace std;
 
-int arr [201];
-int cache [201][201];
+int cards [200];
+int cache [200][200];
 
-int best (int l, int r) {
-	if (!cache [l][r] && l != r) {
-		for (int i = l + 1; i < r; i++) {
-			cache [l][r] = max (cache [l][r], arr [l] + arr [i] + arr [r] + best (l, i) + best (i, r));
-		}
+int solve (int be, int en) {
+	if (cache [be][en] != -1) {
+		return cache [be][en];
 	}
 	
-	return cache [l][r];
+	if (be + 1 == en) {
+		return cache [be][en] = 0;
+	}
+	
+	for (int chose = be + 1; chose < en; ++chose) {
+		cache [be][en] = max (cache [be][en], cards [chose] + cards [be] + cards [en] + solve (be, chose) + solve (chose, en));
+	}
+	
+	return cache [be][en];
 }
 
 int main () {
-	int N;
+	int N; scan (N);
 	
-	while (true) {
+	while (N) {
+		memset (cache, -1, sizeof (cache));
+		
+		for (int n = 0; n < N; ++n) {
+			scan (cards [n]);
+		}
+		
+		printf ("%d\n", solve (0, N - 1));
+		
 		scan (N);
-		
-		if (!N) {
-			break;
-		}
-		
-		memset (cache, 0, sizeof (cache));
-		
-		for (int n = 0; n < N; n++) {
-			scan (arr [n]);
-		}
-		
-		printf ("%d\n", best (0, N - 1));
 	}
+
+	return 0;
 }

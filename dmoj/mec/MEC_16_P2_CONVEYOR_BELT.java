@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class CONVEYOR_BELT {
+public class MEC_16_P2_CONVEYOR_BELT {
   public static void main (String [] args) throws IOException {
     BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
     String l1, l2;

@@ -1,5 +1,4 @@
 from sys import stdin, stdout, setrecursionlimit
-import collections
 
 setrecursionlimit (100000)
 

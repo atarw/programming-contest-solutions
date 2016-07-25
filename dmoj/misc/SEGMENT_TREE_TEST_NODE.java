@@ -3,11 +3,10 @@ import java.util.*;
 
 public class SEGMENT_TREE_TEST {
 	
-	static int [] l_arr, r_arr, min_arr, gcd_arr, count_arr;
-	
+	static Node [] tree;
 	static int [] arr;
 	static int SIZE;
-
+	
 	public static int gcd (int a, int b) {
 		return b == 0 ? a : gcd (b, a % b);
 	}
@@ -21,26 +20,29 @@ public class SEGMENT_TREE_TEST {
 	}
 	
 	public static void merge_range (int pos) {
-		l_arr [pos] = l_arr [l_child (pos)]; r_arr [pos] = r_arr [r_child (pos)];
-		min_arr [pos] = Math.min (min_arr [l_child (pos)], min_arr [r_child (pos)]);
-		gcd_arr [pos] = gcd (gcd_arr [l_child (pos)], gcd_arr [r_child (pos)]);
-		count_arr [pos] = 0;
-
-		if (gcd_arr [pos] == gcd_arr [l_child (pos)]) {
-			count_arr [pos] += count_arr [l_child (pos)];
+		tree [pos].l = tree [l_child (pos)].l; tree [pos].r = tree [r_child (pos)].r;
+		tree [pos].min = Math.min (tree [l_child (pos)].min, tree [r_child (pos)].min);
+		tree [pos].gcd = gcd (tree [l_child (pos)].gcd, tree [r_child (pos)].gcd);
+		
+		tree [pos].count = 0;
+		
+		if (tree [pos].gcd == tree [l_child (pos)].gcd) {
+			tree [pos].count += tree [l_child (pos)].count;
 		}
 		
-		if (gcd_arr [pos] == gcd_arr [r_child (pos)]) {
-			count_arr [pos] += count_arr [r_child (pos)];
+		if (tree [pos].gcd == tree [r_child (pos)].gcd) {
+			tree [pos].count += tree [r_child (pos)].count;
 		}
 	}
 	
 	public static void build (int pos, int l, int r) {
-		l_arr [pos] = l; r_arr [pos] = r;
+		//out.println (pos + " " + l + " " + r);
+		
+		tree [pos].l = l; tree [pos].r = r;
 		
 		if (l == r) {
-			min_arr [pos] = gcd_arr [pos] = arr [l];
-			count_arr [pos] = 1;
+			tree [pos].min = tree [pos].gcd = arr [l];
+			tree [pos].count = 1;
 		}
 		else {
 			int mid = (l + r) / 2;
@@ -53,12 +55,14 @@ public class SEGMENT_TREE_TEST {
 	}
 	
 	public static void update (int t_pos, int a_pos, int v) {
-		if (l_arr [t_pos] == a_pos && r_arr [t_pos] == a_pos) {
-			min_arr [t_pos] = gcd_arr [t_pos] = v;
-			count_arr [t_pos] = 1;
+		//out.println ("current pos = " + t_pos + " -> [" + tree [t_pos].l + ":" + tree [t_pos].r + "] arr pos = " + a_pos + " val " + v);
+		
+		if (tree [t_pos].l == a_pos && tree [t_pos].r == a_pos) {
+			tree [t_pos].min = tree [t_pos].gcd = v;
+			tree [t_pos].count = 1;
 		}
 		else {
-			int mid = (l_arr [t_pos] + r_arr [t_pos]) / 2;
+			int mid = (tree [t_pos].l + tree [t_pos].r) / 2;
 			
 			if (a_pos <= mid) {
 				update (l_child (t_pos), a_pos, v);
@@ -72,11 +76,11 @@ public class SEGMENT_TREE_TEST {
 	}
 	
 	public static int query_min (int pos, int l, int r) {
-		if (l == l_arr [pos] && r == r_arr [pos]) {
-			return min_arr [pos];
+		if (l == tree [pos].l && r == tree [pos].r) {
+			return tree [pos].min;
 		}
 		
-		int mid = (l_arr [pos] + r_arr [pos]) / 2;
+		int mid = (tree [pos].l + tree [pos].r) / 2;
 		
 		if (r <= mid) {//if range is completely in left child
 			return query_min (l_child (pos), l, r);
@@ -90,11 +94,11 @@ public class SEGMENT_TREE_TEST {
 	}
 	
 	public static int query_gcd (int pos, int l, int r) {
-		if (l == l_arr [pos] && r == r_arr [pos]) {
-			return gcd_arr [pos];
+		if (l == tree [pos].l && r == tree [pos].r) {
+			return tree [pos].gcd;
 		}
 		
-		int mid = (l_arr [pos] + r_arr [pos]) / 2;
+		int mid = (tree [pos].l + tree [pos].r) / 2;
 		
 		if (r <= mid) {//if range is completely in left child
 			return query_gcd (l_child (pos), l, r);
@@ -108,11 +112,11 @@ public class SEGMENT_TREE_TEST {
 	}
 	
 	public static int query_count (int pos, int l, int r) {//tree pos, query range
-		if (l_arr [pos] == l && r_arr [pos] == r) {
-			return count_arr [pos];
+		if (tree [pos].l == l && tree [pos].r == r) {
+			return tree [pos].count;
 		}
 		
-		int mid = (l_arr [pos] + r_arr [pos]) / 2;
+		int mid = (tree [pos].l + tree [pos].r) / 2;
 		
 		if (r <= mid) {
 			return query_count (l_child (pos), l, r);
@@ -137,18 +141,22 @@ public class SEGMENT_TREE_TEST {
 	
 	public static void main (String [] t) throws IOException {
 		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
-		PrintWriter out = new PrintWriter (System.out);
+	    PrintWriter out = new PrintWriter (System.out);
 
 		t = in.readLine ().split (" ");
 		int N = Integer.parseInt (t [0]), M = Integer.parseInt (t [1]);
 		double height = Math.log (N) / Math.log (2); SIZE = (int) Math.ceil (Math.pow (2, height + 2));//SIZE set larger than needed
 		
-		arr = new int [N]; l_arr = new int [SIZE]; r_arr = new int [SIZE]; min_arr = new int [SIZE]; gcd_arr = new int [SIZE]; count_arr = new int [SIZE];
+		arr = new int [N]; tree = new Node [SIZE];
 		
 		t = in.readLine ().split (" ");
 		
 		for (int n = 0; n < N; ++n) {
 			arr [n] = Integer.parseInt (t [n]);
+		}
+		
+		for (int n = 0; n < SIZE; ++n) {
+			tree [n] = new Node ();
 		}
 		
 		build (0, 0, N - 1);
@@ -175,4 +183,10 @@ public class SEGMENT_TREE_TEST {
 		
 		out.close ();
 	}
+}
+
+class Node {
+	int l, r, min, gcd, count;
+	
+	public Node () {}
 }

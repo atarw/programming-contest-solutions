@@ -1,4 +1,4 @@
-//apparently fenwick trees can do range updates...still don't know what was wrong with my segment tree solution...probably some issue with mod lol
+//apparently fenwick trees can do range updates...still don't know what was wrong with my segment tree solution...probably didn't do the math correctly :P
 
 import java.io.*;
 import java.util.*;

@@ -12,6 +12,14 @@ class FAST_IO_JAVA {
       this.stream = stream;
     }
     
+    public static int fast_pow (int b, int x) {
+      if (x == 0) return 1;
+      if (x == 1) return b;
+      if (x % 2 == 0) return pow (b * b, x / 2);
+      
+      return b * pow (b * b, x / 2);
+    }
+    
     public int cscan () throws IOException {
       //if (numChars == -1) throw new InputMismatchException ();
       
@@ -39,7 +47,9 @@ class FAST_IO_JAVA {
       do
       {
         //if (c < '0' || c > '9') throw new InputMismatchException ();
-        res *= 10;
+        
+        res = (res << 1) + (res << 3);
+        //res *= 10;
         res += c - '0';
         
         c = cscan ();
@@ -77,10 +87,11 @@ class FAST_IO_JAVA {
       double res = 0;
       
       while (!space (c) && c != '.') {
-        if (c == 'e' || c == 'E') return res * Math.pow (10, iscan ());
+        if (c == 'e' || c == 'E') return res * fast_pow (10, iscan ()); /*Math.pow (10, iscan ());*/
         //if (c < '0' || c > '9') throw new InputMismatchException ();
         
-        res *= 10;
+        res = (res << 1) + (res << 3);
+        //res *= 10;
         res += c - '0';
         c = cscan ();
       }
@@ -90,7 +101,7 @@ class FAST_IO_JAVA {
         double m = 1;
         
         while (!space (c)) {
-          if (c == 'e' || c == 'E') return res * Math.pow (10, iscan ());
+          if (c == 'e' || c == 'E') return res * fast_pow (10, iscan ()); /*Math.pow (10, iscan ());*/
           //if (c < '0' || c > '9') throw new InputMismatchException ();
           
           m /= 10;
@@ -116,7 +127,8 @@ class FAST_IO_JAVA {
       do {
         //if (c < '0' || c > '9') throw new InputMismatchException();
         
-        res *= 10;
+        res = (res << 1) + (res << 3);
+        //res *= 10;
         res += c - '0';
         c = cscan ();
         

@@ -3,6 +3,7 @@ import java.io.*;
 public class STALACTITES {
 	
 	public static long [][][] bit;
+	public static int [][][] stalactite;
 	
 	public static void update (int x, int ori_y, int ori_z, long l) {
 		for (; x < bit.length; x += x & -x) {
@@ -37,7 +38,7 @@ public class STALACTITES {
 		PrintWriter out = new PrintWriter (System.out);
 		
 		int N = in.iscan (), Q = in.iscan (); ++Q;
-		bit = new long [N + 1][N + 1][N + 1];
+		bit = new long [N + 1][N + 1][N + 1]; stalactite = new int [N][N][N];
 		
 		int cmd;
 		int x1, x2, y1, y2, z1, z2, l;
@@ -48,7 +49,7 @@ public class STALACTITES {
 			
 			if (cmd == 67) {//C
 				x1 = in.iscan (); y1 = in.iscan (); z1 = in.iscan (); l = in.iscan ();
-				update (x1, y1, z1, l - query (x1 - 1, y1 - 1, z1 - 1, x1, y1, z1));
+				update (x1, y1, z1, l - stalactite [x1 - 1][y1 - 1][z1 - 1]); stalactite [x1 - 1][y1 - 1][z1 - 1] = l;
 			}
 			else {//S
 				x1 = in.iscan () - 1; y1 = in.iscan () - 1; z1 = in.iscan () - 1; x2 = in.iscan (); y2 = in.iscan (); z2 = in.iscan ();

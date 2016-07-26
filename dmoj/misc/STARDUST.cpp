@@ -14,13 +14,9 @@ int cache [52][51][51][51];
 int flakes [51][51][2];
 int R, C, B, K, M, S, T;
 
-int solve (int _time, int pos, int temp, int cap) {
-	if (cache [_time][pos][temp][cap] != -1) {
+inline int solve (int _time, int pos, int temp, int cap) {
+	if (cache [_time][pos][temp][cap] || _time == T + 1 || cap == K || temp >= B) {
 		return cache [_time][pos][temp][cap];
-	}
-	
-	if (_time == T + 1 || cap == K || temp >= B) {
-		return cache [_time][pos][temp][cap] = 0; 
 	}
 	
 	//has option to take
@@ -55,7 +51,7 @@ int main () {
 	
 	int T_i, V_i, C_i, R_i;
 	
-	memset (cache, -1, sizeof (cache));
+	memset (cache, 0, sizeof (cache));
 	memset (flakes, -1, sizeof (flakes));
 	
 	for (int s = 0; s < S; ++s) {
@@ -66,6 +62,4 @@ int main () {
 	}
 	
 	printf ("%d", solve (0, 1, 0, 0));
-	
-	return 0;
 }

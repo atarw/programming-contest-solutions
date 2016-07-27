@@ -15,9 +15,9 @@ class FAST_IO_JAVA {
     public static int fast_pow (int b, int x) {
       if (x == 0) return 1;
       if (x == 1) return b;
-      if (x % 2 == 0) return pow (b * b, x / 2);
+      if (x % 2 == 0) return fast_pow (b * b, x / 2);
       
-      return b * pow (b * b, x / 2);
+      return b * fast_pow (b * b, x / 2);
     }
     
     public int cscan () throws IOException {

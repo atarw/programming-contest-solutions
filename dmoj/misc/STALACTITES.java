@@ -68,7 +68,8 @@ public class STALACTITES {
 		private int curChar, numChars;
 		
 		public INPUT (InputStream stream) {
-			this.stream = stream;
+			this.stream = new BufferedInputStream (System.in);
+			//this.stream = stream;
 		}
 		
 		public int cscan () throws IOException {

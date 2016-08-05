@@ -1,12 +1,38 @@
-# Ignore all
-*
+-#Java		 +# Ignore all
+ -*.class~		 +*
+ -*.java~
+ -*.class
 
-#Unignore Java
-!*.java
+ -#C & C++		 +#Unignore Java
+ -# Prerequisites		 +!*.java
+ -*.d
 
-#Unignore C and C++
-!*.c
-!*.cpp
+ -# Compiled Object files		 +#Unignore C and C++
+ -*.slo		 +!*.c
+ -*.lo		 +!*.cpp
+ -*.o
+ -*.obj
 
-#Unignore Python
-!*.py
+ -# Precompiled Headers		 +#Unignore Python
+ -*.gch		 +!*.py
+ -*.pch
+ -
+ -# Compiled Dynamic libraries
+ -*.so
+ -*.dylib
+ -*.dll
+ -
+ -# Fortran module files
+ -*.mod
+ -*.smod
+ -
+ -# Compiled Static libraries
+ -*.lai
+ -*.la
+ -*.a
+ -*.lib
+ -
+ -# Executables
+ -*.exe
+ -*.out
+ -*.app

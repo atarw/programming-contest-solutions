@@ -59,27 +59,25 @@ public class FORD_FULKERSON {
 		}
 		
 		int source = Integer.parseInt (in.readLine ()), sink = Integer.parseInt (in.readLine ());
-		int f_total = 0, curr;
+		int f_total = 0/*, curr*/;
 		
 		while (bfs (adj, path, source, sink)) {// while path exists between source and sink
 			int min_flow = Integer.MAX_VALUE;
-			curr = sink;
 			
-			while (path [curr] != -1) {//get min capacity value on path from source to sink
+			for (int curr = sink; curr != source; curr = path [curr]) {//of edges used to go from source to sink, find min capacity (edge weight)
 				min_flow = Math.min (min_flow, adj [path [curr]][curr]);
-				curr = path [curr];
 			}
-						
-			curr = sink;
 			
-			while (path [curr] != -1) {//for each edge (u,v) on path, decrease (u,v) by min_flow and increase (v,u) by min_flow
+			for (int curr = sink; curr != source; curr = path [curr]) {//cancel out the min edge weight
 				adj [path [curr]][curr] -= min_flow;
 				adj [curr][path [curr]] += min_flow;
-				curr = path [curr];
 			}
-			
+
 			f_total += min_flow;
 		}
+		
+		for (int n = 0; n < N; ++n)
+			out.println (Arrays.toString (adj [n]));
 		
 		out.println (f_total);
 		out.close ();

@@ -3,17 +3,12 @@ import java.util.*;
 
 /*
 6
-10
-0 1 16
-0 2 13
-1 2 10
-2 1 4
-1 3 12
-3 2 9
-2 4 14
-4 3 7
-3 5 20
-4 5 4
+0 16 13 0 0 0
+0 0 10 12 0 0
+0 4 0 0 14 0
+0 0 9 0 0 20
+0 0 0 7 0 4
+0 0 0 0 0 0
 0
 5
 
@@ -48,18 +43,20 @@ public class FORD_FULKERSON {
 		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
 		PrintWriter out = new PrintWriter (System.out);
 
-		int N = Integer.parseInt (in.readLine ()), M = Integer.parseInt (in.readLine ());//G(V,E)
+		int N = Integer.parseInt (in.readLine ());
 		int [][] adj = new int [N][N];
 		int [] path = new int [N];
 		
-		for (int m = 0, u, v, f; m < M; m++) {
+		for (int n = 0; n < N; ++n) {//input as adj matrix
 			t = in.readLine ().split (" ");
-			u = Integer.parseInt (t [0]); v = Integer.parseInt (t [1]); f = Integer.parseInt (t [2]);
-			adj [u][v] = f;
+			
+			for (int n2 = 0; n2 < N; ++n2) {
+				adj [n][n2] = Integer.parseInt (t [n2]);
+			}
 		}
 		
 		int source = Integer.parseInt (in.readLine ()), sink = Integer.parseInt (in.readLine ());
-		int f_total = 0/*, curr*/;
+		int f_total = 0;
 		
 		while (bfs (adj, path, source, sink)) {// while path exists between source and sink
 			int min_flow = Integer.MAX_VALUE;

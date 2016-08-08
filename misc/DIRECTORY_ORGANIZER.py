@@ -1,8 +1,9 @@
-import os, sys, fnmatch
+#!/usr/bin/python
 
-root = sys.stdin.readline ().strip ('\n')
+import os, fnmatch
+
+root = '/Users/Atharva/Documents/Github/programming-contest-solutions'
 ext = ['*.class', '*.java~']
-
 to_remove = []
 
 for dir_name, sub_dir, files in os.walk (root):

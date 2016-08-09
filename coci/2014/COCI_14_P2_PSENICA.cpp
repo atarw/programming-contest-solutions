@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <map>
 
-#define scan(x) do{while((x=getchar())<'0'); for(x-='0'; '0'<=(_=getchar()); x=(x<<3)+(x<<1)+_-'0');}while(0)
+#define scan(x) do{while((x=getchar_unlocked())<'0'); for(x-='0'; '0'<=(_=getchar_unlocked()); x=(x<<3)+(x<<1)+_-'0');}while(0)
 char _;
 
 using namespace std;
@@ -9,17 +9,17 @@ using namespace std;
 int main () {
 	int N, s;
 	
-	scan (N);
+	scan (N); ++N;
 	map <int, int> stalks;
 	
-	while (N--) {
+	while (--N) {
 		scan (s);
 		
 		if (stalks.find (s) == stalks.end ()) {
 			stalks [s] = 1;
 		}
 		else {
-			stalks [s]++;
+			++stalks [s];
 		}
 	}
 
@@ -36,26 +36,26 @@ int main () {
 				--it;
 			}
 			
-			stalks [it->first]++;
+			++stalks [it->first];
 			
 			if (stalks [it2->first] == 1) {
 				stalks.erase (it2->first);
 			}
 			else {
-				stalks [it2->first]--;
+				--stalks [it2->first];
 			}
 		}
 		else {
 			it = stalks.upper_bound (stalks.begin ()->first);
 			
-			stalks [it->first]++;
+			++stalks [it->first];
 			it = stalks.begin ();
 			
 			if (stalks [it->first] == 1) {
 				stalks.erase (it->first);
 			}
 			else {
-				stalks [it->first]--;
+				--stalks [it->first];
 			}
 		}
 		

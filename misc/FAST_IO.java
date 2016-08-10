@@ -90,8 +90,8 @@ class FAST_IO_JAVA {
         if (c == 'e' || c == 'E') return res * fast_pow (10, iscan ()); /*Math.pow (10, iscan ());*/
         //if (c < '0' || c > '9') throw new InputMismatchException ();
         
-        res = (res << 1) + (res << 3);
-        //res *= 10;
+        //res = (res << 1) + (res << 3);
+        res *= 10;
         res += c - '0';
         c = cscan ();
       }

@@ -7,7 +7,7 @@ public class VMSS_16_P3_GGG {
 		int mid;
 		
 		while (to - from > 1) {
-			mid = from + (to - from) / 2;
+			mid = from + ((to - from) >> 1);
 			
 			if (arr [mid] >= val)
 				to = mid;

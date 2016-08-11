@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 
 public class DRAW_DOWN {
-  static boolean G, H, R;
+  static boolean c1, c2, c3;
   static String ln;
   
   public static void main (String [] t) throws IOException {
@@ -16,52 +16,64 @@ public class DRAW_DOWN {
     
     queue.offer (q);
     
-    while (!queue.isEmpty () && (!G || !H || !R)) {
+    while (!queue.isEmpty () && (!c1 || !c2 || !c3)) {
       if (vis.add (q = queue.poll ())) {
         if (q.N == ln.length ()) {
-          if (q.G <= q.H && q.G <= q.R) G = true;
-          if (q.H <= q.G && q.H <= q.R) H = true;
-          if (q.R <= q.H && q.R <= q.G) R = true;
+          if (q.c1 <= q.c2 && q.c1 <= q.c3)
+            c1 = true;
+            
+          if (q.c2 <= q.c1 && q.c2 <= q.c3)
+            c2 = true;
+            
+          if (q.c3 <= q.c2 && q.c3 <= q.c1)
+            c3 = true;
         }
-        else if (ln.charAt (q.N) == '1') {
-          queue.offer (new Quad (q.N + 1, q.G + 1, q.H, q.R));
-        }
-        else if (ln.charAt (q.N) == '2') {
-          queue.offer (new Quad (q.N + 1, q.G, q.H + 1, q.R));
-        }
-        else if (ln.charAt (q.N) == '3') {
-          queue.offer (new Quad (q.N + 1, q.G, q.H, q.R + 1));
-        }
+        else if (ln.charAt (q.N) == '1')
+          queue.offer (new Quad (q.N + 1, q.c1 + 1, q.c2, q.c3));
+          
+        else if (ln.charAt (q.N) == '2')
+          queue.offer (new Quad (q.N + 1, q.c1, q.c2 + 1, q.c3));
+
+        else if (ln.charAt (q.N) == '3')
+          queue.offer (new Quad (q.N + 1, q.c1, q.c2, q.c3 + 1));
+
         else if (ln.charAt (q.N) == '~') {        
-          if (q.G <= q.H && q.G <= q.R) queue.offer (new Quad (q.N + 1, q.G + 1, q.H, q.R));
-          if (q.H <= q.G && q.H <= q.R) queue.offer (new Quad (q.N + 1, q.G, q.H + 1, q.R));
-          if (q.R <= q.H && q.R <= q.G) queue.offer (new Quad (q.N + 1, q.G, q.H, q.R + 1));
+          if (q.c1 <= q.c2 && q.c1 <= q.c3)
+            queue.offer (new Quad (q.N + 1, q.c1 + 1, q.c2, q.c3));
+            
+          if (q.c2 <= q.c1 && q.c2 <= q.c3)
+            queue.offer (new Quad (q.N + 1, q.c1, q.c2 + 1, q.c3));
+            
+          if (q.c3 <= q.c2 && q.c3 <= q.c1)
+            queue.offer (new Quad (q.N + 1, q.c1, q.c2, q.c3 + 1));
         }
       }
     }
     
-    if (G)
+    if (c1)
       System.out.println (1);
-    if (H)
+      
+    if (c2)
       System.out.println (2);
-    if (R)
+      
+    if (c3)
       System.out.println (3);
   }
 }
 
 class Quad {
-  int N, G, H, R;
+  int N, c1, c2, c3;
   
   public int hashCode () {
-    return N * 13 + G * 19 + H * 31 + R * 47;
+    return N * 13 + c1 * 19 + c2 * 31 + c3 * 47;
   }
   
   public boolean equals (Object o) {
     Quad q = (Quad) o;
-    return q.N == N && q.G == G && q.H == H && q.R == R;
+    return q.N == N && q.c1 == c1 && q.c2 == c2 && q.c3 == c3;
   }
   
-  public Quad (int N, int G, int H, int R) {
-    this.N = N; this.G = G; this.H = H; this.R = R;
+  public Quad (int N, int c1, int c2, int c3) {
+    this.N = N; this.c1 = c1; this.c2 = c2; this.c3 = c3;
   }
 }

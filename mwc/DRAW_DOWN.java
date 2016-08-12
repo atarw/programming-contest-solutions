@@ -65,12 +65,12 @@ class Quad {
   int N, c1, c2, c3;
   
   public int hashCode () {
-    return N * 13 + c1 * 19 + c2 * 31 + c3 * 47;
+    return c1 * 19 + c2 * 31 + c3 * 47;
   }
   
   public boolean equals (Object o) {
     Quad q = (Quad) o;
-    return q.N == N && q.c1 == c1 && q.c2 == c2 && q.c3 == c3;
+    return q.c1 == c1 && q.c2 == c2 && q.c3 == c3;
   }
   
   public Quad (int N, int c1, int c2, int c3) {

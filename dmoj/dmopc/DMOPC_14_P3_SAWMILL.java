@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class DMOPC14_P3_SAWMILL {
+public class DMOPC_14_P3_SAWMILL {
   
   public static List <Integer> get (String input) {
     String [] tokens = (input).split (" ");

@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class P1 {
+public class OR_DEAL {
   public static void main (String [] args) throws IOException {
     BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
     long N = Long.parseLong (in.readLine ());

@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class P2 {
+public class DMOPC_15_P2_THE_BIG_CLOCK {
   public static void main (String [] args) throws IOException {
     BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
     String [] t = in.readLine ().split (" ");

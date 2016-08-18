@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class P3 {
+public class DMOPC_15_P3_DIMETHYLBENZENE {
   
   static Map <Integer, Set <Integer>> map = new HashMap <Integer, Set <Integer>> ();
   static int N, M;

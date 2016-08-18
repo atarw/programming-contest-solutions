@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class P1 {
+public class DMOPC_15_P1_GRUMPY_DWARF {
   
   public static long getSwords (long bars, long rate) {
     long swords = 0;

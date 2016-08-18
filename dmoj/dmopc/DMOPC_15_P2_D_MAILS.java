@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class DMOPC_16_P2_D_MAILS {
+public class DMOPC_15_P2_D_MAILS {
   
   static String ln;
   static String [] arr = {"elpsycongroo", "tuturu", "superhacker", "myfork"};

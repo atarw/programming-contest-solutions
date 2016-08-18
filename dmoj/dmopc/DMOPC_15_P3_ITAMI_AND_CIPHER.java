@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class P3 {
+public class DMOPC_15_P3_ITAMI_AND_CIPHER {
   
   public static String shift (int shift, String input) {
     String msg = "";

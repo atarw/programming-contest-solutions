@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class P2 {
+public class DMOPC_15_P2_ADMIN_WAR {
   
   public static void main (String [] args) throws IOException {
     BufferedReader in = new BufferedReader (new InputStreamReader (System.in));

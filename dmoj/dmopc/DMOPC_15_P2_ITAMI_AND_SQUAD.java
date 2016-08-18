@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class P2 {
+public class DMOPC_15_P2_ITAMI_AND_SQUAD {
   
   static int soldiers;
   static int leaders;

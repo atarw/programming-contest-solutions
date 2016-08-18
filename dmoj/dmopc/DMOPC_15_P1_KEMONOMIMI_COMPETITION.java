@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class DMOPC_15_P1_COMPETITION {
+public class DMOPC_15_P1_KEMONOMIMI_COMPETITION {
   public static void main (String [] t) throws IOException {
     BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
     int N = Integer.parseInt (in.readLine ());

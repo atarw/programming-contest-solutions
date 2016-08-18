@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class P3 {
+public class DMOPC_15_P3_ORIGAMI {
   
   public static long getCuts (long N, long K) {
     long cuts = 0;

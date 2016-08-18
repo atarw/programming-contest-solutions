@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class DMOPC_14_P1_BESSARION {
+public class DMOPC_14_P1_FINDING_BESSARION {
   
   public static void main (String [] args) throws IOException {
     BufferedReader in = new BufferedReader (new InputStreamReader (System.in));

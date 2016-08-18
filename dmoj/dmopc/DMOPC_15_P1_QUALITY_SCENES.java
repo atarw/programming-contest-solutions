@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class P1 {
+public class DMOPC_15_P1_QUALITY_SCENES {
   public static void main (String [] args) throws IOException {
     BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
     int A = Integer.parseInt (in.readLine ());

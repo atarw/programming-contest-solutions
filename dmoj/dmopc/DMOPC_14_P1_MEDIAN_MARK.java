@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class DMOPC_14_P1_MEDIAN {
+public class DMOPC_14_P1_MEDIAN_MARK {
   public static void main (String [] args) throws IOException {
     BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
     int I = Integer.parseInt (in.readLine ());

@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class DMOPC14_P1_LOGGING_LOG {
+public class DMOPC_14_P1_LOGGING_LOG {
   
   public static int sum (int [] M) {
     int sum = 0;

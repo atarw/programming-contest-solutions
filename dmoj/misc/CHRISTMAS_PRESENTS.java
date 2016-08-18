@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class ChristmasPresents {
+public class CHRISTMAS_PRESENTS {
   public static void main (String [] args) throws IOException {
     BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
     int P = Integer.parseInt (in.readLine ());

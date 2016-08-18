@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class THORNHILL_SELECTION_CONTEST_16_P4_ALEX_AND_ANIMAL_RIGHTS {
+public class TSOC_16_P4_ALEX_AND_ANIMAL_RIGHTS {
   
   static char [][] maze;
   static boolean [][] visited;

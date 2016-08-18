@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class LCS {
+public class LONGEST_COMMON_SUBSEQUENCE {
   
   public static int lcs (int [] arr1, int [] arr2) {
     int [][] cache = new int [arr1.length + 1][arr2.length + 1];

@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class SingleSourceShortestPath {
+public class SINGLE_SOURCE_SHORTEST_PATH {
   public static void main (String [] args) throws IOException {
     BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
     String [] t = in.readLine ().split (" ");

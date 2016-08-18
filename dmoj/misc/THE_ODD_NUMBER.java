@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class OddNumber {
+public class THE_ODD_NUMBER {
   public static void main (String [] args) throws IOException {
     BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
     int N = Integer.parseInt (in.readLine ());

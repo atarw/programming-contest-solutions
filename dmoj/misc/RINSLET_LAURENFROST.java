@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class RinsletLaurenfrost {
+public class RINSLET_LAURENFROST {
   public static void main (String [] args) throws IOException {
     BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
     String ln1 = in.readLine (), ln2 = in.readLine ();

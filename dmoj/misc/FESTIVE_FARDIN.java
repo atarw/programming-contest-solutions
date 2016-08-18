@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class FestiveFardin {
+public class FESTIVE_FARDIN {
   public static void main (String [] args) throws IOException {
     BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
     String n = in.readLine ();

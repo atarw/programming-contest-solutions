@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class NextPrime {
+public class NEXT_PRIME {
   
   public static boolean isPrime (int num) {
     if (num != 2 && (num % 2 == 0 || num <= 1)) {

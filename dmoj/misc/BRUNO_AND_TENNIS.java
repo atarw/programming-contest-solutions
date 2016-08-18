@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Bruno_Tennis {
+public class BRUNO_AND_TENNIS {
   
   public static void main (String [] args) throws IOException {
     BufferedReader in = new BufferedReader (new InputStreamReader (System.in));

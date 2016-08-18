@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class Encode {
+public class ENCODE {
   
   public static char shift (char c, int N) {
     if (Character.isUpperCase (c)) {

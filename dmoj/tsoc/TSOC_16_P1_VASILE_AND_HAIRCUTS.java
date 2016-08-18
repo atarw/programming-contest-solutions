@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class THORNHILL_SELECTION_CONTEST_16_P1_VASILE_AND_HAIRCUTS {
+public class TSOC_16_P1_VASILE_AND_HAIRCUTS {
   public static void main (String [] args) throws IOException {
     BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
     int N = Integer.parseInt (in.readLine ());

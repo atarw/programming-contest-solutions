@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class UniqueElements {
+public class UNIQUE_ELEMENTS {
   public static void main (String [] args) throws IOException {
     BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
     Set <Integer> set = new HashSet <Integer> ();

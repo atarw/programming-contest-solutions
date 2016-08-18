@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class BrunoAndBeads {
+public class BRUNO_AND_BEADS {
   public static void main (String [] args) throws IOException {
     BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
     in.readLine ();

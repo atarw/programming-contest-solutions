@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class Mirror {
+public class THE_MIRROR {
   
   static int [] amt = new int [500];
   

@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Ship {
+public class SHIP {
   public static void main (String [] args) throws IOException {
     BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
     Set <Character> set = new HashSet <Character> ();

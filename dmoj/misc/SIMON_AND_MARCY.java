@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class SimonAndMarcy {
+public class SIMON_AND_MARCY {
   
   public static void main (String [] t) throws IOException {
     BufferedReader in = new BufferedReader (new InputStreamReader (System.in));

@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class JOEY_AND_BIOLOGY {
+public class TSOC_16_P6_JOEY_AND_BIOLOGY {
   
   static int [][] cache;
   static String N, M;

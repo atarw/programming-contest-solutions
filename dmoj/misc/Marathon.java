@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class Marathon {
+public class MARATHON {
   
   public static void main (String [] args) throws IOException {
     BufferedReader in = new BufferedReader (new InputStreamReader (System.in));

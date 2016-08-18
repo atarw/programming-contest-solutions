@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class PursuitOfKnowledge {
+public class PURSUIT_OF_KNOWLEDGE {
   
   static int T;
   

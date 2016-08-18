@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class THORNHILL_SELECTION_CONTEST_16_P3_YOU_AND_CROSSROADS {
+public class TSOC_16_P3_YOU_AND_CROSSROADS {
   
   public static int get (int sx, int ex, int sy, int ey, boolean [][] maze) {
     int s = 0;

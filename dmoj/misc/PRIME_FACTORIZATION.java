@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class PrimeFactorization {
+public class PRIME_FACTORIZATION {
   
   public static void primes (int M) {
     List <Integer> p = new ArrayList <Integer> ();

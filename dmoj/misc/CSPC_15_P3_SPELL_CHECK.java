@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class CSPC15_3_SPELL_CHECK {
+public class CSPC_15_P3_SPELL_CHECK {
   
   public static String correct (String w, int i) {
     /*int d1 = w.indexOf ("ie");

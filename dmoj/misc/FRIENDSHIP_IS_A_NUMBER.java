@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class FriendshipNumber {
+public class FRIENDSHIP_IS_A_NUMBER {
   public static void main (String [] args) throws IOException {
     BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
     NavigableMap <Integer, Integer> map = new TreeMap <Integer, Integer> ();

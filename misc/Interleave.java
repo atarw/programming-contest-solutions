@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class Interleave {
+public class INTERLEAVE {
   
   public static boolean valid (String a, String b, String c) {
     

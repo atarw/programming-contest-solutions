@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class Calculator {
+public class CALCULATOR {
   
   public static int solve (int v1, int v2, String operator) {
     

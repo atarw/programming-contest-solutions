@@ -33,7 +33,7 @@ for test in roads:
 	
 	for ln in roads:
 		if ln != test:
-			union (edge (ln) [0], edge (ln) [1])
+			union (*edge (ln))
 	
 	if find (0) != find (1):
 		total += 1

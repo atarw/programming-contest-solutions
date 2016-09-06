@@ -18,14 +18,14 @@ for n in xrange (N - 1):
 #trim such that all leaves are pho restaurants
 def dfs (u):
 	vis [u] = True
-	
+
 	if pho [u]:
 		useful [u], root = True, u
-	
+
 	for v in graph [u]:
 		if not vis [v] and dfs (v):
 			useful [u] = True
-		
+
 	vis [u] = False
 	return useful [u]
 
@@ -39,21 +39,21 @@ def bfs ():
 	while q:
 		curr = q.pop ()
 		vis [curr] = False
-		
+
 		for v in graph [curr]:
 			if useful [v] and (cache [v] == None or cache [v] > cache [curr] + 1):
 				cache [v] = cache [curr] + 1
-				
+
 				if not vis [v]:
 					q.append (v)
 					vis [v] = True
-	
+
 	pos, val = 0, cache [0]
-	
+
 	for n in xrange (1, N):
 		if val < cache [n]:
 			pos, val = n, cache [n]
-	
+
 	return pos, val
 
 root = bfs () [0]

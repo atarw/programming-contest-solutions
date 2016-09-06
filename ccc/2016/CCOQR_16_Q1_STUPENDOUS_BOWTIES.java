@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class CCOQR_16_P1_STUPENDOUS_BOWTIES {
+public class CCOQR_16_Q1_STUPENDOUS_BOWTIES {
 			
 	public static void main (String [] t) throws IOException {
 		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));

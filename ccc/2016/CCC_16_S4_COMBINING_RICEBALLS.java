@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class CCC_16_P4_COMBINING_RICEBALLS {
+public class CCC_16_S4_COMBINING_RICEBALLS {
 	
 	static int [][] cache;
 	static int [] arr;//prefix sum

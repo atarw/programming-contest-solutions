@@ -2,7 +2,7 @@ import java.util.*;
 import java.io.*;
 import java.math.BigInteger;
 
-public class CCC_16_P5_CIRCLE_OF_LIFE {
+public class CCC_16_S5_CIRCLE_OF_LIFE {
   static String pad(String s, int N) {
     if(s.length () == N)
       return s;

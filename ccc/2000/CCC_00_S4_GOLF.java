@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class CCC_2000_S4_GOLF {
+public class CCC_00_S4_GOLF {
   
   static int [] cache;
   static int [] clubs;

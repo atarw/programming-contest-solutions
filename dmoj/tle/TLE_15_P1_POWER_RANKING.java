@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class TLE_16_P1_POWER_RANKING {
+public class TLE_15_P1_POWER_RANKING {
   public static void main (String [] t) throws IOException {
     BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
     t = in.readLine ().split (" ");

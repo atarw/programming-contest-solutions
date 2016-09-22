@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class TLE_16_P3_POETRY {
+public class TLE_15_P3_POETRY {
   public static void main (String [] t) throws IOException {
     BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
     int N = Integer.parseInt (in.readLine ());

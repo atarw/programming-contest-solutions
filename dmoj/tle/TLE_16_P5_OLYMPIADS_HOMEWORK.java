@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class TLE_16_P4_OLYMPIADS_HOMEWORK {
+public class TLE_15_P4_OLYMPIADS_HOMEWORK {
   
   public static final int mod = 1000000013;
   

@@ -39,7 +39,7 @@ public class CCC_08_S5_NUKIT {
   }
   
   public static void reset () {
-    cache = new byte [9][9][9][9];
+    cache = new byte [31][31][31][31];
     
     cache [0][0][0][0] = -1;
     cache [2][1][0][2] = 1;
@@ -49,16 +49,14 @@ public class CCC_08_S5_NUKIT {
     cache [1][0][0][1] = 1;
   }
   
-  public static void main (String [] args) throws IOException {
+  public static void main (String [] t) throws IOException {
     BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
     int N = Integer.parseInt (in.readLine ());
-    String [] t;
     
     reset ();
     
     for (int n = 0; n < N; n++) {
       t = in.readLine ().split (" ");
-      
       System.out.println (win (Integer.parseInt (t [0]), Integer.parseInt (t [1]), Integer.parseInt (t [2]), Integer.parseInt (t [3])) == 1 ? "Patrick" : "Roland");
     }
   }

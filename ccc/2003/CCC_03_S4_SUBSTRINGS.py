@@ -4,8 +4,8 @@ def lcp (s1, s2):
 	for n in xrange (min (len (s1), len (s2))):
 		if s1 [n] != s2 [n]:
 			return n
-	else:
-		return min (len (s1), len (s2))
+			
+	return min (len (s1), len (s2))
 
 T = int (stdin.readline ())
 

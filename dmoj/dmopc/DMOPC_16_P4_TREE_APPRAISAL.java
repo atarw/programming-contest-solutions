@@ -2,80 +2,59 @@ import java.io.*;
 import java.util.*;
 
 public class DMOPC_16_P4_TREE_APPRAISAL {
-	
-	static int N;
-	static int [] arr;
-	static List <Integer> [] list;
-	
+		
 	public static void main (String [] t) throws IOException {
 		INPUT in = new INPUT (System.in);
 		PrintWriter out = new PrintWriter (System.out);
 
-		N = in.iscan ();
-		arr = new int [N];
-		list = new ArrayList [N];
+		int N = in.iscan ();
+		int [] arr = new int [N];
+		List <Integer> [] list = new ArrayList [N];
 		
-		for (int n = 0; n < N; ++n)
+		for (int n = 0; n < N; ++n) {
 			arr [n] = in.iscan ();
+			list [n] = new ArrayList <Integer> ();
+		}
 		
 		for (int n = 0, a, b; n < N - 1; ++n) {
 			a = in.iscan () - 1; b = in.iscan () - 1;
-			
-			if (list [a] == null)
-				list [a] = new ArrayList <Integer> ();
-			
-			if (list [b] == null)
-				list [b] = new ArrayList <Integer> ();
-			
 			list [a].add (b); list [b].add (a);
 		}
 
-		int [][] matrix = new int [N][N];
-		int [][] matrix2 = new int [N][N];
+		long ans = 0;
+		int [] dist, dist2;
+		Queue <Integer> q;
 		
-		for (int n = 0; n < N; ++n) {
-			Arrays.fill (matrix [n], 1 << 20);
-			Arrays.fill (matrix2 [n], 1 << 20);
-		}
-
-		for (int n = 0; n < N; ++n) {
-			Queue <Integer> q = new ArrayDeque <Integer> ();
-			int curr = n;
-			q.offer (curr);
+		for (int n = 0, u; n < N; ++n) {
+			q = new ArrayDeque <Integer> ();
+			dist = new int [N];
+			dist2 = new int [N];
+			q.offer (n);
 			
-			matrix [n][n] = arr [n];
-			matrix2 [n][n] = 0;
+			Arrays.fill (dist, 1 << 20);
+			Arrays.fill (dist2, 1 << 20);
+			
+			dist2 [n] = 0;
+			dist [n] = arr [n];
 			
 			while (!q.isEmpty ()) {
-				curr = q.poll ();
+				u = q.poll ();
 				
-				for (int v = 0; v < list [curr].size (); ++v) {
-					if (matrix [n][curr] + arr [list [curr].get (v)] < matrix [n][list [curr].get (v)]) {
-						matrix [n][list [curr].get (v)] = matrix [n][curr] + arr [list [curr].get (v)];
-						matrix2 [n][list [curr].get (v)] = matrix2 [n][curr] + 1;
-						q.offer (list [curr].get (v));
+				for (int v : list [u]) {
+					if (dist [u] + arr [v] < dist [v]) {
+						dist [v] = dist [u] + arr [v];
+						dist2 [v] = dist2 [u] + 1;
+						q.offer (v);
 					}
 				}
 			}
-		}
-		
-		/*for (int [] arr : matrix)
-			out.println (Arrays.toString (arr));
-		
-		out.println ();
-		
-		for (int [] arr : matrix2)
-			out.println (Arrays.toString (arr));*/
-		
-		long ans = 0;
-
-		for (int a = 0; a < N; ++a) {
-			for (int b = a + 1; b < N; ++b) {
-				ans += matrix2 [a][b] * matrix [a][b];
+			
+			for (int n2 = 0; n2 < N; ++n2) {
+				ans += dist [n2] * dist2 [n2];
 			}
 		}
-
-		out.print (ans);
+		
+		out.print (ans >> 1);
 		out.close ();
 	}
 
@@ -90,13 +69,9 @@ public class DMOPC_16_P4_TREE_APPRAISAL {
 		}
 		
 		public int cscan () throws IOException {
-			//if (numChars == -1) throw new InputMismatchException ();
-			
 			if (curChar >= numChars) {
 				curChar = 0;
 				numChars = stream.read (buf);
-				
-				//if (numChars <= 0) return -1;
 			}
 			
 			return buf [curChar++];
@@ -115,10 +90,7 @@ public class DMOPC_16_P4_TREE_APPRAISAL {
 			
 			do
 			{
-				//if (c < '0' || c > '9') throw new InputMismatchException ();
-				
 				res = (res << 1) + (res << 3);
-				//res *= 10;
 				res += c - '0';
 				
 				c = cscan ();

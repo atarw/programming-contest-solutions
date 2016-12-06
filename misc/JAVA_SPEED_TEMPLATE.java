@@ -6,7 +6,12 @@ public class JAVA_SPEED_TEMPLATE {
 		INPUT in = new INPUT (System.in);
 		PrintWriter out = new PrintWriter (System.out);
 
-		//code here
+		/*
+		code here
+		
+		int a = in.iscan ();
+		out.println (a);
+		*/
 
 		out.close ();
 	}
@@ -33,6 +38,7 @@ public class JAVA_SPEED_TEMPLATE {
 			return b * fast_pow (b * b, x / 2);
 		}
 		
+		// read one character
 		public int cscan () throws IOException {
 			//if (numChars == -1) throw new InputMismatchException ();
 			
@@ -46,6 +52,7 @@ public class JAVA_SPEED_TEMPLATE {
 			return buf [curChar++];
 		}
 		
+		// read an int
 		public int iscan () throws IOException {
 			int c = cscan (), sgn = 1;
 			while (space (c)) c = cscan ();
@@ -72,6 +79,7 @@ public class JAVA_SPEED_TEMPLATE {
 			return res * sgn;
 		}
 		
+		// read a string
 		public String sscan () throws IOException {
 			int c = cscan ();
 			while (space (c)) c = cscan();
@@ -88,6 +96,7 @@ public class JAVA_SPEED_TEMPLATE {
 			return res.toString ();
 		}
 		
+		// read a double
 		public double dscan () throws IOException {
 			int c = cscan (), sgn = 1;
 			while (space (c)) c = cscan ();
@@ -126,6 +135,7 @@ public class JAVA_SPEED_TEMPLATE {
 			return res * sgn;
 		}
 		
+		// read a long
 		public long lscan () throws IOException {
 			int c = cscan (), sgn = 1;
 			while (space (c)) c = cscan ();

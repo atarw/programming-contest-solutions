@@ -2,78 +2,202 @@ import java.io.*;
 import java.util.*;
 
 public class TSOC_15_P4_DUNGEON_CRAWLING {
-  
-  static Map <Integer, Set <Integer>> map = new HashMap <Integer, Set <Integer>> ();
-  static int [] steps, best, indegree, outdegree;
-  static int MOD = 10000009;
-  
-  public static void minCut (int X) {
-    Deque <Integer> queue = new ArrayDeque <Integer> ();
-    boolean [] visited = new boolean [steps.length];
-    
-    int curr;
-    
-    queue.offer (X);
-    steps [X]++;
-    
-    while (!queue.isEmpty ()) {
-      curr = queue.poll ();
-      visited [curr] = true;
-      
-      if (map.containsKey (curr)) {
-        for (int i : map.get (curr)) {
-          
-          if (best [i] == 0 || best [i] > best [curr] + 1) {
-            best [i] = best [curr] + 1;
-          }
-          
-          if (!visited [i]) {
-            queue.offerLast (i);
-            visited [i] = true;
-          }
-          
-          steps [i] += (steps [curr] % MOD) % MOD;
-        }
-      }
-    }
-  }
-  
-  public static void addEdge (int S, int E) {
-    if (!map.containsKey (S)) {
-      map.put (S, new HashSet <Integer> ());
-    }
-    
-    map.get (S).add (E);
-  }
-  
-  public static void main (String [] t) throws IOException {
-    BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
-    t = in.readLine ().split (" ");
-    
-    int N = Integer.parseInt (t [0]), M = Integer.parseInt (t [1]), S, E;
-    steps = new int [N];
-    best = new int [N];
-    
-    indegree = new int [N];
-    outdegree = new int [N];
-    
-    for (int m = 0; m < M; m++) {
-      t = in.readLine ().split (" ");
-      
-      addEdge (S = (Integer.parseInt (t [0])), E = (Integer.parseInt (t [1])));
-      indegree [E]++;
-      outdegree [S]++;
-    }
-    
-    int total = 0;
-    
-    for (int n = 0; n < N; n++) {
-      if (indegree [n] == 0) {
-        minCut (n);
-        total += steps [n] % MOD;
-      }
-    }
-    
-    System.out.println (total);
-  }
+	
+	static List <Integer> [] list;
+	static int [] ind;
+	static int [] ways, min;
+	static int MOD = 1000000007;
+	
+	public static int solve (int u, int d) {
+		min [u] = Math.min (min [u], d);
+		
+		if (ways [u] != 0)
+			return ways [u];
+		
+		if (list [u].isEmpty ())
+			return ways [u] = 1;
+		
+		for (int v : list [u])
+			ways [u] = (ways [u] + solve (v, d + 1) % MOD) % MOD;
+		
+		return ways [u];
+	}
+	
+	public static void main (String [] t) throws IOException {
+		INPUT in = new INPUT (System.in);
+		PrintWriter out = new PrintWriter (System.out);
+
+		int N = in.iscan (), M = in.iscan ();
+		list = new ArrayList [N];
+		ind = new int [N]; ways = new int [N]; min = new int [N];
+		Arrays.fill (min, 1 << 20);
+		
+		for (int n = 0; n < N; ++n)
+			list [n] = new ArrayList <Integer> ();
+		
+		for (int m = 0, a, b; m < M; ++m) {
+			a = in.iscan (); b = in.iscan ();
+			++ind [b];
+			list [a].add (b);
+		}
+		
+		int total = 0;
+		
+		for (int n = 0; n < N; ++n)
+			if (ind [n] == 0)
+				total = (total + solve (n, 1)) % MOD;
+		
+		out.println (total);
+		
+		for (int n = 0; n < N; ++n)
+			if (list [n].isEmpty ())
+				out.print (min [n] + " ");
+		
+		out.close ();
+	}
+
+	private static class INPUT {
+		
+		private InputStream stream;
+		private byte [] buf = new byte [1024];
+		private int curChar, numChars;
+		
+		public INPUT (InputStream stream) {
+			this.stream = stream;
+		}
+		
+		public INPUT (String file) throws IOException {
+			this.stream = new FileInputStream (file);
+		}
+		
+		public static int fast_pow (int b, int x) {
+			if (x == 0) return 1;
+			if (x == 1) return b;
+			if (x % 2 == 0) return fast_pow (b * b, x / 2);
+			
+			return b * fast_pow (b * b, x / 2);
+		}
+		
+		public int cscan () throws IOException {
+			//if (numChars == -1) throw new InputMismatchException ();
+			
+			if (curChar >= numChars) {
+				curChar = 0;
+				numChars = stream.read (buf);
+				
+				//if (numChars <= 0) return -1;
+			}
+			
+			return buf [curChar++];
+		}
+		
+		public int iscan () throws IOException {
+			int c = cscan (), sgn = 1;
+			while (space (c)) c = cscan ();
+			
+			if (c == '-') {
+				sgn = -1;
+				c = cscan ();
+			}
+			
+			int res = 0;
+			
+			do
+			{
+				//if (c < '0' || c > '9') throw new InputMismatchException ();
+				
+				res = (res << 1) + (res << 3);
+				//res *= 10;
+				res += c - '0';
+				
+				c = cscan ();
+			}
+			while (!space (c));
+			
+			return res * sgn;
+		}
+		
+		public String sscan () throws IOException {
+			int c = cscan ();
+			while (space (c)) c = cscan();
+			
+			StringBuilder res = new StringBuilder();
+			
+			do
+			{
+				res.appendCodePoint (c);
+				c = cscan ();
+			}
+			while (!space (c));
+			
+			return res.toString ();
+		}
+		
+		public double dscan () throws IOException {
+			int c = cscan (), sgn = 1;
+			while (space (c)) c = cscan ();
+			
+			if (c == '-') {
+				sgn = -1;
+				c = cscan ();
+			}
+			
+			double res = 0;
+			
+			while (!space (c) && c != '.') {
+				if (c == 'e' || c == 'E') return res * fast_pow (10, iscan ()); /*Math.pow (10, iscan ());*/
+				//if (c < '0' || c > '9') throw new InputMismatchException ();
+				
+				//res = (res << 1) + (res << 3);
+				res *= 10;
+				res += c - '0';
+				c = cscan ();
+			}
+			
+			if (c == '.') {
+				c = cscan ();
+				double m = 1;
+				
+				while (!space (c)) {
+					if (c == 'e' || c == 'E') return res * fast_pow (10, iscan ()); /*Math.pow (10, iscan ());*/
+					//if (c < '0' || c > '9') throw new InputMismatchException ();
+					
+					m /= 10;
+					res += (c - '0') * m;
+					c = cscan ();
+				}
+			}
+			
+			return res * sgn;
+		}
+		
+		public long lscan () throws IOException {
+			int c = cscan (), sgn = 1;
+			while (space (c)) c = cscan ();
+			
+			if (c == '-') {
+				sgn = -1;
+				c = cscan ();
+			}
+			
+			long res = 0;
+			
+			do {
+				//if (c < '0' || c > '9') throw new InputMismatchException();
+				
+				res = (res << 1) + (res << 3);
+				//res *= 10;
+				res += c - '0';
+				c = cscan ();
+				
+			}
+			while (!space (c));
+			
+			return res * sgn;
+		}
+		
+		public boolean space (int c) {
+			return c == ' ' || c == '\n' || c == '\r' || c == '\t' || c == -1;
+		}
+	}
 }

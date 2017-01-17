@@ -1,6 +1,36 @@
-public class MATH_UTILITIES {
+public class UTILITIES {
 	
 	static final double EPS = 10e-6;
+	
+	public static int lower_bound (int [] arr, int x) {
+		int low = 0, high = arr.length, mid = -1;
+		
+		while (low < high) {
+			mid = (low + high) / 2;
+			
+			if (arr [mid] >= x)
+				high = mid;
+			else
+				low = mid + 1;
+		}
+		
+		return low;
+	}
+	
+	public static int upper_bound (int [] arr, int x) {
+		int low = 0, high = arr.length, mid = -1;
+		
+		while (low < high) {
+			mid = (low + high) / 2;
+			
+			if (arr [mid] > x)
+				high = mid;
+			else
+				low = mid + 1;
+		}
+		
+		return low;
+	}
 	
 	public static int gcd (int a, int b) {
 		return b == 0 ? a : gcd (b, a % b);
@@ -25,6 +55,4 @@ public class MATH_UTILITIES {
 		
 		return b * fast_pow (b * b, x / 2);
 	}
-	
-	private MATH_UTILITIES () {}
 }

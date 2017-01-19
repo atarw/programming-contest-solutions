@@ -93,9 +93,6 @@ public class cownav {
 	public static void main (String [] t) throws IOException {
 		INPUT in = new INPUT (System.in);
 		PrintWriter out = new PrintWriter (System.out);
-		
-		/*INPUT in = new INPUT ("cownav.in");
-		PrintWriter out = new PrintWriter (new File ("cownav.out"));*/
 
 		N = in.iscan ();
 		maze = new boolean [N][N];
@@ -115,11 +112,11 @@ public class cownav {
 			for (int n2 = 0; n2 < N; ++n2)
 				maze [n][n2] = maze2 [N - n2 - 1][n];
 				
-		for (int n = 0; n < N; ++n) {
+		/*for (int n = 0; n < N; ++n) {
 			for (int n2 = 0; n2 < N; ++n2)
 				out.print (maze [n][n2] ? "E" : "H");
 			out.println ();
-		}
+		}*/
 				
 		out.print (bfs ());
 		out.close ();		

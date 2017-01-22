@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class FHC_15_R1_WINNING_AT_SPORTS {
+public class FHC_15_P3_WINNING_AT_SPORTS {
   
   static int [][] cache;
   

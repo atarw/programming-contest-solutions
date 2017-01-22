@@ -5,7 +5,6 @@ public class JAVA_SPEED_TEMPLATE {
 	public static void main (String [] t) throws IOException {
 		INPUT in = new INPUT (System.in);
 		PrintWriter out = new PrintWriter (System.out);
-		UTILITIES util = UTILITIES.getInstance ();
 
 		/*
 		code here
@@ -30,22 +29,16 @@ public class JAVA_SPEED_TEMPLATE {
 		public INPUT (String file) throws IOException {
 			this.stream = new FileInputStream (file);
 		}
-		
-		// read one character
+
 		public int cscan () throws IOException {
-			//if (numChars == -1) throw new InputMismatchException ();
-			
 			if (curChar >= numChars) {
 				curChar = 0;
 				numChars = stream.read (buf);
-				
-				//if (numChars <= 0) return -1;
 			}
 			
 			return buf [curChar++];
 		}
 		
-		// read an int
 		public int iscan () throws IOException {
 			int c = cscan (), sgn = 1;
 			while (space (c)) c = cscan ();
@@ -57,14 +50,9 @@ public class JAVA_SPEED_TEMPLATE {
 			
 			int res = 0;
 			
-			do
-			{
-				//if (c < '0' || c > '9') throw new InputMismatchException ();
-				
+			do {
 				res = (res << 1) + (res << 3);
-				//res *= 10;
 				res += c - '0';
-				
 				c = cscan ();
 			}
 			while (!space (c));
@@ -72,7 +60,6 @@ public class JAVA_SPEED_TEMPLATE {
 			return res * sgn;
 		}
 		
-		// read a string
 		public String sscan () throws IOException {
 			int c = cscan ();
 			while (space (c)) c = cscan();
@@ -89,7 +76,6 @@ public class JAVA_SPEED_TEMPLATE {
 			return res.toString ();
 		}
 		
-		// read a double
 		public double dscan () throws IOException {
 			int c = cscan (), sgn = 1;
 			while (space (c)) c = cscan ();
@@ -102,10 +88,7 @@ public class JAVA_SPEED_TEMPLATE {
 			double res = 0;
 			
 			while (!space (c) && c != '.') {
-				if (c == 'e' || c == 'E') return res * UTILITIES.fast_pow (10, iscan ()); /*Math.pow (10, iscan ());*/
-				//if (c < '0' || c > '9') throw new InputMismatchException ();
-				
-				//res = (res << 1) + (res << 3);
+				if (c == 'e' || c == 'E') return res * UTILITIES.fast_pow (10, iscan ());
 				res *= 10;
 				res += c - '0';
 				c = cscan ();
@@ -116,8 +99,7 @@ public class JAVA_SPEED_TEMPLATE {
 				double m = 1;
 				
 				while (!space (c)) {
-					if (c == 'e' || c == 'E') return res * UTILITIES.fast_pow (10, iscan ()); /*Math.pow (10, iscan ());*/
-					//if (c < '0' || c > '9') throw new InputMismatchException ();
+					if (c == 'e' || c == 'E') return res * UTILITIES.fast_pow (10, iscan ());
 					
 					m /= 10;
 					res += (c - '0') * m;
@@ -128,7 +110,6 @@ public class JAVA_SPEED_TEMPLATE {
 			return res * sgn;
 		}
 		
-		// read a long
 		public long lscan () throws IOException {
 			int c = cscan (), sgn = 1;
 			while (space (c)) c = cscan ();
@@ -141,10 +122,7 @@ public class JAVA_SPEED_TEMPLATE {
 			long res = 0;
 			
 			do {
-				//if (c < '0' || c > '9') throw new InputMismatchException();
-				
 				res = (res << 1) + (res << 3);
-				//res *= 10;
 				res += c - '0';
 				c = cscan ();
 				
@@ -162,11 +140,6 @@ public class JAVA_SPEED_TEMPLATE {
 	public static class UTILITIES {
 		
 		static final double EPS = 10e-6;
-		private static UTILITIES util = new UTILITIES ();
-		
-		public static UTILITIES getInstance () {
-			return util;
-		}
 		
 		public static int lower_bound (int [] arr, int x) {
 			int low = 0, high = arr.length, mid = -1;
@@ -241,7 +214,5 @@ public class JAVA_SPEED_TEMPLATE {
 				
 			return val;
 		}
-		
-		private UTILITIES () {}
 	}
 }

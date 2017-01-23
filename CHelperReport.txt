@@ -1,0 +1,2 @@
+42 src/solutions/A - Holiday Of Equality.task
+0

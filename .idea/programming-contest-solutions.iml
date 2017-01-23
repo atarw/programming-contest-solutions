@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/ccc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cco" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/coci" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/codeforces" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/codejam" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/csacademy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dmoj" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ecoo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/euler" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/fhc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/icpc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ioi" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/jdcc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/misc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/mwc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/spoj" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/topcoder" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/usaco" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/uva" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/wcipeg" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="CHelper" level="project" />
+  </component>
+</module>

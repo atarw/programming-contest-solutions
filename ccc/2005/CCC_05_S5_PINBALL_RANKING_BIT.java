@@ -1,47 +1,56 @@
 import java.io.*;
 import java.util.*;
+import java.text.*;
+import java.math.*;
 
-public class CCC_05_J5_BANANAS {
+public class CCC_05_S5_PINBALL_RANKING_BIT {
 	
-	public static boolean a (String word) {
-		if (word.equals ("A"))
-			return true;
-		
-		if (word.isEmpty ())
-			return false;
-			
-		if (word.charAt (0) == 'B' && word.charAt (word.length () - 1) == 'S')
-			return monkey (word.substring (1, word.length () - 1));
-		
-		return false;
+	public static void update (int [] bit, int pos, int v) {
+		for (; pos < bit.length; pos += -pos & pos)
+			bit [pos] += v;
 	}
 	
-	public static boolean monkey (String word) {
-		if (a (word))
-			return true;
-			
-		for (int n = 0; n < word.length (); ++n)
-			if (word.charAt (n) == 'N' && a (word.substring (0, n)) && monkey (word.substring (n + 1)))
-				return true;
+	public static int query (int [] bit, int pos) {
+		int sum = 0;
 		
-		return false;
+		for (; pos > 0; pos -= -pos & pos)
+			sum += bit [pos];
+		
+		return sum;
 	}
 	
 	public static void main (String [] t) throws IOException {
 		INPUT in = new INPUT (System.in);
 		PrintWriter out = new PrintWriter (System.out);
 
-		String word;
+		int N = in.iscan ();
+		int [] arr = new int [N];
 		
-		while (true) {
-			word = in.sscan ();
-			
-			if (word.equals ("X"))
-				break;
-			
-			out.println (monkey (word) ? "YES" : "NO");
+		for (int n = 0; n < N; ++n)
+			arr [n] = in.iscan ();
+		
+		int [] arr2 = Arrays.copyOf (arr, N);
+		Arrays.sort (arr2);
+		
+		Map <Integer, Integer> map = new HashMap <Integer, Integer> ();
+		
+		for (int n = 0; n < N; ++n)
+			if (!map.containsKey (arr2 [n]))
+				map.put (arr2 [n], map.size () + 1);
+		
+		int [] bit = new int [map.size () + 1];
+		double avr = 0.0;
+		
+		for (int n = 0; n < N; ++n) {
+			update (bit, map.get (arr [n]), 1);
+			//out.println ((query (bit, map.get (arr2 [N - 1])) - query (bit, map.get (arr [n])) + 1) + " / " + (n + 1));
+			avr += query (bit, map.get (arr2 [N - 1])) - query (bit, map.get (arr [n])) + 1;
 		}
-
+		
+		// idk why this is needed but ok
+		DecimalFormat form = new DecimalFormat ("0.00");
+		form.setRoundingMode (RoundingMode.FLOOR);
+		out.print (form.format (avr / N));
 		out.close ();
 	}
 

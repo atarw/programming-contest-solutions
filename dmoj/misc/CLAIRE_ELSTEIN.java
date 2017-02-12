@@ -1,74 +1,44 @@
 import java.io.*;
 import java.util.*;
 
-public class DMOPC_14_P4_EXAM_DELAY {
+public class CLAIRE_ELSTEIN {
 	public static void main (String [] t) throws IOException {
 		INPUT in = new INPUT (System.in);
 		PrintWriter out = new PrintWriter (System.out);
 
-		int V = in.iscan (), E = in.iscan ();
-		List <Edge> [] list = new ArrayList [V];
+		int N = in.iscan (), M = in.iscan (), MOD = 1000000007;
+		List <Integer> [] list = new ArrayList [N];
+		int [] indegree = new int [N];
+		long [] paths = new long [N], dp = new long [N]; // paths stores total number of paths ending at u, dp stores total sum of paths ending at u
 		
-		for (int v = 0; v < V; ++v)	
-			list [v] = new ArrayList <Edge> ();
+		for (int n = 0; n < N; ++n)
+			list [n] = new ArrayList <Integer> ();
 		
-		for (int e = 0, u, v, d, s; e < E; ++e) {
-			u = in.iscan () - 1; v = in.iscan () - 1; d = in.iscan (); s = in.iscan ();
-			list [u].add (new Edge (u, v, d, s));
-			list [v].add (new Edge (v, u, d, s));
+		// bc a < b, dp can be done without queue
+		for (int m = 0, a, b; m < M; ++m) {
+			a = in.iscan () - 1; b = in.iscan () - 1;
+			list [a].add (b);
+			++indegree [b];
 		}
 		
-		State [] dp = new State [V];
-		
-		dp [0] = new State (0, 1, null);
-		
-		for (int v = 1; v < V; ++v)
-			dp [v] = new State (1 << 20, 0, null);
-		
-		Queue <Integer> q = new ArrayDeque <Integer> ();
-		int curr = 0; q.offer (curr);
-		
-		while (!q.isEmpty ()) {
-			curr = q.poll ();
+		for (int u = 0; u < N; ++u) {
+			if (indegree [u] == 0)
+				paths [u] = 1;
 			
-			for (Edge e : list [curr]) {
-				if (dp [e.v].time > dp [curr].time + (60.0 * e.d) / e.s || dp [e.v].time == dp [curr].time + (60.0 * e.d) / e.s && dp [e.v].inter > dp [curr].inter + 1) {
-					dp [e.v] = new State (dp [curr].time + (60.0 * e.d) / e.s, dp [curr].inter + 1, e);
-					q.offer (e.v);
-				}
+			for (int v : list [u]) {
+				paths [v] += paths [u]; paths [v] %= MOD;
+				dp [v] += dp [u] + paths [u]; dp [v] %= MOD;
 			}
 		}
 		
-		int edges = dp [V - 1].inter - 1;
-		double time = 0.0;
+		long sum = 0;
 		
-		curr = V - 1;
+		for (int n = 0; n < N; ++n)
+			if (list [n].isEmpty ())
+				sum = (sum % MOD + dp [n] % MOD) % MOD;
 		
-		while (dp [curr].prev != null) {
-			time += (60.0 * dp [curr].prev.d) / (dp [curr].prev.s * 0.75);
-			curr = dp [curr].prev.u;
-		}
-		
-		out.println (edges); out.println (Math.round (time - dp [V - 1].time));
+		out.print (sum);
 		out.close ();
-	}
-	
-	private static class State {
-		double time;
-		int inter;
-		Edge prev;
-		
-		public State (double time, int inter, Edge prev) {
-			this.time = time; this.inter = inter; this.prev = prev;
-		}
-	}
-	
-	private static class Edge {
-		int u, v, d, s;
-		
-		public Edge (int u, int v, int d, int s) {
-			this.u = u; this.v = v; this.d = d; this.s = s;
-		}
 	}
 
 	private static class INPUT {

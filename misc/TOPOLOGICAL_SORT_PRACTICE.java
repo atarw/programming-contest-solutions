@@ -1,67 +1,49 @@
 import java.io.*;
+import java.util.*;
 
 public class TOPOLOGICAL_SORT_PRACTICE {
-  public static void main (String [] args) throws IOException {
-    BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
-    String [] t = in.readLine ().split (" ");
-    int N = Integer.parseInt (t [0]), M = Integer.parseInt (t [1]);
-    Graph g = new Graph (N);
-    
-    for (int m = 0; m < M; m++) {
-      t = in.readLine ().split (" ");
-      g.addEdge (Integer.parseInt (t [0]), Integer.parseInt (t [1]));
-    }
-    
-    g.topo ();
-  }
-}
+	public static void main (String [] t) throws IOException {
+		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
+		PrintWriter out = new PrintWriter (System.out);
 
-class Graph {
-  static boolean [][] matrix;
-  static int [] indegree;
-  
-  public void topo () {
-    int successor = 0;
-    
-    for (int i = 0; i < matrix.length; i++) {//finds next vertex with 0 indegree, and returns it. if no more are present before for loop ends this implies there is a cycle, and impossible to topologically sort the rest
-      successor = next ();
-      
-      if (successor == -1) {
-        System.out.println ("cycle");
-        break;
-      }
-      else {
-        System.out.print (successor + " -> ");
-      }
-    }
-  }
-  
-  public int next () {//finds vertex with indegree of 0, and disconnects it from the rest of the graph
-    for (int i = 0; i < indegree.length; i++) {
-      if (indegree [i] == 0) {
-        indegree [i]--;
-        
-        for (int x = 0; x < matrix [0].length; x++) {
-          if (matrix [i][x]) {
-            matrix [i][x] = false;
-            indegree [x]--;
-          }
-        }
-        
-        return i;
-      }
-    }
-    
-    return -1;
-  }
-  
-  public void addEdge (int S, int E) {
-    matrix [S][E] = true;
-    indegree [E]++;
-  }
-  
-  public Graph (int N) {
-    matrix = new boolean [N][N];
-    indegree = new int [N];
-  }
+		t = in.readLine ().split (" ");
+		int N = Integer.parseInt (t [0]), M = Integer.parseInt (t [1]); // N is vertices, M is edges
+		List <Integer> [] list = new ArrayList [N];
+		int [] indegree = new int [N]; // indegree [x] represents number of nodes with an edge pointing towards node x
+		
+		for (int n = 0; n < N; ++n)
+			list [n] = new ArrayList <Integer> ();
+		
+		for (int m = 0, a, b; m < M; ++m) {
+			t = in.readLine ().split (" ");
+			a = Integer.parseInt (t [0]); b = Integer.parseInt (t [1]);
+			list [a].add (b); // directed edge from a to b
+			++indegree [b];
+		}
+		
+		Queue <Integer> q = new ArrayDeque <Integer> ();
+		List <Integer> order = new ArrayList <Integer> ();
+		
+		for (int n = 0; n < N; ++n)
+			if (indegree [n] == 0) // if any nodes don't have edges pointing towards them, they can be first
+				q.offer (n);
+		
+		int u;
+		
+		while (!q.isEmpty ()) {
+			u = q.poll ();
+			order.add (u);
+			
+			for (int v : list [u])
+				if (--indegree [v] == 0) // if after removing node u from the graph, if nodes connected to node u don't have edges pointing towards them, add them to the queue
+					q.offer (v);
+		}
+		
+		if (order.size () != N) // if not all nodes are included in the sorted list, there is a cycle in the graph
+			out.print (-1);
+		else
+			out.print (order);
+
+		out.close ();
+	}
 }

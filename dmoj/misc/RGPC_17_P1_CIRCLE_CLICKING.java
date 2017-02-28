@@ -1,72 +1,34 @@
 import java.io.*;
 import java.util.*;
 
-public class JDCC_17_FEBRUARY_D_GAS_N_GO {
+public class RGPC_17_P1_CIRCLE_CLICKING {
 	public static void main (String [] t) throws IOException {
-		INPUT in = new INPUT ("input_2.txt");
+		INPUT in = new INPUT (System.in);
 		PrintWriter out = new PrintWriter (System.out);
+
+		int N = in.iscan (), D = in.iscan (); D *= D;
+		int [] x = new int [N], y = new int [N];
 		
-		int N = in.iscan (), M = in.iscan ();
-		int [] price = new int [N];
-		List <Edge> [] list = new ArrayList [N];
-		
-		for (int n = 0; n < N; ++n)
-			price [n] = in.iscan ();
-		
-		//System.out.println ("done reading prices");
-		
-		for (int n = 0; n < N; ++n)
-			list [n] = new ArrayList <Edge> ();
-		
-		for (int m = 0, a, b, c; m < M; ++m) {
-			//System.out.println (m + " " + M + " " + (m < M));
-			a = in.iscan () - 1; b = in.iscan () - 1; c = in.iscan ();
-			list [a].add (new Edge (b, c)); list [b].add (new Edge (a, c));
+		for (int n = 0; n < N; ++n) {
+			x [n] = in.iscan (); y [n] = in.iscan ();
 		}
 		
-		//System.out.println (3);
+		int curr = 1, max = 1;
 		
-		State [] dp = new State [N];
-		
-		dp [0] = new State (0, price [0]);
-		
-		for (int n = 1; n < N; ++n)
-			dp [n] = new State (1 << 20, price [n]);
-		
-		Queue <Integer> q = new ArrayDeque <Integer> ();
-		q.offer (0);
-		
-		int curr;
-		
-		while (!q.isEmpty ()) {
-			curr = q.poll ();
-			
-			for (Edge e : list [curr]) {
-				if (dp [e.v].money > dp [curr].money + e.w * dp [curr].min) {
-					dp [e.v] = new State (dp [curr].money + e.w * dp [curr].min, Math.min (dp [e.v].min, dp [curr].min));
-					q.offer (e.v);
-				}
+		for (int n = 1; n < N; ++n) {
+			if ((x [n - 1] - x [n]) * (x [n - 1] - x [n]) + (y [n - 1] - y [n]) * (y [n - 1] - y [n]) <= D) {
+				++curr;
+			}
+			else {
+				max = Math.max (max, curr);
+				curr = 0;
 			}
 		}
 		
-		out.print (dp [N - 1].money);
+		max = Math.max (max, curr);
+		
+		out.print (max);
 		out.close ();
-	}
-	
-	private static class State {
-		int money, min;
-		
-		public State (int money, int min) {
-			this.money = money; this.min = min;
-		}
-	}
-	
-	private static class Edge {
-		int v, w;
-		
-		public Edge (int v, int w) {
-			this.v = v; this.w = w;
-		}
 	}
 
 	private static class INPUT {

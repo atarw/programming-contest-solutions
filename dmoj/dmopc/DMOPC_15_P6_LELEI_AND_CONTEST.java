@@ -7,7 +7,7 @@ public class DMOPC_15_P6_LELEI_AND_CONTEST {
 	
 	static long [] bit1, bit2;
 	static int M;
-		
+	
 	public static void update_point (long [] bit, int pos, long val) {
 		for (; pos < bit.length; pos += (pos & -pos)) {
 			bit [pos] += val;

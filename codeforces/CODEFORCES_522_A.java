@@ -11,6 +11,7 @@ import java.util.*;
  * @author atharva
  */
 public class CODEFORCES_522_A {
+
 	public static void main (String[] args) {
 		InputStream inputStream = System.in;
 		OutputStream outputStream = System.out;
@@ -22,9 +23,22 @@ public class CODEFORCES_522_A {
 	}
 
 	static class TaskA {
+
 		static Map <String, Integer> map;
 		static List <Integer>[] list;
 		static int[] dp;
+
+		public static int dfs (int u) {
+			if (dp[u] != -1)
+				return dp[u];
+
+			dp[u] = 0;
+
+			for (int v : list[u])
+				dp[u] = Math.max (dp[u], 1 + dfs (v));
+
+			return dp[u];
+		}
 
 		public void solve (int testNumber, INPUT in, PrintWriter out) {
 			int N = in.iscan ();
@@ -53,21 +67,10 @@ public class CODEFORCES_522_A {
 			out.print (dfs (map.get ("polycarp")) + 1);
 		}
 
-		public static int dfs (int u) {
-			if (dp[u] != -1)
-				return dp[u];
-
-			dp[u] = 0;
-
-			for (int v : list[u])
-				dp[u] = Math.max (dp[u], 1 + dfs (v));
-
-			return dp[u];
-		}
-
 	}
 
 	static class INPUT {
+
 		private InputStream stream;
 		private byte[] buf = new byte[1024];
 		private int curChar;
@@ -86,7 +89,8 @@ public class CODEFORCES_522_A {
 
 					//if (numChars <= 0) return -1;
 				}
-			} catch (IOException e) {
+			}
+			catch (IOException e) {
 				throw new RuntimeException (e);
 			}
 

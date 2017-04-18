@@ -4,21 +4,22 @@ import java.io.InputStreamReader;
 import java.util.*;
 
 public class VMSS_16_P3_JAYDEN_STUDIES_TREES {
-  public static void main (String [] args) throws IOException {
-    BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
-    int N = Integer.parseInt (in.readLine ());
-	  Graph g = new Graph ();
-	  String[] t;
 
-	  for (int n = 1; n < N; n++) {
-      t = in.readLine ().split (" ");
-      g.addEdge (Integer.parseInt (t [0]), Integer.parseInt (t [1]));
-    }
-    
-    int s = g.furthest (1, true);
-    //System.out.println (s);
-    System.out.print (g.furthest (s, false));
-  }
+	public static void main (String[] args) throws IOException {
+		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
+		int N = Integer.parseInt (in.readLine ());
+		Graph g = new Graph ();
+		String[] t;
+
+		for (int n = 1; n < N; n++) {
+			t = in.readLine ().split (" ");
+			g.addEdge (Integer.parseInt (t[0]), Integer.parseInt (t[1]));
+		}
+
+		int s = g.furthest (1, true);
+		//System.out.println (s);
+		System.out.print (g.furthest (s, false));
+	}
 
 	private static class Graph {
 
@@ -64,5 +65,5 @@ public class VMSS_16_P3_JAYDEN_STUDIES_TREES {
 			map.get (S).add (E);
 			map.get (E).add (S);
 		}
-  }
+	}
 }

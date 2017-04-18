@@ -3,6 +3,472 @@
   <component name="ChangeListManager">
     <list default="true" id="cf5dc239-6b36-4c09-b580-a8e8c611168e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/1996/CCC_96_S1_DEFICIENT_PERFECT_AND_ABUNDANT.java" afterPath="$PROJECT_DIR$/ccc/1996/CCC_96_S1_DEFICIENT_PERFECT_AND_ABUNDANT.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/1996/CCC_96_S4_WHEN_IN_ROME.java" afterPath="$PROJECT_DIR$/ccc/1996/CCC_96_S4_WHEN_IN_ROME.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/1997/CCC_97_S4_DYNAMIC_DICTIONARY_CODING.java" afterPath="$PROJECT_DIR$/ccc/1997/CCC_97_S4_DYNAMIC_DICTIONARY_CODING.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/1998/CCC_98_S1_CENSOR.java" afterPath="$PROJECT_DIR$/ccc/1998/CCC_98_S1_CENSOR.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2000/CCC_00_S4_GOLF.java" afterPath="$PROJECT_DIR$/ccc/2000/CCC_00_S4_GOLF.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2000/CCC_00_S4_GOLF_ITERATIVE.java" afterPath="$PROJECT_DIR$/ccc/2000/CCC_00_S4_GOLF_ITERATIVE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2002/CCC_02_J2_AMERICANADIAN.java" afterPath="$PROJECT_DIR$/ccc/2002/CCC_02_J2_AMERICANADIAN.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2002/CCC_02_S1_THE_STUDENTS_COUNCIL_BREAKFAST.java" afterPath="$PROJECT_DIR$/ccc/2002/CCC_02_S1_THE_STUDENTS_COUNCIL_BREAKFAST.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2002/CCC_02_S2_FRACTION_ACTION.java" afterPath="$PROJECT_DIR$/ccc/2002/CCC_02_S2_FRACTION_ACTION.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2002/CCC_02_S4_BRIDGE_CROSSING.java" afterPath="$PROJECT_DIR$/ccc/2002/CCC_02_S4_BRIDGE_CROSSING.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2003/CCC_03_J1_TRIDENT.java" afterPath="$PROJECT_DIR$/ccc/2003/CCC_03_J1_TRIDENT.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2003/CCC_03_J2_PICTURE_PERFECT.java" afterPath="$PROJECT_DIR$/ccc/2003/CCC_03_J2_PICTURE_PERFECT.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2003/CCC_03_S1_SNAKES_AND_LADDERS.java" afterPath="$PROJECT_DIR$/ccc/2003/CCC_03_S1_SNAKES_AND_LADDERS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2003/CCC_03_S2_POETRY.java" afterPath="$PROJECT_DIR$/ccc/2003/CCC_03_S2_POETRY.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2003/CCC_03_S3_FLOOR_PLAN.java" afterPath="$PROJECT_DIR$/ccc/2003/CCC_03_S3_FLOOR_PLAN.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2003/CCC_03_S5_TRUCKING_TROUBLES.java" afterPath="$PROJECT_DIR$/ccc/2003/CCC_03_S5_TRUCKING_TROUBLES.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2004/CCC_04_J1_SQUARES.java" afterPath="$PROJECT_DIR$/ccc/2004/CCC_04_J1_SQUARES.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2004/CCC_04_J2_TERMS_OF_OFFICE.java" afterPath="$PROJECT_DIR$/ccc/2004/CCC_04_J2_TERMS_OF_OFFICE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2004/CCC_04_J3_SMILE_WITH_SIMILES.java" afterPath="$PROJECT_DIR$/ccc/2004/CCC_04_J3_SMILE_WITH_SIMILES.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2005/CCC_05_J1_THE_CELL_SELL.java" afterPath="$PROJECT_DIR$/ccc/2005/CCC_05_J1_THE_CELL_SELL.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2005/CCC_05_J2_RSA_NUMBERS.java" afterPath="$PROJECT_DIR$/ccc/2005/CCC_05_J2_RSA_NUMBERS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2005/CCC_05_J3_RETURNING_HOME.java" afterPath="$PROJECT_DIR$/ccc/2005/CCC_05_J3_RETURNING_HOME.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2005/CCC_05_J5_BANANAS.java" afterPath="$PROJECT_DIR$/ccc/2005/CCC_05_J5_BANANAS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2005/CCC_05_S1_SNOW_CALLS.java" afterPath="$PROJECT_DIR$/ccc/2005/CCC_05_S1_SNOW_CALLS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2005/CCC_05_S2_MOUSE_MOVE.java" afterPath="$PROJECT_DIR$/ccc/2005/CCC_05_S2_MOUSE_MOVE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2005/CCC_05_S4_PYRAMID_SCHEME.java" afterPath="$PROJECT_DIR$/ccc/2005/CCC_05_S4_PYRAMID_SCHEME.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2005/CCC_05_S5_PINBALL_RANKING.java" afterPath="$PROJECT_DIR$/ccc/2005/CCC_05_S5_PINBALL_RANKING.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2005/CCC_05_S5_PINBALL_RANKING_BIT.java" afterPath="$PROJECT_DIR$/ccc/2005/CCC_05_S5_PINBALL_RANKING_BIT.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2006/CCC_06_J1_CANADIAN_CALORIE_COUNTING.java" afterPath="$PROJECT_DIR$/ccc/2006/CCC_06_J1_CANADIAN_CALORIE_COUNTING.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2006/CCC_06_J2_ROLL_THE_DICE.java" afterPath="$PROJECT_DIR$/ccc/2006/CCC_06_J2_ROLL_THE_DICE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2006/CCC_06_J4_ITS_TOUGH_BEING_A_TEEN.java" afterPath="$PROJECT_DIR$/ccc/2006/CCC_06_J4_ITS_TOUGH_BEING_A_TEEN.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2006/CCC_06_S2_ATTACK_OF_THE_CIPHERTEXTS.java" afterPath="$PROJECT_DIR$/ccc/2006/CCC_06_S2_ATTACK_OF_THE_CIPHERTEXTS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2007/CCC_07_J1_WHOS_IN_THE_MIDDLE.java" afterPath="$PROJECT_DIR$/ccc/2007/CCC_07_J1_WHOS_IN_THE_MIDDLE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2007/CCC_07_J2_I_SPEAK_TXTMSG.java" afterPath="$PROJECT_DIR$/ccc/2007/CCC_07_J2_I_SPEAK_TXTMSG.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2007/CCC_07_J3_DEAL_OR_NO_DEAL_CALCULATOR.java" afterPath="$PROJECT_DIR$/ccc/2007/CCC_07_J3_DEAL_OR_NO_DEAL_CALCULATOR.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2007/CCC_07_J5_KEEP_ON_TRUCKING.java" afterPath="$PROJECT_DIR$/ccc/2007/CCC_07_J5_KEEP_ON_TRUCKING.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2007/CCC_07_S1_FEDERAL_VOTING_AGE.java" afterPath="$PROJECT_DIR$/ccc/2007/CCC_07_S1_FEDERAL_VOTING_AGE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2007/CCC_07_S2_BOXES.java" afterPath="$PROJECT_DIR$/ccc/2007/CCC_07_S2_BOXES.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2007/CCC_07_S3_FRIENDS.java" afterPath="$PROJECT_DIR$/ccc/2007/CCC_07_S3_FRIENDS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2007/CCC_07_S4_WATERPARK.java" afterPath="$PROJECT_DIR$/ccc/2007/CCC_07_S4_WATERPARK.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2007/CCC_07_S5_BOWLING_FOR_NUMBERS.java" afterPath="$PROJECT_DIR$/ccc/2007/CCC_07_S5_BOWLING_FOR_NUMBERS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2008/CCC_08_J1_BODY_MASS_INDEX.java" afterPath="$PROJECT_DIR$/ccc/2008/CCC_08_J1_BODY_MASS_INDEX.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2008/CCC_08_J3_GPS_TEXT_ENTRY.java" afterPath="$PROJECT_DIR$/ccc/2008/CCC_08_J3_GPS_TEXT_ENTRY.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2008/CCC_08_S1_ITS_COLD_HERE.java" afterPath="$PROJECT_DIR$/ccc/2008/CCC_08_S1_ITS_COLD_HERE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2008/CCC_08_S2_PENNIES_IN_THE_RING.java" afterPath="$PROJECT_DIR$/ccc/2008/CCC_08_S2_PENNIES_IN_THE_RING.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2008/CCC_08_S3_MAZE.java" afterPath="$PROJECT_DIR$/ccc/2008/CCC_08_S3_MAZE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2008/CCC_08_S5_NUKIT.java" afterPath="$PROJECT_DIR$/ccc/2008/CCC_08_S5_NUKIT.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2009/CCC_09_J1_ISBN.java" afterPath="$PROJECT_DIR$/ccc/2009/CCC_09_J1_ISBN.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2009/CCC_09_J2_OLD_FISHIN_HOLE.java" afterPath="$PROJECT_DIR$/ccc/2009/CCC_09_J2_OLD_FISHIN_HOLE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2009/CCC_09_J5_DEGREES_OF_SEPARATION.java" afterPath="$PROJECT_DIR$/ccc/2009/CCC_09_J5_DEGREES_OF_SEPARATION.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2009/CCC_09_S1_COOL_NUMBERS.java" afterPath="$PROJECT_DIR$/ccc/2009/CCC_09_S1_COOL_NUMBERS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2009/CCC_09_S2_LIGHTS_GOING_ON_AND_OFF.java" afterPath="$PROJECT_DIR$/ccc/2009/CCC_09_S2_LIGHTS_GOING_ON_AND_OFF.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2009/CCC_09_S4_SHOP_AND_SHIP.java" afterPath="$PROJECT_DIR$/ccc/2009/CCC_09_S4_SHOP_AND_SHIP.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2009/CCC_09_S5_WIRELESS.java" afterPath="$PROJECT_DIR$/ccc/2009/CCC_09_S5_WIRELESS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2010/CCC_10_J1_WHAT_IS_N_DADDY.java" afterPath="$PROJECT_DIR$/ccc/2010/CCC_10_J1_WHAT_IS_N_DADDY.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2010/CCC_10_J3_PUNCHY.java" afterPath="$PROJECT_DIR$/ccc/2010/CCC_10_J3_PUNCHY.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2010/CCC_10_J5_KNIGHT_HOP.java" afterPath="$PROJECT_DIR$/ccc/2010/CCC_10_J5_KNIGHT_HOP.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2010/CCC_10_S1_COMPUTER_PURCHASE.java" afterPath="$PROJECT_DIR$/ccc/2010/CCC_10_S1_COMPUTER_PURCHASE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2010/CCC_10_S2_HUFFMAN_ENCODING.java" afterPath="$PROJECT_DIR$/ccc/2010/CCC_10_S2_HUFFMAN_ENCODING.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2010/CCC_10_S3_FIREHOSE.java" afterPath="$PROJECT_DIR$/ccc/2010/CCC_10_S3_FIREHOSE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2011/CCC_11_J1_WHICH_ALIENS.java" afterPath="$PROJECT_DIR$/ccc/2011/CCC_11_J1_WHICH_ALIENS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2011/CCC_11_J2_WHO_HAS_SEEN_THE_WIND.java" afterPath="$PROJECT_DIR$/ccc/2011/CCC_11_J2_WHO_HAS_SEEN_THE_WIND.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2011/CCC_11_J3_SUMAC_SEQUENCES.java" afterPath="$PROJECT_DIR$/ccc/2011/CCC_11_J3_SUMAC_SEQUENCES.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2011/CCC_11_J4_BORING_BUSINESS.java" afterPath="$PROJECT_DIR$/ccc/2011/CCC_11_J4_BORING_BUSINESS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2011/CCC_11_S1_ENGLISH_OR_FRENCH.java" afterPath="$PROJECT_DIR$/ccc/2011/CCC_11_S1_ENGLISH_OR_FRENCH.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2011/CCC_11_S2_MULTIPLE_CHOICE.java" afterPath="$PROJECT_DIR$/ccc/2011/CCC_11_S2_MULTIPLE_CHOICE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2011/CCC_11_S4_BLOOD_DISTRIBUTION.java" afterPath="$PROJECT_DIR$/ccc/2011/CCC_11_S4_BLOOD_DISTRIBUTION.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2012/CCC_12_J1_SPEEDING_FINES_ARE_NOT_FINE.java" afterPath="$PROJECT_DIR$/ccc/2012/CCC_12_J1_SPEEDING_FINES_ARE_NOT_FINE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2012/CCC_12_J2_SOUNDS_FISHY.java" afterPath="$PROJECT_DIR$/ccc/2012/CCC_12_J2_SOUNDS_FISHY.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2012/CCC_12_J3_ICON_SCALING.java" afterPath="$PROJECT_DIR$/ccc/2012/CCC_12_J3_ICON_SCALING.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2012/CCC_12_S1_DONT_PASS_ME_THE_BALL.java" afterPath="$PROJECT_DIR$/ccc/2012/CCC_12_S1_DONT_PASS_ME_THE_BALL.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2012/CCC_12_S3_ABSOLUTELY_ACIDIC.java" afterPath="$PROJECT_DIR$/ccc/2012/CCC_12_S3_ABSOLUTELY_ACIDIC.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2012/CCC_12_S4_A_COIN_GAME.java" afterPath="$PROJECT_DIR$/ccc/2012/CCC_12_S4_A_COIN_GAME.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2012/CCC_12_S5_MOUSE_JOURNEY.java" afterPath="$PROJECT_DIR$/ccc/2012/CCC_12_S5_MOUSE_JOURNEY.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2013/CCC_13_J1_NEXT_IN_LINE.java" afterPath="$PROJECT_DIR$/ccc/2013/CCC_13_J1_NEXT_IN_LINE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2013/CCC_13_J2_ROTATING_LETTERS.java" afterPath="$PROJECT_DIR$/ccc/2013/CCC_13_J2_ROTATING_LETTERS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2013/CCC_13_J3_FROM_1987_TO_2013.java" afterPath="$PROJECT_DIR$/ccc/2013/CCC_13_J3_FROM_1987_TO_2013.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2013/CCC_13_J4_TIME_ON_TASK.java" afterPath="$PROJECT_DIR$/ccc/2013/CCC_13_J4_TIME_ON_TASK.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2013/CCC_13_S3_CHANCES_OF_WINNING.java" afterPath="$PROJECT_DIR$/ccc/2013/CCC_13_S3_CHANCES_OF_WINNING.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2013/CCC_13_S4_WHO_IS_TALLER.java" afterPath="$PROJECT_DIR$/ccc/2013/CCC_13_S4_WHO_IS_TALLER.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2014/CCC_14_J1_TRIANGLE_TIMES.java" afterPath="$PROJECT_DIR$/ccc/2014/CCC_14_J1_TRIANGLE_TIMES.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2014/CCC_14_J2_VOTE_COUNT.java" afterPath="$PROJECT_DIR$/ccc/2014/CCC_14_J2_VOTE_COUNT.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2014/CCC_14_J3_DOUBLE_DICE.java" afterPath="$PROJECT_DIR$/ccc/2014/CCC_14_J3_DOUBLE_DICE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2014/CCC_14_S1_PARTY_INVITATION.java" afterPath="$PROJECT_DIR$/ccc/2014/CCC_14_S1_PARTY_INVITATION.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2014/CCC_14_S2_ASSIGNING_PARTNERS.java" afterPath="$PROJECT_DIR$/ccc/2014/CCC_14_S2_ASSIGNING_PARTNERS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2014/CCC_14_S3_GENEVA_CONFECTION.java" afterPath="$PROJECT_DIR$/ccc/2014/CCC_14_S3_GENEVA_CONFECTION.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2014/CCC_14_S4_TINTED_GLASS_WINDOW.java" afterPath="$PROJECT_DIR$/ccc/2014/CCC_14_S4_TINTED_GLASS_WINDOW.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2014/CCC_14_S5_LAZY_FOX.java" afterPath="$PROJECT_DIR$/ccc/2014/CCC_14_S5_LAZY_FOX.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2015/CCC_15_J1_SPECIAL_DAY.java" afterPath="$PROJECT_DIR$/ccc/2015/CCC_15_J1_SPECIAL_DAY.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2015/CCC_15_J2_HAPPY_OR_SAD.java" afterPath="$PROJECT_DIR$/ccc/2015/CCC_15_J2_HAPPY_OR_SAD.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2015/CCC_15_J3_ROVARSPRAKET.java" afterPath="$PROJECT_DIR$/ccc/2015/CCC_15_J3_ROVARSPRAKET.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2015/CCC_15_J4_WAIT_TIME.java" afterPath="$PROJECT_DIR$/ccc/2015/CCC_15_J4_WAIT_TIME.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2015/CCC_15_J5_PI_DAY.java" afterPath="$PROJECT_DIR$/ccc/2015/CCC_15_J5_PI_DAY.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2015/CCC_15_J5_PI_DAY_ITERATIVE.java" afterPath="$PROJECT_DIR$/ccc/2015/CCC_15_J5_PI_DAY_ITERATIVE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2015/CCC_15_S1_ZERO_THAT_OUT.java" afterPath="$PROJECT_DIR$/ccc/2015/CCC_15_S1_ZERO_THAT_OUT.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2015/CCC_15_S2_JERSEYS.java" afterPath="$PROJECT_DIR$/ccc/2015/CCC_15_S2_JERSEYS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2015/CCC_15_S3_GATES.java" afterPath="$PROJECT_DIR$/ccc/2015/CCC_15_S3_GATES.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2015/CCC_15_S4_CONVEX_HULL.java" afterPath="$PROJECT_DIR$/ccc/2015/CCC_15_S4_CONVEX_HULL.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2015/CCC_15_S5_GREEDY_FOR_PIES.java" afterPath="$PROJECT_DIR$/ccc/2015/CCC_15_S5_GREEDY_FOR_PIES.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2016/CCC_16_S1_RAGAMAN.java" afterPath="$PROJECT_DIR$/ccc/2016/CCC_16_S1_RAGAMAN.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2016/CCC_16_S2_TANDEM_BICYCLE.java" afterPath="$PROJECT_DIR$/ccc/2016/CCC_16_S2_TANDEM_BICYCLE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2016/CCC_16_S4_COMBINING_RICEBALLS.java" afterPath="$PROJECT_DIR$/ccc/2016/CCC_16_S4_COMBINING_RICEBALLS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2016/CCC_16_S5_CIRCLE_OF_LIFE.java" afterPath="$PROJECT_DIR$/ccc/2016/CCC_16_S5_CIRCLE_OF_LIFE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2016/CCOQR_16_Q1_STUPENDOUS_BOWTIES.java" afterPath="$PROJECT_DIR$/ccc/2016/CCOQR_16_Q1_STUPENDOUS_BOWTIES.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2016/CCOQR_16_Q2_THROUGH_A_MAZE_DARKLY.java" afterPath="$PROJECT_DIR$/ccc/2016/CCOQR_16_Q2_THROUGH_A_MAZE_DARKLY.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2017/CCC_17_S1_SUM_GAME.java" afterPath="$PROJECT_DIR$/ccc/2017/CCC_17_S1_SUM_GAME.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2017/CCC_17_S2_HIGH_TIDE_LOW_TIDE.java" afterPath="$PROJECT_DIR$/ccc/2017/CCC_17_S2_HIGH_TIDE_LOW_TIDE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2017/CCC_17_S3_NAILED_IT.java" afterPath="$PROJECT_DIR$/ccc/2017/CCC_17_S3_NAILED_IT.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cco/2000/CCO_00_P1_SUBSETS.java" afterPath="$PROJECT_DIR$/cco/2000/CCO_00_P1_SUBSETS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cco/2001/CCO_01_P1_THE_MONKEY_DANCE.java" afterPath="$PROJECT_DIR$/cco/2001/CCO_01_P1_THE_MONKEY_DANCE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cco/2002/CCO_02_P2_CONNECT_THE_CAMPUS.java" afterPath="$PROJECT_DIR$/cco/2002/CCO_02_P2_CONNECT_THE_CAMPUS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cco/2010/CCO_10_P1_BARKING_DOGGOS.java" afterPath="$PROJECT_DIR$/cco/2010/CCO_10_P1_BARKING_DOGGOS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cco/2010/CCO_10_P1_COMPUTER_PURCHASE_RETURN.java" afterPath="$PROJECT_DIR$/cco/2010/CCO_10_P1_COMPUTER_PURCHASE_RETURN.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cco/2011/CCO_11_P2_VAMPIRE_TUNNELS.java" afterPath="$PROJECT_DIR$/cco/2011/CCO_11_P2_VAMPIRE_TUNNELS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cco/2012/CCO_12_P2_THE_HUNGARY_GAMES.java" afterPath="$PROJECT_DIR$/cco/2012/CCO_12_P2_THE_HUNGARY_GAMES.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cco/2013/CCO_13_P2_TOURNEY.java" afterPath="$PROJECT_DIR$/cco/2013/CCO_13_P2_TOURNEY.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cco/2013/CCO_13_P2_TRANSFORMING_COMETS.java" afterPath="$PROJECT_DIR$/cco/2013/CCO_13_P2_TRANSFORMING_COMETS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cco/2013/CCO_13_P3_LHC.java" afterPath="$PROJECT_DIR$/cco/2013/CCO_13_P3_LHC.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cco/2013/CCO_2013_P1_ALL_YOUR_BASE_BELONG_TO_PALINDROMES.java" afterPath="$PROJECT_DIR$/cco/2013/CCO_2013_P1_ALL_YOUR_BASE_BELONG_TO_PALINDROMES.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cco/2014/CCO_14_P1_TROYANGLES.java" afterPath="$PROJECT_DIR$/cco/2014/CCO_14_P1_TROYANGLES.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cco/2014/CCO_14_P2_KING_GRUFF.java" afterPath="$PROJECT_DIR$/cco/2014/CCO_14_P2_KING_GRUFF.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cco/2015/CCO_15_P1_CARS_ON_ICE.java" afterPath="$PROJECT_DIR$/cco/2015/CCO_15_P1_CARS_ON_ICE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cco/2015/CCO_15_P2_ARTSKJID.java" afterPath="$PROJECT_DIR$/cco/2015/CCO_15_P2_ARTSKJID.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coci/2006/COCI_06_P5_BICIKLI.java" afterPath="$PROJECT_DIR$/coci/2006/COCI_06_P5_BICIKLI.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coci/2013/COCI_13_P4_LOPOV.java" afterPath="$PROJECT_DIR$/coci/2013/COCI_13_P4_LOPOV.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coci/2014/COCI_14_P2_UTRKA.java" afterPath="$PROJECT_DIR$/coci/2014/COCI_14_P2_UTRKA.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coci/2014/COCI_14_P3_ACM.java" afterPath="$PROJECT_DIR$/coci/2014/COCI_14_P3_ACM.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coci/2014/COCI_14_P4_MRAVI.java" afterPath="$PROJECT_DIR$/coci/2014/COCI_14_P4_MRAVI.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coci/2014/COCI_14_P5_SABOR.java" afterPath="$PROJECT_DIR$/coci/2014/COCI_14_P5_SABOR.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codeforces/CODEFORCES_118_A.java" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_118_A.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codeforces/CODEFORCES_158_A.java" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_158_A.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codeforces/CODEFORCES_158_B.java" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_158_B.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codeforces/CODEFORCES_1_A.java" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_1_A.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codeforces/CODEFORCES_231_A.java" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_231_A.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codeforces/CODEFORCES_277_A.java" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_277_A.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codeforces/CODEFORCES_282_A.java" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_282_A.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codeforces/CODEFORCES_285_C.java" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_285_C.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codeforces/CODEFORCES_377_C.java" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_377_C.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codeforces/CODEFORCES_493_C.java" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_493_C.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codeforces/CODEFORCES_499_B.java" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_499_B.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codeforces/CODEFORCES_4_A.java" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_4_A.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codeforces/CODEFORCES_50_A.java" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_50_A.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codeforces/CODEFORCES_522_A.java" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_522_A.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codeforces/CODEFORCES_574_A.java" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_574_A.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codeforces/CODEFORCES_58_B.java" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_58_B.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codeforces/CODEFORCES_624_B.java" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_624_B.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codeforces/CODEFORCES_65_D.java" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_65_D.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codeforces/CODEFORCES_677_A.java" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_677_A.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codeforces/CODEFORCES_677_B.java" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_677_B.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codeforces/CODEFORCES_702_A.java" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_702_A.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codeforces/CODEFORCES_706_A.java" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_706_A.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codeforces/CODEFORCES_706_C.java" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_706_C.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codeforces/CODEFORCES_714_C.java" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_714_C.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codeforces/CODEFORCES_716_B.java" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_716_B.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codeforces/CODEFORCES_71_A.java" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_71_A.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codeforces/CODEFORCES_743_A.java" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_743_A.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codeforces/CODEFORCES_748_B.java" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_748_B.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codeforces/CODEFORCES_758_A.java" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_758_A.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codeforces/CODEFORCES_758_B.java" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_758_B.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codeforces/CODEFORCES_768_A.java" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_768_A.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codeforces/CODEFORCES_777_B.java" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_777_B.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codeforces/CODEFORCES_801_A.java" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_801_A.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codeforces/CODEFORCES_801_B.java" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_801_B.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codeforces/CODEFORCES_86_D.java" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_86_D.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codeforces/CODEFORCES_92_A.java" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_92_A.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codejam/CODEJAM_QR_16_P1_COUNTING_SHEEP.java" afterPath="$PROJECT_DIR$/codejam/CODEJAM_QR_16_P1_COUNTING_SHEEP.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codejam/CODEJAM_QR_16_P2_REVENGE_OF_THE_PANCAKES.java" afterPath="$PROJECT_DIR$/codejam/CODEJAM_QR_16_P2_REVENGE_OF_THE_PANCAKES.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codejam/CODEJAM_QR_17_P2_TIDY_NUMBERS.java" afterPath="$PROJECT_DIR$/codejam/CODEJAM_QR_17_P2_TIDY_NUMBERS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codejam/CODEJAM_ROUND_1A_16_P1_THE_LAST_WORD.java" afterPath="$PROJECT_DIR$/codejam/CODEJAM_ROUND_1A_16_P1_THE_LAST_WORD.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codejam/CODEJAM_ROUND_1A_16_P2_RANK_AND_FILE.java" afterPath="$PROJECT_DIR$/codejam/CODEJAM_ROUND_1A_16_P2_RANK_AND_FILE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csacademy/CS_ACADEMY_BETA_ROUND_1_P1_WORD_ORDERING.java" afterPath="$PROJECT_DIR$/csacademy/CS_ACADEMY_BETA_ROUND_1_P1_WORD_ORDERING.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/bts/BTS_16_P4_SCREENSAVER.java" afterPath="$PROJECT_DIR$/dmoj/bts/BTS_16_P4_SCREENSAVER.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/bts/BTS_16_P5_CHERRY_TREE.java" afterPath="$PROJECT_DIR$/dmoj/bts/BTS_16_P5_CHERRY_TREE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/bts/BTS_16_P8_TEXTBOOKS.java" afterPath="$PROJECT_DIR$/dmoj/bts/BTS_16_P8_TEXTBOOKS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_13_P1_SHARING_IS_CARING.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_13_P1_SHARING_IS_CARING.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_13_P3_CROSSING_FIELD.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_13_P3_CROSSING_FIELD.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_13_P4_AFK.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_13_P4_AFK.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_13_P5_A_ROMANTIC_DINNER.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_13_P5_A_ROMANTIC_DINNER.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P1_CORE_DRILL.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P1_CORE_DRILL.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P1_FINDING_BESSARION.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P1_FINDING_BESSARION.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P1_LOGGING_LOG.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P1_LOGGING_LOG.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P1_MEDIAN_MARK.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P1_MEDIAN_MARK.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P1_NOT_ENOUGH_USERS.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P1_NOT_ENOUGH_USERS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P2_CUTTING_LOG.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P2_CUTTING_LOG.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P2_LONGEST_TUNNEL.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P2_LONGEST_TUNNEL.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P2_NOT_ENOUGH_REJUDGING.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P2_NOT_ENOUGH_REJUDGING.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P2_TILES.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P2_TILES.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P3_GLOBALLY_UNIQUE_SHELLS.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P3_GLOBALLY_UNIQUE_SHELLS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P3_GOLDEN_LILY.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P3_GOLDEN_LILY.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P3_NOT_ENOUGH_PERSONNEL.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P3_NOT_ENOUGH_PERSONNEL.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P3_SAWMILL.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P3_SAWMILL.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P4_DEFORESTATION.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P4_DEFORESTATION.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P4_EXAM_DELAY.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P4_EXAM_DELAY.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P4_PERFECT_TIMING.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P4_PERFECT_TIMING.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P4_SKETCHLEY_PARK.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P4_SKETCHLEY_PARK.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P5_SAWMILL_SCHEME.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P5_SAWMILL_SCHEME.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P5_SURPRISE_TELEPORT.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P5_SURPRISE_TELEPORT.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P6_NOT_ENOUGH_TIME.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P6_NOT_ENOUGH_TIME.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P6_SELECTIVE_CUTTING.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P6_SELECTIVE_CUTTING.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P1_DICTIONARY.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P1_DICTIONARY.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P1_GEL_BANANAS.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P1_GEL_BANANAS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P1_GRUMPY_DWARF.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P1_GRUMPY_DWARF.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P1_ITAMI_AND_MANGA.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P1_ITAMI_AND_MANGA.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P1_KEMONOMIMI_COMPETITION.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P1_KEMONOMIMI_COMPETITION.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P1_QUALITY_SCENES.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P1_QUALITY_SCENES.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P2_ADMIN_WAR.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P2_ADMIN_WAR.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P2_CHEESECAKE_DISTRIBUTION.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P2_CHEESECAKE_DISTRIBUTION.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P2_D_MAILS.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P2_D_MAILS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P2_ITAMI_AND_SQUAD.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P2_ITAMI_AND_SQUAD.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P2_NOT_A_WALL_OF_TEXT.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P2_NOT_A_WALL_OF_TEXT.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P2_THE_BIG_CLOCK.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P2_THE_BIG_CLOCK.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P2_TILT.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P2_TILT.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P3_DIMETHYLBENZENE.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P3_DIMETHYLBENZENE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P3_HARBOURMASTER.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P3_HARBOURMASTER.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P3_HARVEST.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P3_HARVEST.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P3_ITAMI_AND_CIPHER.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P3_ITAMI_AND_CIPHER.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P3_ORIGAMI.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P3_ORIGAMI.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P4_CONTAGION.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P4_CONTAGION.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P4_GREAT_SEQUENCE.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P4_GREAT_SEQUENCE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P4_ITAMI_AND_CANDY.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P4_ITAMI_AND_CANDY.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P4_LINE_GRAPH.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P4_LINE_GRAPH.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P4_PERSONAL_ASSISTANT.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P4_PERSONAL_ASSISTANT.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P5_SCRIBE.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P5_SCRIBE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P6_LELEI_AND_CONTEST.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P6_LELEI_AND_CONTEST.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_16_P1_FAST_EXPONENTS.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_16_P1_FAST_EXPONENTS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_16_P2_LINES.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_16_P2_LINES.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_16_P2_SYSTESTS.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_16_P2_SYSTESTS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_16_P3_CARNIVAL_PHANTASM.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_16_P3_CARNIVAL_PHANTASM.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_16_P3_PHANTOM_FIGHT.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_16_P3_PHANTOM_FIGHT.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_16_P3_SHOE_SHOPPING.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_16_P3_SHOE_SHOPPING.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_16_P4_MOLLY_AND_MANGA_SHOPPING.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_16_P4_MOLLY_AND_MANGA_SHOPPING.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_16_P4_TREE_APPRAISAL.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_16_P4_TREE_APPRAISAL.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_16_P4_ZEROS.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_16_P4_ZEROS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_16_P5_BLOOD_TUBES.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_16_P5_BLOOD_TUBES.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_16_P5_MIGRANT_MASCOT.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_16_P5_MIGRANT_MASCOT.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmpg/DMPG_15_B1_LONER_PHONER.java" afterPath="$PROJECT_DIR$/dmoj/dmpg/DMPG_15_B1_LONER_PHONER.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmpg/DMPG_15_B3_PICKING_BERRIES.java" afterPath="$PROJECT_DIR$/dmoj/dmpg/DMPG_15_B3_PICKING_BERRIES.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmpg/DMPG_15_B4_MAXIMUM_PRODUCT.java" afterPath="$PROJECT_DIR$/dmoj/dmpg/DMPG_15_B4_MAXIMUM_PRODUCT.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmpg/DMPG_15_B5_LUXURIOUS_SMORES.java" afterPath="$PROJECT_DIR$/dmoj/dmpg/DMPG_15_B5_LUXURIOUS_SMORES.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmpg/DMPG_15_S1_COLLECTING_DUST.java" afterPath="$PROJECT_DIR$/dmoj/dmpg/DMPG_15_S1_COLLECTING_DUST.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmpg/DMPG_15_S3_ZEN_GARDEN.java" afterPath="$PROJECT_DIR$/dmoj/dmpg/DMPG_15_S3_ZEN_GARDEN.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmpg/DMPG_15_S4_SIGNAL_HILL.java" afterPath="$PROJECT_DIR$/dmoj/dmpg/DMPG_15_S4_SIGNAL_HILL.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmpg/DMPG_15_S5_BLACK_AND_WHITE.java" afterPath="$PROJECT_DIR$/dmoj/dmpg/DMPG_15_S5_BLACK_AND_WHITE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmpg/DMPG_15_S6_APPLES_TO_ORANGES.java" afterPath="$PROJECT_DIR$/dmoj/dmpg/DMPG_15_S6_APPLES_TO_ORANGES.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmpg/DMPG_16_S3_THE_FASTER_WAY.java" afterPath="$PROJECT_DIR$/dmoj/dmpg/DMPG_16_S3_THE_FASTER_WAY.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmpg/DMPG_16_S5_PIZZA_BAG.java" afterPath="$PROJECT_DIR$/dmoj/dmpg/DMPG_16_S5_PIZZA_BAG.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/mec/MEC_16_P1_BAT_DOCTOR.java" afterPath="$PROJECT_DIR$/dmoj/mec/MEC_16_P1_BAT_DOCTOR.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/mec/MEC_16_P2_CONVEYOR_BELT.java" afterPath="$PROJECT_DIR$/dmoj/mec/MEC_16_P2_CONVEYOR_BELT.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/mec/MEC_16_P3_GETTING_GOOD_AT_PROGRAMMING.java" afterPath="$PROJECT_DIR$/dmoj/mec/MEC_16_P3_GETTING_GOOD_AT_PROGRAMMING.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/ARITHMETIC_SNOWMAN.java" afterPath="$PROJECT_DIR$/dmoj/misc/ARITHMETIC_SNOWMAN.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/A_NOISY_CLASS.java" afterPath="$PROJECT_DIR$/dmoj/misc/A_NOISY_CLASS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/A_PLUS_B.java" afterPath="$PROJECT_DIR$/dmoj/misc/A_PLUS_B.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/BREAKING_THE_FRIEND_CHAIN.java" afterPath="$PROJECT_DIR$/dmoj/misc/BREAKING_THE_FRIEND_CHAIN.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/BRUNO_AND_BEADS.java" afterPath="$PROJECT_DIR$/dmoj/misc/BRUNO_AND_BEADS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/BRUNO_AND_TENNIS.java" afterPath="$PROJECT_DIR$/dmoj/misc/BRUNO_AND_TENNIS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/BRUNO_AND_TRIG.java" afterPath="$PROJECT_DIR$/dmoj/misc/BRUNO_AND_TRIG.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/BUBBLE_SORT.java" afterPath="$PROJECT_DIR$/dmoj/misc/BUBBLE_SORT.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/CHRISTMAS_PRESENTS.java" afterPath="$PROJECT_DIR$/dmoj/misc/CHRISTMAS_PRESENTS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/CLAIRE_ELSTEIN.java" afterPath="$PROJECT_DIR$/dmoj/misc/CLAIRE_ELSTEIN.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/CSPC_15_P3_SPELL_CHECK.java" afterPath="$PROJECT_DIR$/dmoj/misc/CSPC_15_P3_SPELL_CHECK.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/DISJOINT_SET_TEST.java" afterPath="$PROJECT_DIR$/dmoj/misc/DISJOINT_SET_TEST.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/DIY_CHRISTMAS_TREE.java" afterPath="$PROJECT_DIR$/dmoj/misc/DIY_CHRISTMAS_TREE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/ENCODE.java" afterPath="$PROJECT_DIR$/dmoj/misc/ENCODE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/EQUATION_SOLVER.java" afterPath="$PROJECT_DIR$/dmoj/misc/EQUATION_SOLVER.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/FAST_FACTORIAL_CALCULATOR.java" afterPath="$PROJECT_DIR$/dmoj/misc/FAST_FACTORIAL_CALCULATOR.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/FESTIVE_FARDIN.java" afterPath="$PROJECT_DIR$/dmoj/misc/FESTIVE_FARDIN.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/FIND_DATES.java" afterPath="$PROJECT_DIR$/dmoj/misc/FIND_DATES.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/FIND_SUMS.java" afterPath="$PROJECT_DIR$/dmoj/misc/FIND_SUMS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/FIZZ_FUZZ.java" afterPath="$PROJECT_DIR$/dmoj/misc/FIZZ_FUZZ.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/FLYING_PLUSHIES.java" afterPath="$PROJECT_DIR$/dmoj/misc/FLYING_PLUSHIES.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/FREEDOM_APPEARS.java" afterPath="$PROJECT_DIR$/dmoj/misc/FREEDOM_APPEARS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/FREE_TICKET.java" afterPath="$PROJECT_DIR$/dmoj/misc/FREE_TICKET.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/FRIENDSHIP_IS_A_NUMBER.java" afterPath="$PROJECT_DIR$/dmoj/misc/FRIENDSHIP_IS_A_NUMBER.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/GFSSOC_17_S1_PATH_TO_WATERLOO.java" afterPath="$PROJECT_DIR$/dmoj/misc/GFSSOC_17_S1_PATH_TO_WATERLOO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/GFSSOC_17_S2_ACE_IS_BASE.java" afterPath="$PROJECT_DIR$/dmoj/misc/GFSSOC_17_S2_ACE_IS_BASE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/GFSSOC_17_S3_ZHANY_ZHANBIES.java" afterPath="$PROJECT_DIR$/dmoj/misc/GFSSOC_17_S3_ZHANY_ZHANBIES.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/GFSSOC_17_S4_FIRST_ACE.java" afterPath="$PROJECT_DIR$/dmoj/misc/GFSSOC_17_S4_FIRST_ACE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/HEARTH.java" afterPath="$PROJECT_DIR$/dmoj/misc/HEARTH.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/HIDE_N_SEEK.java" afterPath="$PROJECT_DIR$/dmoj/misc/HIDE_N_SEEK.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/INFINITY.java" afterPath="$PROJECT_DIR$/dmoj/misc/INFINITY.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/INVITIATION_DEVASTATION.java" afterPath="$PROJECT_DIR$/dmoj/misc/INVITIATION_DEVASTATION.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/IS_IT_A_TREE.java" afterPath="$PROJECT_DIR$/dmoj/misc/IS_IT_A_TREE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/LARGEST_PERMUTATION.java" afterPath="$PROJECT_DIR$/dmoj/misc/LARGEST_PERMUTATION.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/LATE_CHRISTMAS_SHOPPING.java" afterPath="$PROJECT_DIR$/dmoj/misc/LATE_CHRISTMAS_SHOPPING.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/LEFTOVER_EGGNOG.java" afterPath="$PROJECT_DIR$/dmoj/misc/LEFTOVER_EGGNOG.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/LONGEST_COMMON_SUBSEQUENCE.java" afterPath="$PROJECT_DIR$/dmoj/misc/LONGEST_COMMON_SUBSEQUENCE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/LOWEST_EXAM_MARK.java" afterPath="$PROJECT_DIR$/dmoj/misc/LOWEST_EXAM_MARK.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/MARATHON.java" afterPath="$PROJECT_DIR$/dmoj/misc/MARATHON.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/MOSTLY_TALKING.java" afterPath="$PROJECT_DIR$/dmoj/misc/MOSTLY_TALKING.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/NEXT_PRIME.java" afterPath="$PROJECT_DIR$/dmoj/misc/NEXT_PRIME.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/NIGHTMARE_A_THON.java" afterPath="$PROJECT_DIR$/dmoj/misc/NIGHTMARE_A_THON.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/OR_DEAL.java" afterPath="$PROJECT_DIR$/dmoj/misc/OR_DEAL.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/PALINDRONE.java" afterPath="$PROJECT_DIR$/dmoj/misc/PALINDRONE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/PARKING_LOT.java" afterPath="$PROJECT_DIR$/dmoj/misc/PARKING_LOT.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/PICK_IT.java" afterPath="$PROJECT_DIR$/dmoj/misc/PICK_IT.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/PRIME_FACTORIZATION.java" afterPath="$PROJECT_DIR$/dmoj/misc/PRIME_FACTORIZATION.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/PULSE.java" afterPath="$PROJECT_DIR$/dmoj/misc/PULSE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/PURCHASING_PRESENTS.java" afterPath="$PROJECT_DIR$/dmoj/misc/PURCHASING_PRESENTS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/PURSUIT_OF_KNOWLEDGE.java" afterPath="$PROJECT_DIR$/dmoj/misc/PURSUIT_OF_KNOWLEDGE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/REN_ASHBELL.java" afterPath="$PROJECT_DIR$/dmoj/misc/REN_ASHBELL.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/RGPC_17_P1_CIRCLE_CLICKING.java" afterPath="$PROJECT_DIR$/dmoj/misc/RGPC_17_P1_CIRCLE_CLICKING.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/RGPC_17_P2_CUBES_ARE_LIFE.java" afterPath="$PROJECT_DIR$/dmoj/misc/RGPC_17_P2_CUBES_ARE_LIFE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/RGPC_17_P4_SNOW_DAY.java" afterPath="$PROJECT_DIR$/dmoj/misc/RGPC_17_P4_SNOW_DAY.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/RGPC_17_P5_SCRABBLE_NUTS.java" afterPath="$PROJECT_DIR$/dmoj/misc/RGPC_17_P5_SCRABBLE_NUTS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/RINSLET_LAURENFROST.java" afterPath="$PROJECT_DIR$/dmoj/misc/RINSLET_LAURENFROST.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/SANDWICH.java" afterPath="$PROJECT_DIR$/dmoj/misc/SANDWICH.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/SEGMENT_TREE_TEST_ARRAYS.java" afterPath="$PROJECT_DIR$/dmoj/misc/SEGMENT_TREE_TEST_ARRAYS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/SEGMENT_TREE_TEST_NODE.java" afterPath="$PROJECT_DIR$/dmoj/misc/SEGMENT_TREE_TEST_NODE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/SHIP.java" afterPath="$PROJECT_DIR$/dmoj/misc/SHIP.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/SIMON_AND_MARCY.java" afterPath="$PROJECT_DIR$/dmoj/misc/SIMON_AND_MARCY.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/SIMON_AND_MARCY_ITERATIVE.java" afterPath="$PROJECT_DIR$/dmoj/misc/SIMON_AND_MARCY_ITERATIVE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/SINGLE_SOURCE_SHORTEST_PATH.java" afterPath="$PROJECT_DIR$/dmoj/misc/SINGLE_SOURCE_SHORTEST_PATH.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/SOKO_BOOP.java" afterPath="$PROJECT_DIR$/dmoj/misc/SOKO_BOOP.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/STALACTITES.java" afterPath="$PROJECT_DIR$/dmoj/misc/STALACTITES.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/STARDUST_SNOW.java" afterPath="$PROJECT_DIR$/dmoj/misc/STARDUST_SNOW.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/STRING_FINDING_HARD.java" afterPath="$PROJECT_DIR$/dmoj/misc/STRING_FINDING_HARD.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/SW_16_BIT_ONLY.java" afterPath="$PROJECT_DIR$/dmoj/misc/SW_16_BIT_ONLY.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/TELLING_TIME.java" afterPath="$PROJECT_DIR$/dmoj/misc/TELLING_TIME.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/THE_365_DAYS_OF_CHRISTMAS.java" afterPath="$PROJECT_DIR$/dmoj/misc/THE_365_DAYS_OF_CHRISTMAS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/THE_LAST_WORD.java" afterPath="$PROJECT_DIR$/dmoj/misc/THE_LAST_WORD.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/THE_MIRROR.java" afterPath="$PROJECT_DIR$/dmoj/misc/THE_MIRROR.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/THE_ODD_NUMBER.java" afterPath="$PROJECT_DIR$/dmoj/misc/THE_ODD_NUMBER.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/THE_THIRD_CELLAR.java" afterPath="$PROJECT_DIR$/dmoj/misc/THE_THIRD_CELLAR.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/TIC_TAC_MOE.java" afterPath="$PROJECT_DIR$/dmoj/misc/TIC_TAC_MOE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/TREE_CUTTING.java" afterPath="$PROJECT_DIR$/dmoj/misc/TREE_CUTTING.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/TROUBLING_TRIANGLES.java" afterPath="$PROJECT_DIR$/dmoj/misc/TROUBLING_TRIANGLES.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/UNIQUE_ELEMENTS.java" afterPath="$PROJECT_DIR$/dmoj/misc/UNIQUE_ELEMENTS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/WAITING.java" afterPath="$PROJECT_DIR$/dmoj/misc/WAITING.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/WORD_SCRAMBLER.java" afterPath="$PROJECT_DIR$/dmoj/misc/WORD_SCRAMBLER.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/XOR.java" afterPath="$PROJECT_DIR$/dmoj/misc/XOR.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/mnyc/MACKENZIE_NEW_YEARS_CHALLENGE_P1_KING_MODULUS.java" afterPath="$PROJECT_DIR$/dmoj/mnyc/MACKENZIE_NEW_YEARS_CHALLENGE_P1_KING_MODULUS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/mnyc/MACKENZIE_NEW_YEARS_CHALLENGE_P2_MOORES_LAW.java" afterPath="$PROJECT_DIR$/dmoj/mnyc/MACKENZIE_NEW_YEARS_CHALLENGE_P2_MOORES_LAW.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/mnyc/MACKENZIE_NEW_YEARS_CHALLENGE_P3_ECOO.java" afterPath="$PROJECT_DIR$/dmoj/mnyc/MACKENZIE_NEW_YEARS_CHALLENGE_P3_ECOO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/mnyc/MACKENZIE_NEW_YEARS_CHALLENGE_P4_ABDOOF.java" afterPath="$PROJECT_DIR$/dmoj/mnyc/MACKENZIE_NEW_YEARS_CHALLENGE_P4_ABDOOF.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/mnyc/MACKENZIE_NEW_YEARS_CHALLENGE_P5_JELLY.java" afterPath="$PROJECT_DIR$/dmoj/mnyc/MACKENZIE_NEW_YEARS_CHALLENGE_P5_JELLY.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/mnyc/MACKENZIE_NEW_YEARS_CHALLENGE_P6_ROCKS.java" afterPath="$PROJECT_DIR$/dmoj/mnyc/MACKENZIE_NEW_YEARS_CHALLENGE_P6_ROCKS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/mnyc/MNYC_17_P1_2048.java" afterPath="$PROJECT_DIR$/dmoj/mnyc/MNYC_17_P1_2048.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/mnyc/MNYC_17_P2_ASCII_ART_II.java" afterPath="$PROJECT_DIR$/dmoj/mnyc/MNYC_17_P2_ASCII_ART_II.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/mnyc/MNYC_17_P3_HURONTARIO.java" afterPath="$PROJECT_DIR$/dmoj/mnyc/MNYC_17_P3_HURONTARIO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/tle/TLE_15_P1_POWER_RANKING.java" afterPath="$PROJECT_DIR$/dmoj/tle/TLE_15_P1_POWER_RANKING.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/tle/TLE_15_P3_POETRY.java" afterPath="$PROJECT_DIR$/dmoj/tle/TLE_15_P3_POETRY.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/tle/TLE_15_P4_OLYMPIADS_HOMEWORK.java" afterPath="$PROJECT_DIR$/dmoj/tle/TLE_15_P4_OLYMPIADS_HOMEWORK.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/tle/TLE_16_MOCK_CCC_J5_MEAL_PLAN.java" afterPath="$PROJECT_DIR$/dmoj/tle/TLE_16_MOCK_CCC_J5_MEAL_PLAN.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/tle/TLE_16_P1_ENGLISH_PROFIENCY_EXAM.java" afterPath="$PROJECT_DIR$/dmoj/tle/TLE_16_P1_ENGLISH_PROFIENCY_EXAM.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/tle/TLE_16_P1_MATH_HELPER.java" afterPath="$PROJECT_DIR$/dmoj/tle/TLE_16_P1_MATH_HELPER.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/tle/TLE_16_P2_HEAVY_LIGHT_DECOMPOSITION.java" afterPath="$PROJECT_DIR$/dmoj/tle/TLE_16_P2_HEAVY_LIGHT_DECOMPOSITION.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/tle/TLE_16_P3_MYSTERIOUS_PACKAGE.java" afterPath="$PROJECT_DIR$/dmoj/tle/TLE_16_P3_MYSTERIOUS_PACKAGE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/tle/TLE_16_P3_NOR.java" afterPath="$PROJECT_DIR$/dmoj/tle/TLE_16_P3_NOR.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/tle/TLE_16_P4_AN_ABSTRACT_PROBLEM.java" afterPath="$PROJECT_DIR$/dmoj/tle/TLE_16_P4_AN_ABSTRACT_PROBLEM.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/tle/TLE_16_P4_ENGINEERING_TEST.java" afterPath="$PROJECT_DIR$/dmoj/tle/TLE_16_P4_ENGINEERING_TEST.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/tle/TLE_16_P4_MICROWAVES_AGAIN.java" afterPath="$PROJECT_DIR$/dmoj/tle/TLE_16_P4_MICROWAVES_AGAIN.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/tsoc/TSOC_15_P1_CODE.java" afterPath="$PROJECT_DIR$/dmoj/tsoc/TSOC_15_P1_CODE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/tsoc/TSOC_15_P1_MOLECULAR_OR_NON_MOLECULAR.java" afterPath="$PROJECT_DIR$/dmoj/tsoc/TSOC_15_P1_MOLECULAR_OR_NON_MOLECULAR.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/tsoc/TSOC_15_P2_DIAMONDS.java" afterPath="$PROJECT_DIR$/dmoj/tsoc/TSOC_15_P2_DIAMONDS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/tsoc/TSOC_15_P3_ELEVATORS.java" afterPath="$PROJECT_DIR$/dmoj/tsoc/TSOC_15_P3_ELEVATORS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/tsoc/TSOC_15_P4_DUNGEON_CRAWLING.java" afterPath="$PROJECT_DIR$/dmoj/tsoc/TSOC_15_P4_DUNGEON_CRAWLING.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/tsoc/TSOC_15_P4_RESTAURANT_OF_SECRETS.java" afterPath="$PROJECT_DIR$/dmoj/tsoc/TSOC_15_P4_RESTAURANT_OF_SECRETS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/tsoc/TSOC_15_P5_BEBILITHS.java" afterPath="$PROJECT_DIR$/dmoj/tsoc/TSOC_15_P5_BEBILITHS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/tsoc/TSOC_15_P5_GIANT_ANTS.java" afterPath="$PROJECT_DIR$/dmoj/tsoc/TSOC_15_P5_GIANT_ANTS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/tsoc/TSOC_16_P1_VASILE_AND_HAIRCUTS.java" afterPath="$PROJECT_DIR$/dmoj/tsoc/TSOC_16_P1_VASILE_AND_HAIRCUTS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/tsoc/TSOC_16_P2_JOHNNY_AND_GARDEN.java" afterPath="$PROJECT_DIR$/dmoj/tsoc/TSOC_16_P2_JOHNNY_AND_GARDEN.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/tsoc/TSOC_16_P3_YOU_AND_CROSSROADS.java" afterPath="$PROJECT_DIR$/dmoj/tsoc/TSOC_16_P3_YOU_AND_CROSSROADS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/tsoc/TSOC_16_P4_ALEX_AND_ANIMAL_RIGHTS.java" afterPath="$PROJECT_DIR$/dmoj/tsoc/TSOC_16_P4_ALEX_AND_ANIMAL_RIGHTS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/tsoc/TSOC_16_P4_BOBS_PRIMES.java" afterPath="$PROJECT_DIR$/dmoj/tsoc/TSOC_16_P4_BOBS_PRIMES.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/tsoc/TSOC_16_P6_JOEY_AND_BIOLOGY.java" afterPath="$PROJECT_DIR$/dmoj/tsoc/TSOC_16_P6_JOEY_AND_BIOLOGY.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/vmss/VMSS_15_P1_ALEXS_BAE.java" afterPath="$PROJECT_DIR$/dmoj/vmss/VMSS_15_P1_ALEXS_BAE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/vmss/VMSS_15_P1_GOON.java" afterPath="$PROJECT_DIR$/dmoj/vmss/VMSS_15_P1_GOON.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/vmss/VMSS_15_P1_MELANIES_CRADLES.java" afterPath="$PROJECT_DIR$/dmoj/vmss/VMSS_15_P1_MELANIES_CRADLES.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/vmss/VMSS_15_P1_SEMPAI_HELP_ME.java" afterPath="$PROJECT_DIR$/dmoj/vmss/VMSS_15_P1_SEMPAI_HELP_ME.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/vmss/VMSS_15_P2_SETS.java" afterPath="$PROJECT_DIR$/dmoj/vmss/VMSS_15_P2_SETS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/vmss/VMSS_15_P2_TEST_SCORES.java" afterPath="$PROJECT_DIR$/dmoj/vmss/VMSS_15_P2_TEST_SCORES.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/vmss/VMSS_15_P2_TOMB_ROBBING.java" afterPath="$PROJECT_DIR$/dmoj/vmss/VMSS_15_P2_TOMB_ROBBING.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/vmss/VMSS_15_P2_WHIPPING_OUT_THE_OLD_DICTIONARY.java" afterPath="$PROJECT_DIR$/dmoj/vmss/VMSS_15_P2_WHIPPING_OUT_THE_OLD_DICTIONARY.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/vmss/VMSS_15_P3_AGRIPHILISOPHICAL_DATA_SLAVES.java" afterPath="$PROJECT_DIR$/dmoj/vmss/VMSS_15_P3_AGRIPHILISOPHICAL_DATA_SLAVES.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/vmss/VMSS_15_P3_CHAIN_RULE.java" afterPath="$PROJECT_DIR$/dmoj/vmss/VMSS_15_P3_CHAIN_RULE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/vmss/VMSS_15_P3_JEFFREY_AND_ROADS.java" afterPath="$PROJECT_DIR$/dmoj/vmss/VMSS_15_P3_JEFFREY_AND_ROADS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/vmss/VMSS_15_P4_FRANK_AND_ROADS.java" afterPath="$PROJECT_DIR$/dmoj/vmss/VMSS_15_P4_FRANK_AND_ROADS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/vmss/VMSS_15_P5_JEFFREY_AND_FRANK_AND_A_LACK_OF_ROADS.java" afterPath="$PROJECT_DIR$/dmoj/vmss/VMSS_15_P5_JEFFREY_AND_FRANK_AND_A_LACK_OF_ROADS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/vmss/VMSS_16_P1_G.java" afterPath="$PROJECT_DIR$/dmoj/vmss/VMSS_16_P1_G.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/vmss/VMSS_16_P1_JAYDEN_WATCHES_VIDEOS.java" afterPath="$PROJECT_DIR$/dmoj/vmss/VMSS_16_P1_JAYDEN_WATCHES_VIDEOS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/vmss/VMSS_16_P1_PERFECT_SQUARES_FOR_NOT_SO_PERFECT_CASES.java" afterPath="$PROJECT_DIR$/dmoj/vmss/VMSS_16_P1_PERFECT_SQUARES_FOR_NOT_SO_PERFECT_CASES.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/vmss/VMSS_16_P1_PROJECT_FENG_A_NEW_PRIME_FACTORIZATION.java" afterPath="$PROJECT_DIR$/dmoj/vmss/VMSS_16_P1_PROJECT_FENG_A_NEW_PRIME_FACTORIZATION.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/vmss/VMSS_16_P1_SHAHIR_IN_A_BOX.java" afterPath="$PROJECT_DIR$/dmoj/vmss/VMSS_16_P1_SHAHIR_IN_A_BOX.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/vmss/VMSS_16_P1_THE_MOST_IMPORTANT_SKILL_IN_BIOLOGY.java" afterPath="$PROJECT_DIR$/dmoj/vmss/VMSS_16_P1_THE_MOST_IMPORTANT_SKILL_IN_BIOLOGY.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/vmss/VMSS_16_P2_CAN_SHAHIR_EVEN_GET_THERE.java" afterPath="$PROJECT_DIR$/dmoj/vmss/VMSS_16_P2_CAN_SHAHIR_EVEN_GET_THERE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/vmss/VMSS_16_P2_GG.java" afterPath="$PROJECT_DIR$/dmoj/vmss/VMSS_16_P2_GG.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/vmss/VMSS_16_P2_JAYDEN_EATS_CHOCOLATE.java" afterPath="$PROJECT_DIR$/dmoj/vmss/VMSS_16_P2_JAYDEN_EATS_CHOCOLATE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/vmss/VMSS_16_P2_PROJECT_FENG_MULTIPLE_STATEMENTS.java" afterPath="$PROJECT_DIR$/dmoj/vmss/VMSS_16_P2_PROJECT_FENG_MULTIPLE_STATEMENTS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/vmss/VMSS_16_P2_TESTS_OR_TEST_CASES.java" afterPath="$PROJECT_DIR$/dmoj/vmss/VMSS_16_P2_TESTS_OR_TEST_CASES.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/vmss/VMSS_16_P3_COLD_WAR_TELECOM.java" afterPath="$PROJECT_DIR$/dmoj/vmss/VMSS_16_P3_COLD_WAR_TELECOM.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/vmss/VMSS_16_P3_GGG.java" afterPath="$PROJECT_DIR$/dmoj/vmss/VMSS_16_P3_GGG.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/vmss/VMSS_16_P3_HELLO_OFFICER.java" afterPath="$PROJECT_DIR$/dmoj/vmss/VMSS_16_P3_HELLO_OFFICER.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/vmss/VMSS_16_P3_JAYDEN_STUDIES_TREES.java" afterPath="$PROJECT_DIR$/dmoj/vmss/VMSS_16_P3_JAYDEN_STUDIES_TREES.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/vmss/VMSS_16_P3_RESTORING_REPUTATION.java" afterPath="$PROJECT_DIR$/dmoj/vmss/VMSS_16_P3_RESTORING_REPUTATION.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecoo/ECOO_13_R3_P4_TOUR_DE_FORCE.java" afterPath="$PROJECT_DIR$/ecoo/ECOO_13_R3_P4_TOUR_DE_FORCE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecoo/ECOO_15_R1_P2_WORD_WRAP.java" afterPath="$PROJECT_DIR$/ecoo/ECOO_15_R1_P2_WORD_WRAP.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecoo/ECOO_15_R1_P4_NEANDERTHAL_NUMBERS.java" afterPath="$PROJECT_DIR$/ecoo/ECOO_15_R1_P4_NEANDERTHAL_NUMBERS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecoo/ECOO_16_R1_P2_SPINDIE.java" afterPath="$PROJECT_DIR$/ecoo/ECOO_16_R1_P2_SPINDIE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecoo/ECOO_16_R3_P3_CAMEL_CASE.java" afterPath="$PROJECT_DIR$/ecoo/ECOO_16_R3_P3_CAMEL_CASE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/euler/PROJECT_EULER_1.java" afterPath="$PROJECT_DIR$/euler/PROJECT_EULER_1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fhc/FHC_15_P3_WINNING_AT_SPORTS.java" afterPath="$PROJECT_DIR$/fhc/FHC_15_P3_WINNING_AT_SPORTS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fhc/FHC_15_P3_WINNING_AT_SPORTS_ITERATIVE.java" afterPath="$PROJECT_DIR$/fhc/FHC_15_P3_WINNING_AT_SPORTS_ITERATIVE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fhc/FHC_15_R1_AUTOCOMPLETE.java" afterPath="$PROJECT_DIR$/fhc/FHC_15_R1_AUTOCOMPLETE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fhc/FHC_15_R1_HOMEWORK.java" afterPath="$PROJECT_DIR$/fhc/FHC_15_R1_HOMEWORK.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fhc/FHC_15_R2_LAZY_SORT.java" afterPath="$PROJECT_DIR$/fhc/FHC_15_R2_LAZY_SORT.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fhc/FHC_17_P1_PIE_PROGRESS.java" afterPath="$PROJECT_DIR$/fhc/FHC_17_P1_PIE_PROGRESS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fhc/FHC_17_P1_PROGRESS_PIE.java" afterPath="$PROJECT_DIR$/fhc/FHC_17_P1_PROGRESS_PIE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fhc/FHC_17_P2_LAZY_LOADING.java" afterPath="$PROJECT_DIR$/fhc/FHC_17_P2_LAZY_LOADING.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fhc/FHC_17_P3_MANIC_MOVING.java" afterPath="$PROJECT_DIR$/fhc/FHC_17_P3_MANIC_MOVING.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icpc/ICPC_05_A_ACM.java" afterPath="$PROJECT_DIR$/icpc/ICPC_05_A_ACM.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icpc/ICPC_16_C_BIG_TRUCK.java" afterPath="$PROJECT_DIR$/icpc/ICPC_16_C_BIG_TRUCK.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jdcc/JDCC_15_DECEMBER_D_SKIING.java" afterPath="$PROJECT_DIR$/jdcc/JDCC_15_DECEMBER_D_SKIING.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jdcc/JDCC_15_FEBUARY_E_POCKET_CHANGE.java" afterPath="$PROJECT_DIR$/jdcc/JDCC_15_FEBUARY_E_POCKET_CHANGE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jdcc/JDCC_15_NOVEMBER_D_LUCKY_TICKET.java" afterPath="$PROJECT_DIR$/jdcc/JDCC_15_NOVEMBER_D_LUCKY_TICKET.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/BALANCED_PARENTHESES.java" afterPath="$PROJECT_DIR$/misc/BALANCED_PARENTHESES.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/BIT_RANGE.java" afterPath="$PROJECT_DIR$/misc/BIT_RANGE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/CALCULATOR.java" afterPath="$PROJECT_DIR$/misc/CALCULATOR.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/FAST_IO.java" afterPath="$PROJECT_DIR$/misc/FAST_IO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/FLOYD_WARSHALL_PRACTICE.java" afterPath="$PROJECT_DIR$/misc/FLOYD_WARSHALL_PRACTICE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/FORD_FULKERSON.java" afterPath="$PROJECT_DIR$/misc/FORD_FULKERSON.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/INTERLEAVE.java" afterPath="$PROJECT_DIR$/misc/INTERLEAVE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/JAVA_SPEED_TEMPLATE.java" afterPath="$PROJECT_DIR$/misc/JAVA_SPEED_TEMPLATE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/LONGEST_INCREASING_SUBSEQUENCE.java" afterPath="$PROJECT_DIR$/misc/LONGEST_INCREASING_SUBSEQUENCE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/MOES_ALGORITHM.java" afterPath="$PROJECT_DIR$/misc/MOES_ALGORITHM.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/TOPOLOGICAL_SORT_PRACTICE.java" afterPath="$PROJECT_DIR$/misc/TOPOLOGICAL_SORT_PRACTICE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/TRIE.java" afterPath="$PROJECT_DIR$/misc/TRIE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/UTILITIES.java" afterPath="$PROJECT_DIR$/misc/UTILITIES.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mwc/MWC_15_C1_P1_PLAYLIST_PANIC.java" afterPath="$PROJECT_DIR$/mwc/MWC_15_C1_P1_PLAYLIST_PANIC.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mwc/MWC_15_C2_P2_TOWERING_TOWERS.java" afterPath="$PROJECT_DIR$/mwc/MWC_15_C2_P2_TOWERING_TOWERS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mwc/MWC_15_C3_P2_MECHANICAL_PENCILS.java" afterPath="$PROJECT_DIR$/mwc/MWC_15_C3_P2_MECHANICAL_PENCILS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mwc/MWC_15_C3_P3_BAD_NEWS.java" afterPath="$PROJECT_DIR$/mwc/MWC_15_C3_P3_BAD_NEWS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mwc/MWC_15_C4_P3_SALT.java" afterPath="$PROJECT_DIR$/mwc/MWC_15_C4_P3_SALT.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mwc/MWC_15_C4_P4_DEALING_WITH_KNOTS.java" afterPath="$PROJECT_DIR$/mwc/MWC_15_C4_P4_DEALING_WITH_KNOTS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mwc/MWC_15_C4_P5_ARTS_AND_CRAFTS.java" afterPath="$PROJECT_DIR$/mwc/MWC_15_C4_P5_ARTS_AND_CRAFTS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mwc/MWC_15_C5_P2_WILDCARD.java" afterPath="$PROJECT_DIR$/mwc/MWC_15_C5_P2_WILDCARD.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mwc/MWC_15_C6_P2_BREADWINNERS.java" afterPath="$PROJECT_DIR$/mwc/MWC_15_C6_P2_BREADWINNERS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mwc/MWC_15_C7_P2_THIEF_IN_THE_NIGHT.java" afterPath="$PROJECT_DIR$/mwc/MWC_15_C7_P2_THIEF_IN_THE_NIGHT.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mwc/MWC_15_C7_P3_BLUE_AND_GREEN.java" afterPath="$PROJECT_DIR$/mwc/MWC_15_C7_P3_BLUE_AND_GREEN.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mwc/MWC_15_C8_P3_DRAW_DOWN.java" afterPath="$PROJECT_DIR$/mwc/MWC_15_C8_P3_DRAW_DOWN.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noi/NOI_CHINA_98_P3_SOFTWARE_INSTALLATION_DISK.java" afterPath="$PROJECT_DIR$/noi/NOI_CHINA_98_P3_SOFTWARE_INSTALLATION_DISK.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spoj/SPOJ_PPATH.java" afterPath="$PROJECT_DIR$/spoj/SPOJ_PPATH.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/topcoder/WorldPeace.java" afterPath="$PROJECT_DIR$/topcoder/WorldPeace.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/usaco/blocks.java" afterPath="$PROJECT_DIR$/usaco/blocks.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/usaco/bphoto.java" afterPath="$PROJECT_DIR$/usaco/bphoto.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/usaco/checklist.java" afterPath="$PROJECT_DIR$/usaco/checklist.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/usaco/citystate.java" afterPath="$PROJECT_DIR$/usaco/citystate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/usaco/cownav.java" afterPath="$PROJECT_DIR$/usaco/cownav.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/usaco/cowsignal.java" afterPath="$PROJECT_DIR$/usaco/cowsignal.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/usaco/feast.java" afterPath="$PROJECT_DIR$/usaco/feast.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/usaco/friday.java" afterPath="$PROJECT_DIR$/usaco/friday.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/usaco/gift1.java" afterPath="$PROJECT_DIR$/usaco/gift1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/usaco/haybales.java" afterPath="$PROJECT_DIR$/usaco/haybales.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/usaco/haybales2.java" afterPath="$PROJECT_DIR$/usaco/haybales2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/usaco/hps.java" afterPath="$PROJECT_DIR$/usaco/hps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/usaco/moocast.java" afterPath="$PROJECT_DIR$/usaco/moocast.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/usaco/moocast2.java" afterPath="$PROJECT_DIR$/usaco/moocast2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/usaco/ride.java" afterPath="$PROJECT_DIR$/usaco/ride.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uva/UVA_10911_FORMING_QUIZ_TEAMS.java" afterPath="$PROJECT_DIR$/uva/UVA_10911_FORMING_QUIZ_TEAMS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wcipeg/MOCK_CCC_14_S4_ROADTRIP_TRACKING.java" afterPath="$PROJECT_DIR$/wcipeg/MOCK_CCC_14_S4_ROADTRIP_TRACKING.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wcipeg/WCIPEG_SEGMENT_TREE_TEST.java" afterPath="$PROJECT_DIR$/wcipeg/WCIPEG_SEGMENT_TREE_TEST.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wcipeg/WC_17_P1_ANYONE_CAN_BE_ANYTHING.java" afterPath="$PROJECT_DIR$/wcipeg/WC_17_P1_ANYONE_CAN_BE_ANYTHING.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wcipeg/WC_17_P2_YOURE_DEAD.java" afterPath="$PROJECT_DIR$/wcipeg/WC_17_P2_YOURE_DEAD.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wcipeg/WC_17_P4_PAWPSICLES.java" afterPath="$PROJECT_DIR$/wcipeg/WC_17_P4_PAWPSICLES.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wcipeg/WOBURN_CHALLENGE_15_J2_MISSION_BRIEFING.java" afterPath="$PROJECT_DIR$/wcipeg/WOBURN_CHALLENGE_15_J2_MISSION_BRIEFING.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wcipeg/WOBURN_CHALLENGE_15_J3_SHOOTOUT.java" afterPath="$PROJECT_DIR$/wcipeg/WOBURN_CHALLENGE_15_J3_SHOOTOUT.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wcipeg/WOBURN_CHALLENGE_96_S5_PLENTIFUL_PATHS.java" afterPath="$PROJECT_DIR$/wcipeg/WOBURN_CHALLENGE_96_S5_PLENTIFUL_PATHS.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,41 +480,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TRIE.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/misc/TRIE.java">
+      <file leaf-file-name="CODEFORCES_65_D.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_65_D.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MWC_15_C3_P3_BAD_NEWS.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mwc/MWC_15_C3_P3_BAD_NEWS.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SINGLE_SOURCE_SHORTEST_PATH.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dmoj/misc/SINGLE_SOURCE_SHORTEST_PATH.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="47" column="27" lean-forward="false" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DMOPC_13_P4_AFK.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dmoj/dmopc/DMOPC_13_P4_AFK.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="20" column="49" lean-forward="true" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+            <state relative-caret-position="189">
+              <caret line="70" column="13" lean-forward="true" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -64,6 +500,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="atharva &lt;atarw11@outlook.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -99,7 +540,6 @@
         <option value="$PROJECT_DIR$/ccc/2012/CCC_12_S4_A_COIN_GAME.java" />
         <option value="$PROJECT_DIR$/ccc/2015/CCC_15_S4_CONVEX_HULL.java" />
         <option value="$PROJECT_DIR$/cco/2011/CCO_11_P2_VAMPIRE_TUNNELS.java" />
-        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_65_D.java" />
         <option value="$PROJECT_DIR$/dmoj/bts/BTS_16_P5_CHERRY_TREE.java" />
         <option value="$PROJECT_DIR$/dmoj/bts/BTS_16_P8_TEXTBOOKS.java" />
         <option value="$PROJECT_DIR$/dmoj/dmpg/DMPG_15_S5_BLACK_AND_WHITE.java" />
@@ -119,6 +559,7 @@
         <option value="$PROJECT_DIR$/codeforces/CODEFORCES_743_A.java" />
         <option value="$PROJECT_DIR$/dmoj/misc/SINGLE_SOURCE_SHORTEST_PATH.java" />
         <option value="$PROJECT_DIR$/dmoj/dmopc/DMOPC_13_P4_AFK.java" />
+        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_65_D.java" />
       </list>
     </option>
   </component>
@@ -204,60 +645,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="programming-contest-solutions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="programming-contest-solutions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dmoj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="programming-contest-solutions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="programming-contest-solutions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dmoj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dmopc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="programming-contest-solutions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="programming-contest-solutions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dmoj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dmopc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DMOPC_13_P4_AFK.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -266,7 +653,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -385,7 +772,7 @@
     <option name="totallyTimeSpent" value="1742000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="773" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="773" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -396,7 +783,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -430,8 +817,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="fixed some stuff intellij pointed out" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed some stuff intellij pointed out" />
+    <MESSAGE value="consistent indenting??" />
+    <option name="LAST_COMMIT_MESSAGE" value="consistent indenting??" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -641,14 +1030,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_65_D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="97" column="3" lean-forward="false" selection-start-line="97" selection-start-column="3" selection-end-line="97" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dmoj/bts/BTS_16_P5_CHERRY_TREE.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -843,8 +1224,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dmoj/dmopc/DMOPC_13_P4_AFK.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="49" lean-forward="true" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+        <state relative-caret-position="240">
+          <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_65_D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="70" column="13" lean-forward="true" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
           <folding />
         </state>
       </provider>

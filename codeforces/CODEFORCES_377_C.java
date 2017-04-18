@@ -10,6 +10,7 @@ import java.io.PrintWriter;
  * @author atharva
  */
 public class CODEFORCES_377_C {
+
 	public static void main (String[] args) {
 		InputStream inputStream = System.in;
 		OutputStream outputStream = System.out;
@@ -21,6 +22,7 @@ public class CODEFORCES_377_C {
 	}
 
 	static class TaskC {
+
 		static int N;
 		static int M;
 		static int K;
@@ -28,10 +30,35 @@ public class CODEFORCES_377_C {
 		static char[][] maze;
 		static int marked;
 
+		public static void dfs (int n, int m) {
+			if (n < 0 || n >= N || m < 0 || m >= M || maze[n][m] != '.')
+				return;
+
+			if (marked != S - K) {
+				maze[n][m] = 'L';
+				++marked;
+			}
+
+			if (marked != S - K)
+				dfs (n + 1, m);
+
+			if (marked != S - K)
+				dfs (n - 1, m);
+
+			if (marked != S - K)
+				dfs (n, m - 1);
+
+			if (marked != S - K)
+				dfs (n, m + 1);
+		}
+
 		public void solve (int testNumber, INPUT in, PrintWriter out) {
-			N = in.iscan (); M = in.iscan (); K = in.iscan ();
+			N = in.iscan ();
+			M = in.iscan ();
+			K = in.iscan ();
 			maze = new char[N][M];
-			marked = 0; S = 0;
+			marked = 0;
+			S = 0;
 
 			String ln;
 
@@ -66,31 +93,10 @@ public class CODEFORCES_377_C {
 			}
 		}
 
-		public static void dfs (int n, int m) {
-			if (n < 0 || n >= N || m < 0 || m >= M || maze[n][m] != '.')
-				return;
-
-			if (marked != S - K) {
-				maze[n][m] = 'L';
-				++marked;
-			}
-
-			if (marked != S - K)
-				dfs (n + 1, m);
-
-			if (marked != S - K)
-				dfs (n - 1, m);
-
-			if (marked != S - K)
-				dfs (n, m - 1);
-
-			if (marked != S - K)
-				dfs (n, m + 1);
-		}
-
 	}
 
 	static class INPUT {
+
 		private InputStream stream;
 		private byte[] buf = new byte[1024];
 		private int curChar;
@@ -109,7 +115,8 @@ public class CODEFORCES_377_C {
 
 					//if (numChars <= 0) return -1;
 				}
-			} catch (IOException e) {
+			}
+			catch (IOException e) {
 				throw new RuntimeException (e);
 			}
 

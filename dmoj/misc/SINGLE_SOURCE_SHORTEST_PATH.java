@@ -6,23 +6,24 @@ import java.util.Arrays;
 import java.util.Queue;
 
 public class SINGLE_SOURCE_SHORTEST_PATH {
-  public static void main (String [] args) throws IOException {
-    BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
-    String [] t = in.readLine ().split (" ");
-    int N = Integer.parseInt (t [0]), M = Integer.parseInt (t [1]);
-    Graph g = new Graph (N);
-    
-    for (int m = 0; m < M; m++) {
-      t = in.readLine ().split (" ");
-      g.addEdge (Integer.parseInt (t [0]), Integer.parseInt (t [1]), Integer.parseInt (t [2]));
-    }
-    
-    g.traverse (0);
-    
-    for (int i : Graph.cache) {
-      System.out.println (i);
-    }
-  }
+
+	public static void main (String[] args) throws IOException {
+		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
+		String[] t = in.readLine ().split (" ");
+		int N = Integer.parseInt (t[0]), M = Integer.parseInt (t[1]);
+		Graph g = new Graph (N);
+
+		for (int m = 0; m < M; m++) {
+			t = in.readLine ().split (" ");
+			g.addEdge (Integer.parseInt (t[0]), Integer.parseInt (t[1]), Integer.parseInt (t[2]));
+		}
+
+		g.traverse (0);
+
+		for (int i : Graph.cache) {
+			System.out.println (i);
+		}
+	}
 
 	private static class Graph {
 
@@ -60,5 +61,5 @@ public class SINGLE_SOURCE_SHORTEST_PATH {
 				matrix[E - 1][S - 1] = W;
 			}
 		}
-  }
+	}
 }

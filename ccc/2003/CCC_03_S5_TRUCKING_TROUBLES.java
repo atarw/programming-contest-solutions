@@ -4,30 +4,31 @@ import java.io.InputStreamReader;
 import java.util.*;
 
 public class CCC_03_S5_TRUCKING_TROUBLES {
-  public static void main (String [] args) throws IOException {
-    BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
-    String [] t = in.readLine ().split (" ");
-    
-    int R = Integer.parseInt (t [1]), D = Integer.parseInt (t [2]);
-    int [] destination = new int [D];
-    Graph g = new Graph ();
-    
-    for (int r = 0; r < R; r++) {
-      t = in.readLine ().split (" ");
-      g.addEdge (Integer.parseInt (t [0]) - 1, Integer.parseInt (t [1]) - 1, Integer.parseInt (t [2]));
-    }
-    
-    for (int d = 0; d < D; d++) {
-      destination [d] = Integer.parseInt (in.readLine ()) - 1;
-    }
-    
-    t = null;
-    
-    Arrays.sort (destination);
-    System.out.print (g.prims (destination));
-    
-    in.close ();
-  }
+
+	public static void main (String[] args) throws IOException {
+		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
+		String[] t = in.readLine ().split (" ");
+
+		int R = Integer.parseInt (t[1]), D = Integer.parseInt (t[2]);
+		int[] destination = new int[D];
+		Graph g = new Graph ();
+
+		for (int r = 0; r < R; r++) {
+			t = in.readLine ().split (" ");
+			g.addEdge (Integer.parseInt (t[0]) - 1, Integer.parseInt (t[1]) - 1, Integer.parseInt (t[2]));
+		}
+
+		for (int d = 0; d < D; d++) {
+			destination[d] = Integer.parseInt (in.readLine ()) - 1;
+		}
+
+		t = null;
+
+		Arrays.sort (destination);
+		System.out.print (g.prims (destination));
+
+		in.close ();
+	}
 
 	private static class Graph {
 
@@ -92,5 +93,5 @@ public class CCC_03_S5_TRUCKING_TROUBLES {
 
 			return E == e.E && W == e.W;
 		}
-  }
+	}
 }

@@ -4,36 +4,36 @@ import java.io.InputStreamReader;
 import java.util.*;
 
 public class PURSUIT_OF_KNOWLEDGE {
-  
-  static int T;
-  
-  public static void main (String [] args) throws IOException {
-    BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
-    String [] t = in.readLine ().split (" ");
-    int N = Integer.parseInt (t [0]), M = Integer.parseInt (t [1]);
-    T = Integer.parseInt (t [2]);
-    
-    Graph g = new Graph (N);
-    
-    for (int m = 0; m < M; m++) {
-      t = in.readLine ().split (" ");
-      g.addEdge (Integer.parseInt (t [0]), Integer.parseInt (t [1]));
-    }
-    
-    for (int n = 1; n <= N; n++) {
-      g.traverse (n);
-    }
-    
-    int Q = Integer.parseInt (in.readLine ());
-    int ans;
-    
-    for (int q = 0; q < Q; q++) {
-      t = in.readLine ().split (" ");
-      ans = g.query (Integer.parseInt (t [0]), Integer.parseInt (t [1]));
-      
-      System.out.println (ans == -1 ? "Not enough hallways!" : ans);
-    }
-  }
+
+	static int T;
+
+	public static void main (String[] args) throws IOException {
+		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
+		String[] t = in.readLine ().split (" ");
+		int N = Integer.parseInt (t[0]), M = Integer.parseInt (t[1]);
+		T = Integer.parseInt (t[2]);
+
+		Graph g = new Graph (N);
+
+		for (int m = 0; m < M; m++) {
+			t = in.readLine ().split (" ");
+			g.addEdge (Integer.parseInt (t[0]), Integer.parseInt (t[1]));
+		}
+
+		for (int n = 1; n <= N; n++) {
+			g.traverse (n);
+		}
+
+		int Q = Integer.parseInt (in.readLine ());
+		int ans;
+
+		for (int q = 0; q < Q; q++) {
+			t = in.readLine ().split (" ");
+			ans = g.query (Integer.parseInt (t[0]), Integer.parseInt (t[1]));
+
+			System.out.println (ans == -1 ? "Not enough hallways!" : ans);
+		}
+	}
 
 	private static class Graph {
 
@@ -81,5 +81,5 @@ public class PURSUIT_OF_KNOWLEDGE {
 
 			map.get (S).add (E);
 		}
-  }
+	}
 }

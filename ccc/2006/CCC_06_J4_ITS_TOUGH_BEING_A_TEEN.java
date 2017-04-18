@@ -4,25 +4,26 @@ import java.io.InputStreamReader;
 import java.util.*;
 
 public class CCC_06_J4_ITS_TOUGH_BEING_A_TEEN {
-  public static void main (String [] args) throws IOException {
-    BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
-    Graph g = new Graph ();
-    
-    g.addEdge (1, 7);
-    g.addEdge (1, 4);
-    g.addEdge (2, 1);
-    g.addEdge (3, 4);
-    g.addEdge (3, 5);
-    Graph.map.put (6, new HashSet <Integer> ());
-    
-    int S = -1, E = -1;
-    
-    while ((S = Integer.parseInt (in.readLine ())) != 0 && (E = Integer.parseInt (in.readLine ())) != 0) {
-      g.addEdge (S, E);
-    }
-    
-    g.order ();
-  }
+
+	public static void main (String[] args) throws IOException {
+		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
+		Graph g = new Graph ();
+
+		g.addEdge (1, 7);
+		g.addEdge (1, 4);
+		g.addEdge (2, 1);
+		g.addEdge (3, 4);
+		g.addEdge (3, 5);
+		Graph.map.put (6, new HashSet <Integer> ());
+
+		int S = -1, E = -1;
+
+		while ((S = Integer.parseInt (in.readLine ())) != 0 && (E = Integer.parseInt (in.readLine ())) != 0) {
+			g.addEdge (S, E);
+		}
+
+		g.order ();
+	}
 
 	private static class Graph {
 
@@ -80,5 +81,5 @@ public class CCC_06_J4_ITS_TOUGH_BEING_A_TEEN {
 				System.out.print (i + " ");
 			}
 		}
-  }
+	}
 }

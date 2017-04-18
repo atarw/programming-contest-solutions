@@ -4,30 +4,31 @@ import java.io.InputStreamReader;
 import java.util.*;
 
 public class VMSS_16_P3_HELLO_OFFICER {
-  
-  public static void main (String [] args) throws IOException {
-    BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
-    String [] t = in.readLine ().split (" ");
-    int N = Integer.parseInt (t [0]), M = Integer.parseInt (t [1]), B = Integer.parseInt (t [2]), Q = Integer.parseInt (t [3]);
-    Graph g = new Graph (N);
-    
-    for (int m = 0; m < M; m++) {
-      t = in.readLine ().split (" ");
-      g.addEdge (Integer.parseInt (t [0]), Integer.parseInt (t [1]), Integer.parseInt (t [2]));
-    }
-    
-    g.traverse (B);
-    
+
+	public static void main (String[] args) throws IOException {
+		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
+		String[] t = in.readLine ().split (" ");
+		int N = Integer.parseInt (t[0]), M = Integer.parseInt (t[1]), B = Integer.parseInt (t[2]), Q = Integer
+				.parseInt (t[3]);
+		Graph g = new Graph (N);
+
+		for (int m = 0; m < M; m++) {
+			t = in.readLine ().split (" ");
+			g.addEdge (Integer.parseInt (t[0]), Integer.parseInt (t[1]), Integer.parseInt (t[2]));
+		}
+
+		g.traverse (B);
+
     /*for (int i : Graph.cache) {
      System.out.print (i + " ");
      }
      
      System.out.println ();*/
-    
-    for (int q = 0; q < Q; q++) {
-      System.out.println (g.query (Integer.parseInt (in.readLine ())));
-    }
-  }
+
+		for (int q = 0; q < Q; q++) {
+			System.out.println (g.query (Integer.parseInt (in.readLine ())));
+		}
+	}
 
 	private static class Graph {
 
@@ -96,5 +97,5 @@ public class VMSS_16_P3_HELLO_OFFICER {
 		public int hashCode () {
 			return E * 17 + W * 37;
 		}
-  }
+	}
 }

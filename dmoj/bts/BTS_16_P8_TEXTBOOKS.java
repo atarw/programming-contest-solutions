@@ -7,60 +7,64 @@ import java.util.NavigableSet;
 import java.util.TreeSet;
 
 public class BTS_16_P8_TEXTBOOKS {
-  
-  public static void main (String [] t) throws IOException {
-    INPUT in = new INPUT (System.in);
-    PrintWriter out = new PrintWriter (System.out);
-    
-    int N = in.iscan ();
-    int [] s = new int [N], e = new int [N], w = new int [N];
-    
-    long used = 0L;
-    
-    NavigableSet <Integer> unique = new TreeSet <Integer> ();
-    
-    for (int n = 0; n < N; ++n) {
-      s [n] = in.iscan () - 1; int l = in.iscan (); e [n] = s [n] + l; w [n] = in.iscan ();
-      unique.add (s [n]); unique.add (e [n]);
-      used += (long) (w [n]) * (long) (l);
-    }
-    
-    Map <Integer, Integer> cc = new HashMap <Integer, Integer> ();
-    
-    for (int p : unique) {
-      cc.put (p, cc.size ());
-    }
-    
-    long [] arr = new long [cc.size ()];
-    
-    for (int n = 0; n < N; ++n) {
-      long max = -1;
-      
-      for (int b = cc.get (s [n]); b < cc.get (e [n]); ++b) {
-        max = Math.max (max, arr [b]);
-      }
-      
-      for (int a = cc.get (s [n]); a < cc.get (e [n]); ++a) {
-        arr [a] = w [n] + max;
-      }
-    }
-    
-    long shade = 0L;
-    
-    int f = unique.first ();
-    int n = 1;
-    
-    for (int p : unique) {
-      if (p == f) continue;
-      
-      shade += arr [n - 1] * (p - f);
-      f = p;
-      ++n;
-    }
-    
-    out.print ((shade - used) % 1000000007L);
-    out.close ();
-  }
+
+	public static void main (String[] t) throws IOException {
+		INPUT in = new INPUT (System.in);
+		PrintWriter out = new PrintWriter (System.out);
+
+		int N = in.iscan ();
+		int[] s = new int[N], e = new int[N], w = new int[N];
+
+		long used = 0L;
+
+		NavigableSet <Integer> unique = new TreeSet <Integer> ();
+
+		for (int n = 0; n < N; ++n) {
+			s[n] = in.iscan () - 1;
+			int l = in.iscan ();
+			e[n] = s[n] + l;
+			w[n] = in.iscan ();
+			unique.add (s[n]);
+			unique.add (e[n]);
+			used += (long) (w[n]) * (long) (l);
+		}
+
+		Map <Integer, Integer> cc = new HashMap <Integer, Integer> ();
+
+		for (int p : unique) {
+			cc.put (p, cc.size ());
+		}
+
+		long[] arr = new long[cc.size ()];
+
+		for (int n = 0; n < N; ++n) {
+			long max = -1;
+
+			for (int b = cc.get (s[n]); b < cc.get (e[n]); ++b) {
+				max = Math.max (max, arr[b]);
+			}
+
+			for (int a = cc.get (s[n]); a < cc.get (e[n]); ++a) {
+				arr[a] = w[n] + max;
+			}
+		}
+
+		long shade = 0L;
+
+		int f = unique.first ();
+		int n = 1;
+
+		for (int p : unique) {
+			if (p == f) continue;
+
+			shade += arr[n - 1] * (p - f);
+			f = p;
+			++n;
+		}
+
+		out.print ((shade - used) % 1000000007L);
+		out.close ();
+	}
 
 	private static class INPUT {
 
@@ -114,5 +118,5 @@ public class BTS_16_P8_TEXTBOOKS {
 		public boolean space (int c) {
 			return c == ' ' || c == '\n' || c == '\r' || c == '\t' || c == -1;
 		}
-  }
+	}
 }

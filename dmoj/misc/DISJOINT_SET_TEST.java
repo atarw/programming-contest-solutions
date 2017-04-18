@@ -5,39 +5,40 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DISJOINT_SET_TEST {
-  public static void main (String [] t) throws IOException {
-    BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
-    t = in.readLine ().split (" ");
-    
-    int N = Integer.parseInt (t [0]), M = Integer.parseInt (t [1]);
-    DISJOINT_SET ds = new DISJOINT_SET (N);
-    Edge [] arr = new Edge [M];
-    int size = N - 1;
-    
-    for (int m = 0; m < M; m++) {
-      t = in.readLine ().split (" ");
-      arr [m] = new Edge (Integer.parseInt (t [0]) - 1, Integer.parseInt (t [1]) - 1);
-    }
-    
-    List <Integer> list = new ArrayList <Integer> (M);
-    
-    for (int e = 0; e < arr.length; e++) {
-      if (ds.find (arr [e].S) != ds.find (arr [e].E)) {
-        list.add (e + 1);
-        ds.union (arr [e].S, arr [e].E);
-        size--;
-      }
-    }
-    
-    if (size == 0) {
-      for (int i = 0; i < list.size (); i++) {
-        System.out.println (list.get (i));
-      }
-    }
-    else {
-      System.out.println ("Disconnected Graph");
-    }
-  }
+
+	public static void main (String[] t) throws IOException {
+		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
+		t = in.readLine ().split (" ");
+
+		int N = Integer.parseInt (t[0]), M = Integer.parseInt (t[1]);
+		DISJOINT_SET ds = new DISJOINT_SET (N);
+		Edge[] arr = new Edge[M];
+		int size = N - 1;
+
+		for (int m = 0; m < M; m++) {
+			t = in.readLine ().split (" ");
+			arr[m] = new Edge (Integer.parseInt (t[0]) - 1, Integer.parseInt (t[1]) - 1);
+		}
+
+		List <Integer> list = new ArrayList <Integer> (M);
+
+		for (int e = 0; e < arr.length; e++) {
+			if (ds.find (arr[e].S) != ds.find (arr[e].E)) {
+				list.add (e + 1);
+				ds.union (arr[e].S, arr[e].E);
+				size--;
+			}
+		}
+
+		if (size == 0) {
+			for (int i = 0; i < list.size (); i++) {
+				System.out.println (list.get (i));
+			}
+		}
+		else {
+			System.out.println ("Disconnected Graph");
+		}
+	}
 
 	private static class Edge {
 
@@ -91,5 +92,5 @@ public class DISJOINT_SET_TEST {
 
 			return parent[item];
 		}
-  }
+	}
 }

@@ -4,19 +4,21 @@ import java.io.InputStreamReader;
 import java.util.*;
 
 public class VMSS_16_P2_CAN_SHAHIR_EVEN_GET_THERE {
-  public static void main (String [] args) throws IOException {
-    BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
-    String [] t = in.readLine ().split (" ");
-    int N = Integer.parseInt (t [0]), M = Integer.parseInt (t [1]), A = Integer.parseInt (t [2]), B = Integer.parseInt (t [3]);
-    Graph g = new Graph ();
-    
-    for (int m = 0; m < M; m++) {
-      t = in.readLine ().split (" ");
-      g.addEdge (Integer.parseInt (t [0]), Integer.parseInt (t [1]));
-    }
-    
-    System.out.println (g.possible (A, B) ? "GO SHAHIR!" : "NO SHAHIR!");
-  }
+
+	public static void main (String[] args) throws IOException {
+		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
+		String[] t = in.readLine ().split (" ");
+		int N = Integer.parseInt (t[0]), M = Integer.parseInt (t[1]), A = Integer.parseInt (t[2]), B = Integer
+				.parseInt (t[3]);
+		Graph g = new Graph ();
+
+		for (int m = 0; m < M; m++) {
+			t = in.readLine ().split (" ");
+			g.addEdge (Integer.parseInt (t[0]), Integer.parseInt (t[1]));
+		}
+
+		System.out.println (g.possible (A, B) ? "GO SHAHIR!" : "NO SHAHIR!");
+	}
 
 	private static class Graph {
 
@@ -66,5 +68,5 @@ public class VMSS_16_P2_CAN_SHAHIR_EVEN_GET_THERE {
 
 			return false;
 		}
-  }
+	}
 }

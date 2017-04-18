@@ -3,19 +3,20 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class A_NOISY_CLASS {
-  public static void main (String [] args) throws IOException {
-    BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
-    int N = Integer.parseInt (in.readLine ()), M = Integer.parseInt (in.readLine ());
-    String [] t;
-    Graph g = new Graph (N);
-    
-    for (int m = 0; m < M; m++) {
-      t = in.readLine ().split (" ");
-      g.addEdge (Integer.parseInt (t [0]), Integer.parseInt (t [1]));
-    }
-    
-    System.out.print (g.order () ? 'Y' : 'N');
-  }
+
+	public static void main (String[] args) throws IOException {
+		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
+		int N = Integer.parseInt (in.readLine ()), M = Integer.parseInt (in.readLine ());
+		String[] t;
+		Graph g = new Graph (N);
+
+		for (int m = 0; m < M; m++) {
+			t = in.readLine ().split (" ");
+			g.addEdge (Integer.parseInt (t[0]), Integer.parseInt (t[1]));
+		}
+
+		System.out.print (g.order () ? 'Y' : 'N');
+	}
 
 	private static class Graph {
 
@@ -62,5 +63,5 @@ public class A_NOISY_CLASS {
 
 			return -1;
 		}
-  }
+	}
 }

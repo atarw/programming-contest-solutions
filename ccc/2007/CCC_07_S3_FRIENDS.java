@@ -4,31 +4,32 @@ import java.io.InputStreamReader;
 import java.util.*;
 
 public class CCC_07_S3_FRIENDS {
-  public static void main (String [] args) throws IOException {
-    BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
-    int N = Integer.parseInt (in.readLine ());
-    Graph g = new Graph ();
-    String [] t;
-    
-    for (int n = 0; n < N; n++) {
-      t = in.readLine ().split (" ");
-      
-      g.addEdge (Integer.parseInt (t [0]), Integer.parseInt (t [1]));
-    }
-    
-    while (true) {
-      t = in.readLine ().split (" ");
-      int A = Integer.parseInt (t [0]), B = Integer.parseInt (t [1]);
-      
-      if (A == 0 && B == 0) {
-        break;
-      }
-      
-      int r = g.path (A, B);
-      
-      System.out.println (r == -1 ? "No" : "Yes " + r);
-    }
-  }
+
+	public static void main (String[] args) throws IOException {
+		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
+		int N = Integer.parseInt (in.readLine ());
+		Graph g = new Graph ();
+		String[] t;
+
+		for (int n = 0; n < N; n++) {
+			t = in.readLine ().split (" ");
+
+			g.addEdge (Integer.parseInt (t[0]), Integer.parseInt (t[1]));
+		}
+
+		while (true) {
+			t = in.readLine ().split (" ");
+			int A = Integer.parseInt (t[0]), B = Integer.parseInt (t[1]);
+
+			if (A == 0 && B == 0) {
+				break;
+			}
+
+			int r = g.path (A, B);
+
+			System.out.println (r == -1 ? "No" : "Yes " + r);
+		}
+	}
 
 	private static class Graph {
 
@@ -75,5 +76,5 @@ public class CCC_07_S3_FRIENDS {
 
 			map.get (a).add (b);
 		}
-  }
+	}
 }

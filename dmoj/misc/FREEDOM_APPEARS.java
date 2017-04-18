@@ -1,5 +1,9 @@
-import java.io.*;
-import java.util.*;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.PrintWriter;
+import java.util.HashSet;
+import java.util.Set;
 
 public class FREEDOM_APPEARS {
 
@@ -19,7 +23,9 @@ public class FREEDOM_APPEARS {
 			gcd = Math.abs (UTILITIES.gcd (vec[n].x, UTILITIES.gcd (vec[n].y, vec[n].z)));
 
 			if (gcd != 0) {
-				vec[n].x /= gcd; vec[n].y /= gcd; vec[n].z /= gcd;
+				vec[n].x /= gcd;
+				vec[n].y /= gcd;
+				vec[n].z /= gcd;
 			}
 		}
 
@@ -36,6 +42,12 @@ public class FREEDOM_APPEARS {
 
 		long x, y, z;
 
+		public Vector (long x, long y, long z) {
+			this.x = x;
+			this.y = y;
+			this.z = z;
+		}
+
 		public boolean equals (Object o) {
 			Vector v = (Vector) o;
 			return this.x == v.x && this.y == v.y && this.z == v.z;
@@ -43,10 +55,6 @@ public class FREEDOM_APPEARS {
 
 		public int hashCode () {
 			return Long.hashCode (x) * 17 + Long.hashCode (y) * 31 + Long.hashCode (z) * 41;
-		}
-
-		public Vector (long x, long y, long z) {
-			this.x = x; this.y = y; this.z = z;
 		}
 	}
 

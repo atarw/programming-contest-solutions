@@ -1,5 +1,8 @@
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
 
 public class DISJOINT_SET_TEST {
   public static void main (String [] t) throws IOException {
@@ -35,58 +38,58 @@ public class DISJOINT_SET_TEST {
       System.out.println ("Disconnected Graph");
     }
   }
-}
 
-class Edge {
-  int S, E;
-  
-  public Edge (int S, int E) {
-    this.S = S;
-    this.E = E;
-  }
-}
+	private static class Edge {
 
-class DISJOINT_SET {
-  
-  //parent stores root of tree containing item x, rank stores depth of trees containing item x
-  int [] parent, rank;
-  
-  public void union (int item1, int item2) {
-    int root1 = find (item1), root2 = find (item2);
-    
-    if (root1 != root2) {
-      if (rank [root1] < rank [root2]) {
-        parent [root1] = root2;
-      }
-      else if (rank [root1] > rank [root2]) {
-        parent [root2] = root1;
-      }
-      else {
-        parent [root2] = root1;
-        rank [root1]++;
-      }
-      
-      find (item1);
-      find (item2);
-    }
-  }
-  
-  public int find (int item) {
-    if (parent [item] != item) {
-      parent [item] = find (parent [item]);
-    }
-    
-    return parent [item];
-  }
-  
-  
-  public DISJOINT_SET (int N) {
-    parent = new int [N];
-    rank = new int [N];
-    
-    for (int n = 0; n < N; n++) {
-      parent [n] = n;
-      rank [n] = 0;
-    }
+		int S, E;
+
+		public Edge (int S, int E) {
+			this.S = S;
+			this.E = E;
+		}
+	}
+
+	private static class DISJOINT_SET {
+
+		//parent stores root of tree containing item x, rank stores depth of trees containing item x
+		int[] parent, rank;
+
+		public DISJOINT_SET (int N) {
+			parent = new int[N];
+			rank = new int[N];
+
+			for (int n = 0; n < N; n++) {
+				parent[n] = n;
+				rank[n] = 0;
+			}
+		}
+
+		public void union (int item1, int item2) {
+			int root1 = find (item1), root2 = find (item2);
+
+			if (root1 != root2) {
+				if (rank[root1] < rank[root2]) {
+					parent[root1] = root2;
+				}
+				else if (rank[root1] > rank[root2]) {
+					parent[root2] = root1;
+				}
+				else {
+					parent[root2] = root1;
+					rank[root1]++;
+				}
+
+				find (item1);
+				find (item2);
+			}
+		}
+
+		public int find (int item) {
+			if (parent[item] != item) {
+				parent[item] = find (parent[item]);
+			}
+
+			return parent[item];
+		}
   }
 }

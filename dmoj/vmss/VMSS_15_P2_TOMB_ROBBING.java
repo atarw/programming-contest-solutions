@@ -1,5 +1,8 @@
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayDeque;
+import java.util.Queue;
 
 public class VMSS_15_P2_TOMB_ROBBING {
   
@@ -61,13 +64,14 @@ public class VMSS_15_P2_TOMB_ROBBING {
     
     System.out.println (rooms ());
   }
-}
 
-class P {
-  int x, y;
-  
-  public P (int x, int y) {
-    this.x = x;
-    this.y = y;
+	private static class P {
+
+		int x, y;
+
+		public P (int x, int y) {
+			this.x = x;
+			this.y = y;
+		}
   }
 }

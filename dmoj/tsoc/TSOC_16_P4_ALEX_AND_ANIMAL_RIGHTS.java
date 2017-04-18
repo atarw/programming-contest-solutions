@@ -1,5 +1,10 @@
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayDeque;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Queue;
 
 public class TSOC_16_P4_ALEX_AND_ANIMAL_RIGHTS {
   
@@ -92,13 +97,14 @@ public class TSOC_16_P4_ALEX_AND_ANIMAL_RIGHTS {
     
     System.out.println (cages ());
   }
-}
 
-class P {
-  int X, Y;
-  
-  public P (int X, int Y) {
-    this.X = X;
-    this.Y = Y;
+  private static class P {
+
+    int X, Y;
+
+    public P (int X, int Y) {
+      this.X = X;
+      this.Y = Y;
+    }
   }
 }

@@ -1,5 +1,8 @@
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.HashMap;
+import java.util.Map;
 
 public class CCC_08_J3_GPS_TEXT_ENTRY {
   public static void main (String [] args) throws IOException {
@@ -52,13 +55,14 @@ public class CCC_08_J3_GPS_TEXT_ENTRY {
     
     System.out.println (count);
   }
-}
 
-class P {
-  int X, Y;
-  
-  public P (int X, int Y) {
-    this.X = X;
-    this.Y = Y;
+  private static class P {
+
+    int X, Y;
+
+    public P (int X, int Y) {
+      this.X = X;
+      this.Y = Y;
+    }
   }
 }

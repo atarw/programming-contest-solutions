@@ -1,5 +1,8 @@
-import java.io.*;
-import java.util.regex.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class CCC_15_J2_HAPPY_OR_SAD {
 	

@@ -1,4 +1,6 @@
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.*;
 
 public class CCC_09_J5_DEGREES_OF_SEPARATION {
@@ -67,79 +69,77 @@ public class CCC_09_J5_DEGREES_OF_SEPARATION {
       }
     }
   }
-}
 
-class Graph {
-  
-  Map <Integer, Set <Integer>> map = new HashMap <Integer, Set <Integer>> ();
-  
-  public void addEdge (int a, int b) {
-    if (!map.containsKey (a)) {
-      map.put (a, new HashSet <Integer> ());
-    }
-    
-    if (!map.containsKey (b)) {
-      map.put (b, new HashSet <Integer> ());
-    }
-    
-    map.get (a).add (b);
-    map.get (b).add (a);
-    
-    if (a == b)
-      map.get (a).remove (b);
+	private static class Graph {
+
+		Map <Integer, Set <Integer>> map = new HashMap <Integer, Set <Integer>> ();
+
+		public void addEdge (int a, int b) {
+			if (!map.containsKey (a)) {
+				map.put (a, new HashSet <Integer> ());
+			}
+
+			if (!map.containsKey (b)) {
+				map.put (b, new HashSet <Integer> ());
+			}
+
+			map.get (a).add (b);
+			map.get (b).add (a);
+
+			if (a == b)
+				map.get (a).remove (b);
+		}
+
+		public void deleteEdge (int a, int b) {
+			map.get (a).remove (b);
+			map.get (b).remove (a);
+		}
+
+		public int friends (int a) {
+			return map.get (a).size ();
+		}
+
+		public int friendsOfFriends (int a) {
+			Set <Integer> set = new HashSet <Integer> ();
+
+			for (Integer i : map.get (a)) {
+				for (Integer x : map.get (i)) {
+					if (!map.get (a).contains (x) && x != a) {
+						set.add (x);
+					}
+				}
+			}
+
+			return set.size ();
+		}
+
+		public int degrees (int a, int b) {
+			Set <Integer> set = new HashSet <Integer> ();
+			Queue <Integer> queue = new ArrayDeque <Integer> ();
+			int[] steps = new int[50];
+			int curr;
+
+			queue.offer (a);
+
+			while (!queue.isEmpty ()) {
+				curr = queue.poll ();
+
+				for (Integer i : map.get (curr)) {
+					if (i == b) {
+						steps[b] = steps[curr] + 1;
+						return steps[b];
+					}
+					else if (!set.contains (i)) {
+						steps[i] = steps[curr] + 1;
+						queue.offer (i);
+						set.add (i);
+					}
+				}
+
+				set.add (curr);
+			}
+
+			return -1;
+		}
   }
-  
-  public void deleteEdge (int a, int b) {
-    map.get (a).remove (b);
-    map.get (b).remove (a);
-  }
-  
-  public int friends (int a) {
-    return map.get (a).size ();
-  }
-  
-  public int friendsOfFriends (int a) {
-    Set <Integer> set = new HashSet <Integer> ();
-    
-    for (Integer i : map.get (a)) {
-      for (Integer x : map.get (i)) {
-        if (!map.get (a).contains (x) && x != a) {
-          set.add (x);
-        }
-      }
-    }
-    
-    return set.size ();
-  }
-  
-  public int degrees (int a, int b) {
-    Set <Integer> set = new HashSet <Integer> ();
-    Queue <Integer> queue = new ArrayDeque <Integer> ();
-    int [] steps = new int [50];
-    int curr;
-    
-    queue.offer (a);
-    
-    while (!queue.isEmpty ()) {
-      curr = queue.poll ();
-      
-      for (Integer i : map.get (curr)) {
-        if (i == b) {
-          steps [b] = steps [curr] + 1;
-          return steps [b];
-        }
-        else if (!set.contains (i)) {
-          steps [i] = steps [curr] + 1;
-          queue.offer (i);
-          set.add (i);
-        }
-      }
-      
-      set.add (curr);
-    }
-    
-    return -1;
-  }
-  
-  public Graph () {}
 }

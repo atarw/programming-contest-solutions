@@ -1,4 +1,6 @@
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 public class MARATHON {
   
@@ -26,35 +28,35 @@ public class MARATHON {
       System.out.println (arr.sum (N) - arr.sum (A - 1, B));
     }
   }
-}
 
-class PrefixSumArray {
-  
-  private int [] arr;
-  
-  public int sum (int from, int to) {
-    return arr [to] - arr [from];
-  }
-  
-  public int sum (int to) {
-    return sum (0, to);
-  }
-  
-  public void add (int pos, int N) {
-    arr [pos] = arr [pos - 1] + N;
-  }
-  
-  public PrefixSumArray (int N) {
-    this.arr = new int [N + 1];
-  }
-  
-  public PrefixSumArray (int [] arr) {
-    this.arr = new int [arr.length + 1];
-    
-    this.arr [1] = arr [0];
-    
-    for (int i = 2; i <= arr.length; i++) {
-      this.arr [i] = this.arr [i - 1] + arr [i - 1];
-    }
+	private static class PrefixSumArray {
+
+		private int[] arr;
+
+		public PrefixSumArray (int N) {
+			this.arr = new int[N + 1];
+		}
+
+		public PrefixSumArray (int[] arr) {
+			this.arr = new int[arr.length + 1];
+
+			this.arr[1] = arr[0];
+
+			for (int i = 2; i <= arr.length; i++) {
+				this.arr[i] = this.arr[i - 1] + arr[i - 1];
+			}
+		}
+
+		public int sum (int from, int to) {
+			return arr[to] - arr[from];
+		}
+
+		public int sum (int to) {
+			return sum (0, to);
+		}
+
+		public void add (int pos, int N) {
+			arr[pos] = arr[pos - 1] + N;
+		}
   }
 }

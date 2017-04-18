@@ -1,5 +1,10 @@
-import java.io.*;
-import java.util.*;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.PrintWriter;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.NavigableSet;
+import java.util.TreeSet;
 
 public class BTS_16_P8_TEXTBOOKS {
   
@@ -56,59 +61,58 @@ public class BTS_16_P8_TEXTBOOKS {
     out.print ((shade - used) % 1000000007L);
     out.close ();
   }
-}
 
-class INPUT {
-  
-  private InputStream stream;
-  private byte [] buf = new byte [1024];
-  private int curChar, numChars;
-  
-  public INPUT (InputStream stream) {
-    this.stream = stream;
-  }
-  
-  public static int fast_pow (int b, int x) {
-    if (x == 0) return 1;
-    if (x == 1) return b;
-    if (x % 2 == 0) return fast_pow (b * b, x / 2);
-    
-    return b * fast_pow (b * b, x / 2);
-  }
-  
-  public int cscan () throws IOException {
-    if (curChar >= numChars) {
-      curChar = 0;
-      numChars = stream.read (buf);
-    }
-    
-    return buf [curChar++];
-  }
-  
-  public int iscan () throws IOException {
-    int c = cscan (), sgn = 1;
-    while (space (c)) c = cscan ();
-    
-    if (c == '-') {
-      sgn = -1;
-      c = cscan ();
-    }
-    
-    int res = 0;
-    
-    do
-    {
-      res = (res << 1) + (res << 3);
-      res += c - '0';
-      
-      c = cscan ();
-    }
-    while (!space (c));
-    
-    return res * sgn;
-  }
-  
-  public boolean space (int c) {
-    return c == ' ' || c == '\n' || c == '\r' || c == '\t' || c == -1;
+	private static class INPUT {
+
+		private InputStream stream;
+		private byte[] buf = new byte[1024];
+		private int curChar, numChars;
+
+		public INPUT (InputStream stream) {
+			this.stream = stream;
+		}
+
+		public static int fast_pow (int b, int x) {
+			if (x == 0) return 1;
+			if (x == 1) return b;
+			if (x % 2 == 0) return fast_pow (b * b, x / 2);
+
+			return b * fast_pow (b * b, x / 2);
+		}
+
+		public int cscan () throws IOException {
+			if (curChar >= numChars) {
+				curChar = 0;
+				numChars = stream.read (buf);
+			}
+
+			return buf[curChar++];
+		}
+
+		public int iscan () throws IOException {
+			int c = cscan (), sgn = 1;
+			while (space (c)) c = cscan ();
+
+			if (c == '-') {
+				sgn = -1;
+				c = cscan ();
+			}
+
+			int res = 0;
+
+			do {
+				res = (res << 1) + (res << 3);
+				res += c - '0';
+
+				c = cscan ();
+			}
+			while (!space (c));
+
+			return res * sgn;
+		}
+
+		public boolean space (int c) {
+			return c == ' ' || c == '\n' || c == '\r' || c == '\t' || c == -1;
+		}
   }
 }

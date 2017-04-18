@@ -1,5 +1,8 @@
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
 
 public class MWC_15_C3_P3_BAD_NEWS {
   
@@ -69,10 +72,6 @@ public class MWC_15_C3_P3_BAD_NEWS {
   
   public static void main (String [] t) throws IOException {
     BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
-    
-    //for (int T = 0; T < 10; T++) {
-    //  BufferedReader in = new BufferedReader (new FileReader ("mwc15c3p3." + T + ".in"));
-    // PrintWriter out = new PrintWriter (new FileWriter ("mwc15c3p3." + T + ".out"));
     t = in.readLine ().split (" ");
     
     int N = Integer.parseInt (t [0]), Q = Integer.parseInt (t [1]);
@@ -87,10 +86,6 @@ public class MWC_15_C3_P3_BAD_NEWS {
       }
     }
     
-    // for (char [] arr : maze) {
-    //   System.out.println (Arrays.toString (arr));
-    // }
-    
     for (int q = 0; q < Q; q++) {
       word = in.readLine ();
       vis = new boolean [N][N];
@@ -101,28 +96,24 @@ public class MWC_15_C3_P3_BAD_NEWS {
           if (maze [x][y] == word.charAt (0) && find (1, x, y)) {
             f = true;
             System.out.println ("good puzzle!");
-            //out.println ("good puzzle!");
             break a;
           }
         }
       }
       
       if (!f) {
-        //out.println ("bad puzzle!");
         System.out.println ("bad puzzle!");
       }
     }
-    // in.close ();
-    // out.close ();
-    //}
   }
-}
 
-class P {
-  int x, y;
-  
-  public P (int x, int y) {
-    this.x = x;
-    this.y = y;
+  private static class P {
+
+    int x, y;
+
+    public P (int x, int y) {
+      this.x = x;
+      this.y = y;
+    }
   }
 }

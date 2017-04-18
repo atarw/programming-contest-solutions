@@ -1,5 +1,8 @@
-import java.util.*;
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.HashSet;
+import java.util.Set;
 
 public class CCC_11_J4_BORING_BUSINESS {
   public static void main (String [] args) throws IOException {
@@ -106,26 +109,27 @@ public class CCC_11_J4_BORING_BUSINESS {
       }
     }
   }
-}
 
-class P {
-  int X, Y;
-  
-  public String toString () {
-    return X + " " + Y;
-  }
-  
-  public boolean equals (Object o) {
-    P p = ((P) o);
-    
-    return p.X == X && p.Y == Y;
-  }
-  
-  public int hashCode () {
-    return X * 17 + Y * 37;
-  }
-  
-  public P (int X, int Y) {
-    this.X = X; this.Y = Y;
+	private static class P {
+
+		int X, Y;
+
+		public P (int X, int Y) {
+			this.X = X; this.Y = Y;
+		}
+
+		public String toString () {
+			return X + " " + Y;
+		}
+
+		public boolean equals (Object o) {
+			P p = ((P) o);
+
+			return p.X == X && p.Y == Y;
+		}
+
+		public int hashCode () {
+			return X * 17 + Y * 37;
+		}
   }
 }

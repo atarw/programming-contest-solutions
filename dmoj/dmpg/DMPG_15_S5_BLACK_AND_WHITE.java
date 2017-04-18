@@ -1,5 +1,9 @@
-import java.io.*;
-import java.util.*;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.PrintWriter;
+import java.util.Arrays;
+import java.util.NavigableMap;
+import java.util.TreeMap;
 
 //switches to uncompressed coordinates (which has better performance apparently) when N < 1000
 
@@ -142,12 +146,13 @@ public class DMPG_15_S5_BLACK_AND_WHITE {
       return c == ' ' || c == '\n' || c == '\r' || c == '\t' || c == -1;
     }
   }
-}
 
-class Rect {
-  int x1, x2, y1, y2;
-  
-  public Rect (int x, int y, int w, int h) {
-    this.x1 = x; this.y1 = y; this.x2 = x + w; this.y2 = y + h;
+	private static class Rect {
+
+		int x1, x2, y1, y2;
+
+		public Rect (int x, int y, int w, int h) {
+			this.x1 = x; this.y1 = y; this.x2 = x + w; this.y2 = y + h;
+		}
   }
 }

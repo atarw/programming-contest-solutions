@@ -1,4 +1,6 @@
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.*;
 
 public class CCO_11_P2_VAMPIRE_TUNNELS {
@@ -59,21 +61,23 @@ public class CCO_11_P2_VAMPIRE_TUNNELS {
 		
 		System.out.print (min == Integer.MAX_VALUE ? -1 : min);
 	}
-}
 
-class Edge {
-	int S, E, D, U;
-	
-	public Edge (int S, int E, int D, int U) {
-		this.S = S; this.E = E; this.D = D; this.U = U;
+	private static class Edge {
+
+		int S, E, D, U;
+
+		public Edge (int S, int E, int D, int U) {
+			this.S = S; this.E = E; this.D = D; this.U = U;
+		}
 	}
-}
 
-class State {
-	int curr, sun;
-	
-	public State (int curr, int sun) {
-		this.curr = curr;
-		this.sun = sun;
+	private static class State {
+
+		int curr, sun;
+
+		public State (int curr, int sun) {
+			this.curr = curr;
+			this.sun = sun;
+		}
 	}
 }

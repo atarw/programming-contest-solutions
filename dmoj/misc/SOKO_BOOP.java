@@ -1,5 +1,9 @@
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.util.ArrayDeque;
+import java.util.Queue;
 
 public class SOKO_BOOP {
 	
@@ -118,14 +122,15 @@ public class SOKO_BOOP {
 		out.print (min == Integer.MAX_VALUE ? -1 : min);
 		out.close ();
 	}
-}
 
-class State {
-	int px, py, bx, by;
-	
-	public State () {}
-	
-	public State (int px, int py, int bx, int by) {
-		this.px = px; this.py = py; this.bx = bx; this.by = by;
+	private static class State {
+
+		int px, py, bx, by;
+
+		public State () {}
+
+		public State (int px, int py, int bx, int by) {
+			this.px = px; this.py = py; this.bx = bx; this.by = by;
+		}
 	}
 }

@@ -1,5 +1,8 @@
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.HashSet;
+import java.util.Set;
 
 public class DMOPC_13_P3_CROSSING_FIELD {
   
@@ -7,42 +10,7 @@ public class DMOPC_13_P3_CROSSING_FIELD {
   static int [][] maze;
   static Set <P> set;
   static int H, N;
-  
-  /*public static boolean path () {
-   Queue <P> queue = new LinkedList <P> ();
-   P curr = cache [0][0];
-   P dest = cache [N - 1][N - 1];
-   boolean reached = false;
-   
-   queue.offer (curr);
-   
-   while (!queue.isEmpty ()) {
-   curr = queue.poll ();
-   set.add (curr);
-   
-   if (!curr.equals (dest)) {
-   if (valid (curr.X + 1, curr.Y, curr.X, curr.Y)) {
-   queue.offer (cache [curr.X + 1][curr.Y]);
-   }
-   if (valid (curr.X - 1, curr.Y, curr.X, curr.Y)) {
-   queue.offer (cache [curr.X - 1][curr.Y]);
-   }
-   if (valid (curr.X, curr.Y + 1, curr.X, curr.Y)) {
-   queue.offer (cache [curr.X][curr.Y + 1]);
-   }
-   if (valid (curr.X, curr.Y - 1, curr.X, curr.Y)) {
-   queue.offer (cache [curr.X][curr.Y - 1]);
-   }
-   }
-   else {
-   reached = true;
-   break;
-   }
-   }
-   
-   return reached;
-   }*/
-  
+
   public static boolean path (int r, int c, int xd, int yd) {
     if (cache [r][c].equals (cache [xd][yd])) {
       return true;
@@ -93,27 +61,28 @@ public class DMOPC_13_P3_CROSSING_FIELD {
     
     System.out.println (path (0, 0, N - 1, N - 1) ? "yes" : "no");
   }
-}
 
-class P {
-  int X, Y;
-  
-  public int hashCode () {
-    return X * 17 + Y * 37;
-  }
-  
-  public boolean equals (Object o) {
-    P a = (P) (o);
-    
-    return X == a.X && Y == a.Y;
-  }
-  
-  public String toString () {
-    return X + " " + Y;
-  }
-  
-  public P (int X, int Y) {
-    this.X = X;
-    this.Y = Y;
+	private static class P {
+
+		int X, Y;
+
+		public P (int X, int Y) {
+			this.X = X;
+			this.Y = Y;
+		}
+
+		public int hashCode () {
+			return X * 17 + Y * 37;
+		}
+
+		public boolean equals (Object o) {
+			P a = (P) (o);
+
+			return X == a.X && Y == a.Y;
+		}
+
+		public String toString () {
+			return X + " " + Y;
+		}
   }
 }

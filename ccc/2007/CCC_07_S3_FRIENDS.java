@@ -1,4 +1,6 @@
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.*;
 
 public class CCC_07_S3_FRIENDS {
@@ -27,52 +29,51 @@ public class CCC_07_S3_FRIENDS {
       System.out.println (r == -1 ? "No" : "Yes " + r);
     }
   }
-}
 
-class Graph {
-  
-  Map <Integer, Set <Integer>> map = new HashMap <Integer, Set <Integer>> ();
-  int [] cache;
-  
-  public int path (int A, int B) {
-    Queue <Integer> queue = new ArrayDeque <Integer> ();
-    cache = new int [10000];
-    int curr = A;
-    queue.offer (A);
-    
-    out: while (!queue.isEmpty ()) {
-      curr = queue.poll ();
-      
-      if (curr == B) {
-        break;
-      }
-      
-      if (!map.containsKey (curr)) {
-        break;
-      }
-      
-      for (Integer i : map.get (curr)) {
-        if (cache [i - 1] == 0) {
-          queue.offer (i);
-          cache [i - 1] = cache [curr - 1] + 1;
-        }
-        
-        if (i == B) {
-          break out;
-        }
-      }
-    }
-    
-    return cache [B - 1] - 1;
+	private static class Graph {
+
+		Map <Integer, Set <Integer>> map = new HashMap <Integer, Set <Integer>> ();
+		int[] cache;
+
+		public int path (int A, int B) {
+			Queue <Integer> queue = new ArrayDeque <Integer> ();
+			cache = new int[10000];
+			int curr = A;
+			queue.offer (A);
+
+			out:
+			while (!queue.isEmpty ()) {
+				curr = queue.poll ();
+
+				if (curr == B) {
+					break;
+				}
+
+				if (!map.containsKey (curr)) {
+					break;
+				}
+
+				for (Integer i : map.get (curr)) {
+					if (cache[i - 1] == 0) {
+						queue.offer (i);
+						cache[i - 1] = cache[curr - 1] + 1;
+					}
+
+					if (i == B) {
+						break out;
+					}
+				}
+			}
+
+			return cache[B - 1] - 1;
+		}
+
+		public void addEdge (int a, int b) {
+			if (!map.containsKey (a)) {
+				map.put (a, new HashSet <Integer> ());
+			}
+
+			map.get (a).add (b);
+		}
   }
-  
-  public void addEdge (int a, int b) {
-    if (!map.containsKey (a)) {
-      map.put (a, new HashSet <Integer> ());
-    }
-    
-    map.get (a).add (b);
-  }
-  
-  public Graph () {}
 }

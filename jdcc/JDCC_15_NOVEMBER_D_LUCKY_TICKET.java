@@ -1,5 +1,6 @@
 import java.io.*;
-import java.util.*;
+import java.util.Iterator;
+import java.util.LinkedList;
 
 public class JDCC_15_NOVEMBER_D_LUCKY_TICKET {
   
@@ -92,8 +93,9 @@ public class JDCC_15_NOVEMBER_D_LUCKY_TICKET {
             side [index] = old;
             return false;
           }
-          else if (!adjustSide (side, remainder - side [index], index + 1, old == i && same ? true : false)) {//IMPOSSIBLE TO ADJUST USING THIS DIGIT, MUST INCREMENT PREVIOUS BY 1
-            if (PRACTICE)
+          else if (!adjustSide (side, remainder - side[index], index + 1, old == i && same)) {//IMPOSSIBLE TO ADJUST
+	          // USING THIS DIGIT, MUST INCREMENT PREVIOUS BY 1
+	          if (PRACTICE)
               System.out.println (indent (index) + "CANNOT USE THIS DIGIT, MUST INCREMENT PREVIOUS - INDEX " + index);
             side [index] = old;
             

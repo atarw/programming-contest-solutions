@@ -1,5 +1,10 @@
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayDeque;
+import java.util.HashSet;
+import java.util.Queue;
+import java.util.Set;
 
 public class CODEFORCES_65_D {
   static boolean G, S, H, R;// booleans indicating whether it is possible to be sorted into the house
@@ -78,22 +83,24 @@ public class CODEFORCES_65_D {
       System.out.println ("Slytherin");
     }
   }
-}
 
-//N -> position in the string, G -> #ppl sorted into griffindor, S -> #ppl sorted into slytherin, and so forth for hufflepuff and ravenclaw
-class State {
-  int N, G, S, H, R;
+	//N -> position in the string, G -> #ppl sorted into griffindor, S -> #ppl sorted into slytherin, and so forth for
+	// hufflepuff and ravenclaw
+	private static class State {
 
-  public int hashCode () {
-    return N * 13 + G * 19 + S * 23 + H * 31 + R * 47;
-  }
+		int N, G, S, H, R;
 
-  public boolean equals (Object o) {
-    State q = (State) o;
-    return q.N == N && q.G == G && q.S == S && q.H == H && q.R == R;
-  }
+		public State (int N, int G, int S, int H, int R) {
+			this.N = N; this.G = G; this.S = S; this.H = H; this.R = R;
+		}
 
-  public State (int N, int G, int S, int H, int R) {
-    this.N = N; this.G = G; this.S = S; this.H = H; this.R = R;
+		public int hashCode () {
+			return N * 13 + G * 19 + S * 23 + H * 31 + R * 47;
+		}
+
+		public boolean equals (Object o) {
+			State q = (State) o;
+			return q.N == N && q.G == G && q.S == S && q.H == H && q.R == R;
+		}
   }
 }

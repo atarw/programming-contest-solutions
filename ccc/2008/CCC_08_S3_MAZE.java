@@ -1,5 +1,8 @@
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class CCC_08_S3_MAZE {
   
@@ -76,13 +79,14 @@ public class CCC_08_S3_MAZE {
       }
     }
   }
-}
 
-class P {
-  int X, Y;
-  
-  public P (int X, int Y) {
-    this.X = X;
-    this.Y = Y;
+  private static class P {
+
+    int X, Y;
+
+    public P (int X, int Y) {
+      this.X = X;
+      this.Y = Y;
+    }
   }
 }

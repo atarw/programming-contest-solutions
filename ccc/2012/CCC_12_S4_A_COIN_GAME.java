@@ -1,4 +1,6 @@
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.*;
 
 public class CCC_12_S4_A_COIN_GAME {
@@ -92,66 +94,47 @@ public class CCC_12_S4_A_COIN_GAME {
 			//System.out.print (System.currentTimeMillis () - a);
 		}
 	}
-}
 
-class State {
-	Deque <Integer> [] row;
-	
-	//static int [] primes = {17, 19, 31, 37, 41, 47, 53, 71};// for hashcode
-	
-	public boolean equals (Object o) {
-		/*State s = (State) o;
-		
-		for (int r = 0; r < row.length; ++r)
-			if (!s.row [r].equals (row [r]))
-				return false;
-		
-		return true;*/
-		
-		State s = (State) o;
-		return this.toString ().equals (s.toString ());
-	}
-	
-	public int hashCode () {
-		/*int code = 0;
-		
-		for (int r = 0; r < row.length; ++r)
-			code += primes [r] * row [r].hashCode ();
-		
-		return code;*/
-		
-		return this.toString ().hashCode ();
-	}
-	
-	public String toString () {
-		StringBuilder s = new StringBuilder (22);
-				
-		for (int r = 0; r < row.length; ++r) {
-			//s.append ('{');
-			
-			for (int i : row [r]) {
-				s.append (i);
-				s.append (',');
-			}
-			
-			//s.append ('}');
-			s.append (' ');
+	private static class State {
+
+		Deque <Integer>[] row;
+
+		public State () {
+			this.row = new ArrayDeque[N];
+
+			for (int r = 0; r < row.length; ++r)
+				row[r] = new ArrayDeque <Integer> ();
 		}
-		
-		return s.toString ();
-	}
-	
-	public State () {
-		this.row = new ArrayDeque [CCC_12_P5_A_COIN_GAME.N];
-		
-		for (int r = 0; r < row.length; ++r)
-			row [r] = new ArrayDeque <Integer> ();
-	}
-	
-	public State (State s) {
-		this.row = new ArrayDeque [s.row.length];
-		
-		for (int r = 0; r < row.length; ++r)
-			row [r] = new ArrayDeque <Integer> (s.row [r]);
+
+		public State (State s) {
+			this.row = new ArrayDeque[s.row.length];
+
+			for (int r = 0; r < row.length; ++r)
+				row[r] = new ArrayDeque <Integer> (s.row[r]);
+		}
+
+		public boolean equals (Object o) {
+			State s = (State) o;
+			return this.toString ().equals (s.toString ());
+		}
+
+		public int hashCode () {
+			return this.toString ().hashCode ();
+		}
+
+		public String toString () {
+			StringBuilder s = new StringBuilder (22);
+
+			for (int r = 0; r < row.length; ++r) {
+				for (int i : row[r]) {
+					s.append (i);
+					s.append (',');
+				}
+
+				s.append (' ');
+			}
+
+			return s.toString ();
+		}
 	}
 }

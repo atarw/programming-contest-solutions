@@ -1,4 +1,6 @@
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.*;
 
 public class CCC_06_J4_ITS_TOUGH_BEING_A_TEEN {
@@ -21,62 +23,62 @@ public class CCC_06_J4_ITS_TOUGH_BEING_A_TEEN {
     
     g.order ();
   }
-}
 
-class Graph {
-  
-  static NavigableMap <Integer, Set <Integer>> map = new TreeMap <Integer, Set <Integer>> ();
-  
-  public void addEdge (int S, int E) {
-    if (!map.containsKey (S)) {
-      map.put (S, new HashSet <Integer> ());
-    }
-    
-    if (!map.containsKey (E)) {
-      map.put (E, new HashSet <Integer> ());
-    }
-    
-    map.get (S).add (E);
-  }
-  
-  public int next () {
-    boolean edge;
-    
-    for (int i : map.keySet ()) {
-      edge = false;
-      
-      for (Set <Integer> x : map.values ()) {
-        if (x.contains (i)) {
-          edge = true;
-          break;
-        }
-      }
-      
-      if (!edge) {
-        return i;
-      }
-    }
-    
-    return -1;
-  }
-  
-  public void order () {
-    List <Integer> list = new ArrayList <Integer> ();
-    
-    while (!map.keySet ().isEmpty ()) {
-      int curr = next ();
-      
-      if (curr == -1) {
-        System.out.print ("Cannot complete these tasks. Going to bed.");
-        return;
-      }
-      
-      map.remove (curr);
-      list.add (curr);
-    }
-    
-    for (int i : list) {
-      System.out.print (i + " ");
-    }
+	private static class Graph {
+
+		static NavigableMap <Integer, Set <Integer>> map = new TreeMap <Integer, Set <Integer>> ();
+
+		public void addEdge (int S, int E) {
+			if (!map.containsKey (S)) {
+				map.put (S, new HashSet <Integer> ());
+			}
+
+			if (!map.containsKey (E)) {
+				map.put (E, new HashSet <Integer> ());
+			}
+
+			map.get (S).add (E);
+		}
+
+		public int next () {
+			boolean edge;
+
+			for (int i : map.keySet ()) {
+				edge = false;
+
+				for (Set <Integer> x : map.values ()) {
+					if (x.contains (i)) {
+						edge = true;
+						break;
+					}
+				}
+
+				if (!edge) {
+					return i;
+				}
+			}
+
+			return -1;
+		}
+
+		public void order () {
+			List <Integer> list = new ArrayList <Integer> ();
+
+			while (!map.keySet ().isEmpty ()) {
+				int curr = next ();
+
+				if (curr == -1) {
+					System.out.print ("Cannot complete these tasks. Going to bed.");
+					return;
+				}
+
+				map.remove (curr);
+				list.add (curr);
+			}
+
+			for (int i : list) {
+				System.out.print (i + " ");
+			}
+		}
   }
 }

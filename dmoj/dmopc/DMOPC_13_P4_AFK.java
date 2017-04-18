@@ -1,5 +1,8 @@
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class DMOPC_13_P4_AFK {
   
@@ -42,10 +45,7 @@ public class DMOPC_13_P4_AFK {
   }
   
   public static boolean valid (int r, int c) {
-    if (r >= maze.length || r < 0 || c >= maze [0].length || c < 0 || maze [r][c] == 'X' || steps [r][c] != 0) {
-      return false;
-    }
-    return true;
+    return !(r >= maze.length || r < 0 || c >= maze[0].length || c < 0 || maze[r][c] == 'X' || steps[r][c] != 0);
   }
   
   public static void main (String [] args) throws IOException {

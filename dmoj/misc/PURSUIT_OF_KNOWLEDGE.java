@@ -1,4 +1,6 @@
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.*;
 
 public class PURSUIT_OF_KNOWLEDGE {
@@ -32,50 +34,52 @@ public class PURSUIT_OF_KNOWLEDGE {
       System.out.println (ans == -1 ? "Not enough hallways!" : ans);
     }
   }
-}
 
-class Graph {
-  static Map <Integer, Set <Integer>> map = new HashMap <Integer, Set <Integer>> ();
-  static int [][] cache;
-  
-  public void traverse (int S) {
-    Queue <Integer> queue = new ArrayDeque <Integer> ();
-    int curr;
-    queue.offer (S);
-    
-    while (!queue.isEmpty ()) {
-      curr = queue.poll ();
-      
-      if (map.containsKey (curr)) {
-        for (Integer i : map.get (curr)) {
-          if (cache [curr - 1][i - 1] == 0 || cache [S - 1][i - 1] == 0 || cache [S - 1][i - 1] >= cache [S - 1][curr - 1] + PursuitOfKnowledge.T) {
-            cache [S - 1][i - 1] = cache [S - 1][curr - 1] + PursuitOfKnowledge.T;
-            queue.offer (i);
-          }
-          cache [curr - 1][i - 1] = PursuitOfKnowledge.T;
-        }
-      }
-    }
-  }
-  
-  public int query (int S, int E) {
-    if (cache [S - 1][E - 1] == 0) {
-      return -1;
-    }
-    else {
-      return cache [S - 1][E - 1];
-    }
-  }
-  
-  public void addEdge (int S, int E) {
-    if (!map.containsKey (S)) {
-      map.put (S, new HashSet <Integer> ());
-    }
-    
-    map.get (S).add (E);
-  }
-  
-  public Graph (int N) {
-    cache = new int [N][N];
+	private static class Graph {
+
+		static Map <Integer, Set <Integer>> map = new HashMap <Integer, Set <Integer>> ();
+		static int[][] cache;
+
+		public Graph (int N) {
+			cache = new int[N][N];
+		}
+
+		public void traverse (int S) {
+			Queue <Integer> queue = new ArrayDeque <Integer> ();
+			int curr;
+			queue.offer (S);
+
+			while (!queue.isEmpty ()) {
+				curr = queue.poll ();
+
+				if (map.containsKey (curr)) {
+					for (Integer i : map.get (curr)) {
+						if (cache[curr - 1][i - 1] == 0 || cache[S - 1][i - 1] == 0 || cache[S - 1][i - 1] >= cache[S
+								- 1][curr - 1] + T) {
+							cache[S - 1][i - 1] = cache[S - 1][curr - 1] + T;
+							queue.offer (i);
+						}
+						cache[curr - 1][i - 1] = T;
+					}
+				}
+			}
+		}
+
+		public int query (int S, int E) {
+			if (cache[S - 1][E - 1] == 0) {
+				return -1;
+			}
+			else {
+				return cache[S - 1][E - 1];
+			}
+		}
+
+		public void addEdge (int S, int E) {
+			if (!map.containsKey (S)) {
+				map.put (S, new HashSet <Integer> ());
+			}
+
+			map.get (S).add (E);
+		}
   }
 }

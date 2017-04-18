@@ -1,5 +1,10 @@
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.PriorityQueue;
+import java.util.Queue;
 
 public class MACKENZIE_NEW_YEARS_CHALLENGE_P5_JELLY {
   static int [][][] maze;
@@ -63,10 +68,8 @@ public class MACKENZIE_NEW_YEARS_CHALLENGE_P5_JELLY {
   }
   
   public static boolean valid (int X, int Y, int Z) {
-    if (X < 0 || Y < 0 || Z < 0 || Z >= maze.length || Y >= maze [0].length || X >= maze [0][0].length || steps [Z][Y][X] != 0 || j.X == X && j.Y == Y && j.Z == Z) {
-      return false;
-    }
-    return true;
+    return !(X < 0 || Y < 0 || Z < 0 || Z >= maze.length || Y >= maze[0].length || X >= maze[0][0].length ||
+            steps[Z][Y][X] != 0 || j.X == X && j.Y == Y && j.Z == Z);
   }
   
   public static void main (String [] args) throws IOException {
@@ -94,27 +97,28 @@ public class MACKENZIE_NEW_YEARS_CHALLENGE_P5_JELLY {
     }
     System.out.println (solve ());
   }
-}
 
-class P3D implements Comparable <P3D> {
-  int X, Y, Z;
-  
-  public boolean equals (Object o) {
-    P3D p = ((P3D)o);
-    return X == p.X && Y == p.Y && Z == p.Z;
-  }
-  
-  public String toString () {
-    return "(" + X + ", " + Y + ", " + Z + ") " + P5.steps [Z][Y][X];
-  }
-  
-  public int compareTo (P3D p) {
-    return P5.steps [Z][Y][X] - P5.steps [p.Z][p.Y][p.X];
-  }
-  
-  public P3D (int X, int Y, int Z) {
-    this.X = X;
-    this.Y = Y;
-    this.Z = Z;
+  private static class P3D implements Comparable <P3D> {
+
+    int X, Y, Z;
+
+    public P3D (int X, int Y, int Z) {
+      this.X = X;
+      this.Y = Y;
+      this.Z = Z;
+    }
+
+    public boolean equals (Object o) {
+      P3D p = ((P3D) o);
+      return X == p.X && Y == p.Y && Z == p.Z;
+    }
+
+    public String toString () {
+      return "(" + X + ", " + Y + ", " + Z + ") " + steps[Z][Y][X];
+    }
+
+    public int compareTo (P3D p) {
+      return steps[Z][Y][X] - steps[p.Z][p.Y][p.X];
+    }
   }
 }

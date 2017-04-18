@@ -1,5 +1,8 @@
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.util.Arrays;
 
 public class CCOQR_16_Q1_STUPENDOUS_BOWTIES {
 			
@@ -34,29 +37,30 @@ public class CCOQR_16_Q1_STUPENDOUS_BOWTIES {
 		out.print (total);
 		out.close ();
 	}
-}
 
-class P implements Comparable <P> {
-	int x, y;
-	
-	public int compareTo (P p) {
-		if (this.x < p.x)
-			return -1;
-			
-		else if (this.x > p.x)
-			return 1;
-			
-		else if (this.y < p.y)
-			return -1;
-			
-		else if (this.y > p.y)
-			return 1;
-			
-		else
-			return 0;
-	}
-	
-	public P (int x, int y) {
-		this.x = x; this.y = y;
+	private static class P implements Comparable <P> {
+
+		int x, y;
+
+		public P (int x, int y) {
+			this.x = x; this.y = y;
+		}
+
+		public int compareTo (P p) {
+			if (this.x < p.x)
+				return -1;
+
+			else if (this.x > p.x)
+				return 1;
+
+			else if (this.y < p.y)
+				return -1;
+
+			else if (this.y > p.y)
+				return 1;
+
+			else
+				return 0;
+		}
 	}
 }

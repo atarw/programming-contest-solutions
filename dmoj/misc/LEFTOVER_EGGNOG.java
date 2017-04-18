@@ -1,5 +1,9 @@
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.util.ArrayDeque;
+import java.util.Queue;
 
 public class LEFTOVER_EGGNOG {
   public static void main (String [] t) throws IOException {
@@ -127,12 +131,13 @@ public class LEFTOVER_EGGNOG {
     
     out.close ();
   }
-}
 
-class State {
-  int A, B, O;
-  
-  public State (int A, int B, int O) {
-    this.A = A; this.B = B; this.O = O;
+  private static class State {
+
+    int A, B, O;
+
+    public State (int A, int B, int O) {
+      this.A = A; this.B = B; this.O = O;
+    }
   }
 }

@@ -1,5 +1,7 @@
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
 
 public class SEGMENT_TREE_TEST_NODE {
  
@@ -183,10 +185,9 @@ public class SEGMENT_TREE_TEST_NODE {
   
   out.close ();
  }
-}
 
-class Node {
- int l, r, min, gcd, count;
- 
- public Node () {}
+	private static class Node {
+
+		int l, r, min, gcd, count;
+	}
 }

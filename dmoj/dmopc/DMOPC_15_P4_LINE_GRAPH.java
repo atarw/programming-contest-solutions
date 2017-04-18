@@ -1,5 +1,9 @@
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 public class DMOPC_15_P4_LINE_GRAPH {
   
@@ -73,18 +77,19 @@ public class DMOPC_15_P4_LINE_GRAPH {
     
     System.out.print (total);
   }
-}
 
-class Edge implements Comparable <Edge> {
-  int S, E, W;
-  
-  public int compareTo (Edge e) {
-    return W - e.W;
-  }
-  
-  public Edge (int S, int E, int W) {
-    this.S = S;
-    this.E = E;
-    this.W = W;
+  private static class Edge implements Comparable <Edge> {
+
+    int S, E, W;
+
+    public Edge (int S, int E, int W) {
+      this.S = S;
+      this.E = E;
+      this.W = W;
+    }
+
+    public int compareTo (Edge e) {
+      return W - e.W;
+    }
   }
 }

@@ -1,5 +1,9 @@
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayDeque;
+import java.util.Arrays;
+import java.util.Queue;
 
 public class SINGLE_SOURCE_SHORTEST_PATH {
   public static void main (String [] args) throws IOException {
@@ -19,41 +23,42 @@ public class SINGLE_SOURCE_SHORTEST_PATH {
       System.out.println (i);
     }
   }
-}
 
-class Graph {
-  static int [][] matrix;
-  static int [] cache;
-  
-  public void traverse (int S) {
-    Queue <Integer> queue = new ArrayDeque <Integer> ();
-    int curr;
-    
-    queue.offer (S);
-    
-    while (!queue.isEmpty ()) {
-      curr = queue.poll ();
-      
-      for (int i = 0; i < matrix [0].length; i++) {
-        if (matrix [curr][i] != 0 && (cache [i] == -1 || cache [i] > cache [curr] + matrix [curr][i])) {
-          cache [i] = cache [curr] + matrix [curr][i];
-          queue.offer (i);
-        }
-      }
-    }
-  }
-  
-  public void addEdge (int S, int E, int W) {
-    if (matrix [S - 1][E - 1] == 0 || W < matrix [S - 1][E - 1]) {
-      matrix [S - 1][E - 1] = W;
-      matrix [E - 1][S - 1] = W;
-    }
-  }
-  
-  public Graph (int N) {
-    matrix = new int [N][N];
-    cache = new int [N];
-    Arrays.fill (cache, -1);
-    cache [0] = 0;
+	private static class Graph {
+
+		static int[][] matrix;
+		static int[] cache;
+
+		public Graph (int N) {
+			matrix = new int[N][N];
+			cache = new int[N];
+			Arrays.fill (cache, -1);
+			cache[0] = 0;
+		}
+
+		public void traverse (int S) {
+			Queue <Integer> queue = new ArrayDeque <Integer> ();
+			int curr;
+
+			queue.offer (S);
+
+			while (!queue.isEmpty ()) {
+				curr = queue.poll ();
+
+				for (int i = 0; i < matrix[0].length; i++) {
+					if (matrix[curr][i] != 0 && (cache[i] == -1 || cache[i] > cache[curr] + matrix[curr][i])) {
+						cache[i] = cache[curr] + matrix[curr][i];
+						queue.offer (i);
+					}
+				}
+			}
+		}
+
+		public void addEdge (int S, int E, int W) {
+			if (matrix[S - 1][E - 1] == 0 || W < matrix[S - 1][E - 1]) {
+				matrix[S - 1][E - 1] = W;
+				matrix[E - 1][S - 1] = W;
+			}
+		}
   }
 }

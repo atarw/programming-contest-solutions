@@ -1,4 +1,6 @@
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.*;
 
 public class MOSTLY_TALKING {
@@ -79,13 +81,14 @@ public class MOSTLY_TALKING {
     
     System.out.print (min == Integer.MAX_VALUE ? -1 : min);
   }
-}
 
-class Edge {
-  int E, W;
-  
-  public Edge (int E, int W) {
-    this.E = E;
-    this.W = W;
+  private static class Edge {
+
+    int E, W;
+
+    public Edge (int E, int W) {
+      this.E = E;
+      this.W = W;
+    }
   }
 }

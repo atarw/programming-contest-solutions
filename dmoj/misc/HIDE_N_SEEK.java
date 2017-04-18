@@ -1,7 +1,13 @@
 //quite possibly some of the worst code i have ever written in my life
 
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.util.ArrayDeque;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Queue;
 
 public class HIDE_N_SEEK {
 	
@@ -139,12 +145,13 @@ public class HIDE_N_SEEK {
 		out.print (dfs (T, gx, gy));
 		out.close ();
 	}
-}
 
-class State {
-	int x, y;
-	
-	public State (int x, int y) {
-		this.x = x; this.y = y;
+	private static class State {
+
+		int x, y;
+
+		public State (int x, int y) {
+			this.x = x; this.y = y;
+		}
 	}
 }

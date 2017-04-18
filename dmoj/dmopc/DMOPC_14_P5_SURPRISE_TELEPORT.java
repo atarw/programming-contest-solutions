@@ -1,4 +1,6 @@
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.*;
 
 public class DMOPC_14_P5_SURPRISE_TELEPORT {
@@ -85,13 +87,14 @@ public class DMOPC_14_P5_SURPRISE_TELEPORT {
     
     System.out.print (norm - min);
   }
-}
 
-class P {
-  int X, Y;
-  
-  public P (int X, int Y) {
-    this.X = X;
-    this.Y = Y;
+	private static class P {
+
+		int X, Y;
+
+		public P (int X, int Y) {
+			this.X = X;
+			this.Y = Y;
+		}
   }
 }

@@ -1,5 +1,6 @@
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 public class TSOC_16_P3_YOU_AND_CROSSROADS {
   
@@ -26,12 +27,7 @@ public class TSOC_16_P3_YOU_AND_CROSSROADS {
       ln = in.readLine ();
       
       for (int x = 0; x < 2 * N; x++) {
-        if (ln.charAt (x) == 'd') {
-          maze [n][x] = false;
-        }
-        else {
-          maze [n][x] = true;
-        }
+	      maze[n][x] = ln.charAt (x) != 'd';
       }
     }
     

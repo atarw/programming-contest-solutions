@@ -1,4 +1,6 @@
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.*;
 
 public class CCC_15_S4_CONVEX_HULL {
@@ -62,24 +64,26 @@ public class CCC_15_S4_CONVEX_HULL {
     
     System.out.print (min == Integer.MAX_VALUE ? -1 : min);
   }
-}
 
-class State {
-  int C, H;
-  
-  public State (int C, int H) {
-    this.C = C;
-    this.H = H;
-  }
-}
+	private static class State {
 
-class Edge {
-  int A, B, T, H;
-  
-  public Edge (int A, int B, int T, int H) {
-    this.A = A;
-    this.B = B;
-    this.T = T;
-    this.H = H;
+		int C, H;
+
+		public State (int C, int H) {
+			this.C = C;
+			this.H = H;
+		}
+	}
+
+	private static class Edge {
+
+		int A, B, T, H;
+
+		public Edge (int A, int B, int T, int H) {
+			this.A = A;
+			this.B = B;
+			this.T = T;
+			this.H = H;
+		}
   }
 }

@@ -1,5 +1,7 @@
-import java.io.*;
-import java.util.*;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.PrintWriter;
 
 public class CODEFORCES_743_A {
 	public static void main (String [] t) throws IOException {
@@ -25,6 +27,8 @@ public class CODEFORCES_743_A {
 			
 			for (int n = N; n >= 1; --n)
 				b [n] = first [n] != first [A] ? n : b [n + 1];
+
+			int diff = 1 << 30;
 
 			for (int n = 1; n <= N; ++n)
 				if (first [n] == first [A])

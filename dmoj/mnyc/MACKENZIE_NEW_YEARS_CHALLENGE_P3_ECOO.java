@@ -1,5 +1,8 @@
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.NavigableSet;
+import java.util.TreeSet;
 
 public class MACKENZIE_NEW_YEARS_CHALLENGE_P3_ECOO {
   public static void main (String [] args) throws IOException {
@@ -12,8 +15,8 @@ public class MACKENZIE_NEW_YEARS_CHALLENGE_P3_ECOO {
     
     for (int i = 0; i < N; i++) {
       String [] t = in.readLine ().split (" ");
-      Team a = new Team (t [0], t [1].equals ("girls") ? true : false, Integer.parseInt (t [2]));
-      gen.add (a);
+	    Team a = new Team (t[0], t[1].equals ("girls"), Integer.parseInt (t[2]));
+	    gen.add (a);
       
       if (a.girl) girl.add (a);
     }
@@ -45,6 +48,12 @@ class Team implements Comparable <Team> {
   boolean girl;
   String name;
   int score;
+
+	public Team (String name, boolean girl, int score) {
+		this.name = name;
+		this.girl = girl;
+		this.score = score;
+	}
   
   public String toString () {
     return name;
@@ -61,11 +70,5 @@ class Team implements Comparable <Team> {
   
   public int compareTo (Team t) {
     return score - t.score;
-  }
-  
-  public Team (String name, boolean girl, int score) {
-    this.name = name;
-    this.girl = girl;
-    this.score = score;
   }
 }

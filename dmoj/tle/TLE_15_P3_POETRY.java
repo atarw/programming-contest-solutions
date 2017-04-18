@@ -1,4 +1,6 @@
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 public class TLE_15_P3_POETRY {
   public static void main (String [] t) throws IOException {

@@ -1,6 +1,10 @@
-import java.io.*;
-import java.util.*;
-import java.text.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.text.DecimalFormat;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 public class MEC_16_P1_BAT_DOCTOR {
 	public static double solve (P p1, P p2) {
@@ -37,17 +41,18 @@ public class MEC_16_P1_BAT_DOCTOR {
 			}
 		}
 	}
-}
 
-class P implements Comparable <P> {
-	int X, Y;
-	
-	public int compareTo (P p) {
-		return X - p.X;
-	}
-	
-	public P (int X, int Y) {
-		this.X = X;
-		this.Y = Y;
+	private static class P implements Comparable <P> {
+
+		int X, Y;
+
+		public P (int X, int Y) {
+			this.X = X;
+			this.Y = Y;
+		}
+
+		public int compareTo (P p) {
+			return X - p.X;
+		}
 	}
 }

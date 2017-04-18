@@ -1,5 +1,10 @@
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
 
 public class CCC_03_S3_FLOOR_PLAN {
   
@@ -93,23 +98,24 @@ public class CCC_03_S3_FLOOR_PLAN {
     
     System.out.println (filled + " room" + (filled != 1 ? "s, " : ", ") + F + " square metre(s) left over");
   }
-}
 
-class P {
-  int X, Y;
-  
-  public int hashCode () {
-    return X * 17 + Y * 37;
-  }
-  
-  public boolean equals (Object o) {
-    P a = (P) (o);
-    
-    return X == a.X && Y == a.Y;
-  }
-  
-  public P (int X, int Y) {
-    this.X = X;
-    this.Y = Y;
+	private static class P {
+
+		int X, Y;
+
+		public P (int X, int Y) {
+			this.X = X;
+			this.Y = Y;
+		}
+
+		public int hashCode () {
+			return X * 17 + Y * 37;
+		}
+
+		public boolean equals (Object o) {
+			P a = (P) (o);
+
+			return X == a.X && Y == a.Y;
+		}
   }
 }

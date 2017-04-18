@@ -1,5 +1,10 @@
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class CCC_13_S4_WHO_IS_TALLER {
   public static void main (String [] args) throws IOException {
@@ -29,65 +34,33 @@ public class CCC_13_S4_WHO_IS_TALLER {
       System.out.println ("unknown");
     }
   }
-}
 
-class Graph {
-  
-  Map <Integer, List <Integer>> map = new HashMap <Integer, List <Integer>> ();
-  
-  public void addEdge (Integer taller, Integer shorter) {
-    if (!map.containsKey (taller)) {
-      map.put (taller, new ArrayList <Integer> ());
-    }
-    
-    map.get (taller).add (shorter);
+	private static class Graph {
+
+		Map <Integer, List <Integer>> map = new HashMap <Integer, List <Integer>> ();
+
+		public void addEdge (Integer taller, Integer shorter) {
+			if (!map.containsKey (taller)) {
+				map.put (taller, new ArrayList <Integer> ());
+			}
+
+			map.get (taller).add (shorter);
+		}
+
+		public boolean connected (int p1, int p2) {
+			if (p1 == p2) {
+				return true;
+			}
+
+			if (map.containsKey (p1)) {
+				for (Integer i : map.get (p1)) {
+					if (connected (i, p2)) {
+						return true;
+					}
+				}
+			}
+
+			return false;
+		}
   }
-  
-  /*public boolean connected (int p1, int p2) {
-   Queue <Integer> queue = new ArrayDeque <Integer> ();
-   Set <Integer> visited = new HashSet <Integer> ();
-   
-   queue.offer (p1);
-   int curr;
-   
-   while (!queue.isEmpty ()) {
-   curr = queue.poll ();
-   visited.add (curr);
-   
-   if (curr == p2) {
-   return true;
-   }
-   
-   if (map.containsKey (curr)) {
-   for (Integer i : map.get (curr)) {
-   if (i == p2) {
-   return true;
-   }
-   else if (!visited.contains (i)) {
-   queue.add (i);
-   }
-   }
-   }
-   }
-   
-   return false;
-   }*/
-  
-  public boolean connected (int p1, int p2) {
-    if (p1 == p2) {
-      return true;
-    }
-    
-    if (map.containsKey (p1)) {
-      for (Integer i : map.get (p1)) {
-        if (connected (i, p2)) {
-          return true;
-        }
-      }
-    }
-    
-    return false;
-  }
-  
-  public Graph () {}
 }

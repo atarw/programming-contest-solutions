@@ -1,5 +1,8 @@
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
 
 public class BTS_16_P5_CHERRY_TREE {
 	
@@ -60,12 +63,13 @@ public class BTS_16_P5_CHERRY_TREE {
 		solve (0);
 		System.out.print (cut);
 	}
-}
 
-class Edge {
-	int s, e, w;
-	
-	public Edge (int s, int e, int w) {
-		this.s = s; this.e = e; this.w = w;
+	private static class Edge {
+
+		int s, e, w;
+
+		public Edge (int s, int e, int w) {
+			this.s = s; this.e = e; this.w = w;
+		}
 	}
 }

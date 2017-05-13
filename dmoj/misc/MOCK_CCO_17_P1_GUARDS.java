@@ -2,18 +2,94 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Queue;
+import java.util.ArrayDeque;
+import java.util.Arrays;
 
-// atharva washimkar
-// May 10, 2017
+public class MOCK_CCO_17_P1_GUARDS {
 
-public class DMOPC_15_P6_LELEI_AND_CONTEST_SEG_TREE {
+	static int N, M;
+	static List<Integer>[] list;
+	static int[] ind, type;
+
+	public static int solve (int p) {
+		int cnt = -1;
+		int[] ind2 = Arrays.copyOf (ind, ind.length);
+
+		Queue<Integer> t1 = new ArrayDeque<Integer> ();
+		Queue<Integer> t2 = new ArrayDeque<Integer> ();
+
+		for (int n = 0; n < N; ++n)
+			if (ind2[n] == 0)
+				if (type[n] == p)
+					t1.offer (n);
+				else
+					t2.offer (n);
+
+		while (!t1.isEmpty () || !t2.isEmpty ()) {
+			if (!t1.isEmpty ())
+				++cnt;
+
+			while (!t1.isEmpty ()) {
+				int u = t1.poll ();
+
+				for (int v : list[u]) {
+					if (--ind2[v] == 0) {
+						if (type[v] == p)
+							t1.offer (v);
+						else
+							t2.offer (v);
+					}
+				}
+			}
+
+			if (!t2.isEmpty ())
+				++cnt;
+
+			while (!t2.isEmpty ()) {
+				int u = t2.poll ();
+
+				for (int v : list[u]) {
+					if (--ind2[v] == 0) {
+						if (type[v] == p)
+							t1.offer (v);
+						else
+							t2.offer (v);
+					}
+				}
+			}
+		}
+
+		return cnt;
+	}
 
 	public static void main (String[] t) throws IOException {
 		INPUT in = new INPUT (System.in);
 		PrintWriter out = new PrintWriter (System.out);
 
+		N = in.iscan (); M = in.iscan ();
+		type = new int[N];
 
+		for (int n = 0; n < N; ++n)
+			type[n] = in.iscan ();
 
+		list = new ArrayList[N];
+		ind = new int[N];
+
+		for (int n = 0; n < N; ++n)
+			list[n] = new ArrayList<Integer> ();
+
+		for (int m = 0; m < M; ++m) {
+			int a = in.iscan (), b = in.iscan ();
+			list[a].add (b);
+			++ind[b];
+		}
+
+		int ans1 = solve (0), ans2 = solve (1);
+
+		out.print (Math.min (ans1, ans2));
 		out.close ();
 	}
 

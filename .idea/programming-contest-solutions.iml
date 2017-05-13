@@ -71,6 +71,8 @@
       <sourceFolder url="file://$MODULE_DIR$/dmoj/vmss" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ioi/2001" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ioi/2013" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kattis" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/hackerrank" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

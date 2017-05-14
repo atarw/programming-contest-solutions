@@ -40,3 +40,6 @@
  # OS X
  *.DS_Store
  *.DS_Store?
+
+ # build directory for intellij
+ build/

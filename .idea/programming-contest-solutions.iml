@@ -73,6 +73,7 @@
       <sourceFolder url="file://$MODULE_DIR$/ioi/2013" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/kattis" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/hackerrank" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cco/2017" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

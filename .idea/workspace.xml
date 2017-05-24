@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf5dc239-6b36-4c09-b580-a8e8c611168e" name="Default" comment="consistent indenting??">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cco/2017/CCO_17_P1_VERA_AND_TRAIL_BUILDING.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dmoj/dmpg/DMPG_17_S1_MOLLY_AND_DIFFERENCE.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dmoj/dmpg/DMPG_17_S2_ANIME_CONVENTIONS.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dmoj/dmpg/DMPG_17_S3_BLACK_AND_WHITE_III.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/programming-contest-solutions.iml" afterPath="$PROJECT_DIR$/.idea/programming-contest-solutions.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ccc/2017/CCC_17_S4_MINIMUM_COST_FLOW.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P6_SAVE_NAGATO.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_16_P4_TREE_APPRAISAL.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,20 +19,7 @@
     <favorites_list name="programming-contest-solutions" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ECOO_17_R2_P2_TREASURE_HUNT.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ecoo/ECOO_17_R2_P2_TREASURE_HUNT.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-114">
-              <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -68,11 +53,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dmoj/misc/MOSTLY_TALKING.java" />
-        <option value="$PROJECT_DIR$/ccc/2003/CCC_03_S3_FLOOR_PLAN.java" />
-        <option value="$PROJECT_DIR$/ccc/2003/CCC_03_S5_TRUCKING_TROUBLES.java" />
-        <option value="$PROJECT_DIR$/ccc/2007/CCC_07_S3_FRIENDS.java" />
-        <option value="$PROJECT_DIR$/ccc/2008/CCC_08_J3_GPS_TEXT_ENTRY.java" />
         <option value="$PROJECT_DIR$/ccc/2009/CCC_09_J5_DEGREES_OF_SEPARATION.java" />
         <option value="$PROJECT_DIR$/ccc/2011/CCC_11_J4_BORING_BUSINESS.java" />
         <option value="$PROJECT_DIR$/ccc/2012/CCC_12_S4_A_COIN_GAME.java" />
@@ -113,12 +93,17 @@
         <option value="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P6_LELEI_AND_CONTEST_SEG_TREE.java" />
         <option value="$PROJECT_DIR$/dmoj/misc/MOCK_CCO_17_P1_GUARDS.java" />
         <option value="$PROJECT_DIR$/hackerrank/A_WALK_TO_REMEMBER.java" />
-        <option value="$PROJECT_DIR$/ecoo/ECOO_17_R2_P2_TREASURE_HUNT.java" />
         <option value="$PROJECT_DIR$/ecoo/ECOO_17_R3_P2_FAMILY_TREE.java" />
         <option value="$PROJECT_DIR$/dmoj/dmpg/DMPG_17_S1_MOLLY_AND_DIFFERENCE.java" />
         <option value="$PROJECT_DIR$/dmoj/dmpg/DMPG_17_S2_ANIME_CONVENTIONS.java" />
         <option value="$PROJECT_DIR$/dmoj/dmpg/DMPG_17_S3_BLACK_AND_WHITE_III.java" />
         <option value="$PROJECT_DIR$/cco/2017/CCO_17_P1_VERA_AND_TRAIL_BUILDING.java" />
+        <option value="$PROJECT_DIR$/ecoo/ECOO_17_R2_P2_TREASURE_HUNT.java" />
+        <option value="$PROJECT_DIR$/ccc/2017/CCC_17_S3_MINIMUM_COST_FLOW.java" />
+        <option value="$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P6_SAVING_NAGATO.java" />
+        <option value="$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P6_SAVE_NAGATO.java" />
+        <option value="$PROJECT_DIR$/ccc/2017/CCC_17_S4_MINIMUM_COST_FLOW.java" />
+        <option value="$PROJECT_DIR$/dmoj/dmopc/DMOPC_16_P4_TREE_APPRAISAL.java" />
       </list>
     </option>
   </component>
@@ -129,9 +114,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="773" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -192,9 +176,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -217,7 +201,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ecoo" />
+              <option name="myItemId" value="dmoj" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -231,7 +215,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cco" />
+              <option name="myItemId" value="dmoj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dmopc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -248,6 +236,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -261,7 +250,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CCO_17_P1_VERA_AND_TRAIL_BUILDING">
+  <component name="RunManager" selected="Application.DMOPC_16_P4_TREE_APPRAISAL">
     <configuration default="false" name="TLE_16_P1_PAPER_HOLE_PUNCHING" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TLE_16_P1_PAPER_HOLE_PUNCHING" />
       <option name="VM_PARAMETERS" />
@@ -276,8 +265,8 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="CCO_17_P1_VERA_AND_TRAIL_BUILDING" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CCO_17_P1_VERA_AND_TRAIL_BUILDING" />
+    <configuration default="false" name="DMOPC_16_P4_TREE_APPRAISAL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DMOPC_16_P4_TREE_APPRAISAL" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -382,11 +371,11 @@
     </configuration>
     <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Application.TLE_16_P1_PAPER_HOLE_PUNCHING" />
-      <item index="1" class="java.lang.String" itemvalue="Application.CCO_17_P1_VERA_AND_TRAIL_BUILDING" />
+      <item index="1" class="java.lang.String" itemvalue="Application.DMOPC_16_P4_TREE_APPRAISAL" />
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.CCO_17_P1_VERA_AND_TRAIL_BUILDING" />
+        <item index="0" class="java.lang.String" itemvalue="Application.DMOPC_16_P4_TREE_APPRAISAL" />
         <item index="1" class="java.lang.String" itemvalue="Application.TLE_16_P1_PAPER_HOLE_PUNCHING" />
       </list>
     </recent_temporary>
@@ -425,20 +414,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="773" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34765625" sideWeight="0.4943182" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.315625" sideWeight="0.48863637" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23240373" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4375" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48207173" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39914772" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5056818" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34765625" sideWeight="0.5113636" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -451,7 +440,6 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23295455" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -516,41 +504,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ccc/2012/CCC_12_S4_A_COIN_GAME.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1695">
-          <caret line="113" column="33" lean-forward="true" selection-start-line="113" selection-start-column="33" selection-end-line="113" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ccc/2015/CCC_15_S4_CONVEX_HULL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="83" column="3" lean-forward="false" selection-start-line="83" selection-start-column="3" selection-end-line="83" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cco/2011/CCO_11_P2_VAMPIRE_TUNNELS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="77" column="5" lean-forward="false" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dmoj/bts/BTS_16_P5_CHERRY_TREE.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dmoj/bts/BTS_16_P8_TEXTBOOKS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="112" column="3" lean-forward="false" selection-start-line="112" selection-start-column="3" selection-end-line="112" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dmoj/dmpg/DMPG_15_S5_BLACK_AND_WHITE.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -752,13 +705,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dmoj/misc/MOCK_CCO_17_P2_PENETRATING_POWER.java" />
     <entry file="file://$PROJECT_DIR$/dmoj/misc/MYNC_17_P5_SKIING_COMPETITION.java" />
-    <entry file="file://$PROJECT_DIR$/spoj/SPOJ_LCA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/misc/2_SAT.java" />
     <entry file="file://$PROJECT_DIR$/misc/MOES_ALGORITHM.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -826,11 +772,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ecoo/ECOO_17_R2_P2_TREASURE_HUNT.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114">
-          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="15">
+          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccc/2017/CCC_17_S3_MINIMUM_COST_FLOW.java" />
+    <entry file="file://$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P6_SAVING_NAGATO.java" />
+    <entry file="file://$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P6_SAVE_NAGATO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="70" column="8" lean-forward="false" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ccc/2017/CCC_17_S4_MINIMUM_COST_FLOW.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="97" column="38" lean-forward="false" selection-start-line="97" selection-start-column="38" selection-end-line="97" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spoj/SPOJ_LCA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmoj/dmopc/DMOPC_16_P4_TREE_APPRAISAL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="114" column="0" lean-forward="true" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

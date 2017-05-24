@@ -7,39 +7,39 @@
 # Prerequisites
 *.d
 
- # Compiled Object files
- *.slo
- *.lo
- *.o
- *.obj
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
 
- # Precompiled Headers
- *.gch
- *.pch
+# Precompiled Headers
+*.gch
+*.pch
 
- # Compiled Dynamic libraries
- *.so
- *.dylib
- *.dll
- 
- # Fortran module files
- *.mod
- *.smod
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
 
- # Compiled Static libraries
- *.lai
- *.la
- *.a
- *.lib
+# Fortran module files
+*.mod
+*.smod
 
- # Executables
- *.exe
- *.out
- *.app
- 
- # OS X
- *.DS_Store
- *.DS_Store?
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
 
- # build directory for intellij
- build/
+# Executables
+*.exe
+*.out
+*.app
+
+# OS X
+*.DS_Store
+*.DS_Store?
+
+# build directory for intellij
+build/

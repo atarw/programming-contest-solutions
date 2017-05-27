@@ -13,26 +13,26 @@ public class TWO_SAT {
 
 	static List<Integer>[] list, rev;
 	static Deque<Integer> q = new ArrayDeque<Integer> ();
-	static boolean [] vis;
-	static int [] id;
+	static boolean[] vis;
+	static int[] id;
 	static int cnt;
 
 	public static void dfs (int u) {
-		vis [u] = true;
+		vis[u] = true;
 
-		for (int v : list [u])
-			if (!vis [v])
+		for (int v : list[u])
+			if (!vis[v])
 				dfs (v);
 
 		q.offerFirst (u);
 	}
 
 	public static void dfs2 (int u) {
-		vis [u] = true;
-		id [u] = ++cnt;
+		vis[u] = true;
+		id[u] = cnt;
 
-		for (int v : rev [u])
-			if (!vis [v])
+		for (int v : rev[u])
+			if (!vis[v])
 				dfs2 (v);
 	}
 
@@ -47,37 +47,42 @@ public class TWO_SAT {
 			a = in.iscan () - 1; b = in.iscan () - 1;
 			na = a + N; nb = b + N; // each variable has two nodes: itself and the opposite of itself (NOT)
 			// A || B means: if NOT A, then B must be true | NOT B, then A must be true
-			list [na].add (b); list [nb].add (a);
-			rev [b].add (na); rev [a].add (nb);
+			list[na].add (b); list[nb].add (a);
+			rev[b].add (na); rev[a].add (nb);
 		}
 
 		// do SCC, which TOPOLOGICALLY SORTS the connected components in order
-		vis = new boolean [N];
+		vis = new boolean[N];
 
 		for (int n = 0; n < N; ++n)
-			if (!vis [n])
+			if (!vis[n])
 				dfs (n);
 
-		vis = new boolean [N];
-		id = new int [N];
+		vis = new boolean[N];
+		id = new int[N];
 
-		for (int n = 0; n < N; ++n)
-			if (!vis [n])
-				dfs2 (n);
+		while (!q.isEmpty ()) {
+			int u = q.poll ();
 
-		boolean [] ans = new boolean [N];
+			if (!vis[u]) {
+				dfs2 (u);
+				++cnt;
+			}
+		}
+
+		boolean[] ans = new boolean[N];
 		boolean sat = true;
 
 		for (int n = 0; n < N && sat; ++n) {
-			if (id [n] == id [n + N])// if the NOT variable and the variable are in the same component, the equation is not satisfiable
+			if (id[n] == id[n + N])// if the NOT variable and the variable are in the same component, the equation is not satisfiable
 				sat = false;
 
-			ans [n] = id [n] < id [n + N]; // n + N is the NOT, so whichever comes first determines whether the variable should be true or false to satisfy the equation
+			ans[n] = id[n] < id[n + N]; // n + N is the NOT, so whichever comes first determines whether the variable should be true or false to satisfy the equation
 		}
 
 		if (sat)
 			for (int n = 0; n < N; ++n)
-				out.println ("Variable " + (n + 1) + ": " + ans [n]);
+				out.println ("Variable " + (n + 1) + ": " + ans[n]);
 		else
 			out.println ("Impossible to satisfy equation.");
 

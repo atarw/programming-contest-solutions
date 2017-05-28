@@ -18,23 +18,23 @@ public class VMSS_16_P2_GG {
 			System.out.println (s.sum (Integer.parseInt (t[0]), Integer.parseInt (t[1])));
 		}
 	}
-}
 
-class PrefixRunArray {
+	private static class PrefixRunArray {
 
-	int[] arr;
+		int[] arr;
 
-	public PrefixRunArray (String ln) {
-		arr = new int[ln.length () + 1];
+		public PrefixRunArray (String ln) {
+			arr = new int[ln.length () + 1];
 
-		arr[0] = 0;
+			arr[0] = 0;
 
-		for (int i = 1; i <= ln.length (); i++) {
-			arr[i] = arr[i - 1] + (ln.charAt (i - 1) == 'G' ? 1 : 0);
+			for (int i = 1; i <= ln.length (); i++) {
+				arr[i] = arr[i - 1] + (ln.charAt (i - 1) == 'G' ? 1 : 0);
+			}
 		}
-	}
 
-	public int sum (int S, int E) {
-		return arr[E + 1] - arr[S];
+		public int sum (int S, int E) {
+			return arr[E + 1] - arr[S];
+		}
 	}
 }

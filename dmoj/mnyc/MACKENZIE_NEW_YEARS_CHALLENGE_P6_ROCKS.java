@@ -21,7 +21,7 @@ public class MACKENZIE_NEW_YEARS_CHALLENGE_P6_ROCKS {
 		String[] t;
 		int C = Integer.parseInt (in.readLine ());
 
-		Map <String, Integer> map = new HashMap <String, Integer> ();//string to index
+		Map<String, Integer> map = new HashMap<String, Integer> ();//string to index
 		PrefixSumArray arr = new PrefixSumArray ();
 
 		for (int c = 0; c < C; c++) {
@@ -62,70 +62,70 @@ public class MACKENZIE_NEW_YEARS_CHALLENGE_P6_ROCKS {
 			//System.out.println (t [0] + " " + arr);
 		}
 	}
-}
 
-class PrefixSumArray {
+	private static class PrefixSumArray {
 
-	int size = 1;
-	private int[] arr = new int[10002];
-	private int[] vals = new int[10002];//not 1-indexed
+		int size = 1;
+		private int[] arr = new int[10002];
+		private int[] vals = new int[10002];//not 1-indexed
 
-	public PrefixSumArray () {}
+		public PrefixSumArray () {}
 
-	public void swap (int index1, int index2) {
-		int val = vals[index1 - 1];
+		public void swap (int index1, int index2) {
+			int val = vals[index1 - 1];
 
-		vals[index1 - 1] = vals[index2 - 1];
-		vals[index2 - 1] = val;
+			vals[index1 - 1] = vals[index2 - 1];
+			vals[index2 - 1] = val;
 
-		build (Math.min (index1, index2), Math.max (index1, index2));
-	}
-
-	public void insert (int val) {
-		vals[size - 1] = val;
-		arr[size] = arr[size - 1] + val;
-		size++;
-	}
-
-	public int sum (int to) {
-		return sum (0, to);
-	}
-
-	public int sum (int from, int to) {
-		return arr[to] - arr[from - 1];
-	}
-
-	public void update (int index, int val) {
-		vals[index - 1] = val;
-		build (index);
-	}
-
-	private void build (int from) {
-		build (from, size);
-	}
-
-	private void build (int from, int to) {
-		for (int i = from; i < to; i++) {
-			arr[i] = arr[i - 1] + vals[i - 1];
-		}
-	}
-
-	public String toString () {
-		StringBuilder b = new StringBuilder ();
-
-		b.append ("VALS: ");
-
-		for (int i = 0; i < size + 10; i++) {
-			b.append (vals[i] + " ");
+			build (Math.min (index1, index2), Math.max (index1, index2));
 		}
 
-		b.append ("\nSUMS: ");
-
-		for (int i = 0; i <= size + 10; i++) {
-			b.append (arr[i] + " ");
+		public void insert (int val) {
+			vals[size - 1] = val;
+			arr[size] = arr[size - 1] + val;
+			size++;
 		}
-		b.append ("\n");
 
-		return b.toString ();
+		public int sum (int to) {
+			return sum (0, to);
+		}
+
+		public int sum (int from, int to) {
+			return arr[to] - arr[from - 1];
+		}
+
+		public void update (int index, int val) {
+			vals[index - 1] = val;
+			build (index);
+		}
+
+		private void build (int from) {
+			build (from, size);
+		}
+
+		private void build (int from, int to) {
+			for (int i = from; i < to; i++) {
+				arr[i] = arr[i - 1] + vals[i - 1];
+			}
+		}
+
+		public String toString () {
+			StringBuilder b = new StringBuilder ();
+
+			b.append ("VALS: ");
+
+			for (int i = 0; i < size + 10; i++) {
+				b.append (vals[i] + " ");
+			}
+
+			b.append ("\nSUMS: ");
+
+			for (int i = 0; i <= size + 10; i++) {
+				b.append (arr[i] + " ");
+			}
+			b.append ("\n");
+
+			return b.toString ();
+		}
 	}
 }

@@ -85,14 +85,14 @@ public class DMOPC_13_P4_AFK {
 			System.out.println (ans < 60 ? ans : "#notworth");
 		}
 	}
-}
 
-class P {
+	private static class P {
 
-	int X, Y;
+		int X, Y;
 
-	public P (int X, int Y) {
-		this.X = X;
-		this.Y = Y;
+		public P (int X, int Y) {
+			this.X = X;
+			this.Y = Y;
+		}
 	}
 }

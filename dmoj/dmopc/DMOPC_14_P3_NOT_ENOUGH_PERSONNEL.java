@@ -8,7 +8,7 @@ public class DMOPC_14_P3_NOT_ENOUGH_PERSONNEL {
 
 	public static void main (String[] args) throws IOException {
 		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
-		NavigableMap <Integer, Veteran> map = new TreeMap <Integer, Veteran> ();
+		NavigableMap<Integer, Veteran> map = new TreeMap<Integer, Veteran> ();
 
 		int N = Integer.parseInt (in.readLine ());
 		String[] t;
@@ -39,25 +39,25 @@ public class DMOPC_14_P3_NOT_ENOUGH_PERSONNEL {
 			}
 		}
 	}
-}
 
-class Veteran {
+	private static class Veteran {
 
-	String name;
-	int S;
+		String name;
+		int S;
 
-	public Veteran (String name, int S) {
-		this.name = name;
-		this.S = S;
-	}
+		public Veteran (String name, int S) {
+			this.name = name;
+			this.S = S;
+		}
 
-	public int hashCode () {
-		return S * 17 + name.hashCode ();
-	}
+		public int hashCode () {
+			return S * 17 + name.hashCode ();
+		}
 
-	public boolean equals (Object o) {
-		Veteran v = ((Veteran) o);
+		public boolean equals (Object o) {
+			Veteran v = ((Veteran) o);
 
-		return v.S == S && v.name.equals (name);
+			return v.S == S && v.name.equals (name);
+		}
 	}
 }

@@ -10,8 +10,8 @@ public class TREE_CUTTING {
 
 	static int[][] maze;
 
-	public static List <State> next (State curr) {
-		List <State> next = new ArrayList <State> ();
+	public static List<State> next (State curr) {
+		List<State> next = new ArrayList<State> ();
 
 		if (curr.x + 1 < maze.length) {
 			next.add (new State (curr.x + 1, curr.y));
@@ -92,8 +92,8 @@ public class TREE_CUTTING {
 
 		cache[sx][sy] = new State2 (0, 0);
 
-		List <State> next;
-		Queue <State> q = new ArrayDeque <State> ();
+		List<State> next;
+		Queue<State> q = new ArrayDeque<State> ();
 		State curr = new State (sx, sy);
 		q.offer (curr);
 
@@ -117,24 +117,24 @@ public class TREE_CUTTING {
 
 		System.out.print (cache[ex][ey].c - 1);// since it counts the cutting of the tree they are after
 	}
-}
 
-class State {
+	private static class State {
 
-	int x, y;
+		int x, y;
 
-	public State (int x, int y) {
-		this.x = x;
-		this.y = y;
+		public State (int x, int y) {
+			this.x = x;
+			this.y = y;
+		}
 	}
-}
 
-class State2 {
+	private static class State2 {
 
-	int h, c;
+		int h, c;
 
-	public State2 (int h, int c) {
-		this.h = h;
-		this.c = c;
+		public State2 (int h, int c) {
+			this.h = h;
+			this.c = c;
+		}
 	}
 }

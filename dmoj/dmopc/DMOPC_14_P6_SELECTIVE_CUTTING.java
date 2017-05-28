@@ -129,40 +129,40 @@ public class DMOPC_14_P6_SELECTIVE_CUTTING {
 
 		out.close ();
 	}
-}
 
-class Tree implements Comparable <Tree> {
+	private static class Tree implements Comparable<Tree> {
 
-	int m, ord;
+		int m, ord;
 
-	public Tree (int m, int ord) {
-		this.m = m;
-		this.ord = ord;
+		public Tree (int m, int ord) {
+			this.m = m;
+			this.ord = ord;
+		}
+
+		public int compareTo (Tree t) {
+			return t.m - this.m;
+		}
 	}
 
-	public int compareTo (Tree t) {
-		return t.m - this.m;
+	private static class Query implements Comparable<Query> {
+
+		int a, b, m, ord;
+
+		public Query (int a, int b, int m, int ord) {
+			this.a = a;
+			this.b = b;
+			this.m = m;
+			this.ord = ord;
+		}
+
+		public int compareTo (Query q) {
+			return q.m - this.m;
+		}
 	}
-}
 
-class Query implements Comparable <Query> {
+	private static class Node {
 
-	int a, b, m, ord;
-
-	public Query (int a, int b, int m, int ord) {
-		this.a = a;
-		this.b = b;
-		this.m = m;
-		this.ord = ord;
+		int l, r;
+		long sum;
 	}
-
-	public int compareTo (Query q) {
-		return q.m - this.m;
-	}
-}
-
-class Node {
-
-	int l, r;
-	long sum;
 }

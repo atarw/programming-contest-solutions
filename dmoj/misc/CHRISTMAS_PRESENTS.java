@@ -27,34 +27,34 @@ public class CHRISTMAS_PRESENTS {
 			System.out.println (teachers[i].name + " will get a " + presents[i].name);
 		}
 	}
-}
 
-class Present implements Comparable <Present> {
+	private static class Present implements Comparable<Present> {
 
-	String name;
-	double price;
+		String name;
+		double price;
 
-	public Present (String name, double price) {
-		this.name = name;
-		this.price = price;
+		public Present (String name, double price) {
+			this.name = name;
+			this.price = price;
+		}
+
+		public int compareTo (Present p) {
+			return price > p.price ? 1 : price == p.price ? 0 : -1;
+		}
 	}
 
-	public int compareTo (Present p) {
-		return price > p.price ? 1 : price == p.price ? 0 : -1;
-	}
-}
+	private static class Teacher implements Comparable<Teacher> {
 
-class Teacher implements Comparable <Teacher> {
+		String name;
+		int rating;
 
-	String name;
-	int rating;
+		public Teacher (String name, int rating) {
+			this.name = name;
+			this.rating = rating;
+		}
 
-	public Teacher (String name, int rating) {
-		this.name = name;
-		this.rating = rating;
-	}
-
-	public int compareTo (Teacher p) {
-		return rating - p.rating;
+		public int compareTo (Teacher p) {
+			return rating - p.rating;
+		}
 	}
 }

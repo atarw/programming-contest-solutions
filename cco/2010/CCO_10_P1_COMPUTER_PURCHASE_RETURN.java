@@ -8,7 +8,7 @@ import java.util.List;
 
 public class CCO_10_P1_COMPUTER_PURCHASE_RETURN {
 
-	static List <Part>[] list;
+	static List<Part>[] list;
 	static int[][] cache;
 	static int T;
 
@@ -42,7 +42,7 @@ public class CCO_10_P1_COMPUTER_PURCHASE_RETURN {
 		list = new ArrayList[T];
 
 		for (int tt = 0; tt < T; ++tt)
-			list[tt] = new ArrayList <Part> ();
+			list[tt] = new ArrayList<Part> ();
 
 		for (int n = 0, c, v, tt; n < N; ++n) {
 			t = in.readLine ().split (" ");
@@ -61,14 +61,14 @@ public class CCO_10_P1_COMPUTER_PURCHASE_RETURN {
 		out.print (solve (0, B));
 		out.close ();
 	}
-}
 
-class Part {
+	private static class Part {
 
-	int C, V;
+		int C, V;
 
-	public Part (int C, int V) {
-		this.C = C;
-		this.V = V;
+		public Part (int C, int V) {
+			this.C = C;
+			this.V = V;
+		}
 	}
 }

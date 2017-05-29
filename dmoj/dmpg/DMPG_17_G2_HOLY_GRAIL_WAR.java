@@ -15,7 +15,7 @@ public class DMPG_17_G2_HOLY_GRAIL_WAR {
 		long sum = l.sum + r.sum;
 		long pref = Math.max (l.pref, l.sum + r.pref);
 		long suf = Math.max (r.suf, r.sum + l.suf);
-		long best = Math.max (Math.max (l.best, r.best), Math.max (l.suf + r.pref, sum));
+		long best = Math.max (Math.max (l.best, r.best), l.suf + r.pref);
 		return new Node (sum, best, pref, suf);
 	}
 

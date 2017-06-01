@@ -56,17 +56,17 @@ public class VMSS_15_P5_JEFFREY_AND_FRANK_AND_A_LACK_OF_ROADS {
 			System.out.println (A[a].N + " " + bought[a]);
 		}
 	}
-}
 
-class Apple {
+	private static class Apple {
 
-	String N;
-	int V, A, B;
+		String N;
+		int V, A, B;
 
-	public Apple (String N, int V, int A, int B) {
-		this.N = N;
-		this.V = V;
-		this.A = A;
-		this.B = B;
+		public Apple (String N, int V, int A, int B) {
+			this.N = N;
+			this.V = V;
+			this.A = A;
+			this.B = B;
+		}
 	}
 }

@@ -14,7 +14,7 @@ public class COCI_13_P4_LOPOV {
 		int N = Integer.parseInt (t[0]), K = Integer.parseInt (t[1]);
 
 		Jewellery[] arr = new Jewellery[N];
-		NavigableMap <Integer, Integer> bags = new TreeMap <Integer, Integer> ();
+		NavigableMap<Integer, Integer> bags = new TreeMap<Integer, Integer> ();
 
 		for (int n = 0; n < N; n++) {
 			t = in.readLine ().split (" ");
@@ -55,18 +55,18 @@ public class COCI_13_P4_LOPOV {
 
 		System.out.print (total);
 	}
-}
 
-class Jewellery implements Comparable <Jewellery> {
+	private static class Jewellery implements Comparable<Jewellery> {
 
-	int M, V;
+		int M, V;
 
-	public Jewellery (int M, int V) {
-		this.M = M;
-		this.V = V;
-	}
+		public Jewellery (int M, int V) {
+			this.M = M;
+			this.V = V;
+		}
 
-	public int compareTo (Jewellery j) {
-		return j.V - V;
+		public int compareTo (Jewellery j) {
+			return j.V - V;
+		}
 	}
 }

@@ -10,9 +10,9 @@ public class MACKENZIE_NEW_YEARS_CHALLENGE_P3_ECOO {
 		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
 		int N = Integer.parseInt (in.readLine ());
 
-		NavigableSet <Team> gen = new TreeSet <Team> ();
-		NavigableSet <Team> girl = new TreeSet <Team> ();
-		NavigableSet <String> names = new TreeSet <String> ();
+		NavigableSet<Team> gen = new TreeSet<Team> ();
+		NavigableSet<Team> girl = new TreeSet<Team> ();
+		NavigableSet<String> names = new TreeSet<String> ();
 
 		for (int i = 0; i < N; i++) {
 			String[] t = in.readLine ().split (" ");
@@ -43,34 +43,34 @@ public class MACKENZIE_NEW_YEARS_CHALLENGE_P3_ECOO {
 			System.out.println (i);
 		}
 	}
-}
 
-class Team implements Comparable <Team> {
+	private static class Team implements Comparable<Team> {
 
-	boolean girl;
-	String name;
-	int score;
+		boolean girl;
+		String name;
+		int score;
 
-	public Team (String name, boolean girl, int score) {
-		this.name = name;
-		this.girl = girl;
-		this.score = score;
-	}
+		public Team (String name, boolean girl, int score) {
+			this.name = name;
+			this.girl = girl;
+			this.score = score;
+		}
 
-	public String toString () {
-		return name;
-	}
+		public String toString () {
+			return name;
+		}
 
-	public int hashCode () {
-		return score;
-	}
+		public int hashCode () {
+			return score;
+		}
 
-	public boolean equals (Object o) {
-		Team p = ((Team) o);
-		return name.equals (p.name) && girl == p.girl && score == p.score;
-	}
+		public boolean equals (Object o) {
+			Team p = ((Team) o);
+			return name.equals (p.name) && girl == p.girl && score == p.score;
+		}
 
-	public int compareTo (Team t) {
-		return score - t.score;
+		public int compareTo (Team t) {
+			return score - t.score;
+		}
 	}
 }

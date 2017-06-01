@@ -73,55 +73,55 @@ public class STARDUST_SNOW {
 		out.print (solve (0, 1, 0, 0));
 		out.close ();
 	}
-}
 
-class INPUT {
+	private static class INPUT {
 
-	private InputStream stream;
-	private byte[] buf = new byte[1024];
-	private int curChar, numChars;
+		private InputStream stream;
+		private byte[] buf = new byte[1024];
+		private int curChar, numChars;
 
-	public INPUT (InputStream stream) {
-		this.stream = stream;
-	}
-
-	public int cscan () throws IOException {
-		//if (numChars == -1) throw new InputMismatchException ();
-
-		if (curChar >= numChars) {
-			curChar = 0;
-			numChars = stream.read (buf);
-
-			//if (numChars <= 0) return -1;
+		public INPUT (InputStream stream) {
+			this.stream = stream;
 		}
 
-		return buf[curChar++];
-	}
+		public int cscan () throws IOException {
+			//if (numChars == -1) throw new InputMismatchException ();
 
-	public int iscan () throws IOException {
-		int c = cscan (), sgn = 1;
-		while (space (c)) c = cscan ();
+			if (curChar >= numChars) {
+				curChar = 0;
+				numChars = stream.read (buf);
 
-		if (c == '-') {
-			sgn = -1;
-			c = cscan ();
+				//if (numChars <= 0) return -1;
+			}
+
+			return buf[curChar++];
 		}
 
-		int res = 0;
+		public int iscan () throws IOException {
+			int c = cscan (), sgn = 1;
+			while (space (c)) c = cscan ();
 
-		do {
-			//if (c < '0' || c > '9') throw new InputMismatchException ();
-			res *= 10;
-			res += c - '0';
+			if (c == '-') {
+				sgn = -1;
+				c = cscan ();
+			}
 
-			c = cscan ();
+			int res = 0;
+
+			do {
+				//if (c < '0' || c > '9') throw new InputMismatchException ();
+				res *= 10;
+				res += c - '0';
+
+				c = cscan ();
+			}
+			while (!space (c));
+
+			return res * sgn;
 		}
-		while (!space (c));
 
-		return res * sgn;
-	}
-
-	public boolean space (int c) {
-		return c == ' ' || c == '\n' || c == '\r' || c == '\t' || c == -1;
+		public boolean space (int c) {
+			return c == ' ' || c == '\n' || c == '\r' || c == '\t' || c == -1;
+		}
 	}
 }

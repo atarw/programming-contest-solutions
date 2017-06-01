@@ -16,8 +16,8 @@ public class MWC_15_C8_P3_DRAW_DOWN {
 		in.readLine ();
 		ln = in.readLine ();
 
-		Queue <Quad> queue = new ArrayDeque <Quad> ();
-		Set <Quad> vis = new HashSet <Quad> ();
+		Queue<Quad> queue = new ArrayDeque<Quad> ();
+		Set<Quad> vis = new HashSet<Quad> ();
 		Quad q = new Quad (0, 0, 0, 0);
 
 		queue.offer (q);
@@ -65,25 +65,25 @@ public class MWC_15_C8_P3_DRAW_DOWN {
 		if (c3)
 			System.out.println (3);
 	}
-}
 
-class Quad {
+	private static class Quad {
 
-	int N, c1, c2, c3;
+		int N, c1, c2, c3;
 
-	public Quad (int N, int c1, int c2, int c3) {
-		this.N = N;
-		this.c1 = c1;
-		this.c2 = c2;
-		this.c3 = c3;
-	}
+		public Quad (int N, int c1, int c2, int c3) {
+			this.N = N;
+			this.c1 = c1;
+			this.c2 = c2;
+			this.c3 = c3;
+		}
 
-	public int hashCode () {
-		return c1 * 19 + c2 * 31 + c3 * 47;
-	}
+		public int hashCode () {
+			return c1 * 19 + c2 * 31 + c3 * 47;
+		}
 
-	public boolean equals (Object o) {
-		Quad q = (Quad) o;
-		return q.c1 == c1 && q.c2 == c2 && q.c3 == c3;
+		public boolean equals (Object o) {
+			Quad q = (Quad) o;
+			return q.c1 == c1 && q.c2 == c2 && q.c3 == c3;
+		}
 	}
 }

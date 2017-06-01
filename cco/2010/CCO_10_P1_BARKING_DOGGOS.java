@@ -14,11 +14,11 @@ public class CCO_10_P1_BARKING_DOGGOS {
 
 		int D = Integer.parseInt (in.readLine ());
 		int[] wait = new int[D];
-		List <Integer>[] list = new ArrayList[D];
+		List<Integer>[] list = new ArrayList[D];
 
 		for (int d = 0; d < D; ++d) {
 			wait[d] = Integer.parseInt (in.readLine ());
-			list[d] = new ArrayList <Integer> ();
+			list[d] = new ArrayList<Integer> ();
 		}
 
 		int F = Integer.parseInt (in.readLine ());
@@ -33,7 +33,7 @@ public class CCO_10_P1_BARKING_DOGGOS {
 		int[] doggos = new int[D];
 		int[] busy = new int[D];
 
-		PriorityQueue <Bark> q = new PriorityQueue <Bark> ();
+		PriorityQueue<Bark> q = new PriorityQueue<Bark> ();
 		q.offer (new Bark (0, 0));
 
 		Bark curr;
@@ -57,18 +57,18 @@ public class CCO_10_P1_BARKING_DOGGOS {
 
 		out.close ();
 	}
-}
 
-class Bark implements Comparable <Bark> {
+	private static class Bark implements Comparable<Bark> {
 
-	int doggo, time;
+		int doggo, time;
 
-	public Bark (int doggo, int time) {
-		this.doggo = doggo;
-		this.time = time;
-	}
+		public Bark (int doggo, int time) {
+			this.doggo = doggo;
+			this.time = time;
+		}
 
-	public int compareTo (Bark b) {
-		return this.time - b.time;
+		public int compareTo (Bark b) {
+			return this.time - b.time;
+		}
 	}
 }

@@ -11,10 +11,10 @@ public class TLE_15_P1_POWER_RANKING {
 
 		int N = Integer.parseInt (t[0]), P = Integer.parseInt (t[1]);
 
-		People[] arr = new People[N];
+		Person[] arr = new Person[N];
 
 		for (int n = 0; n < N; n++) {
-			arr[n] = new People (in.readLine (), 0);
+			arr[n] = new Person (in.readLine (), 0);
 		}
 
 		for (int p = 0; p < P; p++) {
@@ -32,17 +32,17 @@ public class TLE_15_P1_POWER_RANKING {
 		}
 	}
 
-	private static class People implements Comparable<People> {
+	private static class Person implements Comparable<Person> {
 
 		String n;
 		int t;
 
-		People (String n, int t) {
+		Person (String n, int t) {
 			this.n = n;
 			this.t = t;
 		}
 
-		public int compareTo (People p) {
+		public int compareTo (Person p) {
 			return p.t - t;
 		}
 	}

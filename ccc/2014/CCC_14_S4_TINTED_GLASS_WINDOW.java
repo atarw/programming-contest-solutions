@@ -16,8 +16,8 @@ public class CCC_14_S4_TINTED_GLASS_WINDOW {
 		int T = Integer.parseInt (in.readLine ());
 
 		Rect[] cmds = new Rect[N];
-		NavigableMap <Integer, Integer> xc = new TreeMap <Integer, Integer> ();//uncompressed x to compressed x
-		NavigableMap <Integer, Integer> yc = new TreeMap <Integer, Integer> ();//uncompressed y to compressed y
+		NavigableMap<Integer, Integer> xc = new TreeMap<Integer, Integer> ();//uncompressed x to compressed x
+		NavigableMap<Integer, Integer> yc = new TreeMap<Integer, Integer> ();//uncompressed y to compressed y
 
 		int[] xs = new int[N * 2], ys = new int[N * 2];
 
@@ -72,17 +72,17 @@ public class CCC_14_S4_TINTED_GLASS_WINDOW {
 		out.print (area);
 		out.close ();
 	}
-}
 
-class Rect {
+	private static class Rect {
 
-	int x1, y1, x2, y2, t;
+		int x1, y1, x2, y2, t;
 
-	public Rect (int x1, int y1, int x2, int y2, int t) {
-		this.x1 = x1;
-		this.y1 = y1;
-		this.x2 = x2;
-		this.y2 = y2;
-		this.t = t;
+		public Rect (int x1, int y1, int x2, int y2, int t) {
+			this.x1 = x1;
+			this.y1 = y1;
+			this.x2 = x2;
+			this.y2 = y2;
+			this.t = t;
+		}
 	}
 }

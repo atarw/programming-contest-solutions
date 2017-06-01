@@ -13,9 +13,9 @@ public class DMPG_15_S6_APPLES_TO_ORANGES {
 
 		int N = Integer.parseInt (t[0]), M = Integer.parseInt (t[1]), curr;
 
-		Map <String, Integer> map = new HashMap <String, Integer> ();
-		Queue <Integer> queue = new ArrayDeque <Integer> ();
-		List <Edge>[] list = new ArrayList[N];
+		Map<String, Integer> map = new HashMap<String, Integer> ();
+		Queue<Integer> queue = new ArrayDeque<Integer> ();
+		List<Edge>[] list = new ArrayList[N];
 		double[] dist = new double[N];
 
 		for (int n = 0; n < N; n++) {
@@ -26,7 +26,7 @@ public class DMPG_15_S6_APPLES_TO_ORANGES {
 			t = in.readLine ().split (" ");
 
 			if (list[map.get (t[0])] == null) {
-				list[map.get (t[0])] = new ArrayList <Edge> ();
+				list[map.get (t[0])] = new ArrayList<Edge> ();
 			}
 
 			list[map.get (t[0])].add (new Edge (map.get (t[1]), Double.parseDouble (t[2])));
@@ -54,15 +54,15 @@ public class DMPG_15_S6_APPLES_TO_ORANGES {
 		}
 		System.out.println ("NAW");
 	}
-}
 
-class Edge {
+	private static class Edge {
 
-	int E;
-	double W;
+		int E;
+		double W;
 
-	public Edge (int E, double W) {
-		this.E = E;
-		this.W = W;
+		public Edge (int E, double W) {
+			this.E = E;
+			this.W = W;
+		}
 	}
 }

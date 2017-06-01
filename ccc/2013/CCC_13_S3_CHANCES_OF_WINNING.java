@@ -8,7 +8,7 @@ import java.util.List;
 public class CCC_13_S3_CHANCES_OF_WINNING {
 
 	static int[] scores = new int[5];//convenience :P
-	static List <Match> list = new ArrayList <Match> ();
+	static List<Match> list = new ArrayList<Match> ();
 	static int T;
 
 	public static int chance (int... t) {//G, T1, T2, T3, T4
@@ -88,23 +88,23 @@ public class CCC_13_S3_CHANCES_OF_WINNING {
 		System.out.println (chance (G, scores[1], scores[2], scores[3], scores[4]));
 		//System.out.println (list);
 	}
-}
 
-class Match {
+	private static class Match {
 
-	int T1, T2;
+		int T1, T2;
 
-	public Match (int T1, int T2) {
-		this.T1 = T1;
-		this.T2 = T2;
-	}
+		public Match (int T1, int T2) {
+			this.T1 = T1;
+			this.T2 = T2;
+		}
 
-	public String toString () {
-		return T1 + " vs. " + T2;
-	}
+		public String toString () {
+			return T1 + " vs. " + T2;
+		}
 
-	public boolean equals (Object o) {
-		Match m = (Match) o;
-		return T1 == m.T1 && T2 == m.T2;
+		public boolean equals (Object o) {
+			Match m = (Match) o;
+			return T1 == m.T1 && T2 == m.T2;
+		}
 	}
 }

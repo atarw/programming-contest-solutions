@@ -27,52 +27,52 @@ public class VMSS_15_P4_FRANK_AND_ROADS {
 
 		System.out.println (g.reachable (0, T));
 	}
-}
 
-class Graph {
+	private static class Graph {
 
-	static int[] cache;
-	static int[][] matrix;
-	Set <Integer> set = new HashSet <Integer> ();
+		static int[] cache;
+		static int[][] matrix;
+		Set<Integer> set = new HashSet<Integer> ();
 
-	public Graph (int N) {
-		matrix = new int[N + 1][N + 1];
-		cache = new int[N + 1];
-	}
+		public Graph (int N) {
+			matrix = new int[N + 1][N + 1];
+			cache = new int[N + 1];
+		}
 
-	public int reachable (int S, int T) {
-		int count = 0, curr;
-		Queue <Integer> queue = new ArrayDeque <Integer> ();
-		queue.offer (S);
+		public int reachable (int S, int T) {
+			int count = 0, curr;
+			Queue<Integer> queue = new ArrayDeque<Integer> ();
+			queue.offer (S);
 
-		while (!queue.isEmpty ()) {
-			curr = queue.poll ();
+			while (!queue.isEmpty ()) {
+				curr = queue.poll ();
 
-			if (set.remove (curr)) {
-				count++;
-			}
+				if (set.remove (curr)) {
+					count++;
+				}
 
-			for (int i = 0; i < matrix[0].length; i++) {
-				if (matrix[curr][i] != 0 && (cache[i] == 0 || cache[i] > cache[curr] + matrix[curr][i])) {
-					cache[i] = cache[curr] + matrix[curr][i];
+				for (int i = 0; i < matrix[0].length; i++) {
+					if (matrix[curr][i] != 0 && (cache[i] == 0 || cache[i] > cache[curr] + matrix[curr][i])) {
+						cache[i] = cache[curr] + matrix[curr][i];
 
-					if (cache[i] < T) {
-						queue.offer (i);
+						if (cache[i] < T) {
+							queue.offer (i);
+						}
 					}
 				}
 			}
+
+			return count;
 		}
 
-		return count;
-	}
+		public void addBasic (int B) {
+			set.add (B);
+		}
 
-	public void addBasic (int B) {
-		set.add (B);
-	}
-
-	public void addEdge (int S, int E, int W) {
-		if (matrix[S][E] == 0 || matrix[S][E] > W) {
-			matrix[S][E] = W;
+		public void addEdge (int S, int E, int W) {
+			if (matrix[S][E] == 0 || matrix[S][E] > W) {
+				matrix[S][E] = W;
+			}
 		}
 	}
 }

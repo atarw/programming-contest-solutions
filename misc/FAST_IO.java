@@ -1,6 +1,6 @@
 import java.io.*;
 
-class FAST_IO_JAVA {
+public class FAST_IO {
 
 	private static class INPUT {
 

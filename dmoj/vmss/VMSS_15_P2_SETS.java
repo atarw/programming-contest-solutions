@@ -16,14 +16,14 @@ public class VMSS_15_P2_SETS {
 
 		Arrays.sort (t, new CommandOrder ());
 
-		NavigableMap <Character, NavigableSet <Character>> map = new TreeMap <Character, NavigableSet <Character>> ();
+		NavigableMap<Character, NavigableSet<Character>> map = new TreeMap<Character, NavigableSet<Character>> ();
 		//stores set name to set contents
-		Map <Character, Set <Character>> links = new HashMap <Character, Set <Character>> ();//stores set name to list
+		Map<Character, Set<Character>> links = new HashMap<Character, Set<Character>> ();//stores set name to list
 		// of sets which contain the key set
 
 		for (String i : t) {
 			if (!map.containsKey (i.charAt (0))) {
-				map.put (i.charAt (0), new TreeSet <Character> ());
+				map.put (i.charAt (0), new TreeSet<Character> ());
 			}
 
 			if (!Character.isUpperCase (i.charAt (i.length () - 1))) {
@@ -31,11 +31,11 @@ public class VMSS_15_P2_SETS {
 			}
 			else {
 				if (!map.containsKey (i.charAt (i.length () - 1))) {
-					map.put (i.charAt (i.length () - 1), new TreeSet <Character> ());
+					map.put (i.charAt (i.length () - 1), new TreeSet<Character> ());
 				}
 
 				if (!links.containsKey (i.charAt (i.length () - 1))) {
-					links.put (i.charAt (i.length () - 1), new HashSet <Character> ());
+					links.put (i.charAt (i.length () - 1), new HashSet<Character> ());
 				}
 
 				links.get (i.charAt (i.length () - 1)).add (i.charAt (0));
@@ -52,7 +52,7 @@ public class VMSS_15_P2_SETS {
 		for (Character i : map.keySet ()) {
 			System.out.print (i + " = {");
 
-			for (Iterator <Character> it = map.get (i).iterator (); it.hasNext (); ) {
+			for (Iterator<Character> it = map.get (i).iterator (); it.hasNext (); ) {
 				System.out.print (it.next ());
 
 				if (it.hasNext ())
@@ -61,27 +61,27 @@ public class VMSS_15_P2_SETS {
 			System.out.println ("}");
 		}
 	}
-}
 
-class CommandOrder implements Comparator <String> {
+	private static class CommandOrder implements Comparator<String> {
 
-	public int compare (String s1, String s2) {
-		if (Character.isUpperCase (s1.charAt (s1.length () - 1))) {
-			if (Character.isUpperCase (s2.charAt (s2.length () - 1))) {
+		public int compare (String s1, String s2) {
+			if (Character.isUpperCase (s1.charAt (s1.length () - 1))) {
+				if (Character.isUpperCase (s2.charAt (s2.length () - 1))) {
+					return s1.charAt (0) - s2.charAt (0);
+				}
+				return 1;
+			}
+			else {
+				if (Character.isUpperCase (s2.charAt (s2.length () - 1))) {
+					return -1;
+				}
 				return s1.charAt (0) - s2.charAt (0);
 			}
-			return 1;
 		}
-		else {
-			if (Character.isUpperCase (s2.charAt (s2.length () - 1))) {
-				return -1;
-			}
-			return s1.charAt (0) - s2.charAt (0);
-		}
-	}
 
-	public boolean equals (Object o) {
-		String s = ((String) o);
-		return this.equals (s);
+		public boolean equals (Object o) {
+			String s = ((String) o);
+			return this.equals (s);
+		}
 	}
 }

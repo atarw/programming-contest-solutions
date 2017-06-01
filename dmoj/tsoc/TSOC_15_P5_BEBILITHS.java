@@ -27,33 +27,33 @@ public class TSOC_15_P5_BEBILITHS {
 			System.out.println (arr[Integer.parseInt (in.readLine ()) - 1].J);
 		}
 	}
-}
 
-class Bebilith implements Comparable <Bebilith> {
+	private static class Bebilith implements Comparable<Bebilith> {
 
-	int J, B, D, C;
+		int J, B, D, C;
 
-	public Bebilith (int J, int B, int D, int C) {
-		this.J = J;
-		this.B = B;
-		this.D = D;
-		this.C = C;
-	}
+		public Bebilith (int J, int B, int D, int C) {
+			this.J = J;
+			this.B = B;
+			this.D = D;
+			this.C = C;
+		}
 
-	public int compareTo (Bebilith b) {
-		if (B == b.B) {
-			if (B >= TSOC_15_P5_BEBILITHS.S) {
-				return b.C - C;
-			}
-			else if (B < TSOC_15_P5_BEBILITHS.S) {
-				return b.D - D;
+		public int compareTo (Bebilith b) {
+			if (B == b.B) {
+				if (B >= TSOC_15_P5_BEBILITHS.S) {
+					return b.C - C;
+				}
+				else if (B < TSOC_15_P5_BEBILITHS.S) {
+					return b.D - D;
+				}
+				else {
+					return b.J - J;
+				}
 			}
 			else {
-				return b.J - J;
+				return b.B - B;
 			}
-		}
-		else {
-			return b.B - B;
 		}
 	}
 }

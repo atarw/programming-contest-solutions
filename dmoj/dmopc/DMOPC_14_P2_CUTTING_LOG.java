@@ -12,7 +12,7 @@ public class DMOPC_14_P2_CUTTING_LOG {
 		in.readLine ();
 		String K = in.readLine ();
 
-		List <String> t2 = new ArrayList <String> (Arrays.asList (K.split ("X")));
+		List<String> t2 = new ArrayList<String> (Arrays.asList (K.split ("X")));
 
 		for (int i = t2.size () - 1; i >= 0; i--) {
 			if (t2.get (i).isEmpty ()) {

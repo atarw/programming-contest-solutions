@@ -8,7 +8,7 @@ public class CCC_07_J3_DEAL_OR_NO_DEAL_CALCULATOR {
 
 	public static void main (String[] args) throws IOException {
 		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
-		Map <Integer, Integer> map = new HashMap <Integer, Integer> ();
+		Map<Integer, Integer> map = new HashMap<Integer, Integer> ();
 		int N = Integer.parseInt (in.readLine ());
 
 		map.put (1, 100);

@@ -16,18 +16,18 @@ public class CCO_17_P1_VERA_AND_TRAIL_BUILDING {
 		Graph cycle = new Graph (getV (K), getV (K));
 
 		for (int k = 0; k < cycle.E; ++k) {
-			cycle.edges [k][0] = inc + k + 1;
-			cycle.edges [k][1] = inc + k + 2;
+			cycle.edges[k][0] = inc + k + 1;
+			cycle.edges[k][1] = inc + k + 2;
 		}
 
-		cycle.edges [cycle.E - 1][0] = inc + cycle.V;
-		cycle.edges [cycle.E - 1][1] = inc + 1;
+		cycle.edges[cycle.E - 1][0] = inc + cycle.V;
+		cycle.edges[cycle.E - 1][1] = inc + 1;
 
 		return cycle;
 	}
 
 	public static int getV (int K) {
-		return (int)((1 + Math.sqrt (1 + 8 * K)) / 2);
+		return (int) ((1 + Math.sqrt (1 + 8 * K)) / 2);
 	}
 
 	public static void main (String[] t) throws IOException {
@@ -52,48 +52,52 @@ public class CCO_17_P1_VERA_AND_TRAIL_BUILDING {
 		}
 
 		Graph ans = new Graph (sum, sum + cycles.size () - 1);
-		List <Integer> random = new ArrayList <Integer>();
+		List<Integer> random = new ArrayList<Integer> ();
 
 		inc = 0;
 
 		for (Graph g : cycles) {
 			for (int e = 0; e < g.E; ++e)
-				ans.edges [e + inc] = g.edges [e];
+				ans.edges[e + inc] = g.edges[e];
 
-			random.add (g.edges [0][0]);
+			random.add (g.edges[0][0]);
 			inc += g.E;
 		}
 
 		for (int i = 0; i < random.size () - 1; ++i)
-			ans.edges [i + inc] = new int [] {random.get (i), random.get (i + 1)};
+			ans.edges[i + inc] = new int[]{random.get (i), random.get (i + 1)};
 
 		out.print (ans);
 		out.close ();
 	}
 
 	private static class Graph {
+
 		int V, E;
-		int [][] edges;
+		int[][] edges;
+
+		public Graph (int V, int E) {
+			this.V = V;
+			this.E = E;
+			this.edges = new int[E][2];
+		}
 
 		public String toString () {
 			StringBuilder sb = new StringBuilder ();
 
-			sb.append (V); sb.append (" ");
-			sb.append (E); sb.append ("\n");
+			sb.append (V);
+			sb.append (" ");
+			sb.append (E);
+			sb.append ("\n");
 
 			for (int e = 0; e < E; ++e) {
-				sb.append (edges [e][0]);
+				sb.append (edges[e][0]);
 				sb.append (" ");
-				sb.append (edges [e][1]);
+				sb.append (edges[e][1]);
 				sb.append ("\n");
 			}
 
 			return sb.toString ();
-		}
-
-		public Graph (int V, int E) {
-			this.V = V; this.E = E;
-			this.edges = new int [E][2];
 		}
 	}
 

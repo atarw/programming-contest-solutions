@@ -43,7 +43,7 @@ public class CCOQR_16_Q1_STUPENDOUS_BOWTIES {
 		out.close ();
 	}
 
-	private static class P implements Comparable <P> {
+	private static class P implements Comparable<P> {
 
 		int x, y;
 

@@ -12,14 +12,14 @@ public class DMOPC_13_P1_SHARING_IS_CARING {
 		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
 		String[] t = in.readLine ().split (" ");
 		int N = Integer.parseInt (t[0]), M = Integer.parseInt (t[1]), B;
-		Map <Integer, List <String>> map = new HashMap <Integer, List <String>> ();
+		Map<Integer, List<String>> map = new HashMap<Integer, List<String>> ();
 
 		for (int m = 0; m < M; m++) {
 			t = in.readLine ().split (" ");
 			B = Integer.parseInt (t[1]);
 
 			if (!map.containsKey (B)) {
-				map.put (B, new ArrayList <String> ());
+				map.put (B, new ArrayList<String> ());
 			}
 
 			map.get (B).add (in.readLine ());

@@ -13,7 +13,7 @@ public class RGPC_17_P2_CUBES_ARE_LIFE {
 
 		int N = in.iscan (), M = in.iscan (), Q = in.iscan ();
 		long[] v = new long[N + 1];
-		Map <Integer, Integer> map = new HashMap <Integer, Integer> ();
+		Map<Integer, Integer> map = new HashMap<Integer, Integer> ();
 
 		for (int n = 0, vv; n < N; ++n) {
 			vv = in.iscan ();

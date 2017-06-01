@@ -13,7 +13,7 @@ public class CODEFORCES_768_A {
 
 		int N = in.iscan ();
 		int[] arr = new int[N];
-		NavigableSet <Integer> set = new TreeSet <Integer> ();
+		NavigableSet<Integer> set = new TreeSet<Integer> ();
 
 		for (int n = 0; n < N; ++n)
 			set.add (arr[n] = in.iscan ());

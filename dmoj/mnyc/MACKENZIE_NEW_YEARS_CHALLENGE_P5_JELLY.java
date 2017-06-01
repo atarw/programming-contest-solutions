@@ -13,8 +13,8 @@ public class MACKENZIE_NEW_YEARS_CHALLENGE_P5_JELLY {
 	static P3D j;
 
 	public static int solve () {
-		Queue <P3D> queue = new PriorityQueue <P3D> ();
-		List <P3D> n;
+		Queue<P3D> queue = new PriorityQueue<P3D> ();
+		List<P3D> n;
 		P3D curr = j;
 		queue.offer (j);
 
@@ -46,8 +46,8 @@ public class MACKENZIE_NEW_YEARS_CHALLENGE_P5_JELLY {
 		return min;
 	}
 
-	public static List <P3D> neighbours (P3D curr) {
-		List <P3D> neighbours = new ArrayList <P3D> (6);
+	public static List<P3D> neighbours (P3D curr) {
+		List<P3D> neighbours = new ArrayList<P3D> (6);
 
 		if (valid (curr.X + 1, curr.Y, curr.Z)) {
 			neighbours.add (new P3D (curr.X + 1, curr.Y, curr.Z));
@@ -101,7 +101,7 @@ public class MACKENZIE_NEW_YEARS_CHALLENGE_P5_JELLY {
 		System.out.println (solve ());
 	}
 
-	private static class P3D implements Comparable <P3D> {
+	private static class P3D implements Comparable<P3D> {
 
 		int X, Y, Z;
 

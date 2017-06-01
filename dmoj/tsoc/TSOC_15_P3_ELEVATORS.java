@@ -8,7 +8,7 @@ import java.util.TreeSet;
 
 public class TSOC_15_P3_ELEVATORS {
 
-	public static final NavigableMap <Integer, NavigableSet <Integer>> map = new TreeMap <Integer, NavigableSet
+	public static final NavigableMap<Integer, NavigableSet<Integer>> map = new TreeMap<Integer, NavigableSet
 			<Integer>> ();
 
 	public static int g (int S, int E) {
@@ -55,7 +55,7 @@ public class TSOC_15_P3_ELEVATORS {
 		//map.put (E, returned);
 
 		if (!map.containsKey (E)) {
-			NavigableSet <Integer> set = new TreeSet <Integer> ();
+			NavigableSet<Integer> set = new TreeSet<Integer> ();
 			set.add (returned);
 			map.put (E, set);
 		}
@@ -77,7 +77,7 @@ public class TSOC_15_P3_ELEVATORS {
 			int floor = Integer.parseInt (in.readLine ());
 
 			if (!map.containsKey (floor)) {
-				NavigableSet <Integer> set = new TreeSet <Integer> ();
+				NavigableSet<Integer> set = new TreeSet<Integer> ();
 				set.add (i);
 				map.put (floor, set);
 			}

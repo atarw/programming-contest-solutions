@@ -6,12 +6,12 @@ import java.util.*;
 
 public class CCO_14_P2_KING_GRUFF {
 
-	public static long[] sp (int u, List <Edge>[] list) {
+	public static long[] sp (int u, List<Edge>[] list) {
 		long[] dp = new long[list.length];
 		Arrays.fill (dp, 1L << 50);
 		dp[u] = 0;
 
-		Queue <Integer> q = new ArrayDeque <Integer> ();
+		Queue<Integer> q = new ArrayDeque<Integer> ();
 		q.offer (u);
 
 		while (!q.isEmpty ()) {
@@ -34,12 +34,12 @@ public class CCO_14_P2_KING_GRUFF {
 
 		int N = in.iscan (), M = in.iscan (), A = in.iscan () - 1, B = in.iscan () - 1;
 
-		List <Edge>[] list = new ArrayList[N], rev = new ArrayList[N];
+		List<Edge>[] list = new ArrayList[N], rev = new ArrayList[N];
 		Edge[] edges = new Edge[M];
 
 		for (int n = 0; n < N; ++n) {
-			list[n] = new ArrayList <Edge> ();
-			rev[n] = new ArrayList <Edge> ();
+			list[n] = new ArrayList<Edge> ();
+			rev[n] = new ArrayList<Edge> ();
 		}
 
 		for (int m = 0; m < M; ++m) {
@@ -76,7 +76,7 @@ public class CCO_14_P2_KING_GRUFF {
 		out.close ();
 	}
 
-	private static class Pair implements Comparable <Pair> {
+	private static class Pair implements Comparable<Pair> {
 
 		long dist, cost;
 

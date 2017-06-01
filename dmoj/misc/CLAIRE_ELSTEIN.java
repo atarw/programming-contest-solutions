@@ -12,13 +12,13 @@ public class CLAIRE_ELSTEIN {
 		PrintWriter out = new PrintWriter (System.out);
 
 		int N = in.iscan (), M = in.iscan (), MOD = 1000000007;
-		List <Integer>[] list = new ArrayList[N];
+		List<Integer>[] list = new ArrayList[N];
 		int[] indegree = new int[N];
 		long[] paths = new long[N], dp = new long[N]; // paths stores total number of paths ending at u, dp stores
 		// total sum of paths ending at u
 
 		for (int n = 0; n < N; ++n)
-			list[n] = new ArrayList <Integer> ();
+			list[n] = new ArrayList<Integer> ();
 
 		// bc a < b, dp can be done without queue
 		for (int m = 0, a, b; m < M; ++m) {

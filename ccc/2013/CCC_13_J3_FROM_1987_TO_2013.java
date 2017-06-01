@@ -9,7 +9,7 @@ public class CCC_13_J3_FROM_1987_TO_2013 {
 	public static void main (String[] args) throws IOException {
 		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
 		int Y = Integer.parseInt (in.readLine ());
-		Set <Integer> set = new HashSet <Integer> (5);
+		Set<Integer> set = new HashSet<Integer> (5);
 		boolean good = true;
 
 		for (int i = Y + 1; ; i++) {

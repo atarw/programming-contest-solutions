@@ -24,7 +24,7 @@ public class GFSSOC_17_S2_ACE_IS_BASE {
 		return 'L';
 	}
 
-	public static int lower_bound (List <Long> list, long x) {
+	public static int lower_bound (List<Long> list, long x) {
 		int low = 0, high = list.size (), mid = -1;
 
 		while (low < high) {
@@ -39,7 +39,7 @@ public class GFSSOC_17_S2_ACE_IS_BASE {
 		return low;
 	}
 
-	public static int upper_bound (List <Long> list, long x) {
+	public static int upper_bound (List<Long> list, long x) {
 		int low = 0, high = list.size (), mid = -1;
 
 		while (low < high) {
@@ -62,7 +62,7 @@ public class GFSSOC_17_S2_ACE_IS_BASE {
 		long b = Long.parseLong (in.readLine ());
 
 		// goes up to 10^10, that means longest will have 9 hex digits
-		List <Long> list = new ArrayList <Long> ();
+		List<Long> list = new ArrayList<Long> ();
 		String val;
 
 		for (int n = 0; n <= 3; ++n) {

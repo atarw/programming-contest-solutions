@@ -67,7 +67,7 @@ public class moocast2 {
 		out.close ();
 	}
 
-	private static class Edge implements Comparable <Edge> {
+	private static class Edge implements Comparable<Edge> {
 
 		int s, e, w;
 

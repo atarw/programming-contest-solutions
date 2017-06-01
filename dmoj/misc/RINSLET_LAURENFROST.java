@@ -10,8 +10,8 @@ public class RINSLET_LAURENFROST {
 		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
 		String ln1 = in.readLine (), ln2 = in.readLine ();
 
-		Map <Character, Integer> map = new HashMap <Character, Integer> ();
-		Map <Character, Integer> map2 = new HashMap <Character, Integer> ();
+		Map<Character, Integer> map = new HashMap<Character, Integer> ();
+		Map<Character, Integer> map2 = new HashMap<Character, Integer> ();
 		int S = 0;
 
 		for (int i = 0; i < ln1.length (); i++) {

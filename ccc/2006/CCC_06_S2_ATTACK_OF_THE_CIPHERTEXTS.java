@@ -8,7 +8,7 @@ public class CCC_06_S2_ATTACK_OF_THE_CIPHERTEXTS {
 
 	public static void main (String[] args) throws IOException {
 		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
-		Map <Character, Character> map = new HashMap <Character, Character> ();
+		Map<Character, Character> map = new HashMap<Character, Character> ();
 
 		String plain = in.readLine ();
 		String cip1 = in.readLine ();

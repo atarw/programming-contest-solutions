@@ -6,12 +6,12 @@ import java.util.*;
 
 public class CCO_12_P2_THE_HUNGARY_GAMES {
 
-	public static int[] sp (int u, List <Edge>[] list) {
+	public static int[] sp (int u, List<Edge>[] list) {
 		int[] dp = new int[list.length];
 		Arrays.fill (dp, 1 << 30);
 		dp[u] = 0;
 
-		Queue <Integer> q = new ArrayDeque <Integer> ();
+		Queue<Integer> q = new ArrayDeque<Integer> ();
 		q.offer (u);
 
 		while (!q.isEmpty ()) {
@@ -33,12 +33,12 @@ public class CCO_12_P2_THE_HUNGARY_GAMES {
 		PrintWriter out = new PrintWriter (System.out);
 
 		int N = in.iscan (), M = in.iscan ();
-		List <Edge>[] list = new ArrayList[N], rev = new ArrayList[N];
+		List<Edge>[] list = new ArrayList[N], rev = new ArrayList[N];
 		int[] a = new int[M], b = new int[M], l = new int[M];
 
 		for (int n = 0; n < N; ++n) {
-			list[n] = new ArrayList <Edge> ();
-			rev[n] = new ArrayList <Edge> ();
+			list[n] = new ArrayList<Edge> ();
+			rev[n] = new ArrayList<Edge> ();
 		}
 
 		for (int m = 0; m < M; ++m) {
@@ -50,7 +50,7 @@ public class CCO_12_P2_THE_HUNGARY_GAMES {
 		}
 
 		int[] dp = sp (0, list), dp2 = sp (N - 1, rev);
-		NavigableSet <Integer> best = new TreeSet <Integer> ();
+		NavigableSet<Integer> best = new TreeSet<Integer> ();
 
 		for (int m = 0; m < M; ++m)
 			if (dp[a[m]] != 1 << 30 && dp2[b[m]] != 1 << 30)

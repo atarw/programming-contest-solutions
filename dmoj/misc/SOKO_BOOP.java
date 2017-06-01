@@ -45,7 +45,7 @@ public class SOKO_BOOP {
 			}
 		}
 
-		Queue <State> q = new ArrayDeque <State> ();
+		Queue<State> q = new ArrayDeque<State> ();
 
 		for (int r = 0; r < R; ++r) {
 			for (int c = 0; c < C; ++c) {

@@ -7,8 +7,8 @@ public class CCC_12_S4_A_COIN_GAME {
 
 	static int N;
 
-	public static List <State> moves (State s) {
-		List <State> moves = new ArrayList <State> ();
+	public static List<State> moves (State s) {
+		List<State> moves = new ArrayList<State> ();
 		State c;
 
 		for (int n = N - 1; n >= 0; --n) {
@@ -43,7 +43,7 @@ public class CCC_12_S4_A_COIN_GAME {
 			if (N == 0)
 				break;
 
-			Map <String, Integer> map = new HashMap <String, Integer> (818879);
+			Map<String, Integer> map = new HashMap<String, Integer> (818879);
 			State curr = new State ();
 
 			t = in.readLine ().split (" ");
@@ -65,8 +65,8 @@ public class CCC_12_S4_A_COIN_GAME {
 			map.put (end_str, Integer.MAX_VALUE);
 			map.put (curr.toString (), 0);
 
-			Queue <State> q = new ArrayDeque <State> (35280);
-			List <State> moves;
+			Queue<State> q = new ArrayDeque<State> (35280);
+			List<State> moves;
 			q.offer (curr);
 
 			while (!q.isEmpty ()) {
@@ -97,20 +97,20 @@ public class CCC_12_S4_A_COIN_GAME {
 
 	private static class State {
 
-		Deque <Integer>[] row;
+		Deque<Integer>[] row;
 
 		public State () {
 			this.row = new ArrayDeque[N];
 
 			for (int r = 0; r < row.length; ++r)
-				row[r] = new ArrayDeque <Integer> ();
+				row[r] = new ArrayDeque<Integer> ();
 		}
 
 		public State (State s) {
 			this.row = new ArrayDeque[s.row.length];
 
 			for (int r = 0; r < row.length; ++r)
-				row[r] = new ArrayDeque <Integer> (s.row[r]);
+				row[r] = new ArrayDeque<Integer> (s.row[r]);
 		}
 
 		public boolean equals (Object o) {

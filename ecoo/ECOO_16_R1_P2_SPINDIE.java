@@ -9,12 +9,12 @@ public class ECOO_16_R1_P2_SPINDIE {
 	public static void main (String[] t) throws IOException {
 		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
 		int N;
-		Set <Integer> spin;
+		Set<Integer> spin;
 		int[] targets = new int[5];
 
 		for (int i = 0; i < 10; i++) {
 			N = Integer.parseInt (in.readLine ());
-			spin = new HashSet <Integer> (100);
+			spin = new HashSet<Integer> (100);
 
 			t = in.readLine ().split (" ");
 

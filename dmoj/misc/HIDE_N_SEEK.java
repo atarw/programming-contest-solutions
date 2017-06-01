@@ -21,8 +21,8 @@ public class HIDE_N_SEEK {
 		return 0 <= x && x < maze.length && 0 <= y && y < maze[0].length && maze[x][y] != 'X';
 	}
 
-	public static List <State> next (int x, int y) {
-		List <State> next = new ArrayList <State> ();
+	public static List<State> next (int x, int y) {
+		List<State> next = new ArrayList<State> ();
 
 		for (int d = 0; d < dir.length; ++d) {
 			if (valid (x + dir[d][0], y + dir[d][1])) {
@@ -34,12 +34,12 @@ public class HIDE_N_SEEK {
 	}
 
 	public static void bfs (int j, int x, int y) {
-		Queue <State> q = new ArrayDeque <State> ();
+		Queue<State> q = new ArrayDeque<State> ();
 		State curr = new State (x, y);
 		cache[j][x][y] = 0;
 		q.offer (curr);
 
-		List <State> next;
+		List<State> next;
 
 		while (!q.isEmpty ()) {
 			curr = q.poll ();

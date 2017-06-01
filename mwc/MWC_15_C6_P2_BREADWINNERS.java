@@ -9,7 +9,7 @@ public class MWC_15_C6_P2_BREADWINNERS {
 
 	static boolean[] sieve;
 	static int[] comp;
-	static List <Integer> list;
+	static List<Integer> list;
 
 	public static void main (String[] t) throws IOException {
 		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
@@ -24,7 +24,7 @@ public class MWC_15_C6_P2_BREADWINNERS {
 		}
 
 		sieve = new boolean[max + 1];
-		list = new ArrayList <Integer> (max / 2);
+		list = new ArrayList<Integer> (max / 2);
 		list.add (2);
 
 		for (int i = 2; i <= max; i++) {

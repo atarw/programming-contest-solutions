@@ -13,7 +13,7 @@ public class citystate {
 
 		int N = in.iscan ();
 		String[][] cities = new String[N][2];
-		Map <String, Integer> map = new HashMap <String, Integer> ();
+		Map<String, Integer> map = new HashMap<String, Integer> ();
 
 		for (int n = 0; n < N; ++n) {
 			cities[n][0] = in.sscan ();

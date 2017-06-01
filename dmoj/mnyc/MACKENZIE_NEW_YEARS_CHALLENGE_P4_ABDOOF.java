@@ -5,8 +5,8 @@ import java.util.*;
 
 public class MACKENZIE_NEW_YEARS_CHALLENGE_P4_ABDOOF {
 
-	public static List <String> split (String i, Set <String> F) {
-		List <String> list = new LinkedList <String> ();
+	public static List<String> split (String i, Set<String> F) {
+		List<String> list = new LinkedList<String> ();
 
 		//System.out.println ("'" + i + "'");
 
@@ -22,7 +22,7 @@ public class MACKENZIE_NEW_YEARS_CHALLENGE_P4_ABDOOF {
 					//System.out.println (list);
 					i = i.substring (x.length ());
 
-					List <String> add = split (i, F);
+					List<String> add = split (i, F);
 					//System.out.println ("A: " + add);
 
 					if (add != null)
@@ -40,7 +40,7 @@ public class MACKENZIE_NEW_YEARS_CHALLENGE_P4_ABDOOF {
 		return list;
 	}
 
-	public static String sw (Set <String> s, String i) {
+	public static String sw (Set<String> s, String i) {
 		for (String x : s) {
 			if (i.startsWith (x)) {
 				return x;
@@ -49,7 +49,7 @@ public class MACKENZIE_NEW_YEARS_CHALLENGE_P4_ABDOOF {
 		return null;
 	}
 
-	public static String ew (Set <String> s, String i) {
+	public static String ew (Set<String> s, String i) {
 		for (String x : s) {
 			if (i.endsWith (x)) {
 				return x;
@@ -61,10 +61,10 @@ public class MACKENZIE_NEW_YEARS_CHALLENGE_P4_ABDOOF {
 	public static void main (String[] args) throws IOException {
 		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
 		String[] t = in.readLine ().split (" +");
-		Set <String> A = new HashSet <String> ();
-		Set <String> B = new HashSet <String> ();
-		Set <String> C = new HashSet <String> ();
-		Set <String> F = new HashSet <String> ();
+		Set<String> A = new HashSet<String> ();
+		Set<String> B = new HashSet<String> ();
+		Set<String> C = new HashSet<String> ();
+		Set<String> F = new HashSet<String> ();
 
 		A.add ("ch");
 		A.add ("t");
@@ -89,7 +89,7 @@ public class MACKENZIE_NEW_YEARS_CHALLENGE_P4_ABDOOF {
 
 		boolean g = true;
 
-		List <String> list;
+		List<String> list;
 		String last = "";
 		String curr = "";
 
@@ -105,7 +105,7 @@ public class MACKENZIE_NEW_YEARS_CHALLENGE_P4_ABDOOF {
 					break out;
 				}
 				else {
-					list = new ArrayList <String> (list);
+					list = new ArrayList<String> (list);
 					// System.out.println (list);
 				}
 

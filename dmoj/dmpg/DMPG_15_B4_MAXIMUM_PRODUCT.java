@@ -13,8 +13,8 @@ public class DMPG_15_B4_MAXIMUM_PRODUCT {
 		int product = 0;
 
 		if (N != 1) {
-			List <Integer> positive = new LinkedList <Integer> ();
-			List <Integer> negative = new LinkedList <Integer> ();
+			List<Integer> positive = new LinkedList<Integer> ();
+			List<Integer> negative = new LinkedList<Integer> ();
 
 			for (int n = 0; n < N; n++) {
 				int C = Integer.parseInt (in.readLine ());

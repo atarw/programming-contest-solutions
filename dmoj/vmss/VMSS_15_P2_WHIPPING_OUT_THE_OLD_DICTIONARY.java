@@ -7,9 +7,9 @@ import java.util.Map;
 public class VMSS_15_P2_WHIPPING_OUT_THE_OLD_DICTIONARY {
 
 	static int x = 1;
-	static Map <String, Integer> map = new HashMap <String, Integer> ();
+	static Map<String, Integer> map = new HashMap<String, Integer> ();
 
-	public static String conv (Map <String, Integer> map, String txt) {
+	public static String conv (Map<String, Integer> map, String txt) {
 		String[] tokens = txt.split (" ");
 		StringBuilder a = new StringBuilder ();
 

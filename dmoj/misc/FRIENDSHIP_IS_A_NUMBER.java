@@ -8,7 +8,7 @@ public class FRIENDSHIP_IS_A_NUMBER {
 
 	public static void main (String[] args) throws IOException {
 		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
-		NavigableMap <Integer, Integer> map = new TreeMap <Integer, Integer> ();
+		NavigableMap<Integer, Integer> map = new TreeMap<Integer, Integer> ();
 		int N = Integer.parseInt (in.readLine ());
 
 		for (int i = 0; i < N; i++) {

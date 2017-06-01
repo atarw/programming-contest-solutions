@@ -32,7 +32,7 @@ public class WOBURN_CHALLENGE_15_J3_SHOOTOUT {
 		int N = Integer.parseInt (t[0]), M = Integer.parseInt (t[1]);
 		ppl = new int[N];
 		doors = new int[M];
-		NavigableSet <Integer> set = new TreeSet <Integer> ();
+		NavigableSet<Integer> set = new TreeSet<Integer> ();
 
 		for (int n = 0; n < N; n++) {
 			ppl[n] = Integer.parseInt (in.readLine ());

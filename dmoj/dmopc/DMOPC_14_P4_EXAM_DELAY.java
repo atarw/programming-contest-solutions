@@ -14,10 +14,10 @@ public class DMOPC_14_P4_EXAM_DELAY {
 		PrintWriter out = new PrintWriter (System.out);
 
 		int V = in.iscan (), E = in.iscan ();
-		List <Edge>[] list = new ArrayList[V];
+		List<Edge>[] list = new ArrayList[V];
 
 		for (int v = 0; v < V; ++v)
-			list[v] = new ArrayList <Edge> ();
+			list[v] = new ArrayList<Edge> ();
 
 		for (int e = 0, u, v, d, s; e < E; ++e) {
 			u = in.iscan () - 1;
@@ -35,7 +35,7 @@ public class DMOPC_14_P4_EXAM_DELAY {
 		for (int v = 1; v < V; ++v)
 			dp[v] = new State (1 << 20, 0, null);
 
-		Queue <Integer> q = new ArrayDeque <Integer> ();
+		Queue<Integer> q = new ArrayDeque<Integer> ();
 		int curr = 0;
 		q.offer (curr);
 

@@ -42,7 +42,7 @@ public class CCO_2013_P1_ALL_YOUR_BASE_BELONG_TO_PALINDROMES {
 
 	public static void main (String[] args) throws IOException {
 		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
-		NavigableSet <Integer> set = new TreeSet <Integer> ();
+		NavigableSet<Integer> set = new TreeSet<Integer> ();
 		int T = Integer.parseInt (in.readLine ());
 
 		for (int i = 1; i * i + i < T; i++) {

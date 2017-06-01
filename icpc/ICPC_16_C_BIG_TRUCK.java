@@ -19,10 +19,10 @@ public class ICPC_16_C_BIG_TRUCK {
 			arr[n] = in.iscan ();
 
 		int M = in.iscan ();
-		List <Edge>[] list = new ArrayList[N];
+		List<Edge>[] list = new ArrayList[N];
 
 		for (int n = 0; n < N; ++n)
-			list[n] = new ArrayList <Edge> ();
+			list[n] = new ArrayList<Edge> ();
 
 		for (int m = 0, a, b, d; m < M; ++m) {
 			a = in.iscan () - 1;
@@ -39,7 +39,7 @@ public class ICPC_16_C_BIG_TRUCK {
 
 		dp[0].d = 0;
 
-		Queue <Integer> q = new ArrayDeque <Integer> ();
+		Queue<Integer> q = new ArrayDeque<Integer> ();
 		int curr = 0;
 		q.offer (curr);
 

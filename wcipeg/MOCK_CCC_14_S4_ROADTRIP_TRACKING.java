@@ -14,11 +14,11 @@ find second path, and if distance travelled is less, there is a new path
 
 public class MOCK_CCC_14_S4_ROADTRIP_TRACKING {
 
-	static List <Integer>[] list;
+	static List<Integer>[] list;
 	static Edge[] edges;
 
 	public static int djikstra (boolean first) {
-		Queue <Integer> q = new ArrayDeque <Integer> ();
+		Queue<Integer> q = new ArrayDeque<Integer> ();
 		State[] dp = new State[list.length];
 
 		dp[0] = new State (0, 0, -1);
@@ -62,7 +62,7 @@ public class MOCK_CCC_14_S4_ROADTRIP_TRACKING {
 		edges = new Edge[2 * M];
 
 		for (int n = 0; n < N; ++n)
-			list[n] = new ArrayList <Integer> ();
+			list[n] = new ArrayList<Integer> ();
 
 		for (int m = 0, a, b; m < M; ++m) {
 			a = in.iscan () - 1;

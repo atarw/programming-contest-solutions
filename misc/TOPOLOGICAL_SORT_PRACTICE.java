@@ -15,11 +15,11 @@ public class TOPOLOGICAL_SORT_PRACTICE {
 
 		t = in.readLine ().split (" ");
 		int N = Integer.parseInt (t[0]), M = Integer.parseInt (t[1]); // N is vertices, M is edges
-		List <Integer>[] list = new ArrayList[N];
+		List<Integer>[] list = new ArrayList[N];
 		int[] indegree = new int[N]; // indegree [x] represents number of nodes with an edge pointing towards node x
 
 		for (int n = 0; n < N; ++n)
-			list[n] = new ArrayList <Integer> ();
+			list[n] = new ArrayList<Integer> ();
 
 		for (int m = 0, a, b; m < M; ++m) {
 			t = in.readLine ().split (" ");
@@ -29,8 +29,8 @@ public class TOPOLOGICAL_SORT_PRACTICE {
 			++indegree[b];
 		}
 
-		Queue <Integer> q = new ArrayDeque <Integer> ();
-		List <Integer> order = new ArrayList <Integer> ();
+		Queue<Integer> q = new ArrayDeque<Integer> ();
+		List<Integer> order = new ArrayList<Integer> ();
 
 		for (int n = 0; n < N; ++n)
 			if (indegree[n] == 0) // if any nodes don't have edges pointing towards them, they can be first

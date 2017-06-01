@@ -11,7 +11,7 @@ public class CODEFORCES_677_B {
 		t = in.readLine ().split (" ");
 
 		int N = Integer.parseInt (t[0]), H = Integer.parseInt (t[1]), K = Integer.parseInt (t[2]);
-		Queue <Integer> q = new ArrayDeque <Integer> (N);
+		Queue<Integer> q = new ArrayDeque<Integer> (N);
 
 		t = in.readLine ().split (" ");
 

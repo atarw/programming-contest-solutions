@@ -8,8 +8,8 @@ public class SPOJ_PPATH {
 
 	static boolean[] sieve = new boolean[10000];
 
-	public static List <Integer> next (int n) {
-		List <Integer> next = new ArrayList <Integer> ();
+	public static List<Integer> next (int n) {
+		List<Integer> next = new ArrayList<Integer> ();
 		char[] arr = new char[4];
 
 		int tmp = n;
@@ -63,8 +63,8 @@ public class SPOJ_PPATH {
 			Arrays.fill (cache, Integer.MAX_VALUE);
 			cache[x] = 0;
 
-			Queue <Integer> q = new ArrayDeque <Integer> ();
-			List <Integer> next;
+			Queue<Integer> q = new ArrayDeque<Integer> ();
+			List<Integer> next;
 			q.offer (x);
 
 			while (!q.isEmpty ()) {

@@ -41,10 +41,10 @@ public class CODEFORCES_277_A {
 		for (int n = 0; n < N; ++n)
 			parent[n] = n;
 
-		List <Integer>[] lp = new ArrayList[M];
+		List<Integer>[] lp = new ArrayList[M];
 
 		for (int m = 0; m < M; ++m)
-			lp[m] = new ArrayList <Integer> ();
+			lp[m] = new ArrayList<Integer> ();
 
 		for (int n = 0; n < N; ++n) {
 			t = in.readLine ().split (" ");

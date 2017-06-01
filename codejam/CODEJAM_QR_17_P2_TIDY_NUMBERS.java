@@ -8,7 +8,7 @@ import java.util.List;
 
 public class CODEJAM_QR_17_P2_TIDY_NUMBERS {
 
-	static List <Long> num;
+	static List<Long> num;
 
 	public static void generate (int n, int last, long cur) {
 		if (cur != 0L)
@@ -33,7 +33,7 @@ public class CODEJAM_QR_17_P2_TIDY_NUMBERS {
 		INPUT in = new INPUT (System.in);
 		PrintWriter out = new PrintWriter (System.out);
 
-		num = new ArrayList <Long> ();
+		num = new ArrayList<Long> ();
 		generate (0, 0, 0L);
 
 		Collections.sort (num);
@@ -178,7 +178,7 @@ public class CODEJAM_QR_17_P2_TIDY_NUMBERS {
 
 		static final double EPS = 10e-6;
 
-		public static int lower_bound (List <Long> arr, long x) {
+		public static int lower_bound (List<Long> arr, long x) {
 			int low = 0, high = arr.size (), mid = -1;
 
 			while (low < high) {
@@ -193,7 +193,7 @@ public class CODEJAM_QR_17_P2_TIDY_NUMBERS {
 			return low;
 		}
 
-		public static int upper_bound (List <Long> arr, long x) {
+		public static int upper_bound (List<Long> arr, long x) {
 			int low = 0, high = arr.size (), mid = -1;
 
 			while (low < high) {

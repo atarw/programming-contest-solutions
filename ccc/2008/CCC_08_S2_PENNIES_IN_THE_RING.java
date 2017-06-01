@@ -17,7 +17,7 @@ public class CCC_08_S2_PENNIES_IN_THE_RING {
 	}
 
 	public static void main (String[] args) throws IOException {
-		List <Integer> list = new ArrayList <Integer> ();
+		List<Integer> list = new ArrayList<Integer> ();
 		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
 
 		String input = in.readLine ();

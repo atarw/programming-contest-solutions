@@ -10,7 +10,7 @@ public class CCC_15_S4_CONVEX_HULL {
 		tokens = in.readLine ().split (" ");
 
 		int K = Integer.parseInt (tokens[0]), N = Integer.parseInt (tokens[1]), M = Integer.parseInt (tokens[2]);
-		List <Edge>[] list = new ArrayList[N];
+		List<Edge>[] list = new ArrayList[N];
 
 		int a, b, t, h;
 
@@ -22,11 +22,11 @@ public class CCC_15_S4_CONVEX_HULL {
 			h = Integer.parseInt (tokens[3]);
 
 			if (list[a] == null) {
-				list[a] = new ArrayList <Edge> ();
+				list[a] = new ArrayList<Edge> ();
 			}
 
 			if (list[b] == null) {
-				list[b] = new ArrayList <Edge> ();
+				list[b] = new ArrayList<Edge> ();
 			}
 
 			list[a].add (new Edge (a, b, t, h));
@@ -36,7 +36,7 @@ public class CCC_15_S4_CONVEX_HULL {
 		tokens = in.readLine ().split (" ");
 		int A = Integer.parseInt (tokens[0]) - 1, B = Integer.parseInt (tokens[1]) - 1;
 
-		Queue <State> queue = new ArrayDeque <State> ();
+		Queue<State> queue = new ArrayDeque<State> ();
 		int[][] cache = new int[N][K + 1];
 
 		for (int i = 0; i < cache.length; i++) {

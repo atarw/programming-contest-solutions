@@ -9,7 +9,7 @@ public class LONGEST_INCREASING_SUBSEQUENCE {
 		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
 		PrintWriter out = new PrintWriter (System.out);
 
-		int[] arr = new int[] {10, 9, 2, 5, 3, 7, 101, 18};
+		int[] arr = new int[]{10, 9, 2, 5, 3, 7, 101, 18};
 		int[] dp = new int[arr.length]; // returns length of LIS ending at index n
 
 		for (int i = 0; i < arr.length; ++i)

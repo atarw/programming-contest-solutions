@@ -7,7 +7,7 @@ import java.util.List;
 public class BTS_16_P5_CHERRY_TREE {
 
 	static int[] cherries, branches;
-	static List <Edge>[] list;
+	static List<Edge>[] list;
 
 	static boolean[] vis;
 	static int cut = 0, C, K;
@@ -46,7 +46,7 @@ public class BTS_16_P5_CHERRY_TREE {
 		for (int n = 0; n < N; ++n)
 			cherries[n] = Integer.parseInt (t[n]);
 
-		list[0] = new ArrayList <Edge> ();
+		list[0] = new ArrayList<Edge> ();
 
 		for (int n = 0, a, b, k; n < N - 1; ++n) {
 			t = in.readLine ().split (" ");
@@ -55,10 +55,10 @@ public class BTS_16_P5_CHERRY_TREE {
 			k = Integer.parseInt (t[2]);
 
 			if (list[a] == null)
-				list[a] = new ArrayList <Edge> ();
+				list[a] = new ArrayList<Edge> ();
 
 			if (list[b] == null)
-				list[b] = new ArrayList <Edge> ();
+				list[b] = new ArrayList<Edge> ();
 
 			list[a].add (new Edge (a, b, k));
 			list[b].add (new Edge (b, a, k));

@@ -15,7 +15,7 @@ public class feast {
 		int T = in.iscan (), A = in.iscan (), B = in.iscan ();
 		boolean[][] vis = new boolean[T + 1][2];
 
-		Queue <State> q = new ArrayDeque <State> ();
+		Queue<State> q = new ArrayDeque<State> ();
 		State curr = new State (0, 0);
 		q.offer (curr);
 

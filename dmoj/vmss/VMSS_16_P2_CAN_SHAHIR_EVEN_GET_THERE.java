@@ -22,15 +22,15 @@ public class VMSS_16_P2_CAN_SHAHIR_EVEN_GET_THERE {
 
 	private static class Graph {
 
-		static Map <Integer, Set <Integer>> map = new HashMap <Integer, Set <Integer>> ();
+		static Map<Integer, Set<Integer>> map = new HashMap<Integer, Set<Integer>> ();
 
 		public void addEdge (int S, int E) {
 			if (!map.containsKey (S)) {
-				map.put (S, new HashSet <Integer> ());
+				map.put (S, new HashSet<Integer> ());
 			}
 
 			if (!map.containsKey (E)) {
-				map.put (E, new HashSet <Integer> ());
+				map.put (E, new HashSet<Integer> ());
 			}
 
 			map.get (S).add (E);
@@ -43,8 +43,8 @@ public class VMSS_16_P2_CAN_SHAHIR_EVEN_GET_THERE {
 				return true;
 			}
 
-			Queue <Integer> queue = new ArrayDeque <Integer> ();
-			Set <Integer> visited = new HashSet <Integer> ();
+			Queue<Integer> queue = new ArrayDeque<Integer> ();
+			Set<Integer> visited = new HashSet<Integer> ();
 
 			int curr;
 			queue.offer (A);

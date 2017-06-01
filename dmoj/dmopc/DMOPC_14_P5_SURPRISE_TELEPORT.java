@@ -9,8 +9,8 @@ public class DMOPC_14_P5_SURPRISE_TELEPORT {
 	static int[][] cache;
 
 	public static void traverse (int sX, int sY) {
-		Queue <P> queue = new ArrayDeque <P> ();
-		List <P> list;
+		Queue<P> queue = new ArrayDeque<P> ();
+		List<P> list;
 		P curr;
 
 		queue.offer (new P (sX, sY));
@@ -34,8 +34,8 @@ public class DMOPC_14_P5_SURPRISE_TELEPORT {
 		}
 	}
 
-	public static List <P> neighbours (int sX, int sY) {
-		List <P> list = new ArrayList <P> ();
+	public static List<P> neighbours (int sX, int sY) {
+		List<P> list = new ArrayList<P> ();
 
 		if (sX + 1 < maze.length && maze[sX + 1][sY]) {
 			list.add (new P (sX + 1, sY));

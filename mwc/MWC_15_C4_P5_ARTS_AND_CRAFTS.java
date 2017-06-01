@@ -11,9 +11,9 @@ public class MWC_15_C4_P5_ARTS_AND_CRAFTS {
 
 		int N = Integer.parseInt (t[0]), X = Integer.parseInt (t[1]), Y = Integer.parseInt (t[2]);
 
-		NavigableMap <Integer, Integer> map = new TreeMap <Integer, Integer> ();//depth of cut to frequency
-		Map <Integer, Integer> map2 = new HashMap <Integer, Integer> (N);//start point to cut depth
-		Set <Integer> set = new HashSet <Integer> (N);//vertical cuts
+		NavigableMap<Integer, Integer> map = new TreeMap<Integer, Integer> ();//depth of cut to frequency
+		Map<Integer, Integer> map2 = new HashMap<Integer, Integer> (N);//start point to cut depth
+		Set<Integer> set = new HashSet<Integer> (N);//vertical cuts
 
 		int s, d, old;
 
@@ -64,8 +64,8 @@ public class MWC_15_C4_P5_ARTS_AND_CRAFTS {
 		amt += (map.containsKey (X) ? map.get (X) : 0);
 
 		int[] pre = new int[map.keySet ().size () + 1];//prefix sum array
-		NavigableMap <Integer, Integer> map3 = new TreeMap <Integer, Integer> ();//stores cut depth to index in psa
-		Map.Entry <Integer, Integer> entry;
+		NavigableMap<Integer, Integer> map3 = new TreeMap<Integer, Integer> ();//stores cut depth to index in psa
+		Map.Entry<Integer, Integer> entry;
 
 		for (int i : map.keySet ()) {
 			pre[count] += map.get (i);

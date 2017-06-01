@@ -10,7 +10,7 @@ public class CCC_14_J1_TRIANGLE_TIMES {
 		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
 		int A = Integer.parseInt (in.readLine ()), B = Integer.parseInt (in.readLine ()), C = Integer.parseInt (in.readLine ());
 		int sum = A + B + C;
-		Set <Integer> set = new HashSet <Integer> ();
+		Set<Integer> set = new HashSet<Integer> ();
 
 		set.add (A);
 		set.add (B);

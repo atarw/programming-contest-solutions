@@ -91,12 +91,15 @@ public class DMPG_17_G2_HOLY_GRAIL_WAR {
 
 		long sum, best, pref, suf;
 
-		public String toString () {
-			return sum + " " + best + " " + pref + " " + suf;
+		public Node (long sum, long best, long pref, long suf) {
+			this.sum = sum;
+			this.best = best;
+			this.pref = pref;
+			this.suf = suf;
 		}
 
-		public Node (long sum, long best, long pref, long suf) {
-			this.sum = sum; this.best = best; this.pref = pref; this.suf = suf;
+		public String toString () {
+			return sum + " " + best + " " + pref + " " + suf;
 		}
 	}
 

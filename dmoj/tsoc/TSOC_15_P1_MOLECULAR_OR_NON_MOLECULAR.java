@@ -8,7 +8,7 @@ public class TSOC_15_P1_MOLECULAR_OR_NON_MOLECULAR {
 
 	public static void main (String[] args) throws IOException {
 		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
-		Set <String> set = new HashSet <String> ();
+		Set<String> set = new HashSet<String> ();
 
 		set.add ("Cl");
 		set.add ("Br");

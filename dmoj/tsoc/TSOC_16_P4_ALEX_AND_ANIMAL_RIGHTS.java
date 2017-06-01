@@ -15,8 +15,8 @@ public class TSOC_16_P4_ALEX_AND_ANIMAL_RIGHTS {
 		return r >= 0 && r < maze.length && c >= 0 && c < maze[0].length && maze[r][c] != '#' && !visited[r][c];
 	}
 
-	public static List <P> next (int r, int c) {
-		List <P> n = new ArrayList <P> ();
+	public static List<P> next (int r, int c) {
+		List<P> n = new ArrayList<P> ();
 
 		if (valid (r + 1, c)) {
 			n.add (new P (r + 1, c));
@@ -35,8 +35,8 @@ public class TSOC_16_P4_ALEX_AND_ANIMAL_RIGHTS {
 	}
 
 	public static boolean monkeys (int r, int c) {
-		Queue <P> queue = new ArrayDeque <P> ();
-		List <P> list;
+		Queue<P> queue = new ArrayDeque<P> ();
+		List<P> list;
 		boolean m = false;
 		P curr = new P (r, c);
 

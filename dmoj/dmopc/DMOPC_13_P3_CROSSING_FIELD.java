@@ -8,7 +8,7 @@ public class DMOPC_13_P3_CROSSING_FIELD {
 
 	static P[][] cache;
 	static int[][] maze;
-	static Set <P> set;
+	static Set<P> set;
 	static int H, N;
 
 	public static boolean path (int r, int c, int xd, int yd) {
@@ -50,7 +50,7 @@ public class DMOPC_13_P3_CROSSING_FIELD {
 
 		maze = new int[N][N];
 		cache = new P[N][N];
-		set = new HashSet <P> (N);
+		set = new HashSet<P> (N);
 
 		for (int n = 0; n < N; n++) {
 			t = in.readLine ().split (" ");

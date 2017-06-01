@@ -6,7 +6,7 @@ import java.util.Set;
 
 public class CCC_15_J3_ROVARSPRAKET {
 
-	static final Set <Character> vowels = new HashSet <Character> ();
+	static final Set<Character> vowels = new HashSet<Character> ();
 
 	public static char nextCons (char c) {
 		char cons = c;
@@ -24,19 +24,19 @@ public class CCC_15_J3_ROVARSPRAKET {
 
 	public static char[] range (char c) {
 		if ('a' < c && c < 'e') {
-			return new char[] {'a', 'e'};
+			return new char[]{'a', 'e'};
 		}
 		else if ('e' < c && c < 'i') {
-			return new char[] {'e', 'i'};
+			return new char[]{'e', 'i'};
 		}
 		else if ('i' < c && c < 'o') {
-			return new char[] {'i', 'o'};
+			return new char[]{'i', 'o'};
 		}
 		else if ('o' < c && c < 'u') {
-			return new char[] {'o', 'u'};
+			return new char[]{'o', 'u'};
 		}
 		else {
-			return new char[] {'u'};
+			return new char[]{'u'};
 		}
 	}
 

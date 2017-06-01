@@ -10,7 +10,7 @@ public class CCC_08_S3_MAZE {
 	static int[][] steps;
 
 	public static int solve (int x, int y) {
-		Queue <P> queue = new LinkedList <P> ();
+		Queue<P> queue = new LinkedList<P> ();
 		queue.offer (new P (x, y));
 		P curr;
 

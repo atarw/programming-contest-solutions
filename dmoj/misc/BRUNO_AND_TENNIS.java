@@ -9,7 +9,7 @@ public class BRUNO_AND_TENNIS {
 	public static void main (String[] args) throws IOException {
 		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
 		int N = Integer.parseInt (in.readLine ());
-		Deque <String> stack = new ArrayDeque <String> ();
+		Deque<String> stack = new ArrayDeque<String> ();
 		String result = "Not enough information";
 
 		for (int i = 0; i < N / 2; i++) {

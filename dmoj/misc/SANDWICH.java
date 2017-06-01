@@ -10,7 +10,7 @@ public class SANDWICH {
 		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
 		int N = Integer.parseInt (in.readLine ());
 		String input = in.readLine ();
-		Deque <Integer> deque = new LinkedList <Integer> ();
+		Deque<Integer> deque = new LinkedList<Integer> ();
 
 		for (int i = 0; i < N; i++) {
 			if (input.charAt (i) == '0') {

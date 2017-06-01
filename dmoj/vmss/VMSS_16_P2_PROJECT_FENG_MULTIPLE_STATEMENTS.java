@@ -10,7 +10,7 @@ public class VMSS_16_P2_PROJECT_FENG_MULTIPLE_STATEMENTS {
 	public static void main (String[] args) throws IOException {
 		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
 		int N = Integer.parseInt (in.readLine ());
-		NavigableMap <Integer, Integer> map = new TreeMap <Integer, Integer> (Collections.reverseOrder ());
+		NavigableMap<Integer, Integer> map = new TreeMap<Integer, Integer> (Collections.reverseOrder ());
 
 		int c = 0;
 

@@ -13,7 +13,7 @@ public class WC_17_P2_YOURE_DEAD {
 		PrintWriter out = new PrintWriter (System.out);
 
 		int N = in.iscan (), S = in.iscan (), L = in.iscan ();
-		Queue <Integer> q = new PriorityQueue <Integer> ();
+		Queue<Integer> q = new PriorityQueue<Integer> ();
 		int[] arr = new int[N];
 
 		for (int n = 0; n < N; ++n)

@@ -7,7 +7,7 @@ import java.util.List;
 
 public class COCI_14_P5_SABOR {
 
-	static List <Integer>[] list;
+	static List<Integer>[] list;
 	static char[] arr;
 	static int[] inter;
 
@@ -36,11 +36,11 @@ public class COCI_14_P5_SABOR {
 				E = Integer.parseInt (t[i * 2]) - 1;
 
 				if (list[S] == null) {
-					list[S] = new ArrayList <Integer> ();
+					list[S] = new ArrayList<Integer> ();
 				}
 
 				if (list[E] == null) {
-					list[E] = new ArrayList <Integer> ();
+					list[E] = new ArrayList<Integer> ();
 				}
 
 				list[S].add (E);

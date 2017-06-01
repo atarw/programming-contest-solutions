@@ -8,7 +8,7 @@ public class DMOPC_14_P3_GLOBALLY_UNIQUE_SHELLS {
 
 	public static void main (String[] args) throws IOException {
 		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
-		Set <Integer> set = new HashSet <Integer> ();
+		Set<Integer> set = new HashSet<Integer> ();
 		int N = Integer.parseInt (in.readLine ());
 
 		String[] t = in.readLine ().split (" ");

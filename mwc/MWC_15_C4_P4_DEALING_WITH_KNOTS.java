@@ -6,7 +6,7 @@ import java.util.List;
 
 public class MWC_15_C4_P4_DEALING_WITH_KNOTS {
 
-	static List <Integer>[] list;
+	static List<Integer>[] list;
 	static boolean[] vis;
 
 	public static boolean find (int curr, int end) {
@@ -39,7 +39,7 @@ public class MWC_15_C4_P4_DEALING_WITH_KNOTS {
 			E = Integer.parseInt (t[1]) - 1;
 
 			if (list[S] == null) {
-				list[S] = new ArrayList <Integer> ();
+				list[S] = new ArrayList<Integer> ();
 			}
 
 			list[S].add (E);

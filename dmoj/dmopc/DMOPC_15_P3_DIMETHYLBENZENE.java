@@ -8,7 +8,7 @@ import java.util.Set;
 
 public class DMOPC_15_P3_DIMETHYLBENZENE {
 
-	static Map <Integer, Set <Integer>> map = new HashMap <Integer, Set <Integer>> ();
+	static Map<Integer, Set<Integer>> map = new HashMap<Integer, Set<Integer>> ();
 	static int N, M;
 
 	public static boolean cycle () {//WOW THIS FEELS SO WRONG
@@ -41,11 +41,11 @@ public class DMOPC_15_P3_DIMETHYLBENZENE {
 
 	public static void addEdge (int S, int E) {
 		if (!map.containsKey (S)) {
-			map.put (S, new HashSet <Integer> ());
+			map.put (S, new HashSet<Integer> ());
 		}
 
 		if (!map.containsKey (E)) {
-			map.put (E, new HashSet <Integer> ());
+			map.put (E, new HashSet<Integer> ());
 		}
 
 		map.get (S).add (E);

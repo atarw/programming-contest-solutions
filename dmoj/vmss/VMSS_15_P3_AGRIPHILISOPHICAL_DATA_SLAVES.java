@@ -7,8 +7,8 @@ public class VMSS_15_P3_AGRIPHILISOPHICAL_DATA_SLAVES {
 
 	public static void main (String[] args) throws IOException {
 		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
-		List <Integer> order = new LinkedList <Integer> ();
-		Queue <Integer> queue = new ArrayDeque <Integer> ();
+		List<Integer> order = new LinkedList<Integer> ();
+		Queue<Integer> queue = new ArrayDeque<Integer> ();
 		int N = Integer.parseInt (in.readLine ()), A, B, curr;
 		int[] indegree = new int[N], cache = new int[N];
 		int[] list = new int[N];

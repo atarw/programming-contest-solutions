@@ -6,7 +6,7 @@ import java.util.Set;
 
 public class CCC_02_J2_AMERICANADIAN {
 
-	static Set <Character> vowels = new HashSet <Character> ();
+	static Set<Character> vowels = new HashSet<Character> ();
 
 	public static String spell (String input) {
 

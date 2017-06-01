@@ -12,8 +12,8 @@ public class CODEFORCES_499_B {
 		PrintWriter out = new PrintWriter (System.out);
 
 		int N = in.iscan (), M = in.iscan ();
-		Map <String, Integer> lang = new HashMap <String, Integer> ();
-		Map <String, String> map = new HashMap <String, String> ();
+		Map<String, Integer> lang = new HashMap<String, Integer> ();
+		Map<String, String> map = new HashMap<String, String> ();
 
 		for (int m = 0; m < M; ++m) {
 			String a = in.sscan (), b = in.sscan ();

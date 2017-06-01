@@ -35,7 +35,7 @@ public class moocast {
 		int max = 0;
 
 		for (int n = 0; n < N; ++n) {
-			Queue <Integer> q = new ArrayDeque <Integer> ();
+			Queue<Integer> q = new ArrayDeque<Integer> ();
 			boolean[] vis = new boolean[N];
 			int curr = n, ans = 0;
 			q.offer (n);

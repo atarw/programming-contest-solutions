@@ -10,10 +10,10 @@ import java.util.Map;
 
 public class ECOO_17_R3_P2_FAMILY_TREE {
 
-	static Node root;
 	static final int MOD = 1000000007;
+	static Node root;
 
-	public static void add (int [] arr) {
+	public static void add (int[] arr) {
 		Node cur = root;
 
 		for (int i : arr) {
@@ -47,10 +47,10 @@ public class ECOO_17_R3_P2_FAMILY_TREE {
 
 			for (int n = 0; n < N; ++n) {
 				t = in.sscan ().split ("\\.");
-				int [] arr = new int [t.length];
+				int[] arr = new int[t.length];
 
 				for (int i = 0; i < arr.length; ++i)
-					arr [i] = Integer.parseInt(t[i]);
+					arr[i] = Integer.parseInt (t[i]);
 
 				add (arr);
 			}
@@ -62,6 +62,7 @@ public class ECOO_17_R3_P2_FAMILY_TREE {
 	}
 
 	private static class Node {
+
 		Map<Integer, Node> map = new HashMap<Integer, Node> ();
 		int max = 0;
 	}

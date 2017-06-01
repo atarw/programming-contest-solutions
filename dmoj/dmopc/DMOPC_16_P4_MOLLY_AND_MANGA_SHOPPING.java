@@ -90,7 +90,7 @@ public class DMOPC_16_P4_MOLLY_AND_MANGA_SHOPPING {
 		out.close ();
 	}
 
-	private static class Query implements Comparable <Query> {
+	private static class Query implements Comparable<Query> {
 
 		int l, r, i;
 

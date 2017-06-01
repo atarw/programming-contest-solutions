@@ -23,8 +23,8 @@ public class CCC_16_S5_CIRCLE_OF_LIFE {
 		String[] temp = in.readLine ().split (" ");
 		N = Integer.parseInt (temp[0]);
 		T = Long.parseLong (temp[1]);
-		Map <String, Integer> index = new HashMap <String, Integer> ();
-		ArrayList <String> strips = new ArrayList <String> ();
+		Map<String, Integer> index = new HashMap<String, Integer> ();
+		ArrayList<String> strips = new ArrayList<String> ();
 		String s;
 		BigInteger a = new BigInteger (s = in.readLine (), 2);
 		strips.add (s);

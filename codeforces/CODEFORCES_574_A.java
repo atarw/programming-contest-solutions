@@ -18,7 +18,7 @@ public class CODEFORCES_574_A {
 		for (int n = 0; n < N; ++n)
 			arr[n] = in.iscan ();
 
-		Queue <Integer> q = new PriorityQueue <Integer> (Collections.reverseOrder ());
+		Queue<Integer> q = new PriorityQueue<Integer> (Collections.reverseOrder ());
 
 		for (int n = 1; n < N; ++n)
 			q.offer (arr[n]);

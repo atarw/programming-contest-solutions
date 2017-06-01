@@ -11,7 +11,7 @@ public class FESTIVE_FARDIN {
 		String n = in.readLine ();
 		String j = in.readLine ();
 
-		Set <String> set = new HashSet <String> ();
+		Set<String> set = new HashSet<String> ();
 		set.add ("green");
 		set.add ("red");
 		set.add ("white");

@@ -8,7 +8,7 @@ public class CCC_14_S2_ASSIGNING_PARTNERS {
 
 	public static void main (String[] args) throws IOException {
 		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
-		Map <String, String> map = new HashMap <String, String> ();
+		Map<String, String> map = new HashMap<String, String> ();
 
 		int N = Integer.parseInt (in.readLine ());
 		String[] n1 = in.readLine ().split (" "), n2 = in.readLine ().split (" ");

@@ -10,8 +10,8 @@ public class MWC_15_C3_P3_BAD_NEWS {
 	static boolean[][] vis;
 	static String word;
 
-	public static List <P> neighbours (int x, int y) {
-		List <P> n = new ArrayList <P> ();
+	public static List<P> neighbours (int x, int y) {
+		List<P> n = new ArrayList<P> ();
 
 		if (x + 1 < maze.length && !vis[x + 1][y]) {
 			n.add (new P (x + 1, y));
@@ -57,7 +57,7 @@ public class MWC_15_C3_P3_BAD_NEWS {
 
 		vis[x][y] = true;
 
-		List <P> neighbours = neighbours (x, y);
+		List<P> neighbours = neighbours (x, y);
 		//System.out.println (neighbours);
 
 		for (P p : neighbours) {

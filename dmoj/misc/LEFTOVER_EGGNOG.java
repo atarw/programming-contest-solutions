@@ -33,7 +33,7 @@ public class LEFTOVER_EGGNOG {
 		}
 
 		State curr = new State (0, 0, NA);
-		Queue <State> queue = new ArrayDeque <State> ();
+		Queue<State> queue = new ArrayDeque<State> ();
 		queue.offer (curr);
 
 		cache[0][0] = 0;

@@ -10,7 +10,7 @@ public class DMPG_15_S3_ZEN_GARDEN {
 		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
 		int N = Integer.parseInt (in.readLine ());
 		String[] t = in.readLine ().split (" ");
-		List <Integer> flowers = new ArrayList <Integer> (N);
+		List<Integer> flowers = new ArrayList<Integer> (N);
 		int sum = 0;
 		int A;
 

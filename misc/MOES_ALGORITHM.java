@@ -10,7 +10,7 @@ import java.util.Map;
 public class MOES_ALGORITHM {
 
 	static int block, curr_ans;
-	static Map <Integer, Integer> map = new HashMap <Integer, Integer> ();
+	static Map<Integer, Integer> map = new HashMap<Integer, Integer> ();
 
 	public static void add (int v) {
 		if (!map.containsKey (v))
@@ -82,7 +82,7 @@ public class MOES_ALGORITHM {
 		out.close ();
 	}
 
-	private static class Query implements Comparable <Query> {
+	private static class Query implements Comparable<Query> {
 
 		int l, r, i; //l, r of query, i indicates original query order
 

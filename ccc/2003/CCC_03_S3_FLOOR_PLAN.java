@@ -13,8 +13,8 @@ public class CCC_03_S3_FLOOR_PLAN {
 	static int F;
 
 	public static void fill () {
-		Queue <P> queue = new LinkedList <P> ();
-		List <Integer> rooms = new LinkedList <Integer> ();
+		Queue<P> queue = new LinkedList<P> ();
+		List<Integer> rooms = new LinkedList<Integer> ();
 		int area = 0;
 
 		for (int r = 0; r < maze.length; r++) {

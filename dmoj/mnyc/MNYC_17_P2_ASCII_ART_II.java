@@ -14,7 +14,7 @@ public class MNYC_17_P2_ASCII_ART_II {
 		t = in.readLine ().split (" ");
 		int C = Integer.parseInt (t[0]), R = Integer.parseInt (t[1]);
 
-		Map <Character, Integer> map = new HashMap <Character, Integer> ();
+		Map<Character, Integer> map = new HashMap<Character, Integer> ();
 		char ch;
 
 		for (int r = 0; r < R; ++r) {

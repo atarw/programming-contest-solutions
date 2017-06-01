@@ -6,8 +6,8 @@ import java.util.Deque;
 
 public class CCC_14_S3_GENEVA_CONFECTION {
 
-	public static boolean possible (Deque <Integer> deque) {
-		Deque <Integer> branch = new ArrayDeque <Integer> ();
+	public static boolean possible (Deque<Integer> deque) {
+		Deque<Integer> branch = new ArrayDeque<Integer> ();
 		int last = 0;
 
 		while (!deque.isEmpty () || !branch.isEmpty ()) {
@@ -30,7 +30,7 @@ public class CCC_14_S3_GENEVA_CONFECTION {
 
 	public static void main (String[] args) throws IOException {
 		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
-		Deque <Integer> original = new ArrayDeque <Integer> ();
+		Deque<Integer> original = new ArrayDeque<Integer> ();
 		int T = Integer.parseInt (in.readLine ());
 
 		for (int t = 0; t < T; t++) {

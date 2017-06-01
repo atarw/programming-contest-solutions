@@ -36,9 +36,9 @@ public class DMPG_15_S5_BLACK_AND_WHITE {
 			Arrays.sort (xs);
 			Arrays.sort (ys);
 
-			NavigableMap <Integer, Integer> xc = new TreeMap <Integer, Integer> ();//compressed x coordinates
+			NavigableMap<Integer, Integer> xc = new TreeMap<Integer, Integer> ();//compressed x coordinates
 			// (uncompressed to compressed)
-			NavigableMap <Integer, Integer> yc = new TreeMap <Integer, Integer> ();//compressed y coordinates
+			NavigableMap<Integer, Integer> yc = new TreeMap<Integer, Integer> ();//compressed y coordinates
 			// (uncompressed to compressed)
 
 			int[] compx = new int[xs.length], compy = new int[ys.length];

@@ -27,14 +27,14 @@ public class TLE_16_P4_MICROWAVES_AGAIN {
 			matrix[u][v] = matrix[v][u] = d;
 		}
 
-		Set <Integer>[] list = new HashSet[N];
+		Set<Integer>[] list = new HashSet[N];
 		int[][] cache = new int[N][N];
 
 		for (int n = 0; n < N; ++n)
 			Arrays.fill (cache[n], Integer.MAX_VALUE / 2);
 
 		for (int n = 0; n < N; ++n) {
-			Queue <Integer> q = new ArrayDeque <Integer> ();
+			Queue<Integer> q = new ArrayDeque<Integer> ();
 			q.offer (n);
 			int curr = n;
 			cache[n][n] = 0;
@@ -50,7 +50,7 @@ public class TLE_16_P4_MICROWAVES_AGAIN {
 				}
 			}
 
-			list[n] = new HashSet <Integer> (101, 1.1f);
+			list[n] = new HashSet<Integer> (101, 1.1f);
 
 			for (int u = 0; u < N; ++u) {
 				if (cache[n][u] <= K)

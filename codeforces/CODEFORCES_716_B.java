@@ -57,7 +57,7 @@ public class CODEFORCES_716_B {
 			}
 
 			if (poss) {
-				Queue <Character> q = new ArrayDeque <Character> ();
+				Queue<Character> q = new ArrayDeque<Character> ();
 
 				for (int c = 0; c < 26; ++c)
 					if (arr[c][x + 26] - arr[c][x] == 0)

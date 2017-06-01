@@ -13,7 +13,7 @@ public class MWC_15_C5_P2_WILDCARD {
 		int N = Integer.parseInt (t[0]), K = Integer.parseInt (t[1]), T = Integer.parseInt (t[2]), W, pairs = 0;
 
 		String[] names = {"kushanzaveri", "aurpine"};
-		Map <Integer, Integer> map = new HashMap <Integer, Integer> (N);
+		Map<Integer, Integer> map = new HashMap<Integer, Integer> (N);
 
 		t = in.readLine ().split (" ");
 

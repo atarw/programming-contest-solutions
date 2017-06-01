@@ -34,7 +34,7 @@ public class COCI_14_P4_MRAVI {
 			indegree[S]++;
 		}
 
-		Deque <Integer> topo = new ArrayDeque <Integer> (), queue = new ArrayDeque <Integer> ();
+		Deque<Integer> topo = new ArrayDeque<Integer> (), queue = new ArrayDeque<Integer> ();
 
 		t = in.readLine ().split (" ");
 

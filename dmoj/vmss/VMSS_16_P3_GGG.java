@@ -23,7 +23,7 @@ public class VMSS_16_P3_GGG {
 		return to;
 	}
 
-	public static int LIS (List <Integer> list) {
+	public static int LIS (List<Integer> list) {
 		int[] dp = new int[list.size ()];
 		dp[0] = list.get (0);
 		int size = 1;
@@ -49,13 +49,13 @@ public class VMSS_16_P3_GGG {
 		PrintWriter out = new PrintWriter (System.out);
 
 		int N = in.iscan ();
-		Map <Integer, Integer> map = new HashMap <Integer, Integer> (N, 1.1f);
+		Map<Integer, Integer> map = new HashMap<Integer, Integer> (N, 1.1f);
 
 		for (int n = 0; n < N; ++n)
 			map.put (in.iscan (), n);
 
 		int N2 = in.iscan ();
-		List <Integer> list = new ArrayList <Integer> (Math.min (N, N2) >> 1);
+		List<Integer> list = new ArrayList<Integer> (Math.min (N, N2) >> 1);
 
 		for (int n = 0, v; n < N2; ++n) {
 			v = in.iscan ();

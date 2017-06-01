@@ -42,7 +42,7 @@ public class GFSSOC_17_S4_FIRST_ACE {
 		out.close ();
 	}
 
-	private static class Person implements Comparable <Person> {
+	private static class Person implements Comparable<Person> {
 
 		int v, s, t;
 

@@ -13,7 +13,7 @@ public class CCO_11_P2_VAMPIRE_TUNNELS {
 		t = in.readLine ().split (" ");
 		int N = Integer.parseInt (t[0]), E = Integer.parseInt (t[1]);
 
-		List <Edge>[] list = new ArrayList[N];
+		List<Edge>[] list = new ArrayList[N];
 
 		for (int e = 0, start, end, dist, under; e < E; ++e) {
 			t = in.readLine ().split (" ");
@@ -23,10 +23,10 @@ public class CCO_11_P2_VAMPIRE_TUNNELS {
 			under = Integer.parseInt (t[3]);
 
 			if (list[start] == null)
-				list[start] = new ArrayList <Edge> ();
+				list[start] = new ArrayList<Edge> ();
 
 			if (list[end] == null)
-				list[end] = new ArrayList <Edge> ();
+				list[end] = new ArrayList<Edge> ();
 
 			list[start].add (new Edge (start, end, dist, under));
 			list[end].add (new Edge (end, start, dist, under));
@@ -42,7 +42,7 @@ public class CCO_11_P2_VAMPIRE_TUNNELS {
 
 		State curr = new State (0, 0);
 		cache[0][0] = 0;
-		Queue <State> q = new ArrayDeque <State> ();
+		Queue<State> q = new ArrayDeque<State> ();
 		q.offer (curr);
 
 		while (!q.isEmpty ()) {

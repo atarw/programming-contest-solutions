@@ -9,7 +9,7 @@ public class CCC_07_J1_WHOS_IN_THE_MIDDLE {
 
 	public static void main (String[] args) throws IOException {
 		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
-		List <Integer> a = new ArrayList <Integer> ();
+		List<Integer> a = new ArrayList<Integer> ();
 
 		for (int i = 0; i < 3; i++) {
 			a.add (Integer.parseInt (in.readLine ()));

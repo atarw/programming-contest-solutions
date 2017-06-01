@@ -48,7 +48,7 @@ public class DMOPC_15_P4_LINE_GRAPH {
 		int N = Integer.parseInt (t[0]), K = Integer.parseInt (t[1]);
 
 		t = in.readLine ().split (" ");
-		List <Edge> list = new ArrayList <Edge> ();
+		List<Edge> list = new ArrayList<Edge> ();
 
 		parent = new int[N];
 		rank = new int[N];
@@ -78,7 +78,7 @@ public class DMOPC_15_P4_LINE_GRAPH {
 		System.out.print (total);
 	}
 
-	private static class Edge implements Comparable <Edge> {
+	private static class Edge implements Comparable<Edge> {
 
 		int S, E, W;
 

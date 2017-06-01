@@ -7,7 +7,7 @@ import java.util.List;
 public class PRIME_FACTORIZATION {
 
 	public static void primes (int M) {
-		List <Integer> p = new ArrayList <Integer> ();
+		List<Integer> p = new ArrayList<Integer> ();
 
 		for (int i = 2; i <= M; i++) {
 			if (M % i == 0) {

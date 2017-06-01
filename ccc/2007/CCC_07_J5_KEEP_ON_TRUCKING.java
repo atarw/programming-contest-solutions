@@ -8,9 +8,9 @@ import java.util.TreeSet;
 
 public class CCC_07_J5_KEEP_ON_TRUCKING {
 
-	public static final NavigableSet <Integer> set = new TreeSet <Integer> ();
+	public static final NavigableSet<Integer> set = new TreeSet<Integer> ();
 	public static int A, B;
-	public static Map <Integer, Integer> map = new HashMap <Integer, Integer> ();
+	public static Map<Integer, Integer> map = new HashMap<Integer, Integer> ();
   
   /*public static String indent (int depth) {
    StringBuilder s = new StringBuilder (depth);
@@ -28,7 +28,7 @@ public class CCC_07_J5_KEEP_ON_TRUCKING {
 			map.put (loc, map.get (loc) + 1);
 		}
 		else {
-			NavigableSet <Integer> sub = set.subSet (loc + A, true, loc + B, true);
+			NavigableSet<Integer> sub = set.subSet (loc + A, true, loc + B, true);
 			if (sub.isEmpty ()) {//no hotels found between min and max distance travelled
 				//System.out.println ("no hotels between " + (loc + A) + "-" + (loc + B));
 			}

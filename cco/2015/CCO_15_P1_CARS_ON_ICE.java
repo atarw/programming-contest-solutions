@@ -28,14 +28,14 @@ public class CCO_15_P1_CARS_ON_ICE {
 			}
 		}
 
-		Deque <Integer>[] rows = new ArrayDeque[N];
-		Deque <Integer>[] cols = new ArrayDeque[M];
+		Deque<Integer>[] rows = new ArrayDeque[N];
+		Deque<Integer>[] cols = new ArrayDeque[M];
 
 		for (int n = 0; n < N; ++n)
-			rows[n] = new ArrayDeque <Integer> ();
+			rows[n] = new ArrayDeque<Integer> ();
 
 		for (int m = 0; m < M; ++m)
-			cols[m] = new ArrayDeque <Integer> ();
+			cols[m] = new ArrayDeque<Integer> ();
 
 		for (int n = 0; n < N; ++n) {
 			for (int m = 0; m < M; ++m) {

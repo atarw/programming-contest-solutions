@@ -48,7 +48,7 @@ public class BTS_16_P4_SCREENSAVER {
 					continue;
 				}
 				else {
-					dir = new int[] {-dir[0], 0};
+					dir = new int[]{-dir[0], 0};
 					maze[sx][sy] = '|';
 				}
 			}
@@ -57,16 +57,16 @@ public class BTS_16_P4_SCREENSAVER {
 					continue;
 				}
 				else {
-					dir = new int[] {0, -dir[1]};
+					dir = new int[]{0, -dir[1]};
 					maze[sx][sy] = '-';
 				}
 			}
 			else if (maze[sx][sy] == '/') {
-				dir = new int[] {-dir[1], -dir[0]};
+				dir = new int[]{-dir[1], -dir[0]};
 				maze[sx][sy] = '\\';
 			}
 			else if (maze[sx][sy] == '\\') {
-				dir = new int[] {dir[1], dir[0]};
+				dir = new int[]{dir[1], dir[0]};
 				maze[sx][sy] = '/';
 			}
 		}

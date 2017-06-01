@@ -37,7 +37,7 @@ public class CCC_05_S5_PINBALL_RANKING_BIT {
 		int[] arr2 = Arrays.copyOf (arr, N);
 		Arrays.sort (arr2);
 
-		Map <Integer, Integer> map = new HashMap <Integer, Integer> ();
+		Map<Integer, Integer> map = new HashMap<Integer, Integer> ();
 
 		for (int n = 0; n < N; ++n)
 			if (!map.containsKey (arr2[n]))

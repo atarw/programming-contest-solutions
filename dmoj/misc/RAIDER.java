@@ -2,11 +2,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
-import java.util.List;
-import java.util.ArrayList;
-import java.util.Deque;
-import java.util.ArrayDeque;
-import java.util.Arrays;
+import java.util.*;
 
 // atharva washimkar
 // May 27, 2017

@@ -1,5 +1,9 @@
-import java.io.*;
-import java.util.*;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.PrintWriter;
+import java.util.NavigableMap;
+import java.util.TreeMap;
 
 public class OPENING_CEREMONY {
 
@@ -8,7 +12,7 @@ public class OPENING_CEREMONY {
 		PrintWriter out = new PrintWriter (System.out);
 
 		int N = in.iscan ();
-		NavigableMap <Integer, Integer> map = new TreeMap <Integer, Integer> ();
+		NavigableMap<Integer, Integer> map = new TreeMap<Integer, Integer> ();
 
 		for (int n = 0; n < N; ++n) {
 			int h = in.iscan ();

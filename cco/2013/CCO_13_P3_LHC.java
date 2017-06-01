@@ -7,7 +7,7 @@ import java.util.List;
 
 public class CCO_13_P3_LHC {
 
-	static List <Integer>[] list;
+	static List<Integer>[] list;
 	static boolean[] vis;
 	static int[] dist;
 	static long[] cnt;
@@ -61,7 +61,7 @@ public class CCO_13_P3_LHC {
 		dist = new int[N];
 
 		for (int n = 0; n < N; ++n)
-			list[n] = new ArrayList <Integer> ();
+			list[n] = new ArrayList<Integer> ();
 
 		for (int n = 0, i, j; n < N - 1; ++n) {
 			i = in.iscan () - 1;

@@ -17,7 +17,7 @@ public class BTS_16_P8_TEXTBOOKS {
 
 		long used = 0L;
 
-		NavigableSet <Integer> unique = new TreeSet <Integer> ();
+		NavigableSet<Integer> unique = new TreeSet<Integer> ();
 
 		for (int n = 0; n < N; ++n) {
 			s[n] = in.iscan () - 1;
@@ -29,7 +29,7 @@ public class BTS_16_P8_TEXTBOOKS {
 			used += (long) (w[n]) * (long) (l);
 		}
 
-		Map <Integer, Integer> cc = new HashMap <Integer, Integer> ();
+		Map<Integer, Integer> cc = new HashMap<Integer, Integer> ();
 
 		for (int p : unique) {
 			cc.put (p, cc.size ());

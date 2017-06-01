@@ -57,7 +57,7 @@ public class cownav {
 		dp[0][0][0][0][1][0] = dp[0][0][0][0][0][1] = 0;
 
 		State curr = new State (0, 0, 0, 0, 0, 1);
-		Queue <State> q = new ArrayDeque <State> ();
+		Queue<State> q = new ArrayDeque<State> ();
 		q.offer (curr);
 
 		int min = 1 << 20;

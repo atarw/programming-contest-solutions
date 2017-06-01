@@ -10,7 +10,7 @@ public class CCC_14_S1_PARTY_INVITATION {
 	public static void main (String[] args) throws IOException {
 		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
 		int N = Integer.parseInt (in.readLine ());
-		List <Integer> list = new LinkedList <Integer> ();
+		List<Integer> list = new LinkedList<Integer> ();
 
 		for (int i = 1; i <= N; i++) {
 			list.add (i);

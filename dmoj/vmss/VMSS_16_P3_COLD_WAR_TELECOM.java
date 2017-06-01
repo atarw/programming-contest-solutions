@@ -7,7 +7,7 @@ import java.util.List;
 
 public class VMSS_16_P3_COLD_WAR_TELECOM {
 
-	static List <Integer>[] list;
+	static List<Integer>[] list;
 	static boolean[] visited, art;
 	static int[] low, disc, parent;
 	static int time = 0, total = 0;
@@ -60,11 +60,11 @@ public class VMSS_16_P3_COLD_WAR_TELECOM {
 			E = Integer.parseInt (t[1]) - 1;
 
 			if (list[S] == null) {
-				list[S] = new ArrayList <Integer> ();
+				list[S] = new ArrayList<Integer> ();
 			}
 
 			if (list[E] == null) {
-				list[E] = new ArrayList <Integer> ();
+				list[E] = new ArrayList<Integer> ();
 			}
 
 			list[S].add (E);

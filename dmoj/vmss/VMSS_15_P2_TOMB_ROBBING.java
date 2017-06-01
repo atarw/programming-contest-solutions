@@ -9,7 +9,7 @@ public class VMSS_15_P2_TOMB_ROBBING {
 	static boolean[][] maze;
 
 	public static int rooms () {
-		Queue <P> queue = new ArrayDeque <P> ();
+		Queue<P> queue = new ArrayDeque<P> ();
 		int total = 0;
 		P curr;
 

@@ -10,7 +10,7 @@ public class DMOPC_13_P4_AFK {
 	static int[][] steps;
 
 	public static int solve (int X, int Y) {
-		Queue <P> queue = new LinkedList <P> ();
+		Queue<P> queue = new LinkedList<P> ();
 		P curr;
 
 		queue.offer (new P (X, Y));

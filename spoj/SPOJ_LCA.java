@@ -12,39 +12,39 @@ import java.util.List;
 public class SPOJ_LCA {
 
 	static int N;
-	static List <Integer> [] list;
-	static int [] lvl, ord, occ, tree;
-	static boolean [] vis;
+	static List<Integer>[] list;
+	static int[] lvl, ord, occ, tree;
+	static boolean[] vis;
 	static int time = 0;
 
 	public static void dfs (int u, int d) {
-		vis [u] = true;
-		lvl [u] = d;
-		ord [time++] = u;
+		vis[u] = true;
+		lvl[u] = d;
+		ord[time++] = u;
 
-		for (int v : list [u]) {
-			if (!vis [v]) {
+		for (int v : list[u]) {
+			if (!vis[v]) {
 				dfs (v, d + 1);
-				ord [time++] = u;
+				ord[time++] = u;
 			}
 		}
 	}
 
 	public static void build (int u, int l, int r) {
 		if (l == r)
-			tree [u] = l;
+			tree[u] = l;
 		else {
 			int mid = (l + r) / 2;
 			build (u * 2 + 1, l, mid);
 			build (u * 2 + 2, mid + 1, r);
-			tree [u] = lvl [ord [tree [u * 2 + 1]]] < lvl [ord [tree [u * 2 + 2]]] ?
-			           tree [u * 2 + 1] : tree [u * 2 + 2];
+			tree[u] = lvl[ord[tree[u * 2 + 1]]] < lvl[ord[tree[u * 2 + 2]]] ?
+			          tree[u * 2 + 1] : tree[u * 2 + 2];
 		}
 	}
 
 	public static int query (int u, int l, int r, int ql, int qr) {
 		if (l == ql && r == qr)
-			return tree [u];
+			return tree[u];
 
 		int mid = (l + r) / 2;
 
@@ -56,7 +56,7 @@ public class SPOJ_LCA {
 		int la = query (u * 2 + 1, l, mid, ql, mid);
 		int ra = query (u * 2 + 2, mid + 1, r, mid + 1, qr);
 
-		return lvl [ord [la]] < lvl [ord [ra]] ? la : ra;
+		return lvl[ord[la]] < lvl[ord[ra]] ? la : ra;
 	}
 
 	public static void main (String[] t) throws IOException {
@@ -68,33 +68,33 @@ public class SPOJ_LCA {
 		for (int tt = 1; tt <= T; ++tt) {
 			N = in.iscan ();
 
-			list = new ArrayList [N];
+			list = new ArrayList[N];
 
 			for (int n = 0; n < N; ++n)
-				list [n] = new ArrayList<Integer> ();
+				list[n] = new ArrayList<Integer> ();
 
 			for (int n = 0; n < N; ++n) {
 				int M = in.iscan ();
 
 				for (int m = 0, v; m < M; ++m) {
 					v = in.iscan () - 1;
-					list [n].add (v);
-					list [v].add (n);
+					list[n].add (v);
+					list[v].add (n);
 				}
 			}
 
-			lvl = new int [N];
-			ord = new int [2 * N - 1];
-			vis = new boolean [N];
-			occ = new int [N];
-			tree = new int [8 * N];
+			lvl = new int[N];
+			ord = new int[2 * N - 1];
+			vis = new boolean[N];
+			occ = new int[N];
+			tree = new int[8 * N];
 			Arrays.fill (occ, 1 << 20);
 			time = 0;
 
 			dfs (0, 0);
 
 			for (int n = 0; n < ord.length; ++n)
-				occ [ord [n]] = Math.min (occ [ord [n]], n);
+				occ[ord[n]] = Math.min (occ[ord[n]], n);
 
 			build (0, 0, ord.length - 1);
 
@@ -102,8 +102,9 @@ public class SPOJ_LCA {
 			out.println ("Case " + tt + ": ");
 
 			for (int q = 0, u, v; q < Q; ++q) {
-				u = in.iscan () - 1; v = in.iscan () - 1;
-				out.println (ord [query (0, 0, ord.length - 1, Math.min (occ [u], occ [v]), Math.max (occ [u], occ [v]))] + 1);
+				u = in.iscan () - 1;
+				v = in.iscan () - 1;
+				out.println (ord[query (0, 0, ord.length - 1, Math.min (occ[u], occ[v]), Math.max (occ[u], occ[v]))] + 1);
 			}
 		}
 

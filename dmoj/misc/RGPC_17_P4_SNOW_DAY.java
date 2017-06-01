@@ -11,11 +11,11 @@ public class RGPC_17_P4_SNOW_DAY {
 		PrintWriter out = new PrintWriter (System.out);
 
 		int N = in.iscan (), M = in.iscan ();
-		List <Edge>[] list = new ArrayList[N];
+		List<Edge>[] list = new ArrayList[N];
 		int[] indegree = new int[N];
 
 		for (int n = 0; n < N; ++n)
-			list[n] = new ArrayList <Edge> ();
+			list[n] = new ArrayList<Edge> ();
 
 		for (int m = 0, a, b, d; m < M; ++m) {
 			a = in.iscan () - 1;
@@ -26,8 +26,8 @@ public class RGPC_17_P4_SNOW_DAY {
 		}
 
 		// perform PARTIAL topological sort starting from node 0
-		Queue <Integer> q = new ArrayDeque <Integer> ();
-		Deque <Integer> ord = new ArrayDeque <Integer> ();
+		Queue<Integer> q = new ArrayDeque<Integer> ();
+		Deque<Integer> ord = new ArrayDeque<Integer> ();
 
 		int u;
 		q.offer (0);

@@ -6,9 +6,9 @@ import java.util.Queue;
 
 public class DMOPC_15_P4_ITAMI_AND_CANDY {
 
-	public static Queue <Integer> primes (int N) {
+	public static Queue<Integer> primes (int N) {
 		boolean[] sieve = new boolean[N + 1];
-		Queue <Integer> primes = new LinkedList <Integer> ();
+		Queue<Integer> primes = new LinkedList<Integer> ();
 
 		primes.offer (2);
 
@@ -23,7 +23,7 @@ public class DMOPC_15_P4_ITAMI_AND_CANDY {
 		return primes;
 	}
 
-	public static int getPossibilities (Queue <Integer> primes, int R, int C) {
+	public static int getPossibilities (Queue<Integer> primes, int R, int C) {
 
 		int possibilities = 0;
 		int diff = 0;

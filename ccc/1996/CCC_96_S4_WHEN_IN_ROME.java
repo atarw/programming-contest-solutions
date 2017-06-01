@@ -8,8 +8,8 @@ import java.util.TreeMap;
 
 public class CCC_96_S4_WHEN_IN_ROME {
 
-	static Map <Character, Integer> map = new HashMap <Character, Integer> ();
-	static NavigableMap <Integer, Character> map2 = new TreeMap <Integer, Character> ();
+	static Map<Character, Integer> map = new HashMap<Character, Integer> ();
+	static NavigableMap<Integer, Character> map2 = new TreeMap<Integer, Character> ();
 
 	public static String add (String t1, String t2) {
 		int a = conv (t1), b = conv (t2);
@@ -26,7 +26,7 @@ public class CCC_96_S4_WHEN_IN_ROME {
 
 	public static String conv (int t) {
 		StringBuilder a = new StringBuilder ();
-		Map.Entry <Integer, Character> entry;
+		Map.Entry<Integer, Character> entry;
 
 		while (t > 0) {
 			entry = map2.floorEntry (t);

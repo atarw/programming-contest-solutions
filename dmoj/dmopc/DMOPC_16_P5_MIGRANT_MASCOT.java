@@ -14,11 +14,11 @@ public class DMOPC_16_P5_MIGRANT_MASCOT {
 		PrintWriter out = new PrintWriter (System.out);
 
 		int N = in.iscan (), M = in.iscan ();
-		List <Edge>[] list = new ArrayList[N];
+		List<Edge>[] list = new ArrayList[N];
 		int[] dp = new int[N];
 
 		for (int n = 0; n < N; ++n) {
-			list[n] = new ArrayList <Edge> ();
+			list[n] = new ArrayList<Edge> ();
 			dp[n] = 0;
 		}
 
@@ -30,7 +30,7 @@ public class DMOPC_16_P5_MIGRANT_MASCOT {
 			list[v].add (new Edge (v, u, w));
 		}
 
-		Queue <State> q = new ArrayDeque <State> ();
+		Queue<State> q = new ArrayDeque<State> ();
 		State u = new State (0, 1 << 30);
 		q.offer (u);
 
@@ -63,7 +63,7 @@ public class DMOPC_16_P5_MIGRANT_MASCOT {
 		}
 	}
 
-	private static class Edge implements Comparable <Edge> {
+	private static class Edge implements Comparable<Edge> {
 
 		int u, v, w;
 

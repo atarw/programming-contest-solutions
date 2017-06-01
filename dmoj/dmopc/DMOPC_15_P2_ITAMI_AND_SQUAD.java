@@ -33,7 +33,7 @@ public class DMOPC_15_P2_ITAMI_AND_SQUAD {
 
 		String[] strengthContent = input.split (" ");
 
-		List <Integer> strengths = new ArrayList <Integer> ();
+		List<Integer> strengths = new ArrayList<Integer> ();
 
 		for (int i = 0; i < strengthContent.length; i++) {
 			strengths.add (Integer.parseInt (strengthContent[i]));

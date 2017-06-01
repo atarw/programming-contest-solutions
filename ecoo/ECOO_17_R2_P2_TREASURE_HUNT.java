@@ -63,7 +63,8 @@ public class ECOO_17_R2_P2_TREASURE_HUNT {
 					maze[n][n2] = ln.charAt (n2);
 
 					if (maze[n][n2] == 'S') {
-						sx = n; sy = n2;
+						sx = n;
+						sy = n2;
 						maze[n][n2] = '.';
 					}
 				}
@@ -94,7 +95,8 @@ public class ECOO_17_R2_P2_TREASURE_HUNT {
 		int x, y;
 
 		public Pair (int x, int y) {
-			this.x = x; this.y = y;
+			this.x = x;
+			this.y = y;
 		}
 	}
 }

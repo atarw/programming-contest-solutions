@@ -29,7 +29,7 @@ public class FREEDOM_APPEARS {
 			}
 		}
 
-		Set <Vector> set = new HashSet <Vector> ();
+		Set<Vector> set = new HashSet<Vector> ();
 
 		for (int n = 0; n < N; ++n)
 			set.add (vec[n]);

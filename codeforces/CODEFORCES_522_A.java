@@ -24,8 +24,8 @@ public class CODEFORCES_522_A {
 
 	static class TaskA {
 
-		static Map <String, Integer> map;
-		static List <Integer>[] list;
+		static Map<String, Integer> map;
+		static List<Integer>[] list;
 		static int[] dp;
 
 		public static int dfs (int u) {
@@ -42,11 +42,11 @@ public class CODEFORCES_522_A {
 
 		public void solve (int testNumber, INPUT in, PrintWriter out) {
 			int N = in.iscan ();
-			map = new HashMap <String, Integer> ();
+			map = new HashMap<String, Integer> ();
 			list = new ArrayList[N << 1];
 
 			for (int n = 0; n < list.length; ++n)
-				list[n] = new ArrayList <Integer> ();
+				list[n] = new ArrayList<Integer> ();
 
 			for (int n = 0; n < N; ++n) {
 				String a = in.sscan ().toLowerCase ();

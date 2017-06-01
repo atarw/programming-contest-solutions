@@ -16,8 +16,8 @@ public class CODEFORCES_65_D {
 		in.readLine ();
 		ln = in.readLine ();
 
-		Queue <State> queue = new ArrayDeque <State> ();
-		Set <State> vis = new HashSet <State> ();
+		Queue<State> queue = new ArrayDeque<State> ();
+		Set<State> vis = new HashSet<State> ();
 		State q = new State (0, 0, 0, 0, 0);
 
 		queue.offer (q);

@@ -11,7 +11,7 @@ public class ICPC_05_A_ACM {
 
 	static String acronym;
 	static String[] tok;
-	static Set <String> set;
+	static Set<String> set;
 	static int[][][][] dp;
 
 	public static int solve (int n, int t, int k, int b) {
@@ -43,7 +43,7 @@ public class ICPC_05_A_ACM {
 			if (N == 0)
 				break;
 
-			set = new HashSet <String> ();
+			set = new HashSet<String> ();
 
 			for (int n = 0; n < N; ++n)
 				set.add (in.readLine ());
@@ -57,7 +57,7 @@ public class ICPC_05_A_ACM {
 				t = ln.split (" ");
 				acronym = t[0];
 
-				List <String> list = new ArrayList <String> ();
+				List<String> list = new ArrayList<String> ();
 
 				for (int i = 1; i < t.length; ++i)
 					if (!set.contains (t[i]))

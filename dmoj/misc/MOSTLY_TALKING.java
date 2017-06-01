@@ -5,24 +5,24 @@ import java.util.*;
 
 public class MOSTLY_TALKING {
 
-	static List <Edge>[] map, reverse;
+	static List<Edge>[] map, reverse;
 
 	public static void addEdge (int S, int E, int W) {
 		if (map[S] == null) {
-			map[S] = new ArrayList <Edge> ();
+			map[S] = new ArrayList<Edge> ();
 		}
 
 		if (reverse[E] == null) {
-			reverse[E] = new ArrayList <Edge> ();
+			reverse[E] = new ArrayList<Edge> ();
 		}
 
 		map[S].add (new Edge (E, W));
 		reverse[E].add (new Edge (S, W));
 	}
 
-	public static int[] path (int S, List <Edge>[] graph, int zerovalue) {
+	public static int[] path (int S, List<Edge>[] graph, int zerovalue) {
 		int[] cache = new int[graph.length];
-		Queue <Integer> queue = new ArrayDeque <Integer> ();
+		Queue<Integer> queue = new ArrayDeque<Integer> ();
 		int curr;
 
 		queue.offer (S);

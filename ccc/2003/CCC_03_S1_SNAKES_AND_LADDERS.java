@@ -8,7 +8,7 @@ public class CCC_03_S1_SNAKES_AND_LADDERS {
 
 	public static void main (String[] args) throws IOException {
 		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
-		Map <Integer, Integer> map = new HashMap <Integer, Integer> ();//square to square
+		Map<Integer, Integer> map = new HashMap<Integer, Integer> ();//square to square
 
 		int N = -1;
 		int C = 1;

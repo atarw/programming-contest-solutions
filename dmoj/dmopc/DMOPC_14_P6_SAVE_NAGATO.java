@@ -3,7 +3,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 // atharva washimkar
@@ -13,20 +12,20 @@ public class DMOPC_14_P6_SAVE_NAGATO {
 
 	static int N;
 	static List<Integer>[] list;
-	static int [] dist, dist2;
-	static boolean [] vis;
+	static int[] dist, dist2;
+	static boolean[] vis;
 
 	public static void dfs (int u, int d) {
-		vis [u] = true;
+		vis[u] = true;
 
-		for (int v : list [u]) {
-			if (!vis [v]) {
-				dist [v] = d + 1;
+		for (int v : list[u]) {
+			if (!vis[v]) {
+				dist[v] = d + 1;
 				dfs (v, d + 1);
 			}
 		}
 
-		vis [u] = false;
+		vis[u] = false;
 	}
 
 	public static int get_furthest () {
@@ -45,16 +44,18 @@ public class DMOPC_14_P6_SAVE_NAGATO {
 
 		N = in.iscan ();
 		list = new ArrayList[N];
-		dist = new int [N];
-		dist2 = new int [N];
-		vis = new boolean [N];
+		dist = new int[N];
+		dist2 = new int[N];
+		vis = new boolean[N];
 
 		for (int n = 0; n < N; ++n)
-			list [n] = new ArrayList <Integer> ();
+			list[n] = new ArrayList<Integer> ();
 
 		for (int n = 0, u, v; n < N - 1; ++n) {
-			u = in.iscan () - 1; v = in.iscan () - 1;
-			list [u].add (v); list [v].add (u);
+			u = in.iscan () - 1;
+			v = in.iscan () - 1;
+			list[u].add (v);
+			list[v].add (u);
 		}
 
 		dfs (0, 1);
@@ -65,12 +66,12 @@ public class DMOPC_14_P6_SAVE_NAGATO {
 		int e = get_furthest ();
 
 		for (int n = 0; n < N; ++n)
-			dist2 [n] = dist [n];
+			dist2[n] = dist[n];
 
 		dfs (e, 1);
 
 		for (int n = 0; n < N; ++n)
-			out.println (Math.max (dist [n], dist2 [n]));
+			out.println (Math.max (dist[n], dist2[n]));
 
 		out.close ();
 	}

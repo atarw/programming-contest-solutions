@@ -51,14 +51,14 @@ public class VMSS_15_P3_CHAIN_RULE {
 	private static class Graph {
 
 		static int[][] cache;
-		static Map <Integer, Set <Edge>> map = new HashMap <Integer, Set <Edge>> ();
+		static Map<Integer, Set<Edge>> map = new HashMap<Integer, Set<Edge>> ();
 
 		public Graph (int N) {
 			cache = new int[2][N];
 		}
 
 		public void traverse (int r, int S) {
-			NavigableSet <Integer> queue = new TreeSet <Integer> ();
+			NavigableSet<Integer> queue = new TreeSet<Integer> ();
 			int curr;
 			queue.add (S);
 
@@ -78,11 +78,11 @@ public class VMSS_15_P3_CHAIN_RULE {
 
 		public void addEdge (int S, int E, int W) {
 			if (!map.containsKey (S)) {
-				map.put (S, new HashSet <Edge> ());
+				map.put (S, new HashSet<Edge> ());
 			}
 
 			if (!map.containsKey (E)) {
-				map.put (E, new HashSet <Edge> ());
+				map.put (E, new HashSet<Edge> ());
 			}
 
 			map.get (E).add (new Edge (S, W));

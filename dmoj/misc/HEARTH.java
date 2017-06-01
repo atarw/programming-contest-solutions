@@ -30,7 +30,7 @@ public class HEARTH {
 		}
 	}
 
-	private static class Card implements Comparable <Card> {
+	private static class Card implements Comparable<Card> {
 
 		String name;
 		int C;

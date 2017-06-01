@@ -8,9 +8,9 @@ public class CCC_15_J4_WAIT_TIME {
 
 	public static void main (String[] args) throws IOException {
 		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
-		Map <Integer, Integer> received = new TreeMap <Integer, Integer> ();
-		Map <Integer, Integer> sent = new TreeMap <Integer, Integer> ();
-		Map <Integer, Integer> total = new TreeMap <Integer, Integer> ();
+		Map<Integer, Integer> received = new TreeMap<Integer, Integer> ();
+		Map<Integer, Integer> sent = new TreeMap<Integer, Integer> ();
+		Map<Integer, Integer> total = new TreeMap<Integer, Integer> ();
 
 		int M = Integer.parseInt (in.readLine ());
 		String[] tokens;

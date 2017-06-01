@@ -9,7 +9,7 @@ import java.util.TreeSet;
 public class DMOPC_15_P4_GREAT_SEQUENCE {
 
 	static int[] arr;
-	static Map <Integer, NavigableSet <Integer>> map = new HashMap <Integer, NavigableSet <Integer>> ();
+	static Map<Integer, NavigableSet<Integer>> map = new HashMap<Integer, NavigableSet<Integer>> ();
 
 	public static void main (String[] args) throws IOException {
 		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
@@ -23,7 +23,7 @@ public class DMOPC_15_P4_GREAT_SEQUENCE {
 			arr[i + 1] = arr[i] + Integer.parseInt (t[i]);
 
 			if (!map.containsKey (arr[i + 1] - arr[i])) {
-				map.put (arr[i + 1] - arr[i], new TreeSet <Integer> ());
+				map.put (arr[i + 1] - arr[i], new TreeSet<Integer> ());
 			}
 
 			map.get (arr[i + 1] - arr[i]).add (i + 1);

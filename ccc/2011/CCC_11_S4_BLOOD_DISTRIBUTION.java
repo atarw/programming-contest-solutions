@@ -8,8 +8,8 @@ public class CCC_11_S4_BLOOD_DISTRIBUTION {
 			AB_PLUS = 7;
 	public static final int[] TYPE = {O_MINUS, O_PLUS, A_MINUS, A_PLUS, B_MINUS, B_PLUS, AB_MINUS, AB_PLUS};
 
-	public static List <Integer> getPossibleBlood (int type) {
-		List <Integer> types = new ArrayList <Integer> ();
+	public static List<Integer> getPossibleBlood (int type) {
+		List<Integer> types = new ArrayList<Integer> ();
 
 		types.add (type);
 
@@ -67,7 +67,7 @@ public class CCC_11_S4_BLOOD_DISTRIBUTION {
 
 	public static int getPeopleHelped (int[] units, int[] patients) {
 		int helped = 0;
-		List <Integer> possibleBlood;
+		List<Integer> possibleBlood;
 		int h = 0;
 
 		for (int i = 0; i < patients.length; i++) {

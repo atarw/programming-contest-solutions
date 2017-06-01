@@ -21,7 +21,7 @@ public class DMOPC_16_P2_SYSTESTS {
 		}
 
 		int F = in.iscan ();
-		NavigableSet <Integer> fail = new TreeSet <Integer> ();
+		NavigableSet<Integer> fail = new TreeSet<Integer> ();
 
 		for (int ff = 0; ff < F; ++ff)
 			fail.add (in.iscan ());

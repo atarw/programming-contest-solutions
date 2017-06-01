@@ -14,10 +14,10 @@ public class NOI_CHINA_98_P3_SOFTWARE_INSTALLATION_DISK {
 		int N = Integer.parseInt (in.readLine ());
 
 		final int[] size = new int[N], ind = new int[N];
-		List <Integer>[] list = new ArrayList[N];
+		List<Integer>[] list = new ArrayList[N];
 
 		for (int n = 0; n < N; ++n)
-			list[n] = new ArrayList <Integer> ();
+			list[n] = new ArrayList<Integer> ();
 
 		for (int n = 0; n < N; ++n) {
 			t = in.readLine ().split (" ");
@@ -28,7 +28,7 @@ public class NOI_CHINA_98_P3_SOFTWARE_INSTALLATION_DISK {
 				list[Integer.parseInt (t[i]) - 1].add (n);
 		}
 
-		Queue <Integer> q = new PriorityQueue <Integer> (N, new Comparator <Integer> () {
+		Queue<Integer> q = new PriorityQueue<Integer> (N, new Comparator<Integer> () {
 			public int compare (Integer x, Integer y) {
 				if (ind[x] == ind[y])
 					return Integer.compare (size[x], size[y]);
@@ -41,10 +41,10 @@ public class NOI_CHINA_98_P3_SOFTWARE_INSTALLATION_DISK {
 				q.offer (n);
 
 		int floppy = 0, cap = 0, u = 0, proc = 0;
-		List <Integer>[] ord = new ArrayList[N];
+		List<Integer>[] ord = new ArrayList[N];
 
 		for (int n = 0; n < N; ++n)
-			ord[n] = new ArrayList <Integer> ();
+			ord[n] = new ArrayList<Integer> ();
 
 		while (!q.isEmpty ()) {
 			u = q.poll ();

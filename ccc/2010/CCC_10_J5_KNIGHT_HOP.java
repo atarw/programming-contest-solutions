@@ -7,12 +7,12 @@ public class CCC_10_J5_KNIGHT_HOP {
 
 	static final int[] movement = {18, 14, 31, 33, -18, -14, -31, -33};
 	static final int[] board = new int[128];
-	static final Map <Integer, List <Integer>> moves = new HashMap <Integer, List <Integer>> ();
+	static final Map<Integer, List<Integer>> moves = new HashMap<Integer, List<Integer>> ();
 
 	static int end;
 
 	public static Integer least (int start) {
-		Queue <Integer> queue = new LinkedList <Integer> ();
+		Queue<Integer> queue = new LinkedList<Integer> ();
 
 		queue.offer (start);
 		board[start] = 0;
@@ -40,8 +40,8 @@ public class CCC_10_J5_KNIGHT_HOP {
 		return board[end];
 	}
 
-	public static List <Integer> moves (int s) {
-		List <Integer> moves = new LinkedList <Integer> ();
+	public static List<Integer> moves (int s) {
+		List<Integer> moves = new LinkedList<Integer> ();
 
 		for (int x = 0; x < movement.length; x++) {
 			if (valid (s + movement[x])) {

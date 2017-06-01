@@ -1,5 +1,10 @@
-import java.io.*;
-import java.util.*;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.PrintWriter;
+import java.util.Collections;
+import java.util.PriorityQueue;
+import java.util.Queue;
 
 public class SHOPAHOLIC {
 
@@ -8,7 +13,7 @@ public class SHOPAHOLIC {
 		PrintWriter out = new PrintWriter (System.out);
 
 		int N = in.iscan ();
-		Queue <Integer> q = new PriorityQueue <Integer> (N, Collections.reverseOrder ());
+		Queue<Integer> q = new PriorityQueue<Integer> (N, Collections.reverseOrder ());
 
 		for (int n = 0; n < N; ++n)
 			q.offer (in.iscan ());
@@ -17,7 +22,9 @@ public class SHOPAHOLIC {
 
 		while (!q.isEmpty ()) {
 			if (q.size () >= 3) {
-				q.poll (); q.poll (); discount += q.poll ();
+				q.poll ();
+				q.poll ();
+				discount += q.poll ();
 			}
 			else
 				break;

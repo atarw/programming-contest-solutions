@@ -1,16 +1,19 @@
-import java.io.*;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.PrintWriter;
 import java.util.*;
 
 public class ERRATIC_ANTS {
 
-	public static int best (Map <Pair, List <Pair>> map, Pair end) {
-		Map <Pair, Integer> dp = new HashMap <Pair, Integer> ();
+	public static int best (Map<Pair, List<Pair>> map, Pair end) {
+		Map<Pair, Integer> dp = new HashMap<Pair, Integer> ();
 
 		for (Pair p : map.keySet ())
 			dp.put (p, 1 << 25);
 
 		Pair cur = new Pair (0, 0);
-		Queue <Pair> q = new ArrayDeque <Pair> ();
+		Queue<Pair> q = new ArrayDeque<Pair> ();
 		q.offer (cur);
 		dp.put (cur, 0);
 
@@ -36,10 +39,10 @@ public class ERRATIC_ANTS {
 
 		for (int n = 0; n < N; ++n) {
 			int S = in.iscan ();
-			Map <Pair, List <Pair>> map = new HashMap <Pair, List <Pair>> ();
+			Map<Pair, List<Pair>> map = new HashMap<Pair, List<Pair>> ();
 			int cx = 0, cy = 0;
 			Pair cur = new Pair (cx, cy), nxt = cur;
-			map.put (cur, new ArrayList <Pair> ());
+			map.put (cur, new ArrayList<Pair> ());
 
 			for (int s = 0; s < S; ++s) {
 				char c = in.sscan ().charAt (0);
@@ -64,7 +67,7 @@ public class ERRATIC_ANTS {
 				map.get (cur).add (nxt);
 
 				if (!map.containsKey (nxt)) {
-					map.put (nxt, new ArrayList <Pair> ());
+					map.put (nxt, new ArrayList<Pair> ());
 				}
 
 				map.get (nxt).add (cur);
@@ -78,7 +81,13 @@ public class ERRATIC_ANTS {
 	}
 
 	private static class Pair {
+
 		int x, y;
+
+		public Pair (int x, int y) {
+			this.x = x;
+			this.y = y;
+		}
 
 		@Override
 		public boolean equals (Object o) {
@@ -94,10 +103,6 @@ public class ERRATIC_ANTS {
 		@Override
 		public int hashCode () {
 			return this.x * 31 + this.y * 19;
-		}
-
-		public Pair (int x, int y) {
-			this.x = x; this.y = y;
 		}
 	}
 

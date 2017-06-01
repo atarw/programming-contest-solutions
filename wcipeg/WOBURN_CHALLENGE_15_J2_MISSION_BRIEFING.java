@@ -7,7 +7,7 @@ public class WOBURN_CHALLENGE_15_J2_MISSION_BRIEFING {
 
 	public static void main (String[] t) throws IOException {
 		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
-		HashSet <Integer> set = new HashSet <Integer> ();
+		HashSet<Integer> set = new HashSet<Integer> ();
 		String ln = in.readLine ();
 
 		int index = 0;

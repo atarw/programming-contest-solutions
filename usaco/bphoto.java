@@ -5,7 +5,7 @@ import java.util.TreeMap;
 
 public class bphoto {
 
-	static NavigableMap <Integer, Integer> map = new TreeMap <Integer, Integer> ();
+	static NavigableMap<Integer, Integer> map = new TreeMap<Integer, Integer> ();
 	static int[] bit;
 
 	public static int query (int pos) {

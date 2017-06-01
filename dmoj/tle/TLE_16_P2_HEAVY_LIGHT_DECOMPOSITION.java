@@ -39,7 +39,7 @@ public class TLE_16_P2_HEAVY_LIGHT_DECOMPOSITION {
 
 		double mode = 0;
 
-		Map <Integer, Integer> map = new HashMap <Integer, Integer> ();
+		Map<Integer, Integer> map = new HashMap<Integer, Integer> ();
 
 		for (int n = 0; n < N; ++n) {
 			if (map.containsKey (arr[n])) {

@@ -19,7 +19,7 @@ public class haybales {
 			loc[n + 1] = in.iscan ();
 
 		Arrays.sort (loc);
-		NavigableSet <Integer> set = new TreeSet <Integer> ();
+		NavigableSet<Integer> set = new TreeSet<Integer> ();
 
 		for (int n = 1; n <= N; ++n)
 			set.add (loc[n]);

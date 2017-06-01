@@ -51,7 +51,7 @@ public class CCO_02_P2_CONNECT_THE_CAMPUS {
 			for (int n2 = n + 1; n2 < N; ++n2)
 				dist[n][n2] = dist[n2][n] = (y[n] - y[n2]) * (y[n] - y[n2]) + (x[n] - x[n2]) * (x[n] - x[n2]);
 
-		List <Edge> list = new ArrayList <Edge> ();
+		List<Edge> list = new ArrayList<Edge> ();
 
 		for (int n = 0; n < N; ++n)
 			for (int n2 = n + 1; n2 < N; ++n2)
@@ -69,7 +69,7 @@ public class CCO_02_P2_CONNECT_THE_CAMPUS {
 		}
 
 		double length = 0;
-		List <Edge> used = new ArrayList <Edge> ();
+		List<Edge> used = new ArrayList<Edge> ();
 
 		Collections.sort (list);
 
@@ -92,7 +92,7 @@ public class CCO_02_P2_CONNECT_THE_CAMPUS {
 		out.close ();
 	}
 
-	private static class Edge implements Comparable <Edge> {
+	private static class Edge implements Comparable<Edge> {
 
 		int u, v;
 

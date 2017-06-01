@@ -8,8 +8,8 @@ import java.util.Set;
 
 public class MWC_15_C4_P3_SALT {
 
-	static Map <Integer, Set <Integer>> x = new HashMap <Integer, Set <Integer>> ();
-	static Map <Integer, Set <Integer>> y = new HashMap <Integer, Set <Integer>> ();
+	static Map<Integer, Set<Integer>> x = new HashMap<Integer, Set<Integer>> ();
+	static Map<Integer, Set<Integer>> y = new HashMap<Integer, Set<Integer>> ();
 
 	public static void main (String[] t) throws IOException {
 		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
@@ -24,11 +24,11 @@ public class MWC_15_C4_P3_SALT {
 			Y = Integer.parseInt (t[1]);
 
 			if (!x.containsKey (X)) {
-				x.put (X, new HashSet <Integer> ());
+				x.put (X, new HashSet<Integer> ());
 			}
 
 			if (!y.containsKey (Y)) {
-				y.put (Y, new HashSet <Integer> ());
+				y.put (Y, new HashSet<Integer> ());
 			}
 
 			x.get (X).add (Y);

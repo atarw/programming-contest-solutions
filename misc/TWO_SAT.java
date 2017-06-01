@@ -44,11 +44,15 @@ public class TWO_SAT {
 		int N = in.iscan (), M = in.iscan ();
 
 		for (int m = 0, a, b, na, nb; m < M; ++m) {
-			a = in.iscan () - 1; b = in.iscan () - 1;
-			na = a + N; nb = b + N; // each variable has two nodes: itself and the opposite of itself (NOT)
+			a = in.iscan () - 1;
+			b = in.iscan () - 1;
+			na = a + N;
+			nb = b + N; // each variable has two nodes: itself and the opposite of itself (NOT)
 			// A || B means: if NOT A, then B must be true | NOT B, then A must be true
-			list[na].add (b); list[nb].add (a);
-			rev[b].add (na); rev[a].add (nb);
+			list[na].add (b);
+			list[nb].add (a);
+			rev[b].add (na);
+			rev[a].add (nb);
 		}
 
 		// do SCC, which TOPOLOGICALLY SORTS the connected components in order

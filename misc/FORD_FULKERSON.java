@@ -23,7 +23,7 @@ output: 23
 public class FORD_FULKERSON {
 
 	public static boolean bfs (int[][] adj, int[] path, int s, int t) {
-		Queue <Integer> queue = new ArrayDeque <Integer> ();
+		Queue<Integer> queue = new ArrayDeque<Integer> ();
 		boolean[] vis = new boolean[adj.length];
 		queue.offer (s);
 		int curr = s;

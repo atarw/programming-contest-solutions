@@ -15,7 +15,7 @@ public class CS_ACADEMY_BETA_ROUND_1_P1_WORD_ORDERING {
 		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
 		PrintWriter out = new PrintWriter (System.out);
 
-		List <String> list = new ArrayList <String> ();
+		List<String> list = new ArrayList<String> ();
 		order = in.readLine ();
 		order += order.toUpperCase ();
 
@@ -25,7 +25,7 @@ public class CS_ACADEMY_BETA_ROUND_1_P1_WORD_ORDERING {
 			list.add (in.readLine ());
 		}
 
-		Collections.sort (list, new Comparator <String> () {
+		Collections.sort (list, new Comparator<String> () {
 			public int compare (String o1, String o2) {
 				int pos1, pos2;
 

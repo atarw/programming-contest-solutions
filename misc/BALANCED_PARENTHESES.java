@@ -8,7 +8,7 @@ public class BALANCED_PARENTHESES {
 
 	public static boolean balanced (String input) {
 		char[] t = input.toCharArray ();
-		Deque <Character> queue = new LinkedList <Character> ();
+		Deque<Character> queue = new LinkedList<Character> ();
 
 		for (int i = 0; i < t.length; i++) {
 			if (t[i] == '(') {

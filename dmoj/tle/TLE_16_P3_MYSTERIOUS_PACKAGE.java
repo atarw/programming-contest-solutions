@@ -12,20 +12,20 @@ public class TLE_16_P3_MYSTERIOUS_PACKAGE {
 
 		int N = in.iscan (), S = in.iscan (), E = in.iscan ();
 		int[] period = new int[N];
-		List <Integer>[] students = new ArrayList[N];
-		Map <Integer, List <Integer>> map = new HashMap <Integer, List <Integer>> (); // student to classes
+		List<Integer>[] students = new ArrayList[N];
+		Map<Integer, List<Integer>> map = new HashMap<Integer, List<Integer>> (); // student to classes
 
 		for (int n = 0, st; n < N; ++n) {
 			period[n] = in.iscan ();
 			st = in.iscan ();
-			students[n] = new ArrayList <Integer> (st);
+			students[n] = new ArrayList<Integer> (st);
 
 			for (int s = 0; s < st; ++s)
 				students[n].add (in.iscan ());
 
 			for (int s : students[n]) {
 				if (!map.containsKey (s))
-					map.put (s, new ArrayList <Integer> ());
+					map.put (s, new ArrayList<Integer> ());
 
 				map.get (s).add (n);
 			}
@@ -33,7 +33,7 @@ public class TLE_16_P3_MYSTERIOUS_PACKAGE {
 
 		int[] dp = new int[N];
 		Arrays.fill (dp, 1 << 20);
-		Deque <Integer> q = new ArrayDeque <Integer> (map.get (S));
+		Deque<Integer> q = new ArrayDeque<Integer> (map.get (S));
 
 		for (int c : map.get (S))
 			dp[c] = 0;

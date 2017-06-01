@@ -8,7 +8,7 @@ import java.util.List;
 
 public class COCI_06_P5_BICIKLI {
 
-	static List <Integer>[] list;
+	static List<Integer>[] list;
 	static boolean[] stack, vis, used;
 	static long[] dp;
 	static boolean cycle = false;
@@ -77,7 +77,7 @@ public class COCI_06_P5_BICIKLI {
 		used = new boolean[N];
 
 		for (int n = 0; n < N; ++n)
-			list[n] = new ArrayList <Integer> ();
+			list[n] = new ArrayList<Integer> ();
 
 		for (int m = 0; m < M; ++m)
 			list[in.iscan () - 1].add (in.iscan () - 1);

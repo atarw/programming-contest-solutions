@@ -10,7 +10,7 @@ public class DMOPC_14_P5_SAWMILL_SCHEME {
 		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
 		String[] t = in.readLine ().split (" ");
 		int N = Integer.parseInt (t[0]), M = Integer.parseInt (t[1]), A, B;
-		List <Integer>[] list = new ArrayList[N];
+		List<Integer>[] list = new ArrayList[N];
 		double[] cache = new double[N];
 
 		for (int m = 0; m < M; m++) {
@@ -19,7 +19,7 @@ public class DMOPC_14_P5_SAWMILL_SCHEME {
 			B = Integer.parseInt (t[1]) - 1;
 
 			if (list[A] == null) {
-				list[A] = new ArrayList <Integer> ();
+				list[A] = new ArrayList<Integer> ();
 			}
 
 			list[A].add (B);

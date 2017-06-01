@@ -27,9 +27,9 @@ public class CALCULATOR {
 	public static void main (String[] args) throws IOException {
 		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
 		String[] t = in.readLine ().split (" +");
-		Deque <String> operators = new LinkedList <String> ();
-		Deque <Integer> operands = new LinkedList <Integer> ();
-		Deque <String> brackets = new LinkedList <String> ();
+		Deque<String> operators = new LinkedList<String> ();
+		Deque<Integer> operands = new LinkedList<Integer> ();
+		Deque<String> brackets = new LinkedList<String> ();
 
 		for (int i = 0; i < t.length; i++) {
 			if (t[i].equals ("(")) {

@@ -9,7 +9,7 @@ public class DMOPC_15_P1_DICTIONARY {
 		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
 		int N = Integer.parseInt (in.readLine ());
 
-		NavigableMap <Character, List <String>> map = new TreeMap <Character, List <String>> ();
+		NavigableMap<Character, List<String>> map = new TreeMap<Character, List<String>> ();
 
 		String ln;
 
@@ -17,7 +17,7 @@ public class DMOPC_15_P1_DICTIONARY {
 			ln = in.readLine ();
 
 			if (!map.containsKey (ln.charAt (0))) {
-				map.put (ln.charAt (0), new ArrayList <String> ());
+				map.put (ln.charAt (0), new ArrayList<String> ());
 			}
 
 			map.get (ln.charAt (0)).add (ln);

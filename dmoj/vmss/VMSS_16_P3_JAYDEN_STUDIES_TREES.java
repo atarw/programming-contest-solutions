@@ -23,10 +23,10 @@ public class VMSS_16_P3_JAYDEN_STUDIES_TREES {
 
 	private static class Graph {
 
-		static Map <Integer, Set <Integer>> map = new HashMap <Integer, Set <Integer>> ();
+		static Map<Integer, Set<Integer>> map = new HashMap<Integer, Set<Integer>> ();
 
 		public int furthest (int S, boolean returnNode) {
-			Queue <Integer> queue = new ArrayDeque <Integer> ();
+			Queue<Integer> queue = new ArrayDeque<Integer> ();
 			int[] cache = new int[map.size ()];
 
 			int curr, node = S, max = Integer.MIN_VALUE;
@@ -55,11 +55,11 @@ public class VMSS_16_P3_JAYDEN_STUDIES_TREES {
 
 		public void addEdge (int S, int E) {
 			if (!map.containsKey (S)) {
-				map.put (S, new HashSet <Integer> ());
+				map.put (S, new HashSet<Integer> ());
 			}
 
 			if (!map.containsKey (E)) {
-				map.put (E, new HashSet <Integer> ());
+				map.put (E, new HashSet<Integer> ());
 			}
 
 			map.get (S).add (E);

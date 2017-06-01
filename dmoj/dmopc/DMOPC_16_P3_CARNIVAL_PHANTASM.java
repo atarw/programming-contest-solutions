@@ -17,7 +17,7 @@ public class DMOPC_16_P3_CARNIVAL_PHANTASM {
 		t = in.readLine ().split (" ");
 
 		int N = Integer.parseInt (t[0]), S = Integer.parseInt (t[1]);
-		NavigableSet <Integer>[] k_stall = new TreeSet[101];
+		NavigableSet<Integer>[] k_stall = new TreeSet[101];
 		dist = new int[N + 1];
 
 		t = in.readLine ().split (" ");
@@ -26,7 +26,7 @@ public class DMOPC_16_P3_CARNIVAL_PHANTASM {
 			dist[n] = Integer.parseInt (t[n - 1]);
 
 		for (int k = 0; k < k_stall.length; ++k)
-			k_stall[k] = new TreeSet <Integer> (new Comparator <Integer> () {
+			k_stall[k] = new TreeSet<Integer> (new Comparator<Integer> () {
 				public int compare (Integer x, Integer y) {
 					if (Integer.compare (dist[x], dist[y]) == 0)
 						return Integer.compare (x, y);

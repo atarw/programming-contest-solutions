@@ -8,7 +8,7 @@ public class CCC_15_S3_GATES {
 
 	public static void main (String[] args) throws IOException {
 		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
-		NavigableSet <Integer> open = new TreeSet <Integer> ();
+		NavigableSet<Integer> open = new TreeSet<Integer> ();
 
 		int G = Integer.parseInt (in.readLine ());
 		int P = Integer.parseInt (in.readLine ());

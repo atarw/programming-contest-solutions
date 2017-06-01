@@ -15,11 +15,11 @@ public class WC_17_P4_PAWPSICLES {
 
 		int N = in.iscan (), M = in.iscan ();
 		int[] loc = new int[N];
-		List <Edge>[] list = new ArrayList[N];
+		List<Edge>[] list = new ArrayList[N];
 
 		for (int n = 0; n < N; ++n) {
 			loc[n] = in.iscan ();
-			list[n] = new ArrayList <Edge> ();
+			list[n] = new ArrayList<Edge> ();
 		}
 
 		for (int m = 0, a, b, c; m < M; ++m) {
@@ -31,7 +31,7 @@ public class WC_17_P4_PAWPSICLES {
 		}
 
 		int[][] dp = new int[N][5];
-		Queue <State> q = new ArrayDeque <State> ();
+		Queue<State> q = new ArrayDeque<State> ();
 		State curr = new State (0, loc[0] == 1 ? 1 : 0);
 		q.offer (curr);
 

@@ -7,7 +7,7 @@ public class CCC_05_J3_RETURNING_HOME {
 
 	public static void main (String[] args) throws IOException {
 		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
-		LinkedList <String> list = new LinkedList <String> ();
+		LinkedList<String> list = new LinkedList<String> ();
 		String t;
 		String dir = "";
 

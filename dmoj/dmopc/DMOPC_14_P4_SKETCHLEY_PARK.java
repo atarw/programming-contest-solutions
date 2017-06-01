@@ -8,7 +8,7 @@ public class DMOPC_14_P4_SKETCHLEY_PARK {
 
 	static String msg, word = "HAILHYDRA", cipher;
 	static char[] alpha = new char[26];
-	static Set <String> list = new HashSet <String> ();
+	static Set<String> list = new HashSet<String> ();
 
 	public static String form () {
 		StringBuilder b = new StringBuilder (9);

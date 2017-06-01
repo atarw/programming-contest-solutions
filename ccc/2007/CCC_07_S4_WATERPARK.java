@@ -7,7 +7,7 @@ import java.util.List;
 
 public class CCC_07_S4_WATERPARK {
 
-	static List <Integer>[] list;
+	static List<Integer>[] list;
 	static int[] dp;
 
 	public static int solve (int u) {
@@ -32,7 +32,7 @@ public class CCC_07_S4_WATERPARK {
 		dp = new int[N];
 
 		for (int n = 0; n < N; ++n)
-			list[n] = new ArrayList <Integer> ();
+			list[n] = new ArrayList<Integer> ();
 
 		int x, y;
 

@@ -24,7 +24,7 @@ public class CCC_02_S4_BRIDGE_CROSSING {
 		}
 
 		State[][] dp = new State[Q + 1][M + 1]; // q_pos, curr group size
-		Queue <State> q = new ArrayDeque <State> ();
+		Queue<State> q = new ArrayDeque<State> ();
 
 		dp[0][1] = new State (-1, -1, 0, 1, 0, 0, time[0]);
 		State curr = dp[0][1];
@@ -62,10 +62,10 @@ public class CCC_02_S4_BRIDGE_CROSSING {
 			}
 		}
 
-		List <String>[] groups = new ArrayList[end.group + 1];
+		List<String>[] groups = new ArrayList[end.group + 1];
 
 		for (int g = 0; g < groups.length; ++g)
-			groups[g] = new ArrayList <String> ();
+			groups[g] = new ArrayList<String> ();
 
 		curr = end;
 

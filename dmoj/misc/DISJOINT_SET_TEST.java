@@ -20,7 +20,7 @@ public class DISJOINT_SET_TEST {
 			arr[m] = new Edge (Integer.parseInt (t[0]) - 1, Integer.parseInt (t[1]) - 1);
 		}
 
-		List <Integer> list = new ArrayList <Integer> (M);
+		List<Integer> list = new ArrayList<Integer> (M);
 
 		for (int e = 0; e < arr.length; e++) {
 			if (ds.find (arr[e].S) != ds.find (arr[e].E)) {

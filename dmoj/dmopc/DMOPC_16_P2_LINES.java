@@ -14,7 +14,7 @@ public class DMOPC_16_P2_LINES {
 
 		int N = in.iscan ();
 
-		Map <Integer, Set <Integer>> map = new HashMap <Integer, Set <Integer>> ();
+		Map<Integer, Set<Integer>> map = new HashMap<Integer, Set<Integer>> ();
 		int[] M = new int[N];
 		int[] B = new int[N];
 
@@ -25,7 +25,7 @@ public class DMOPC_16_P2_LINES {
 			B[n] = in.iscan ();
 
 			if (!map.containsKey (M[n])) {
-				map.put (M[n], new HashSet <Integer> ());
+				map.put (M[n], new HashSet<Integer> ());
 				map.get (M[n]).add (B[n]);
 			}
 			else if (!map.get (M[n]).add (B[n])) {

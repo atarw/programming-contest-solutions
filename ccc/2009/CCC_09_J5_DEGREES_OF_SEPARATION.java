@@ -73,15 +73,15 @@ public class CCC_09_J5_DEGREES_OF_SEPARATION {
 
 	private static class Graph {
 
-		Map <Integer, Set <Integer>> map = new HashMap <Integer, Set <Integer>> ();
+		Map<Integer, Set<Integer>> map = new HashMap<Integer, Set<Integer>> ();
 
 		public void addEdge (int a, int b) {
 			if (!map.containsKey (a)) {
-				map.put (a, new HashSet <Integer> ());
+				map.put (a, new HashSet<Integer> ());
 			}
 
 			if (!map.containsKey (b)) {
-				map.put (b, new HashSet <Integer> ());
+				map.put (b, new HashSet<Integer> ());
 			}
 
 			map.get (a).add (b);
@@ -101,7 +101,7 @@ public class CCC_09_J5_DEGREES_OF_SEPARATION {
 		}
 
 		public int friendsOfFriends (int a) {
-			Set <Integer> set = new HashSet <Integer> ();
+			Set<Integer> set = new HashSet<Integer> ();
 
 			for (Integer i : map.get (a)) {
 				for (Integer x : map.get (i)) {
@@ -115,8 +115,8 @@ public class CCC_09_J5_DEGREES_OF_SEPARATION {
 		}
 
 		public int degrees (int a, int b) {
-			Set <Integer> set = new HashSet <Integer> ();
-			Queue <Integer> queue = new ArrayDeque <Integer> ();
+			Set<Integer> set = new HashSet<Integer> ();
+			Queue<Integer> queue = new ArrayDeque<Integer> ();
 			int[] steps = new int[50];
 			int curr;
 

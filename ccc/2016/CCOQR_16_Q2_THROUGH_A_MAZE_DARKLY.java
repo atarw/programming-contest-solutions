@@ -14,15 +14,15 @@ public class CCOQR_16_Q2_THROUGH_A_MAZE_DARKLY {
 		PrintWriter out = new PrintWriter (System.out);
 
 		int N = in.iscan (), M = 0, ID = 0;
-		List <Integer>[] list = new ArrayList[N];
+		List<Integer>[] list = new ArrayList[N];
 		Edge[] edges = new Edge[500001];
-		Map <Integer, Pair>[] map = new HashMap[N];
+		Map<Integer, Pair>[] map = new HashMap[N];
 
 		for (int n = 0, K; n < N; ++n) {
 			K = in.iscan ();
 			M += K;
-			list[n] = new ArrayList <Integer> (K + 1);
-			map[n] = new HashMap <Integer, Pair> (K, 1.1f);
+			list[n] = new ArrayList<Integer> (K + 1);
+			map[n] = new HashMap<Integer, Pair> (K, 1.1f);
 
 			for (int k = 0, e; k < K; ++k) {
 				e = in.iscan () - 1;

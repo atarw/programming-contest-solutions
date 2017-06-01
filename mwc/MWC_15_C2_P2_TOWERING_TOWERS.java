@@ -16,7 +16,7 @@ public class MWC_15_C2_P2_TOWERING_TOWERS {
 			height[n] = Integer.parseInt (t[n]);
 		}
 
-		Deque <Integer> queue = new ArrayDeque <Integer> (N);
+		Deque<Integer> queue = new ArrayDeque<Integer> (N);
 		queue.push (0);
 
 		for (int n = 1; n < N; n++) {

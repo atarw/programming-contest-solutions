@@ -73,7 +73,7 @@ public class FHC_17_P3_MANIC_MOVING {
 			State curr = new State (0, 0, 0);
 			dp[0][0][0] = 0;
 
-			Queue <State> q = new ArrayDeque <State> ();
+			Queue<State> q = new ArrayDeque<State> ();
 			q.offer (curr);
 
 			long ans = 1L << 50;

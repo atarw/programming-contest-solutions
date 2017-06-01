@@ -174,7 +174,7 @@ public class JDCC_15_NOVEMBER_D_LUCKY_TICKET {
 			boolean shouldAdjustLS = shouldAdjustLS (rs, sumLS);
 
 			if (shouldAdjustLS) {//IF LEFT SIDE SHOULD BE ADJUSTED BEFORE FINDING LUCKY TICKET
-				LinkedList <Integer> adjustedLS = new LinkedList <Integer> ();//USING BIGINTEGER IS TOO SLOW, MUST
+				LinkedList<Integer> adjustedLS = new LinkedList<Integer> ();//USING BIGINTEGER IS TOO SLOW, MUST
 				// STORE EACH DIGIT IN AN INDEX, AND ADD 1
 
 				boolean added = false;
@@ -200,7 +200,7 @@ public class JDCC_15_NOVEMBER_D_LUCKY_TICKET {
 				ls = new int[adjustedLS.size ()];//MOVE VALUES FROM LINKEDLIST TO ARRAY AFTER ADDING 1
 				rs = new int[ls.length];//RESET RIGHT SIDE TO 0000...as the left side limit does not exist anymore
 				sumLS = 0;
-				Iterator <Integer> iterator = adjustedLS.iterator ();//LinkedList does not have O (1) access
+				Iterator<Integer> iterator = adjustedLS.iterator ();//LinkedList does not have O (1) access
 
 				for (int x = 0; x < ls.length; x++) {
 					ls[x] = iterator.next ();

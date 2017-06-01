@@ -18,7 +18,7 @@ public class MEC_16_P1_BAT_DOCTOR {
 		String ln;
 
 		int R = Integer.parseInt (t[0]), C = Integer.parseInt (t[1]);
-		List <P> arr = new ArrayList <P> (C);
+		List<P> arr = new ArrayList<P> (C);
 
 		for (int r = 0; r < R; r++) {
 			ln = in.readLine ();
@@ -43,7 +43,7 @@ public class MEC_16_P1_BAT_DOCTOR {
 		}
 	}
 
-	private static class P implements Comparable <P> {
+	private static class P implements Comparable<P> {
 
 		int X, Y;
 

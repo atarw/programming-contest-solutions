@@ -8,7 +8,7 @@ public class SHIP {
 
 	public static void main (String[] args) throws IOException {
 		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
-		Set <Character> set = new HashSet <Character> ();
+		Set<Character> set = new HashSet<Character> ();
 		set.add ('B');
 		set.add ('F');
 		set.add ('T');

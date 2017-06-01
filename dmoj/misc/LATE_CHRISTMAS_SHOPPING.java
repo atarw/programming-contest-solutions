@@ -11,7 +11,7 @@ public class LATE_CHRISTMAS_SHOPPING {
 		int N = Integer.parseInt (in.readLine ());
 		String[] t;
 
-		Map <Integer, Integer> map = new HashMap <Integer, Integer> ();
+		Map<Integer, Integer> map = new HashMap<Integer, Integer> ();
 		boolean g = true;
 
 		out:

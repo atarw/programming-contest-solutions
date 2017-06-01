@@ -8,7 +8,7 @@ public class CCC_08_J3_GPS_TEXT_ENTRY {
 
 	public static void main (String[] args) throws IOException {
 		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
-		Map <Character, P> map = new HashMap <Character, P> ();
+		Map<Character, P> map = new HashMap<Character, P> ();
 
 		map.put ('A', new P (0, 0));
 		map.put ('B', new P (1, 0));

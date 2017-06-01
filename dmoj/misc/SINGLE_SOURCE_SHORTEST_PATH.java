@@ -38,7 +38,7 @@ public class SINGLE_SOURCE_SHORTEST_PATH {
 		}
 
 		public void traverse (int S) {
-			Queue <Integer> queue = new ArrayDeque <Integer> ();
+			Queue<Integer> queue = new ArrayDeque<Integer> ();
 			int curr;
 
 			queue.offer (S);

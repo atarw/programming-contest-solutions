@@ -14,7 +14,7 @@ public class CCC_06_J4_ITS_TOUGH_BEING_A_TEEN {
 		g.addEdge (2, 1);
 		g.addEdge (3, 4);
 		g.addEdge (3, 5);
-		Graph.map.put (6, new HashSet <Integer> ());
+		Graph.map.put (6, new HashSet<Integer> ());
 
 		int S = -1, E = -1;
 
@@ -27,15 +27,15 @@ public class CCC_06_J4_ITS_TOUGH_BEING_A_TEEN {
 
 	private static class Graph {
 
-		static NavigableMap <Integer, Set <Integer>> map = new TreeMap <Integer, Set <Integer>> ();
+		static NavigableMap<Integer, Set<Integer>> map = new TreeMap<Integer, Set<Integer>> ();
 
 		public void addEdge (int S, int E) {
 			if (!map.containsKey (S)) {
-				map.put (S, new HashSet <Integer> ());
+				map.put (S, new HashSet<Integer> ());
 			}
 
 			if (!map.containsKey (E)) {
-				map.put (E, new HashSet <Integer> ());
+				map.put (E, new HashSet<Integer> ());
 			}
 
 			map.get (S).add (E);
@@ -47,7 +47,7 @@ public class CCC_06_J4_ITS_TOUGH_BEING_A_TEEN {
 			for (int i : map.keySet ()) {
 				edge = false;
 
-				for (Set <Integer> x : map.values ()) {
+				for (Set<Integer> x : map.values ()) {
 					if (x.contains (i)) {
 						edge = true;
 						break;
@@ -63,7 +63,7 @@ public class CCC_06_J4_ITS_TOUGH_BEING_A_TEEN {
 		}
 
 		public void order () {
-			List <Integer> list = new ArrayList <Integer> ();
+			List<Integer> list = new ArrayList<Integer> ();
 
 			while (!map.keySet ().isEmpty ()) {
 				int curr = next ();

@@ -32,7 +32,7 @@ public class VMSS_16_P3_HELLO_OFFICER {
 
 	private static class Graph {
 
-		static Map <Integer, Set <Edge>> map = new HashMap <Integer, Set <Edge>> ();
+		static Map<Integer, Set<Edge>> map = new HashMap<Integer, Set<Edge>> ();
 		static int[] cache;
 
 		public Graph (int N) {
@@ -43,7 +43,7 @@ public class VMSS_16_P3_HELLO_OFFICER {
 			Arrays.fill (cache, -1);
 			cache[S - 1] = 0;
 
-			Queue <Integer> queue = new ArrayDeque <Integer> ();
+			Queue<Integer> queue = new ArrayDeque<Integer> ();
 			int curr;
 			queue.offer (S);
 
@@ -67,11 +67,11 @@ public class VMSS_16_P3_HELLO_OFFICER {
 
 		public void addEdge (int S, int E, int W) {
 			if (!map.containsKey (S)) {
-				map.put (S, new HashSet <Edge> ());
+				map.put (S, new HashSet<Edge> ());
 			}
 
 			if (!map.containsKey (E)) {
-				map.put (E, new HashSet <Edge> ());
+				map.put (E, new HashSet<Edge> ());
 			}
 
 			map.get (S).add (new Edge (E, W));

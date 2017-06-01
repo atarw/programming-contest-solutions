@@ -10,8 +10,8 @@ public class ARITHMETIC_SNOWMAN {
 		int N = Integer.parseInt (in.readLine ());
 		String[] t = in.readLine ().split (" ");
 
-		List <Integer> list = new ArrayList <Integer> (N);
-		Set <Integer> set = new HashSet <Integer> (N);
+		List<Integer> list = new ArrayList<Integer> (N);
+		Set<Integer> set = new HashSet<Integer> (N);
 
 		for (String i : t) {
 			list.add (Integer.parseInt (i));

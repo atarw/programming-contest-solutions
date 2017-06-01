@@ -2,11 +2,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
-import java.util.List;
-import java.util.ArrayList;
-import java.util.Queue;
-import java.util.ArrayDeque;
-import java.util.Arrays;
+import java.util.*;
 
 public class MOCK_CCO_17_P1_GUARDS {
 
@@ -69,7 +65,8 @@ public class MOCK_CCO_17_P1_GUARDS {
 		INPUT in = new INPUT (System.in);
 		PrintWriter out = new PrintWriter (System.out);
 
-		N = in.iscan (); M = in.iscan ();
+		N = in.iscan ();
+		M = in.iscan ();
 		type = new int[N];
 
 		for (int n = 0; n < N; ++n)

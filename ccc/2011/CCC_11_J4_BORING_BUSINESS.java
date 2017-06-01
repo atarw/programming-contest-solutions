@@ -8,7 +8,7 @@ public class CCC_11_J4_BORING_BUSINESS {
 
 	public static void main (String[] args) throws IOException {
 		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
-		Set <P> set = new HashSet <P> ();
+		Set<P> set = new HashSet<P> ();
 
 		String ln;
 		String[] t;

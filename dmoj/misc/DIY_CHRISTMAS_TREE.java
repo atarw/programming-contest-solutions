@@ -6,7 +6,7 @@ import java.util.List;
 
 public class DIY_CHRISTMAS_TREE {
 
-	static List <Integer>[] list;
+	static List<Integer>[] list;
 	static int[] post;
 	static int time = 1;
 
@@ -41,7 +41,7 @@ public class DIY_CHRISTMAS_TREE {
 			t = in.readLine ().split (" ");
 			L = Integer.parseInt (t[0]);
 
-			list[n] = new ArrayList <Integer> ();
+			list[n] = new ArrayList<Integer> ();
 
 			for (int i = 1; i <= L; i++) {
 				list[n].add (Integer.parseInt (t[i]) - 1);

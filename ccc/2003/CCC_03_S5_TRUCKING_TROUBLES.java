@@ -32,15 +32,15 @@ public class CCC_03_S5_TRUCKING_TROUBLES {
 
 	private static class Graph {
 
-		Map <Integer, Set <Edge>> map = new HashMap <Integer, Set <Edge>> ();
+		Map<Integer, Set<Edge>> map = new HashMap<Integer, Set<Edge>> ();
 
 		public void addEdge (int S, int E, int W) {
 			if (!map.containsKey (S)) {
-				map.put (S, new HashSet <Edge> ());
+				map.put (S, new HashSet<Edge> ());
 			}
 
 			if (!map.containsKey (E)) {
-				map.put (E, new HashSet <Edge> ());
+				map.put (E, new HashSet<Edge> ());
 			}
 
 			map.get (S).add (new Edge (E, W));
@@ -49,7 +49,7 @@ public class CCC_03_S5_TRUCKING_TROUBLES {
 
 		public int prims (int[] destination) {
 			int curr = 0, overallMin = Integer.MAX_VALUE;
-			Queue <Integer> queue = new ArrayDeque <Integer> ();
+			Queue<Integer> queue = new ArrayDeque<Integer> ();
 			int[] cache = new int[map.size ()];
 
 			queue.offer (curr);

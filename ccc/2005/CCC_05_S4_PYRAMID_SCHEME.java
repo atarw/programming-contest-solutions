@@ -9,12 +9,12 @@ public class CCC_05_S4_PYRAMID_SCHEME {
 	static String[] order;
 	static int N;
 
-	static Map <String, Integer> map;
+	static Map<String, Integer> map;
 
 	public static int dfs (int u) {
-		List <Integer> last_occ = new ArrayList <Integer> ();
-		List <Integer> children = new ArrayList <Integer> ();
-		Set <String> done = new HashSet <String> ();
+		List<Integer> last_occ = new ArrayList<Integer> ();
+		List<Integer> children = new ArrayList<Integer> ();
+		Set<String> done = new HashSet<String> ();
 
 		for (int n = u + 1; n < order.length; ++n)
 			if (order[n].equals (order[u]))
@@ -42,7 +42,7 @@ public class CCC_05_S4_PYRAMID_SCHEME {
 		for (int l = 0; l < L; ++l) {
 			N = in.iscan ();
 			order = new String[N + 1];
-			map = new HashMap <String, Integer> ();
+			map = new HashMap<String, Integer> ();
 
 			for (int n = 1; n <= N; ++n)
 				order[n] = in.sscan ();

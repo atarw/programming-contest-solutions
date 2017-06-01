@@ -8,7 +8,7 @@ import java.util.List;
 
 public class TSOC_15_P5_GIANT_ANTS {
 
-	static List <Integer>[] list;
+	static List<Integer>[] list;
 	static int[] disc;
 	static boolean[] dispenser;
 	static boolean[] vis;
@@ -57,11 +57,11 @@ public class TSOC_15_P5_GIANT_ANTS {
 			E = Integer.parseInt (t[1]) - 1;
 
 			if (list[S] == null) {
-				list[S] = new ArrayList <Integer> ();
+				list[S] = new ArrayList<Integer> ();
 			}
 
 			if (list[E] == null) {
-				list[E] = new ArrayList <Integer> ();
+				list[E] = new ArrayList<Integer> ();
 			}
 
 			list[S].add (E);
@@ -69,7 +69,7 @@ public class TSOC_15_P5_GIANT_ANTS {
 		}
 
 		int W = Integer.parseInt (in.readLine ());
-		Deque <Integer> queue = new ArrayDeque <Integer> (W);//pre-process discovery time of nodes
+		Deque<Integer> queue = new ArrayDeque<Integer> (W);//pre-process discovery time of nodes
 
 		for (int w = 0; w < W; w++) {
 			queue.offerFirst (Integer.parseInt (in.readLine ()) - 1);

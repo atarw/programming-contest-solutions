@@ -6,7 +6,7 @@ import java.util.TreeSet;
 
 public class FIND_SUMS {
 
-	public static final Set <Integer> set = new TreeSet <Integer> ();
+	public static final Set<Integer> set = new TreeSet<Integer> ();
 	public static int ways = 0;
 
 	public static String indent (int depth) {

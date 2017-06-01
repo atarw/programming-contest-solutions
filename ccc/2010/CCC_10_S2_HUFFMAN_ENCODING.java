@@ -9,7 +9,7 @@ public class CCC_10_S2_HUFFMAN_ENCODING {
 	public static void main (String[] args) throws IOException {
 		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
 		int K = Integer.parseInt (in.readLine ());
-		Map <String, Character> map = new HashMap <String, Character> ();
+		Map<String, Character> map = new HashMap<String, Character> ();
 		String[] t;
 
 		for (int k = 0; k < K; k++) {

@@ -7,9 +7,9 @@ import java.util.Map;
 public class CCC_97_S4_DYNAMIC_DICTIONARY_CODING {
 
 	static int x = 1;
-	static Map <String, Integer> map = new HashMap <String, Integer> ();
+	static Map<String, Integer> map = new HashMap<String, Integer> ();
 
-	public static String conv (Map <String, Integer> map, String txt) {
+	public static String conv (Map<String, Integer> map, String txt) {
 		String[] tokens = txt.split (" ");
 		StringBuilder a = new StringBuilder ();
 

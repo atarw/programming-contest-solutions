@@ -9,7 +9,7 @@ public class VMSS_15_P1_ALEXS_BAE {
 	public static void main (String[] args) throws IOException {
 		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
 		String a = in.readLine ().toLowerCase (), b = in.readLine ().toLowerCase ();
-		Map <Character, Integer> map = new HashMap <Character, Integer> ();
+		Map<Character, Integer> map = new HashMap<Character, Integer> ();
 		boolean no = false;
 
 		for (int i = 0; i < a.length (); i++) {

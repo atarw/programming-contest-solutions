@@ -37,7 +37,7 @@ public class PURSUIT_OF_KNOWLEDGE {
 
 	private static class Graph {
 
-		static Map <Integer, Set <Integer>> map = new HashMap <Integer, Set <Integer>> ();
+		static Map<Integer, Set<Integer>> map = new HashMap<Integer, Set<Integer>> ();
 		static int[][] cache;
 
 		public Graph (int N) {
@@ -45,7 +45,7 @@ public class PURSUIT_OF_KNOWLEDGE {
 		}
 
 		public void traverse (int S) {
-			Queue <Integer> queue = new ArrayDeque <Integer> ();
+			Queue<Integer> queue = new ArrayDeque<Integer> ();
 			int curr;
 			queue.offer (S);
 
@@ -76,7 +76,7 @@ public class PURSUIT_OF_KNOWLEDGE {
 
 		public void addEdge (int S, int E) {
 			if (!map.containsKey (S)) {
-				map.put (S, new HashSet <Integer> ());
+				map.put (S, new HashSet<Integer> ());
 			}
 
 			map.get (S).add (E);

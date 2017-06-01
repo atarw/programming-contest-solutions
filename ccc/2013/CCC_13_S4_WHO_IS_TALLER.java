@@ -38,11 +38,11 @@ public class CCC_13_S4_WHO_IS_TALLER {
 
 	private static class Graph {
 
-		Map <Integer, List <Integer>> map = new HashMap <Integer, List <Integer>> ();
+		Map<Integer, List<Integer>> map = new HashMap<Integer, List<Integer>> ();
 
 		public void addEdge (Integer taller, Integer shorter) {
 			if (!map.containsKey (taller)) {
-				map.put (taller, new ArrayList <Integer> ());
+				map.put (taller, new ArrayList<Integer> ());
 			}
 
 			map.get (taller).add (shorter);

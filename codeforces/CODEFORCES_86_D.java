@@ -77,7 +77,7 @@ public class CODEFORCES_86_D {
 		out.close ();
 	}
 
-	private static class Query implements Comparable <Query> {
+	private static class Query implements Comparable<Query> {
 
 		int l, r, i;
 

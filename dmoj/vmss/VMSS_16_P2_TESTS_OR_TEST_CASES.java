@@ -5,8 +5,8 @@ import java.util.*;
 
 public class VMSS_16_P2_TESTS_OR_TEST_CASES {
 
-	static NavigableMap <Integer, NavigableSet <Character>> map = new TreeMap <Integer, NavigableSet <Character>> ();
-	static List <String> list = new ArrayList <String> ();
+	static NavigableMap<Integer, NavigableSet<Character>> map = new TreeMap<Integer, NavigableSet<Character>> ();
+	static List<String> list = new ArrayList<String> ();
 	static int L;
 
 	public static void paths (String curr, int set) {
@@ -31,7 +31,7 @@ public class VMSS_16_P2_TESTS_OR_TEST_CASES {
 
 		for (int n = 0; n < N; n++) {
 			t = in.readLine ().split (" ");
-			map.put (n, new TreeSet <Character> ());
+			map.put (n, new TreeSet<Character> ());
 
 			for (int i = 1; i < t.length; i++) {
 				map.get (n).add (t[i].charAt (0));

@@ -8,7 +8,7 @@ import java.util.List;
 
 public class TSOC_15_P4_DUNGEON_CRAWLING {
 
-	static List <Integer>[] list;
+	static List<Integer>[] list;
 	static int[] ind;
 	static int[] ways, min;
 	static int MOD = 1000000007;
@@ -40,7 +40,7 @@ public class TSOC_15_P4_DUNGEON_CRAWLING {
 		Arrays.fill (min, 1 << 20);
 
 		for (int n = 0; n < N; ++n)
-			list[n] = new ArrayList <Integer> ();
+			list[n] = new ArrayList<Integer> ();
 
 		for (int m = 0, a, b; m < M; ++m) {
 			a = in.iscan ();

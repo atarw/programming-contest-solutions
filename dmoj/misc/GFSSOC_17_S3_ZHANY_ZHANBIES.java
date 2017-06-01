@@ -13,7 +13,7 @@ public class GFSSOC_17_S3_ZHANY_ZHANBIES {
 
 		t = in.readLine ().split (" ");
 		int N = Integer.parseInt (t[0]), X = Integer.parseInt (t[1]), T = Integer.parseInt (t[2]);
-		Queue <Zombie> zombies = new PriorityQueue <Zombie> ();
+		Queue<Zombie> zombies = new PriorityQueue<Zombie> ();
 
 		for (int n = 0, i, j; n < N; ++n) {
 			t = in.readLine ().split (" ");
@@ -52,7 +52,7 @@ public class GFSSOC_17_S3_ZHANY_ZHANBIES {
 		out.close ();
 	}
 
-	private static class Zombie implements Comparable <Zombie> {
+	private static class Zombie implements Comparable<Zombie> {
 
 		int r, c;
 

@@ -33,11 +33,11 @@ public class CCC_07_S3_FRIENDS {
 
 	private static class Graph {
 
-		Map <Integer, Set <Integer>> map = new HashMap <Integer, Set <Integer>> ();
+		Map<Integer, Set<Integer>> map = new HashMap<Integer, Set<Integer>> ();
 		int[] cache;
 
 		public int path (int A, int B) {
-			Queue <Integer> queue = new ArrayDeque <Integer> ();
+			Queue<Integer> queue = new ArrayDeque<Integer> ();
 			cache = new int[10000];
 			int curr = A;
 			queue.offer (A);
@@ -71,7 +71,7 @@ public class CCC_07_S3_FRIENDS {
 
 		public void addEdge (int a, int b) {
 			if (!map.containsKey (a)) {
-				map.put (a, new HashSet <Integer> ());
+				map.put (a, new HashSet<Integer> ());
 			}
 
 			map.get (a).add (b);

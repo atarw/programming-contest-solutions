@@ -6,7 +6,7 @@ import java.util.TreeSet;
 
 public class WORD_SCRAMBLER {
 
-	static NavigableSet <String> set;
+	static NavigableSet<String> set;
 
 	public static void permute (String p, String ln) {
 
@@ -22,7 +22,7 @@ public class WORD_SCRAMBLER {
 
 	public static void main (String[] args) throws IOException {
 		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));
-		set = new TreeSet <String> ();
+		set = new TreeSet<String> ();
 
 		permute ("", in.readLine ());
 

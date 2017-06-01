@@ -1,7 +1,6 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-//import java.util.*;
 
 public class DMPG_15_B5_LUXURIOUS_SMORES {
 

@@ -2,7 +2,13 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
-import java.util.*;
+import java.util.ArrayDeque;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.NavigableSet;
+import java.util.Queue;
+import java.util.TreeSet;
 
 public class CCO_12_P2_THE_HUNGARY_GAMES {
 

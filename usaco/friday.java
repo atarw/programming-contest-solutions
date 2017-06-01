@@ -4,7 +4,12 @@ LANG: JAVA
 TASK: friday
 */
 
-import java.io.*;
+import java.io.BufferedWriter;
+import java.io.FileInputStream;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.PrintWriter;
 
 public class friday {
 

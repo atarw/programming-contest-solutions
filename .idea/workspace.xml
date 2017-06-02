@@ -2,58 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf5dc239-6b36-4c09-b580-a8e8c611168e" name="Default" comment="consistent indenting??">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2002/CCC_02_S4_BRIDGE_CROSSING.java" afterPath="$PROJECT_DIR$/ccc/2002/CCC_02_S4_BRIDGE_CROSSING.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2003/CCC_03_S5_TRUCKING_TROUBLES.java" afterPath="$PROJECT_DIR$/ccc/2003/CCC_03_S5_TRUCKING_TROUBLES.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2005/CCC_05_S4_PYRAMID_SCHEME.java" afterPath="$PROJECT_DIR$/ccc/2005/CCC_05_S4_PYRAMID_SCHEME.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2006/CCC_06_J4_ITS_TOUGH_BEING_A_TEEN.java" afterPath="$PROJECT_DIR$/ccc/2006/CCC_06_J4_ITS_TOUGH_BEING_A_TEEN.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2007/CCC_07_S3_FRIENDS.java" afterPath="$PROJECT_DIR$/ccc/2007/CCC_07_S3_FRIENDS.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2009/CCC_09_J5_DEGREES_OF_SEPARATION.java" afterPath="$PROJECT_DIR$/ccc/2009/CCC_09_J5_DEGREES_OF_SEPARATION.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2010/CCC_10_J5_KNIGHT_HOP.java" afterPath="$PROJECT_DIR$/ccc/2010/CCC_10_J5_KNIGHT_HOP.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2012/CCC_12_S3_ABSOLUTELY_ACIDIC.java" afterPath="$PROJECT_DIR$/ccc/2012/CCC_12_S3_ABSOLUTELY_ACIDIC.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2012/CCC_12_S4_A_COIN_GAME.java" afterPath="$PROJECT_DIR$/ccc/2012/CCC_12_S4_A_COIN_GAME.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ccc/2015/CCC_15_S4_CONVEX_HULL.java" afterPath="$PROJECT_DIR$/ccc/2015/CCC_15_S4_CONVEX_HULL.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cco/2000/CCO_00_P1_SUBSETS.java" afterPath="$PROJECT_DIR$/cco/2000/CCO_00_P1_SUBSETS.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cco/2011/CCO_11_P2_VAMPIRE_TUNNELS.java" afterPath="$PROJECT_DIR$/cco/2011/CCO_11_P2_VAMPIRE_TUNNELS.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cco/2012/CCO_12_P2_THE_HUNGARY_GAMES.java" afterPath="$PROJECT_DIR$/cco/2012/CCO_12_P2_THE_HUNGARY_GAMES.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cco/2014/CCO_14_P2_KING_GRUFF.java" afterPath="$PROJECT_DIR$/cco/2014/CCO_14_P2_KING_GRUFF.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codeforces/CODEFORCES_522_A.java" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_522_A.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P5_SURPRISE_TELEPORT.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P5_SURPRISE_TELEPORT.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P1_DICTIONARY.java" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P1_DICTIONARY.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/dmpg/DMPG_15_S6_APPLES_TO_ORANGES.java" afterPath="$PROJECT_DIR$/dmoj/dmpg/DMPG_15_S6_APPLES_TO_ORANGES.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/ARITHMETIC_SNOWMAN.java" afterPath="$PROJECT_DIR$/dmoj/misc/ARITHMETIC_SNOWMAN.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/GFSSOC_17_S1_PATH_TO_WATERLOO.java" afterPath="$PROJECT_DIR$/dmoj/misc/GFSSOC_17_S1_PATH_TO_WATERLOO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/MOCK_CCO_17_P1_GUARDS.java" afterPath="$PROJECT_DIR$/dmoj/misc/MOCK_CCO_17_P1_GUARDS.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/MOSTLY_TALKING.java" afterPath="$PROJECT_DIR$/dmoj/misc/MOSTLY_TALKING.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/PURSUIT_OF_KNOWLEDGE.java" afterPath="$PROJECT_DIR$/dmoj/misc/PURSUIT_OF_KNOWLEDGE.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/RAIDER.java" afterPath="$PROJECT_DIR$/dmoj/misc/RAIDER.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/RGPC_17_P4_SNOW_DAY.java" afterPath="$PROJECT_DIR$/dmoj/misc/RGPC_17_P4_SNOW_DAY.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/misc/TROUBLING_TRIANGLES.java" afterPath="$PROJECT_DIR$/dmoj/misc/TROUBLING_TRIANGLES.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/mnyc/MACKENZIE_NEW_YEARS_CHALLENGE_P4_ABDOOF.java" afterPath="$PROJECT_DIR$/dmoj/mnyc/MACKENZIE_NEW_YEARS_CHALLENGE_P4_ABDOOF.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/tle/TLE_15_P6_ROCK_PAPER_SCISSORS.java" afterPath="$PROJECT_DIR$/dmoj/tle/TLE_15_P6_ROCK_PAPER_SCISSORS.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/tle/TLE_16_P3_MYSTERIOUS_PACKAGE.java" afterPath="$PROJECT_DIR$/dmoj/tle/TLE_16_P3_MYSTERIOUS_PACKAGE.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/tle/TLE_16_P4_ENGINEERING_TEST.java" afterPath="$PROJECT_DIR$/dmoj/tle/TLE_16_P4_ENGINEERING_TEST.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/tle/TLE_16_P4_MICROWAVES_AGAIN.java" afterPath="$PROJECT_DIR$/dmoj/tle/TLE_16_P4_MICROWAVES_AGAIN.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/vmss/VMSS_15_P2_SETS.java" afterPath="$PROJECT_DIR$/dmoj/vmss/VMSS_15_P2_SETS.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/vmss/VMSS_15_P3_AGRIPHILISOPHICAL_DATA_SLAVES.java" afterPath="$PROJECT_DIR$/dmoj/vmss/VMSS_15_P3_AGRIPHILISOPHICAL_DATA_SLAVES.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/vmss/VMSS_15_P3_CHAIN_RULE.java" afterPath="$PROJECT_DIR$/dmoj/vmss/VMSS_15_P3_CHAIN_RULE.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/vmss/VMSS_16_P2_CAN_SHAHIR_EVEN_GET_THERE.java" afterPath="$PROJECT_DIR$/dmoj/vmss/VMSS_16_P2_CAN_SHAHIR_EVEN_GET_THERE.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/vmss/VMSS_16_P2_TESTS_OR_TEST_CASES.java" afterPath="$PROJECT_DIR$/dmoj/vmss/VMSS_16_P2_TESTS_OR_TEST_CASES.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/vmss/VMSS_16_P3_HELLO_OFFICER.java" afterPath="$PROJECT_DIR$/dmoj/vmss/VMSS_16_P3_HELLO_OFFICER.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/vmss/VMSS_16_P3_JAYDEN_STUDIES_TREES.java" afterPath="$PROJECT_DIR$/dmoj/vmss/VMSS_16_P3_JAYDEN_STUDIES_TREES.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fhc/FHC_17_P1_PIE_PROGRESS.java" afterPath="$PROJECT_DIR$/fhc/FHC_17_P1_PIE_PROGRESS.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fhc/FHC_17_P1_PROGRESS_PIE.java" afterPath="$PROJECT_DIR$/fhc/FHC_17_P1_PROGRESS_PIE.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jdcc/JDCC_15_FEBUARY_E_POCKET_CHANGE.java" afterPath="$PROJECT_DIR$/jdcc/JDCC_15_FEBUARY_E_POCKET_CHANGE.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jdcc/JDCC_15_NOVEMBER_D_LUCKY_TICKET.java" afterPath="$PROJECT_DIR$/jdcc/JDCC_15_NOVEMBER_D_LUCKY_TICKET.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kattis/ERRATIC_ANTS.java" afterPath="$PROJECT_DIR$/kattis/ERRATIC_ANTS.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/FAST_IO.java" afterPath="$PROJECT_DIR$/misc/FAST_IO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mwc/MWC_15_C4_P5_ARTS_AND_CRAFTS.java" afterPath="$PROJECT_DIR$/mwc/MWC_15_C4_P5_ARTS_AND_CRAFTS.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noi/NOI_CHINA_98_P3_SOFTWARE_INSTALLATION_DISK.java" afterPath="$PROJECT_DIR$/noi/NOI_CHINA_98_P3_SOFTWARE_INSTALLATION_DISK.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spoj/SPOJ_PPATH.java" afterPath="$PROJECT_DIR$/spoj/SPOJ_PPATH.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/usaco/bphoto.java" afterPath="$PROJECT_DIR$/usaco/bphoto.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/usaco/friday.java" afterPath="$PROJECT_DIR$/usaco/friday.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/usaco/gift1.java" afterPath="$PROJECT_DIR$/usaco/gift1.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/usaco/hps.java" afterPath="$PROJECT_DIR$/usaco/hps.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/usaco/ride.java" afterPath="$PROJECT_DIR$/usaco/ride.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P5_TOTAL_ANNIHILATION.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -70,7 +20,20 @@
     <favorites_list name="programming-contest-solutions" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="DMOPC_15_P5_TOTAL_ANNIHILATION.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P5_TOTAL_ANNIHILATION.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="20" column="35" lean-forward="false" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -108,7 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dmoj/misc/MOCK_CCO_17_P1_FAST_FUHRER_TRANSFORM.java" />
         <option value="$PROJECT_DIR$/dmoj/misc/MOCK_CCO_17_P2_PENETRATING_POWER.java" />
         <option value="$PROJECT_DIR$/dmoj/misc/MYNC_17_P5_SKIING_COMPETITION.java" />
         <option value="$PROJECT_DIR$/spoj/SPOJ_LCA.java" />
@@ -159,6 +121,7 @@
         <option value="$PROJECT_DIR$/dmoj/vmss/VMSS_15_P5_JEFFREY_AND_FRANK_AND_A_LACK_OF_ROADS.java" />
         <option value="$PROJECT_DIR$/misc/FAST_IO.java" />
         <option value="$PROJECT_DIR$/mwc/MWC_15_C8_P3_DRAW_DOWN.java" />
+        <option value="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P5_TOTAL_ANNIHILATION.java" />
       </list>
     </option>
   </component>
@@ -214,6 +177,8 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -236,7 +201,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ccc" />
+              <option name="myItemId" value="dmoj" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -250,36 +215,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ccc" />
+              <option name="myItemId" value="dmoj" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="1997" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="programming-contest-solutions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="programming-contest-solutions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ccc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1996" />
+              <option name="myItemId" value="dmopc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -304,9 +249,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ORBOT">
-    <configuration default="false" name="ORBOT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ORBOT" />
+  <component name="RunManager" selected="Application.DMOPC_15_P5_TOTAL_ANNIHILATION">
+    <configuration default="false" name="DMOPC_15_P5_TOTAL_ANNIHILATION" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DMOPC_15_P5_TOTAL_ANNIHILATION" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -410,11 +355,11 @@
       <method />
     </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Application.ORBOT" />
+      <item index="0" class="java.lang.String" itemvalue="Application.DMOPC_15_P5_TOTAL_ANNIHILATION" />
     </list>
     <recent_temporary>
       <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.ORBOT" />
+        <item index="0" class="java.lang.String" itemvalue="Application.DMOPC_15_P5_TOTAL_ANNIHILATION" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
@@ -453,14 +398,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1279" height="773" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32994527" sideWeight="0.48863637" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32994527" sideWeight="0.48863637" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19460227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43039772" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2159091" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -546,24 +492,11 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dmoj/misc/ORBOT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/coci/2014/COCI_14_P4_MAFIJA.java" />
     <entry file="file://$PROJECT_DIR$/coci/2013/COCI_13_P4_LOPOV.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -571,7 +504,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -579,7 +511,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -587,7 +518,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="54" column="19" lean-forward="false" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -595,7 +525,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -603,7 +532,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
           <caret line="57" column="16" lean-forward="false" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -611,7 +539,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -619,7 +546,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -627,7 +553,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -635,7 +560,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="622">
           <caret line="72" column="5" lean-forward="false" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -643,7 +567,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -651,7 +574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -659,7 +581,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -667,7 +588,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-518">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -675,7 +595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -683,7 +602,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-953">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -691,7 +609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-754">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -699,7 +616,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-128">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -707,7 +623,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="547">
           <caret line="61" column="5" lean-forward="false" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -715,7 +630,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="622">
           <caret line="108" column="5" lean-forward="false" selection-start-line="108" selection-start-column="5" selection-end-line="108" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -723,7 +637,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="412">
           <caret line="72" column="21" lean-forward="true" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -738,7 +651,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-773">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -746,7 +658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
           <caret line="54" column="36" lean-forward="true" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -754,7 +665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -762,7 +672,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-683">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -770,7 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-679">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -778,7 +686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-774">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -786,7 +693,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1148">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -794,7 +700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-491">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -802,7 +707,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1087">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -810,7 +714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-323">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -818,7 +721,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-178">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -826,7 +728,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-83">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -834,7 +735,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -842,7 +742,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -850,7 +749,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-517">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -858,7 +756,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -866,7 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2273">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -874,7 +770,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="607">
           <caret line="125" column="5" lean-forward="false" selection-start-line="125" selection-start-column="5" selection-end-line="125" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -882,7 +777,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
           <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -890,7 +784,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
           <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -898,7 +791,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
           <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -906,7 +798,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="427">
           <caret line="72" column="8" lean-forward="false" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -914,7 +805,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-341">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -922,7 +812,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -930,7 +819,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="397">
           <caret line="70" column="16" lean-forward="false" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -938,7 +826,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -946,7 +833,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P5_TOTAL_ANNIHILATION.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="20" column="35" lean-forward="false" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

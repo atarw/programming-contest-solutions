@@ -76,7 +76,7 @@
       <sourceFolder url="file://$MODULE_DIR$/cco/2017" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/hackerrank" isTestSource="false" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

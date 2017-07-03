@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf5dc239-6b36-4c09-b580-a8e8c611168e" name="Default" comment="consistent indenting??">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_688_C.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dmoj/misc/VERA_AND_LCS.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hackerearth/CHANDU_AND_HIS_GURUDEVS.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icpc/ICPC_05_E_RELIABLE_NETS.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coci/2007/COCI_07_P2_NIKOLA.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_550_A.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_550_B.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_550_C.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_688_E.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_820_A.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_820_B.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_821_A.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_821_B.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_821_C.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icpc/VERA_AND_ABCDE.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icpc/VERA_AND_DOGS.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/programming-contest-solutions.iml" afterPath="$PROJECT_DIR$/.idea/programming-contest-solutions.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -24,13 +32,15 @@
     <favorites_list name="programming-contest-solutions" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CODEFORCES_1_A.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_1_A.java">
+    <leaf>
+      <file leaf-file-name="CODEFORCES_688_E.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_688_E.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-              <folding />
+            <state relative-caret-position="83">
+              <caret line="20" column="35" lean-forward="false" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+              <folding>
+                <element signature="e#1070#1079#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,24 +83,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ccc/2011/CCC_11_J2_WHO_HAS_SEEN_THE_WIND.java" />
-        <option value="$PROJECT_DIR$/dmoj/misc/HIDE_N_SEEK.java" />
-        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_810_C.java" />
-        <option value="$PROJECT_DIR$/dmoj/dmopc/DMOPC_13_P4_AFK.java" />
-        <option value="$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P3_NOT_ENOUGH_PERSONNEL.java" />
-        <option value="$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P6_SELECTIVE_CUTTING.java" />
-        <option value="$PROJECT_DIR$/cco/2010/CCO_10_P1_COMPUTER_PURCHASE_RETURN.java" />
-        <option value="$PROJECT_DIR$/dmoj/misc/CHRISTMAS_PRESENTS.java" />
-        <option value="$PROJECT_DIR$/dmoj/mnyc/MACKENZIE_NEW_YEARS_CHALLENGE_P6_ROCKS.java" />
-        <option value="$PROJECT_DIR$/dmoj/vmss/VMSS_16_P2_GG.java" />
-        <option value="$PROJECT_DIR$/dmoj/misc/TREE_CUTTING.java" />
-        <option value="$PROJECT_DIR$/dmoj/dmpg/DMPG_17_G2_HOLY_GRAIL_WAR.java" />
-        <option value="$PROJECT_DIR$/dmoj/tle/TLE_15_P6_ROCK_PAPER_SCISSORS.java" />
-        <option value="$PROJECT_DIR$/dmoj/misc/ORBOT.java" />
-        <option value="$PROJECT_DIR$/coci/2014/COCI_14_P4_MAFIJA.java" />
-        <option value="$PROJECT_DIR$/coci/2013/COCI_13_P4_LOPOV.java" />
-        <option value="$PROJECT_DIR$/dmoj/dmpg/DMPG_15_S6_APPLES_TO_ORANGES.java" />
-        <option value="$PROJECT_DIR$/dmoj/vmss/VMSS_15_P4_FRANK_AND_ROADS.java" />
         <option value="$PROJECT_DIR$/cco/2010/CCO_10_P1_BARKING_DOGGOS.java" />
         <option value="$PROJECT_DIR$/ccc/2012/CCC_12_S3_ABSOLUTELY_ACIDIC.java" />
         <option value="$PROJECT_DIR$/ccc/2013/CCC_13_S3_CHANCES_OF_WINNING.java" />
@@ -124,6 +116,24 @@
         <option value="$PROJECT_DIR$/dmoj/misc/VERA_AND_LCS.java" />
         <option value="$PROJECT_DIR$/icpc/ICPC_05_E_RELIABLE_NETS.java" />
         <option value="$PROJECT_DIR$/codeforces/CODEFORCES_688_C.java" />
+        <option value="$PROJECT_DIR$/cco/2010/CCO_10_P3_WOWOW.java" />
+        <option value="$PROJECT_DIR$/icpc/VERA_AND_ABCDE.java" />
+        <option value="$PROJECT_DIR$/icpc/VERA_AND_DOGS.java" />
+        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_821_A.java" />
+        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_821_C.java" />
+        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_821_B.java" />
+        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_820_A.java" />
+        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_820_B.java" />
+        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_820_C.java" />
+        <option value="$PROJECT_DIR$/spoj/SPOJ_WORDS1.java" />
+        <option value="$PROJECT_DIR$/coci/2007/COCI_07_P2_NIKOLA.java" />
+        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_550_A.java" />
+        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_550_B.java" />
+        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_550_C.java" />
+        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_822_A.java" />
+        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_822_B.java" />
+        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_822_C.java" />
+        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_688_E.java" />
       </list>
     </option>
   </component>
@@ -236,10 +246,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CODEFORCES_688_C">
-    <configuration default="false" name="CODEFORCES_688_C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.CODEFORCES_550_">
+    <configuration default="false" name="CODEFORCES_550_" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="CODEFORCES_688_C" />
+      <option name="MAIN_CLASS_NAME" value="CODEFORCES_688_E" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -348,11 +358,11 @@
       <method />
     </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Application.CODEFORCES_688_C" />
+      <item index="0" class="java.lang.String" itemvalue="Application.CODEFORCES_550_" />
     </list>
     <recent_temporary>
       <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.CODEFORCES_688_C" />
+        <item index="0" class="java.lang.String" itemvalue="Application.CODEFORCES_550_" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
@@ -399,12 +409,12 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23011364" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20880681" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28551137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53409094" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34765625" sideWeight="0.5113636" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53409094" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -486,132 +496,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cco/2013/CCO_13_P3_LHC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-491">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cco/2014/CCO_14_P2_KING_GRUFF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1087">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codejam/CODEJAM_QR_16_P2_REVENGE_OF_THE_PANCAKES.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-323">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dmoj/bts/BTS_16_P8_TEXTBOOKS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-178">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P3_GOLDEN_LILY.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-83">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dmoj/dmopc/DMOPC_16_P3_CARNIVAL_PHANTASM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dmoj/dmopc/DMOPC_16_P3_PHANTOM_FIGHT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dmoj/dmopc/DMOPC_16_P5_MIGRANT_MASCOT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-517">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dmoj/mec/MEC_16_P3_GETTING_GOOD_AT_PROGRAMMING.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dmoj/misc/SEGMENT_TREE_TEST_NODE.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2273">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dmoj/misc/STARDUST_SNOW.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="607">
-          <caret line="125" column="5" lean-forward="false" selection-start-line="125" selection-start-column="5" selection-end-line="125" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dmoj/mnyc/MACKENZIE_NEW_YEARS_CHALLENGE_P3_ECOO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dmoj/tle/TLE_15_P1_POWER_RANKING.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dmoj/tsoc/TSOC_15_P5_BEBILITHS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dmoj/vmss/VMSS_15_P2_SETS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="72" column="8" lean-forward="false" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/misc/FAST_IO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-341">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dmoj/vmss/VMSS_15_P5_JEFFREY_AND_FRANK_AND_A_LACK_OF_ROADS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mwc/MWC_15_C8_P3_DRAW_DOWN.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="70" column="16" lean-forward="false" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_65_D.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -784,10 +668,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="349">
           <caret line="60" column="35" lean-forward="false" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
-          <folding>
-            <element signature="e#1181#1190#0" expanded="false" />
-            <element signature="e#1213#1222#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -801,8 +681,119 @@
     <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_1_A.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cco/2010/CCO_10_P3_WOWOW.java" />
+    <entry file="file://$PROJECT_DIR$/icpc/VERA_AND_ABCDE.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="24" column="29" lean-forward="false" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/icpc/VERA_AND_DOGS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_821_A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="40" column="37" lean-forward="false" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_821_C.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_821_B.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_820_B.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_820_C.java" />
+    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_820_A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="25" column="9" lean-forward="false" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spoj/SPOJ_WORDS1.java" />
+    <entry file="file://$PROJECT_DIR$/coci/2007/COCI_07_P2_NIKOLA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_550_A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_550_B.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_550_C.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="49" column="22" lean-forward="false" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_822_A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_822_B.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="26" column="32" lean-forward="false" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+          <folding>
+            <element signature="e#530#539#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_822_C.java" />
+    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_688_E.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="20" column="35" lean-forward="false" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding>
+            <element signature="e#1070#1079#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -823,7 +814,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Invalid</last-edited>
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -864,6 +855,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

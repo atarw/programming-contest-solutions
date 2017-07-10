@@ -3,27 +3,30 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
 
-public class haybales2 {
+// atharva washimkar
+// Jul 08, 2017
 
-	static long[] arr, lazy;
+public class LAZY_PROPAGATION {
+
+	static int[] arr, lazy;
 	static Node[] tree;
 
-	public static long sum (int i, int l, int r) {
+	public static int sum (int i, int l, int r) {
 		return tree[i].sum + (r - l + 1) * lazy[i];
 	}
 
-	public static long min (int i) {
-		return tree[i].min + lazy[i];
+	public static int max (int i) {
+		return tree[i].max + lazy[i];
 	}
 
 	public static void merge (int i, int l, int r) {
 		int mid = (l + r) / 2;
 		tree[i] = new Node (sum (i * 2 + 1, l, mid) + sum (i * 2 + 2, mid + 1, r),
-		                    Math.min (min (i * 2 + 1), min (i * 2 + 2)));
+		                    Math.max (max (i * 2 + 1), max (i * 2 + 2)));
 	}
 
 	public static void push (int i, int l, int r) {
-		tree[i] = new Node (tree[i].sum + (r - l + 1) * lazy[i], tree[i].min + lazy[i]);
+		tree[i] = new Node (tree[i].sum + (r - l + 1) * lazy[i], tree[i].max + lazy[i]);
 
 		if (l != r) {
 			lazy[i * 2 + 1] += lazy[i];
@@ -47,8 +50,6 @@ public class haybales2 {
 	}
 
 	public static void update (int i, int l, int r, int ql, int qr, int v) {
-		//System.err.println (i + " " + l + " " + r + " " + ql + " " + qr + " " + v + " ");
-		//System.err.println ("node: " + tree[i].sum + " " + tree[i].max + " " + lazy[i]);
 		if (l == ql && r == qr) {
 			lazy[i] += v;
 			push (i, l, r);
@@ -68,13 +69,9 @@ public class haybales2 {
 
 			merge (i, l, r);
 		}
-		//System.err.println ("new node: " + tree[i].sum + " " + tree[i].max + " " + lazy[i]);
 	}
 
 	public static Node query (int i, int l, int r, int ql, int qr) {
-		//System.err.println ("q: " + i + " " + l + " " + r + " " + ql + " " + qr);
-		//System.err.println ("qnode: " + tree[i].sum + " " + tree[i].max + " " + lazy[i]);
-
 		if (l == ql && r == qr) {
 			push (i, l, r);
 			return tree[i];
@@ -93,7 +90,7 @@ public class haybales2 {
 				Node lq = query (i * 2 + 1, l, mid, ql, mid);
 				Node rq = query (i * 2 + 2, mid + 1, r, mid + 1, qr);
 				ans = new Node (lq.sum + rq.sum + (mid - l + 1) * lazy[i * 2 + 1] + (r - mid) * lazy[i * 2 + 2],
-				                Math.min (lq.min + lazy[i * 2 + 1], rq.min + lazy[i * 2 + 2]));
+				                Math.max (lq.max + lazy[i * 2 + 1], rq.max + lazy[i * 2 + 2]));
 			}
 
 			merge (i, l, r);
@@ -105,27 +102,30 @@ public class haybales2 {
 		INPUT in = new INPUT (System.in);
 		PrintWriter out = new PrintWriter (System.out);
 
-		int N = in.iscan (), Q = in.iscan ();
-		arr = new long[N];
+		int N = in.iscan ();
+		arr = new int[N];
+		lazy = new int[4 * N];
 		tree = new Node[4 * N];
-		lazy = new long[4 * N];
 
 		for (int n = 0; n < N; ++n)
 			arr[n] = in.iscan ();
 
 		build (0, 0, N - 1);
 
-		for (int q = 0, c, a, b; q < Q; ++q) {
-			c = in.cscan ();
-			a = in.iscan () - 1;
-			b = in.iscan () - 1;
+		int Q = in.iscan ();
 
-			if (c == 'M') // query min
-				out.println (query (0, 0, N - 1, a, b).min);
-			else if (c == 'P') // increment range
-				update (0, 0, N - 1, a, b, in.iscan ());
-			else // query sum
-				out.println (query (0, 0, N - 1, a, b).sum);
+		for (int q = 0; q < Q; ++q) {
+			String cmd = in.sscan ();
+			int i = in.iscan (), j = in.iscan ();
+
+			if (cmd.equals ("Q")) {
+				Node ans = query (0, 0, N - 1, i, j);
+				out.println ("for range [" + i + ", " + j + "], sum = " + ans.sum + " max = " + ans.max);
+			}
+			else if (cmd.equals ("U")) {
+				int v = in.iscan ();
+				update (0, 0, N - 1, i, j, v);
+			}
 		}
 
 		out.close ();
@@ -133,11 +133,11 @@ public class haybales2 {
 
 	private static class Node {
 
-		long sum, min;
+		int sum, max;
 
-		public Node (long sum, long min) {
+		public Node (int sum, int max) {
 			this.sum = sum;
-			this.min = min;
+			this.max = max;
 		}
 	}
 
@@ -155,21 +155,15 @@ public class haybales2 {
 			this.stream = new FileInputStream (file);
 		}
 
-		// read one character
 		public int cscan () throws IOException {
-			//if (numChars == -1) throw new InputMismatchException ();
-
 			if (curChar >= numChars) {
 				curChar = 0;
 				numChars = stream.read (buf);
-
-				//if (numChars <= 0) return -1;
 			}
 
 			return buf[curChar++];
 		}
 
-		// read an int
 		public int iscan () throws IOException {
 			int c = cscan (), sgn = 1;
 			while (space (c)) c = cscan ();
@@ -182,12 +176,8 @@ public class haybales2 {
 			int res = 0;
 
 			do {
-				//if (c < '0' || c > '9') throw new InputMismatchException ();
-
 				res = (res << 1) + (res << 3);
-				//res *= 10;
 				res += c - '0';
-
 				c = cscan ();
 			}
 			while (!space (c));
@@ -195,7 +185,6 @@ public class haybales2 {
 			return res * sgn;
 		}
 
-		// read a string
 		public String sscan () throws IOException {
 			int c = cscan ();
 			while (space (c)) c = cscan ();
@@ -211,7 +200,6 @@ public class haybales2 {
 			return res.toString ();
 		}
 
-		// read a double
 		public double dscan () throws IOException {
 			int c = cscan (), sgn = 1;
 			while (space (c)) c = cscan ();
@@ -224,10 +212,7 @@ public class haybales2 {
 			double res = 0;
 
 			while (!space (c) && c != '.') {
-				if (c == 'e' || c == 'E') return res * UTILITIES.fast_pow (10, iscan ()); /*Math.pow (10, iscan ());*/
-				//if (c < '0' || c > '9') throw new InputMismatchException ();
-
-				//res = (res << 1) + (res << 3);
+				if (c == 'e' || c == 'E') return res * UTILITIES.fast_pow (10, iscan ());
 				res *= 10;
 				res += c - '0';
 				c = cscan ();
@@ -238,9 +223,7 @@ public class haybales2 {
 				double m = 1;
 
 				while (!space (c)) {
-					if (c == 'e' || c == 'E') return res * UTILITIES.fast_pow (10, iscan ()); /*Math.pow (10, iscan ()
-					);*/
-					//if (c < '0' || c > '9') throw new InputMismatchException ();
+					if (c == 'e' || c == 'E') return res * UTILITIES.fast_pow (10, iscan ());
 
 					m /= 10;
 					res += (c - '0') * m;
@@ -251,7 +234,6 @@ public class haybales2 {
 			return res * sgn;
 		}
 
-		// read a long
 		public long lscan () throws IOException {
 			int c = cscan (), sgn = 1;
 			while (space (c)) c = cscan ();
@@ -264,10 +246,7 @@ public class haybales2 {
 			long res = 0;
 
 			do {
-				//if (c < '0' || c > '9') throw new InputMismatchException();
-
 				res = (res << 1) + (res << 3);
-				//res *= 10;
 				res += c - '0';
 				c = cscan ();
 

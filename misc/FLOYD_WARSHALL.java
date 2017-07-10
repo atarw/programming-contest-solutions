@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
-public class FLOYD_WARSHALL_PRACTICE {
+public class FLOYD_WARSHALL {
 
 	static int[][] matrix;
 

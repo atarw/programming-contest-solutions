@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Queue;
 
-public class TOPOLOGICAL_SORT_PRACTICE {
+public class TOPOLOGICAL_SORT {
 
 	public static void main (String[] t) throws IOException {
 		BufferedReader in = new BufferedReader (new InputStreamReader (System.in));

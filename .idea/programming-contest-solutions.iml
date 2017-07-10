@@ -76,6 +76,7 @@
       <sourceFolder url="file://$MODULE_DIR$/cco/2017" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/hackerrank" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/coci/2007" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/coci/2015" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />

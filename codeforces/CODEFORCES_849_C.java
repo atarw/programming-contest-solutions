@@ -2,187 +2,53 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.Map;
+import java.util.NavigableMap;
+import java.util.TreeMap;
 
 // atharva washimkar
 // Sep 01, 2017
 
-public class CODEFORCES_849_B {
+public class CODEFORCES_849_C {
 
 	public static void main (String[] t) throws IOException {
 		INPUT in = new INPUT (System.in);
 		PrintWriter out = new PrintWriter (System.out);
 
-		int N = in.iscan ();
-		long[] x = new long[N], y = new long[N];
+		int K = in.iscan ();
+		int[] cnt = new int[26];
 
-		for (int n = 0; n < N; ++n) {
-			x[n] = n;
-			y[n] = in.lscan ();
+		NavigableMap<Integer, Integer> map = new TreeMap<Integer, Integer> ();
+		NavigableMap<Integer, Integer> rev = new TreeMap<Integer, Integer> ();
+		for (int i = 0, j = 1; i <= 100000; ++j) {
+			map.put (i, j);
+			rev.put (j, i);
+			i += j;
 		}
 
-		boolean[] done = new boolean[N];
-		boolean good = false;
+		if (K == 0) {
+			cnt[0] = 1;
+		}
 
 		out:
-		for (int n = 1; n < N && !good; ++n) {
-			long a = y[n] - y[0];
-			long b = x[n] - x[0];
-			long gcd = UTILITIES.gcd (a, b);
-			a /= gcd;
-			b /= gcd;
-			done[0] = true;
-			done[n] = true;
-			int cnt = 0;
-			//out.printf ("initial line between points (%d,%d) and (%d,%d), slope is %d/%d\n", x[0], y[0], x[n], y[n], a, b);
+		while (K > 0) {
+			Map.Entry<Integer, Integer> pos = map.floorEntry (K);
 
-			for (int n2 = 1; n2 < N && !good; ++n2) {
-				if (n2 == n)
-					continue;
-
-				long a2 = y[n2] - y[0];
-				long b2 = x[n2] - x[0];
-				long gcd2 = UTILITIES.gcd (a2, b2);
-				a2 /= gcd2;
-				b2 /= gcd2;
-				//out.printf ("    line between points (%d,%d) and (%d,%d), slope is %d/%d\n", x[0], y[0], x[n2], y[n2], a2, b2);
-
-				if (a2 == a && b2 == b) {
-					done[n2] = true;
-				}
-				else {
-					++cnt;
+			for (int i = 0; i < 26; ++i) {
+				if (cnt[i] == 0) {
+					cnt[i] = pos.getValue ();
+					break;
 				}
 			}
 
-			//out.println ();
-
-			if (cnt == 0) {
-				done = new boolean[N];
-				continue;
-			}
-			else if (cnt == 1) {
-				good = true;
-				break out;
-			}
-			else {
-				int f = -1, s = -1;
-				for (int n2 = 1; n2 < N; ++n2) {
-					if (n2 == n)
-						continue;
-
-					if (!done[n2]) {
-						if (f == -1) {
-							f = n2;
-						}
-						else if (s == -1) {
-							s = n2;
-						}
-					}
-				}
-
-				long a2 = y[f] - y[s];
-				long b2 = x[f] - x[s];
-				long gcd2 = UTILITIES.gcd (a2, b2);
-				a2 /= gcd2;
-				b2 /= gcd2;
-
-				for (int n2 = 1; n2 < N; ++n2) {
-					if (!done[n2] && f != n2 && s != n2) {
-						long a3 = y[n2] - y[f];
-						long b3 = x[n2] - x[f];
-						long gcd3 = UTILITIES.gcd (a3, b3);
-						a3 /= gcd3;
-						b3 /= gcd3;
-
-						if (a3 != a2 || b3 != b2) {
-							done = new boolean[N];
-							continue out;
-						}
-					}
-				}
-
-				// no point is on two lines
-				for (int n2 = 0; n2 < N; ++n2) {
-					if (done[n2]) {
-						long a3 = y[n2] - y[f];
-						long b3 = x[n2] - x[f];
-						long gcd3 = UTILITIES.gcd (a3, b3);
-						a3 /= gcd3;
-						b3 /= gcd3;
-
-						if (a3 == a2 && b3 == b2) {
-							done = new boolean[N];
-							continue out;
-						}
-					}
-				}
-
-				if (a == a2 && b == b2) {
-					good = true;
-					break out;
-				}
-			}
-
-			done = new boolean[N];
-			//out.println ();
+			K -= pos.getKey ();
 		}
 
-		// case where first point is alone
-		if (!good) {
-			Set<Pair> set = new HashSet<Pair> ();
-			Pair sample = null;
-
-			for (int n = 2; n < N; ++n) {
-				long a = y[n] - y[1];
-				long b = x[n] - x[1];
-				long gcd = UTILITIES.gcd (a, b);
-				a /= gcd;
-				b /= gcd;
-				//out.printf ("initial line between points (%d,%d) and (%d,%d), slope is %d/%d\n", x[1], y[1], x[n], y[n], a, b);
-				sample = new Pair (a, b);
-				set.add (sample);
-			}
-
-			if (set.size () == 1) {
-				// make sure point 1 doesn't lie here
-				long a = y[0] - y[1];
-				long b = x[0] - x[1];
-				long gcd = UTILITIES.gcd (a, b);
-				a /= gcd;
-				b /= gcd;
-
-				if (sample.a != a || sample.b != b)
-					good = true;
-			}
-		}
-
-		if (good)
-			out.print ("Yes");
-		else
-			out.print ("No");
+		for (int i = 0; i < 26; ++i)
+			for (int j = 0; j < cnt[i]; ++j)
+				out.print ((char) (i + 'a'));
 
 		out.close ();
-	}
-
-	private static class Pair {
-
-		long a, b;
-
-		public boolean equals (Object o) {
-			Pair p = (Pair) o;
-			return a == p.a && b == p.b;
-		}
-
-		public int hashCode () {
-			return Long.hashCode (a) * 17 + Long.hashCode (b) * 31;
-		}
-
-		public Pair (long a, long b) {
-			this.a = a;
-			this.b = b;
-		}
 	}
 
 	private static class INPUT {
@@ -339,11 +205,11 @@ public class CODEFORCES_849_B {
 			return low;
 		}
 
-		public static long gcd (long a, long b) {
-			return b == 0L ? a : gcd (b, a % b);
+		public static int gcd (int a, int b) {
+			return b == 0 ? a : gcd (b, a % b);
 		}
 
-		public static long lcm (int a, int b) {
+		public static int lcm (int a, int b) {
 			return a * b / gcd (a, b);
 		}
 

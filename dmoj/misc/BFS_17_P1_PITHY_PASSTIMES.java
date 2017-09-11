@@ -2,125 +2,28 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.NavigableSet;
-import java.util.TreeSet;
 
 // atharva washimkar
-// Sep 11, 2017
+// Sep 08, 2017
 
-public class BTS_17_P5_NEW_ENGLISH {
+public class BFS_17_P1_PITHY_PASSTIMES {
 
 	public static void main (String[] t) throws IOException {
 		INPUT in = new INPUT (System.in);
 		PrintWriter out = new PrintWriter (System.out);
 
-		int N = in.iscan (), M = in.iscan ();
+		int N = in.iscan ();
+		int cnt = 0;
 
-		List<Request>[] list = new ArrayList[N];
-		NavigableSet<Request>[] list2 = new TreeSet[26];
+		for (int n = 0; n < N; ++n) {
+			String s = in.sscan ();
 
-		for (int n = 0; n < N; ++n)
-			list[n] = new ArrayList<Request> ();
-
-		for (int i = 0; i < 26; ++i)
-			list2[i] = new TreeSet<Request> ();
-
-		for (int m = 0; m < M; ++m) {
-			char c = in.sscan ().charAt (0);
-			int x = in.iscan (), i = in.iscan () - 1;
-
-			list[i].add (new Request (c, x, i));
-			list2[c - 'a'].add (new Request (c, x, i));
+			if (s.length () <= 10)
+				++cnt;
 		}
 
-		char[] ans = new char[N];
-		Arrays.fill (ans, '~');
-
-		boolean good = true;
-
-		final int[] sum = new int[26];
-		int[] last = new int[26];
-
-		NavigableSet<Integer> idx = new TreeSet<Integer> ();
-		for (int n = 0; n < N && good; ++n) {
-			idx.add (n);
-
-			for (Request r : list[n]) {
-				if (sum[r.c - 'a'] > r.x) {
-					good = false;
-					break;
-				}
-				else {
-					int s = n;
-					int left = r.x - sum[r.c - 'a'];
-					int e = last[r.c - 'a'];
-					Integer nxt = e;
-
-					while (!idx.isEmpty () && (nxt = idx.ceiling (nxt)) != null && nxt <= s && left > 0) {
-						ans[nxt] = r.c;
-						idx.remove (nxt);
-						--left;
-					}
-
-					if (left != 0) {
-						good = false;
-						break;
-					}
-
-					last[r.c - 'a'] = n + 1;
-					sum[r.c - 'a'] = r.x;
-				}
-			}
-		}
-
-		for (int i = 0; i < 26 && !idx.isEmpty (); ++i) {
-			while (!idx.isEmpty ()) {
-				Request nxt = list2[i].ceiling (new Request ((char) ('a' + i), 13, idx.last ()));
-
-				if (nxt == null)
-					ans[idx.pollLast ()] = (char) ('a' + i);
-				else
-					break;
-			}
-		}
-
-		if (!idx.isEmpty ())
-			good = false;
-
-		if (good)
-			out.println (new String (ans));
-		else
-			out.println (-1);
-
+		out.print (cnt);
 		out.close ();
-	}
-
-	private static class Request implements Comparable<Request> {
-
-		char c;
-		int x, i;
-
-		public int compareTo (Request r) {
-			return Integer.compare (i, r.i);
-		}
-
-		public boolean equals (Object o) {
-			Request r = (Request) o;
-			return c == r.c && x == r.x && i == r.i;
-		}
-
-		public int hashCode () {
-			return (int) c * 17 + x * 19 + i * 31;
-		}
-
-		public Request (char c, int x, int i) {
-			this.c = c;
-			this.x = x;
-			this.i = i;
-		}
 	}
 
 	private static class INPUT {

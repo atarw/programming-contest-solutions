@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf5dc239-6b36-4c09-b580-a8e8c611168e" name="Default" comment="consistent indenting??">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_842_A.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_842_B.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_849_A.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_849_B.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_849_C.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dmoj/bts/BTS_17_P2_AVALON.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dmoj/bts/BTS_17_P3_PHYSICS.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dmoj/bts/BTS_17_P5_NEW_ENGLISH.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dmoj/bts/BTS_17_P6_SOUR_CANDY.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dmoj/misc/BFS_17_P1_PITHY_PASSTIMES.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dmoj/misc/BFS_17_P2_CRAYOLA_LIGHTSABER.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dmoj/misc/BFS_17_P4_PAIR_PROGRAMMING.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/misc/SQUARE_ROOT_DECOMPOSITION_3.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dmoj/bts/BTS_17_P4_WET_MUD.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dmoj/bts/BTS_17_P5_NEW_ENGLISH.java" afterPath="$PROJECT_DIR$/dmoj/bts/BTS_17_P5_NEW_ENGLISH.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,7 +20,18 @@
     <favorites_list name="programming-contest-solutions" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="BTS_17_P4_WET_MUD.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dmoj/bts/BTS_17_P4_WET_MUD.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-12">
+              <caret line="23" column="33" lean-forward="false" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -82,7 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_832_A.java" />
         <option value="$PROJECT_DIR$/codeforces/CODEFORCES_832_B.java" />
         <option value="$PROJECT_DIR$/codeforces/CODEFORCES_832_C.java" />
         <option value="$PROJECT_DIR$/codeforces/CODEFORCES_832_D.java" />
@@ -133,6 +132,7 @@
         <option value="$PROJECT_DIR$/dmoj/bts/BTS_17_P3_PHYSICS.java" />
         <option value="$PROJECT_DIR$/dmoj/bts/BTS_17_P6_SOUR_CANDY.java" />
         <option value="$PROJECT_DIR$/dmoj/bts/BTS_17_P5_NEW_ENGLISH.java" />
+        <option value="$PROJECT_DIR$/dmoj/bts/BTS_17_P4_WET_MUD.java" />
       </list>
     </option>
   </component>
@@ -142,7 +142,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="22" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
@@ -194,8 +194,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -383,10 +383,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="773" extended-state="6" />
+    <frame x="22" y="23" width="1280" height="773" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3046875" sideWeight="0.49500713" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3046875" sideWeight="0.49500713" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952926" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -479,7 +480,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dmoj/misc/THICC_17_P1_CAROLS_CARNIVOROUS_PLANTS.java" />
     <entry file="file://$PROJECT_DIR$/dmoj/tsoc/TSOC_16_P6_JOEY_AND_BIOLOGY.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-75">
@@ -757,6 +757,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="30" column="26" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmoj/bts/BTS_17_P4_WET_MUD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12">
+          <caret line="23" column="33" lean-forward="false" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
           <folding />
         </state>
       </provider>

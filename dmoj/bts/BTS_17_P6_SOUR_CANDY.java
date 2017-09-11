@@ -3,124 +3,163 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
 import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
-import java.util.NavigableSet;
-import java.util.TreeSet;
+import java.util.Map;
 
 // atharva washimkar
-// Sep 11, 2017
+// Aug 13, 2017
 
-public class BTS_17_P5_NEW_ENGLISH {
+public class BTS_17_P6_SOUR_CANDY {
+
+	static int[] tree, lazy;
+
+	public static int sum (int i, int l, int r) {
+		return tree[i] + (r - l + 1) * lazy[i];
+	}
+
+	public static void merge (int i, int l, int r) {
+		int mid = (l + r) / 2;
+		tree[i] = sum (i * 2 + 1, l, mid) + sum (i * 2 + 2, mid + 1, r);
+	}
+
+	public static void push (int i, int l, int r) {
+		tree[i] = tree[i] + (r - l + 1) * lazy[i];
+
+		if (l != r) {
+			lazy[i * 2 + 1] += lazy[i];
+			lazy[i * 2 + 2] += lazy[i];
+		}
+
+		lazy[i] = 0;
+	}
+
+	public static void update (int i, int l, int r, int ql, int qr, int v) {
+		if (l == ql && r == qr) {
+			lazy[i] += v;
+			push (i, l, r);
+		}
+		else {
+			int mid = (l + r) / 2;
+			push (i, l, r);
+
+			if (qr <= mid)
+				update (i * 2 + 1, l, mid, ql, qr, v);
+			else if (ql > mid)
+				update (i * 2 + 2, mid + 1, r, ql, qr, v);
+			else {
+				update (i * 2 + 1, l, mid, ql, mid, v);
+				update (i * 2 + 2, mid + 1, r, mid + 1, qr, v);
+			}
+
+			merge (i, l, r);
+		}
+	}
+
+	public static int query (int i, int l, int r, int ql, int qr) {
+		if (l == ql && r == qr) {
+			push (i, l, r);
+			return tree[i];
+		}
+		else {
+			int mid = (l + r) / 2;
+			push (i, l, r);
+
+			int ans;
+
+			if (qr <= mid)
+				ans = query (i * 2 + 1, l, mid, ql, qr);
+			else if (ql > mid)
+				ans = query (i * 2 + 2, mid + 1, r, ql, qr);
+			else {
+				int lq = query (i * 2 + 1, l, mid, ql, mid);
+				int rq = query (i * 2 + 2, mid + 1, r, mid + 1, qr);
+				ans = lq + rq + (mid - l + 1) * lazy[i * 2 + 1] + (r - mid) * lazy[i * 2 + 2];
+			}
+
+			merge (i, l, r);
+			return ans;
+		}
+	}
 
 	public static void main (String[] t) throws IOException {
 		INPUT in = new INPUT (System.in);
 		PrintWriter out = new PrintWriter (System.out);
 
-		int N = in.iscan (), M = in.iscan ();
-
-		List<Request>[] list = new ArrayList[N];
-		NavigableSet<Request>[] list2 = new TreeSet[26];
+		int N = in.iscan ();
+		int[] arr = new int[N];
+		int[] arr2 = new int[N];
 
 		for (int n = 0; n < N; ++n)
-			list[n] = new ArrayList<Request> ();
+			arr[n] = in.iscan ();
 
-		for (int i = 0; i < 26; ++i)
-			list2[i] = new TreeSet<Request> ();
+		for (int n = 0; n < N; ++n)
+			arr2[n] = in.iscan ();
 
-		for (int m = 0; m < M; ++m) {
-			char c = in.sscan ().charAt (0);
-			int x = in.iscan (), i = in.iscan () - 1;
+		Map<Integer, Integer> map = new HashMap<Integer, Integer> ();
+		Map<Integer, Integer> map2 = new HashMap<Integer, Integer> ();
 
-			list[i].add (new Request (c, x, i));
-			list2[c - 'a'].add (new Request (c, x, i));
-		}
+		for (int n = 0; n < N; ++n)
+			map.put (arr[n], n);
 
-		char[] ans = new char[N];
-		Arrays.fill (ans, '~');
+		for (int n = 0; n < N; ++n)
+			map2.put (arr2[n], n);
 
-		boolean good = true;
+		tree = new int[4 * N];
+		lazy = new int[4 * N];
 
-		final int[] sum = new int[26];
-		int[] last = new int[26];
+		for (int n = 0; n < N; ++n)
+			update (0, 0, N - 1, n, n, n + 1);
 
-		NavigableSet<Integer> idx = new TreeSet<Integer> ();
-		for (int n = 0; n < N && good; ++n) {
-			idx.add (n);
+		// find longest subarray in arr2 thats a subsequence in arr1
 
-			for (Request r : list[n]) {
-				if (sum[r.c - 'a'] > r.x) {
-					good = false;
+		int a = 0, b = 0;
+		int idx = -1;
+		int len = 0;
+
+		int besta = 0, bestb = 0;
+
+		while (b < N) {
+			while (idx < map.get (arr2[b])) {
+				idx = map.get (arr2[b]);
+
+				if (len < b - a + 1) {
+					len = b - a + 1;
+					besta = a;
+					bestb = b;
+				}
+
+				++b;
+
+				if (b == N)
 					break;
-				}
-				else {
-					int s = n;
-					int left = r.x - sum[r.c - 'a'];
-					int e = last[r.c - 'a'];
-					Integer nxt = e;
+			}
 
-					while (!idx.isEmpty () && (nxt = idx.ceiling (nxt)) != null && nxt <= s && left > 0) {
-						ans[nxt] = r.c;
-						idx.remove (nxt);
-						--left;
-					}
-
-					if (left != 0) {
-						good = false;
-						break;
-					}
-
-					last[r.c - 'a'] = n + 1;
-					sum[r.c - 'a'] = r.x;
-				}
+			if (b < N && idx >= map.get (arr2[b])) {
+				idx = map.get (arr2[b]);
+				a = b;
+				++b;
 			}
 		}
 
-		for (int i = 0; i < 26 && !idx.isEmpty (); ++i) {
-			while (!idx.isEmpty ()) {
-				Request nxt = list2[i].ceiling (new Request ((char) ('a' + i), 13, idx.last ()));
+		out.println (N - len);
 
-				if (nxt == null)
-					ans[idx.pollLast ()] = (char) ('a' + i);
-				else
-					break;
-			}
+		List<String> moves = new ArrayList<String> ();
+
+		for (int n = besta - 1; n >= 0; --n) {
+			moves.add ("F " + (query (0, 0, N - 1, map.get (arr2[n]), map.get (arr2[n]))));
+			update (0, 0, N - 1, 0, map.get (arr2[n]), 1);
 		}
 
-		if (!idx.isEmpty ())
-			good = false;
+		for (int n = bestb + 1; n < N; ++n) {
+			moves.add ("B " + (query (0, 0, N - 1, map.get (arr2[n]), map.get (arr2[n]))));
+			update (0, 0, N - 1, map.get (arr2[n]), N - 1, -1);
+		}
 
-		if (good)
-			out.println (new String (ans));
-		else
-			out.println (-1);
+		for (String s : moves)
+			out.println (s);
 
 		out.close ();
-	}
-
-	private static class Request implements Comparable<Request> {
-
-		char c;
-		int x, i;
-
-		public int compareTo (Request r) {
-			return Integer.compare (i, r.i);
-		}
-
-		public boolean equals (Object o) {
-			Request r = (Request) o;
-			return c == r.c && x == r.x && i == r.i;
-		}
-
-		public int hashCode () {
-			return (int) c * 17 + x * 19 + i * 31;
-		}
-
-		public Request (char c, int x, int i) {
-			this.c = c;
-			this.x = x;
-			this.i = i;
-		}
 	}
 
 	private static class INPUT {

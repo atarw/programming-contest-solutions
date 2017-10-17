@@ -2,123 +2,192 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
+import java.util.Arrays;
 
-public class CCO_13_P2_TRANSFORMING_COMETS {
+// atharva washimkar
+// Sep 30, 2017
 
-	static int[] x1, x2, y1, y2;
-	static double[] ang1, ang2;
+public class BIOLOGY {
 
-	public static int kmp (double[] txt, double[] pattern) {
-		// preprocess
-		int[] arr = new int[pattern.length];
-		arr[0] = 0;
+	static boolean[][] vis;
+	static int[] cnt;
+	static int A, B;
 
-		int i = 1;
-		int len = 0;
+	public static boolean foak () {
+		for (int a = 0; a < A; ++a) {
+			int cnt = 0;
 
-		while (i < pattern.length) {
-			if (equals (pattern[i], pattern[len])) {
-				++len;
-				arr[i] = len;
-				++i;
-			}
-			else {
-				if (len != 0) {
-					len = arr[len - 1];
-				}
-				else {
-					arr[i] = len;
-					++i;
-				}
+			for (int b = 0; b < B; ++b)
+				if (vis[a][b])
+					++cnt;
+
+			if (cnt == 4)
+				return true;
+		}
+
+		return false;
+	}
+
+	public static boolean fh () {
+		int[] occ = new int[A];
+
+		for (int a = 0; a < A; ++a)
+			for (int b = 0; b < B; ++b)
+				if (vis[a][b])
+					++occ[a];
+
+		Arrays.sort (occ);
+
+		return occ[A - 1] == 3 && occ[A - 2] == 2;
+	}
+
+	public static boolean flush () {
+		for (int b = 0; b < B; ++b) {
+			int cnt = 0;
+
+			for (int a = 0; a < A; ++a)
+				if (vis[a][b])
+					++cnt;
+
+			if (cnt == 5)
+				return true;
+		}
+
+		return false;
+	}
+
+	public static boolean straight () {
+		boolean[] occ = new boolean[A];
+
+		for (int a = 0; a < A; ++a)
+			for (int b = 0; b < B; ++b)
+				if (vis[a][b])
+					occ[a] = true;
+
+		int run = -1;
+
+		for (int a = 0; a < A; ++a) {
+			if (occ[a]) {
+				if (run == -1)
+					run = 1;
+				else if (occ[a - 1])
+					++run;
+				else
+					return false;
 			}
 		}
 
-		// find
-		i = 0;
-		int j = 0;
-		int first = -1;
+		return run == 5;
+	}
 
-		while (i < txt.length) {
-			if (equals (pattern[j], txt[i])) {
-				++i;
-				++j;
-			}
+	public static boolean toak () {
+		for (int a = 0; a < A; ++a) {
+			int cnt = 0;
 
-			if (j == pattern.length) {
-				//System.out.println ("found pattern at " + (i - j));
-				return i - j;
+			for (int b = 0; b < B; ++b)
+				if (vis[a][b])
+					++cnt;
 
-				//if (first == -1)
-				//	first = i - j;
+			if (cnt == 3)
+				return true;
+		}
 
-				//j = arr [j - 1];
-			}
-			else if (i < txt.length && !equals (pattern[j], txt[i])) {
-				if (j != 0) {
-					j = arr[j - 1];
-				}
-				else {
-					++i;
+		return false;
+	}
+
+	public static boolean tp () {
+		boolean first = false;
+
+		for (int a = 0; a < A; ++a) {
+			int cnt = 0;
+
+			for (int b = 0; b < B; ++b)
+				if (vis[a][b])
+					++cnt;
+
+			if (cnt == 2)
+				if (first)
+					return true;
+				else
+					first = true;
+		}
+
+		return false;
+	}
+
+	public static boolean op () {
+		for (int a = 0; a < A; ++a) {
+			int cnt = 0;
+
+			for (int b = 0; b < B; ++b)
+				if (vis[a][b])
+					++cnt;
+
+			if (cnt == 2)
+				return true;
+		}
+
+		return false;
+	}
+
+	public static void solve (int n) {
+		if (n == 3) {
+			int cc = 0;
+
+			for (int a = 0; a < A; ++a)
+				for (int b = 0; b < B; ++b)
+					if (vis[a][b])
+						++cc;
+
+			if (straight () && flush ())
+				++cnt[0];
+			else if (foak ())
+				++cnt[1];
+			else if (fh ())
+				++cnt[2];
+			else if (flush ())
+				++cnt[3];
+			else if (straight ())
+				++cnt[4];
+			else if (toak ())
+				++cnt[5];
+			else if (tp ())
+				++cnt[6];
+			else if (op ())
+				++cnt[7];
+			else
+				++cnt[8];
+		}
+		else {
+			for (int a = 0; a < A; ++a) {
+				for (int b = 0; b < B; ++b) {
+					if (!vis[a][b]) {
+						vis[a][b] = true;
+						solve (n + 1);
+						vis[a][b] = false;
+					}
 				}
 			}
 		}
-
-		return first;
-	}
-
-	public static double angle (int x1, int y1, int x2, int y2, int x3, int y3) {
-		// (x2,y2) as centre
-		int abx = x1 - x2, aby = y1 - y2;
-		int acx = x3 - x2, acy = y3 - y2;
-
-		int dot = abx * acx + aby * acy;
-		int cross = abx * acy - aby * acx;
-
-		double distab = Math.sqrt (abx * abx + aby * aby);
-		double distac = Math.sqrt (acx * acx + acy * acy);
-
-		// need to multiply by dist to check equality amongst right angles
-		return Math.atan2 (cross, dot) * (distab / distac);
-	}
-
-	public static boolean equals (double a, double b) {
-		return Math.abs (a - b) <= UTILITIES.EPS;
 	}
 
 	public static void main (String[] t) throws IOException {
 		INPUT in = new INPUT (System.in);
 		PrintWriter out = new PrintWriter (System.out);
 
-		int T = in.iscan ();
+		A = in.iscan ();
+		B = in.iscan ();
+		int a1 = in.iscan (), b1 = in.iscan ();
+		int a2 = in.iscan (), b2 = in.iscan ();
 
-		for (int tt = 0, N; tt < T; ++tt) {
-			N = in.iscan ();
+		vis = new boolean[A][B];
+		vis[a1][b1] = vis[a2][b2] = true;
+		cnt = new int[9];
 
-			x1 = new int[N];
-			x2 = new int[N];
-			y1 = new int[N];
-			y2 = new int[N];
+		solve (0);
 
-			for (int n = 0; n < N; ++n) {
-				x1[n] = in.iscan ();
-				y1[n] = in.iscan ();
-			}
-
-			for (int n = 0; n < N; ++n) {
-				x2[n] = in.iscan ();
-				y2[n] = in.iscan ();
-			}
-
-			ang1 = new double[N];
-			ang2 = new double[N * 2];
-
-			for (int n = 0; n < N; ++n) {
-				ang1[n] = angle (x1[n], y1[n], x1[(n + 1) % N], y1[(n + 1) % N], x1[(n + 2) % N], y1[(n + 2) % N]);
-				ang2[n] = ang2[n + N] = angle (x2[n], y2[n], x2[(n + 1) % N], y2[(n + 1) % N], x2[(n + 2) % N], y2[(n + 2) % N]);
-			}
-
-			out.println (kmp (ang2, ang1) + 1);
-		}
+		for (int i = 0; i < 9; ++i)
+			out.print ((cnt[i] / 6) + (i == 8 ? "\n" : " "));
 
 		out.close ();
 	}

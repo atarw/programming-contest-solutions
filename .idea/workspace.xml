@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf5dc239-6b36-4c09-b580-a8e8c611168e" name="Default" comment="consistent indenting??">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_451_B.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_17_P1_FUJO_NEKO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_17_P2_SHARING_CRAYONS.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_17_P3_HITCHHIKING_FUN.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_17_P4_QUESTS.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dmoj/tle/TLE_17_P1_STRING_ROUNDING.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icpc/BIOLOGY.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cco/2013/CCO_13_P2_TRANSFORMING_COMETS.java" afterPath="$PROJECT_DIR$/cco/2013/CCO_13_P2_TRANSFORMING_COMETS.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,7 +25,18 @@
     <favorites_list name="programming-contest-solutions" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="CCO_13_P2_TRANSFORMING_COMETS.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cco/2013/CCO_13_P2_TRANSFORMING_COMETS.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="117" column="13" lean-forward="false" selection-start-line="117" selection-start-column="13" selection-end-line="117" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -70,19 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_832_D.java" />
-        <option value="$PROJECT_DIR$/cco/2017/CCO_17_P1_RAINFALL_STORAGE.java" />
-        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_835_A.java" />
-        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_835_B.java" />
-        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_835_C.java" />
-        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_835_D.java" />
-        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_510_C.java" />
-        <option value="$PROJECT_DIR$/cco/2007/CCO_07_P3_ROAD_CONSTRUCTION.java" />
-        <option value="$PROJECT_DIR$/dmoj/bts/BTS_17_CLIENTELE.java" />
-        <option value="$PROJECT_DIR$/dmoj/misc/THICC_17_P1_CAROLS_CARNIVOROUS_PLANTS.java" />
-        <option value="$PROJECT_DIR$/dmoj/misc/THICC_17_P3_THE_GOD_OF_DEATH.java" />
-        <option value="$PROJECT_DIR$/dmoj/misc/THICC_17_P6_TUNNELS.java" />
-        <option value="$PROJECT_DIR$/dmoj/bts/test.java" />
         <option value="$PROJECT_DIR$/dmoj/bts/testststs.java" />
         <option value="$PROJECT_DIR$/dmoj/bts/BTS_17_P6_AVALON.java" />
         <option value="$PROJECT_DIR$/dmoj/bts/BTS_17_P7_HOT_AND_COLD.java" />
@@ -121,6 +125,19 @@
         <option value="$PROJECT_DIR$/dmoj/bts/BTS_17_P4_WET_MUD.java" />
         <option value="$PROJECT_DIR$/codeforces/CODEFORCES_451_B.java" />
         <option value="$PROJECT_DIR$/codeforces/CODEFORCES_18_C.java" />
+        <option value="$PROJECT_DIR$/misc/A.java" />
+        <option value="$PROJECT_DIR$/misc/B.java" />
+        <option value="$PROJECT_DIR$/misc/C.java" />
+        <option value="$PROJECT_DIR$/icpc/BIOLOGY.java" />
+        <option value="$PROJECT_DIR$/dmoj/tle/TLE_17_P1_STRING_ROUNDING.java" />
+        <option value="$PROJECT_DIR$/dmoj/tle/TLE_17_P2_WILLSON_AND_FOOD.java" />
+        <option value="$PROJECT_DIR$/dmoj/tle/TLE_17_P3_SCREENSAVER_2.java" />
+        <option value="$PROJECT_DIR$/dmoj/dmopc/DMOPC_17_P1_FUJO_NEKO.java" />
+        <option value="$PROJECT_DIR$/dmoj/dmopc/DMOPC_17_P2_SHARING_CRAYONS.java" />
+        <option value="$PROJECT_DIR$/dmoj/dmopc/DMOPC_17_P3_HITCHHIKING_FUN.java" />
+        <option value="$PROJECT_DIR$/dmoj/dmopc/DMOPC_17_P4_QUESTS.java" />
+        <option value="$PROJECT_DIR$/dmoj/dmopc/DMOPC_17_P5_INTIMIDATING_ARRAYS.java" />
+        <option value="$PROJECT_DIR$/cco/2013/CCO_13_P2_TRANSFORMING_COMETS.java" />
       </list>
     </option>
   </component>
@@ -133,7 +150,7 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="773" />
+    <option name="height" value="777" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -158,9 +175,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,15 +184,11 @@
               <item name="programming-contest-solutions" type="b2602c69:ProjectViewProjectNode" />
               <item name="programming-contest-solutions" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="programming-contest-solutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="programming-contest-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="codeforces" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -300,7 +312,7 @@
     </configuration>
     <configuration name="program" type="Application" factoryName="Application" singleton="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="CODEFORCES_18_C" />
+      <option name="MAIN_CLASS_NAME" value="CCO_13_P2_TRANSFORMING_COMETS" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -341,15 +353,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="773" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3046875" sideWeight="0.489301" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3578125" sideWeight="0.489301" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4422254" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44113475" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952926" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23965763" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31914893" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -371,7 +384,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19400856" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19333333" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -437,63 +450,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dmoj/misc/THICC_17_P3_THE_GOD_OF_DEATH.java" />
-    <entry file="file://$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P6_SAVE_NAGATO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="76" column="5" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="76" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dmoj/misc/THICC_17_P6_TUNNELS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dmoj/bts/test.java" />
-    <entry file="file://$PROJECT_DIR$/dmoj/bts/testststs.java" />
-    <entry file="file://$PROJECT_DIR$/dmoj/bts/BTS_17_P6_AVALON.java" />
-    <entry file="file://$PROJECT_DIR$/dmoj/bts/BTS_17_P7_HOT_AND_COLD_SLOW.java" />
-    <entry file="file://$PROJECT_DIR$/dmoj/bts/BTS_17_P7_HOT_AND_COLD.java" />
-    <entry file="file://$PROJECT_DIR$/dmoj/bts/bts17p5gen.java" />
-    <entry file="file://$PROJECT_DIR$/misc/LAZY_PROPAGATION.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="98" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_841_C.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_841_A.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_841_B.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_841_D.java" />
-    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_845_C.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="33" column="22" lean-forward="false" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dmoj/dmopc/DMOPC_14_P6_SELECTIVE_CUTTING_2.java" />
     <entry file="file://$PROJECT_DIR$/ccc/2017/Main.java" />
     <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_844_A.java">
@@ -617,13 +573,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dmoj/misc/BRUNO_AND_TRIG.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dmoj/bts/BTS_17_P2_AVALON.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="337">
@@ -671,7 +620,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -679,13 +627,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
           <caret line="56" column="16" lean-forward="true" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
-          <folding>
-            <element signature="e#1138#1147#0" expanded="true" />
-            <element signature="e#2248#2249#0" expanded="true" />
-            <element signature="e#2288#2289#0" expanded="true" />
-            <element signature="e#2430#2431#0" expanded="true" />
-            <element signature="e#2476#2477#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -693,7 +634,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="30" column="26" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -701,7 +641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="23" column="33" lean-forward="false" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -709,7 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -717,14 +655,89 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
           <caret line="44" column="12" lean-forward="true" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_18_C.java" />
+    <entry file="file://$PROJECT_DIR$/dmoj/misc/BRUNO_AND_TRIG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/misc/A.java" />
+    <entry file="file://$PROJECT_DIR$/misc/BIT_RANGE.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="34" column="4" lean-forward="false" selection-start-line="34" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/misc/C.java" />
+    <entry file="file://$PROJECT_DIR$/icpc/VERA_AND_ABCDE.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/misc/B.java" />
+    <entry file="file://$PROJECT_DIR$/icpc/BIOLOGY.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmoj/tle/TLE_17_P1_STRING_ROUNDING.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmoj/tle/TLE_17_P2_WILLSON_AND_FOOD.java" />
+    <entry file="file://$PROJECT_DIR$/dmoj/tle/TLE_17_P3_SCREENSAVER_2.java" />
+    <entry file="file://$PROJECT_DIR$/dmoj/dmopc/DMOPC_17_P1_FUJO_NEKO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="34" column="21" lean-forward="true" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_18_C.java">
+    <entry file="file://$PROJECT_DIR$/dmoj/dmopc/DMOPC_17_P2_SHARING_CRAYONS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="32" column="44" lean-forward="true" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+        <state relative-caret-position="-367">
+          <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+          <folding>
+            <element signature="e#762#774#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmoj/dmopc/DMOPC_17_P3_HITCHHIKING_FUN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmoj/dmopc/DMOPC_17_P4_QUESTS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="41" column="20" lean-forward="true" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmoj/dmopc/DMOPC_17_P5_INTIMIDATING_ARRAYS.java" />
+    <entry file="file://$PROJECT_DIR$/cco/2013/CCO_13_P2_TRANSFORMING_COMETS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="117" column="13" lean-forward="false" selection-start-line="117" selection-start-column="13" selection-end-line="117" selection-end-column="13" />
           <folding />
         </state>
       </provider>

@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf5dc239-6b36-4c09-b580-a8e8c611168e" name="Default" comment="consistent indenting??">
-      <change beforePath="" afterPath="$PROJECT_DIR$/dmoj/misc/NEW_YEARS_2018_P1_HAPPY_NEW_YEAR.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/dmoj/misc/NEW_YEARS_2018_P2_MIMI_AND_CHRISTMAS_CAKE.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/dmoj/misc/NEW_YEARS_2018_P4_POLAR_EXPRESS.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/spoj/SPOJ_CAPCITY.cpp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/spoj/SPOJ_KOICOST.cpp" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="cf5dc239-6b36-4c09-b580-a8e8c611168e" name="Default" comment="consistent indenting??" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

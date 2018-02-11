@@ -10,26 +10,10 @@ import java.util.Queue;
 import java.util.TreeSet;
 
 // atharva washimkar
-// Feb 01, 2018
+// Jan 31, 2018
 
-public class MOCK_CCC_18_S4_A_GRAPH_PROBLEM {
-
-	static boolean bfs (List<Edge>[] list, int S, int T, int k) {
-		boolean[] vis = new boolean[list.length];
-		Queue<Integer> q = new ArrayDeque<Integer> ();
-		q.offer (S);
-
-		while (!q.isEmpty ()) {
-			int u = q.poll ();
-			vis[u] = true;
-
-			for (Edge e : list[u])
-				if (!vis[e.v] && e.c <= k && k <= e.d)
-					q.offer (e.v);
-		}
-
-		return vis[T];
-	}
+// if this is the intended sol wtf
+public class MOCK_CCC_18_S4_A_GRAPH_PROBLEM_FLOW {
 
 	public static void main (String[] t) throws IOException {
 		INPUT in = new INPUT (System.in);
@@ -39,47 +23,136 @@ public class MOCK_CCC_18_S4_A_GRAPH_PROBLEM {
 		int S = in.iscan () - 1, T = in.iscan () - 1;
 
 		List<Edge>[] list = new ArrayList[N];
+		NavigableSet<Long> set = new TreeSet<Long> ();
 
 		for (int n = 0; n < N; ++n)
 			list[n] = new ArrayList<Edge> ();
 
-		NavigableSet<Integer> set = new TreeSet<Integer> ();
-
-		for (int m = 0, u, v, c, d; m < M; ++m) {
-			u = in.iscan () - 1; v = in.iscan () - 1;
-			c = in.iscan (); d = in.iscan ();
-			list[u].add (new Edge (v, c, d));
+		for (int m = 0; m < M; ++m) {
+			int u = in.iscan () - 1, v = in.iscan () - 1;
+			long c = in.lscan (), d = in.lscan ();
+			list[u].add (new Edge (u, v, c, d));
 			set.add (c); set.add (d);
 		}
 
-		long ans = 0L;
+		List<State> ranges = new ArrayList<State> ();
 
-		for (int k : set)
-			if (bfs (list, S, T, k))
-				++ans;
+		while (true) {
+			State[] dp = new State[N];
+			dp[S] = new State (1L, K, null);
 
-		int last = set.pollFirst () + 1;
-		int nxt = -1;
+			Queue<Integer> q = new ArrayDeque<Integer> ();
+			q.offer (S);
 
-		while (!set.isEmpty ()) {
-			nxt = set.pollFirst ();
-			--nxt;
+			while (!q.isEmpty ()) {
+				int u = q.poll ();
 
-			if (bfs (list, S, T, nxt))
-				ans += (nxt - last) + 1;
+				for (Edge e : list[u]) {
+					if (e.c == 0L)
+						continue;
 
-			last = nxt + 2;
+					if (dp[u].r < e.c || dp[u].l > e.d)
+						continue;
+
+					long newl = Math.max (dp[u].l, e.c);
+					long newr = Math.min (dp[u].r, e.d);
+
+					if (dp[e.v] == null || newl < dp[e.v].l || newl == dp[e.v].l && newr > dp[e.v].r) {
+						dp[e.v] = new State (newl, newr, e);
+						q.offer (e.v);
+					}
+				}
+			}
+
+			if (dp[T] == null) {
+				if (set.isEmpty ())
+					break;
+
+				// "raise" lower bound if possible and run dp again (sketchy af but it's correct)
+				long lowest = set.pollFirst ();
+				long nxtlowest = set.isEmpty () ? -1 : set.first ();
+
+				for (int n = 0; n < N; ++n) {
+					for (Edge e : list[n]) {
+						if (e.c == lowest) {
+							if (set.isEmpty ())
+								++e.c;
+							else
+								e.c = nxtlowest;
+
+							if (e.c > e.d)
+								e.c = 0L;
+						}
+					}
+				}
+
+				continue;
+			}
+
+			for (int u = T; u != S; u = dp[u].last.u) {
+				dp[u].last.c = dp[T].r + 1L;
+
+				if (dp[u].last.c > dp[u].last.d)
+					dp[u].last.c = 0L;
+			}
+
+			ranges.add (dp[T]);
 		}
+
+		ranges.sort ((r1, r2) -> {
+			if (r1.l == r2.l)
+				return Long.compare (r1.r, r2.r);
+
+			return Long.compare (r1.l, r2.l);
+		});
+
+		//for (State s : ranges)
+		//	out.printf ("(%d, %d)\n", s.l, s.r);
+
+		long ans = 0L;
+		long l = -1L, r = -1L;
+
+		for (State s : ranges) {
+			if (l == -1L && r == -1L) {
+				l = s.l;
+				r = s.r;
+			}
+			else if (s.l <= r) {
+				r = Math.max (r, s.r);
+			}
+			else {
+				ans += (r - l) + 1L;
+				l = s.l;
+				r = s.r;
+			}
+		}
+
+		if (l != -1L && r != -1L)
+			ans += (r - l) + 1L;
 
 		out.print (ans);
 		out.close ();
 	}
 
+	private static class State {
+
+		long l, r;
+		Edge last;
+
+		public State (long l, long r, Edge last) {
+			this.l = l;
+			this.r = r;
+			this.last = last;
+		}
+	}
+
 	private static class Edge {
 
-		int v, c, d;
+		int u, v;
+		long c, d;
 
-		public Edge (int v, int c, int d) {
+		public Edge (int u, int v, long c, long d) {
+			this.u = u;
 			this.v = v;
 			this.c = c;
 			this.d = d;

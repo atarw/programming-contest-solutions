@@ -2,102 +2,52 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
-import java.util.ArrayDeque;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.NavigableSet;
-import java.util.Queue;
-import java.util.TreeSet;
 
 // atharva washimkar
-// Feb 01, 2018
+// Feb 06, 2018
 
-/*
-4 6 12
-2 1
-3 4 5 6
-2 1 8 12
-3 2 8 8
-3 1 12 12
-4 2 1 11
-1 4 9 12
-ans = 5
-
-[1, 5, 6, 8, 9, 11, 12]
-* */
-
-public class MOCK_CCC_18_S4_A_GRAPH_PROBLEM_2 {
-
-	static boolean bfs (List<Edge>[] list, int S, int T, int k) {
-		boolean[] vis = new boolean[list.length];
-		Queue<Integer> q = new ArrayDeque<Integer> ();
-		q.offer (S);
-
-		while (!q.isEmpty ()) {
-			int u = q.poll ();
-			vis[u] = true;
-
-			for (Edge e : list[u])
-				if (!vis[e.v] && e.c <= k && k <= e.d)
-					q.offer (e.v);
-		}
-
-		return vis[T];
-	}
+public class CODEFORCES_369_A {
 
 	public static void main (String[] t) throws IOException {
 		INPUT in = new INPUT (System.in);
 		PrintWriter out = new PrintWriter (System.out);
 
 		int N = in.iscan (), M = in.iscan (), K = in.iscan ();
-		int S = in.iscan () - 1, T = in.iscan () - 1;
+		int t1 = 0, t2 = 0;
 
-		List<Edge>[] list = new ArrayList[N];
-
-		for (int n = 0; n < N; ++n)
-			list[n] = new ArrayList<Edge> ();
-
-		NavigableSet<Integer> set = new TreeSet<Integer> ();
-
-		for (int m = 0, u, v, c, d; m < M; ++m) {
-			u = in.iscan () - 1; v = in.iscan () - 1;
-			c = in.iscan (); d = in.iscan ();
-			list[u].add (new Edge (v, c, d));
-			set.add (c); set.add (d);
+		for (int n = 0; n < N; ++n) {
+			if (in.iscan () == 1)
+				++t1;
+			else
+				++t2;
 		}
 
-		long ans = 0L;
+		int ans = 0;
 
-		for (int k : set)
-			if (bfs (list, S, T, k))
-				++ans;
-
-		int last = set.pollFirst () + 1;
-		int nxt = -1;
-
-		while (!set.isEmpty ()) {
-			nxt = set.pollFirst ();
-			--nxt;
-
-			if (bfs (list, S, T, nxt))
-				ans += (nxt - last) + 1;
-
-			last = nxt + 2;
+		if (t1 > M) {
+			t1 -= M;
+			M = 0;
 		}
+		else {
+			M -= t1;
+			t1 = 0;
+		}
+
+		int tot = K + M;
+
+		if (t2 > tot) {
+			t2 -= tot;
+			tot = 0;
+		}
+		else {
+			tot -= t2;
+			t2 = 0;
+		}
+
+		ans += t1 + t2;
 
 		out.print (ans);
 		out.close ();
-	}
-
-	private static class Edge {
-
-		int v, c, d;
-
-		public Edge (int v, int c, int d) {
-			this.v = v;
-			this.c = c;
-			this.d = d;
-		}
 	}
 
 	private static class INPUT {

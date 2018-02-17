@@ -1,44 +1,32 @@
 #include <iostream>
 #include <unordered_map>
 #include <math.h>
-#include <vector>
 
 using namespace std;
 
-unordered_map<int, long long int> dp;
-vector<int> dep; // relevant dp states
+unordered_map <int, long long int> dp;
 
 long long int solve (int n) {
-	dp[1] = 1L;
-	dep.push_back (1);
+	if (dp[n])
+		return dp[n];
 	
-	for (int i = 2; i <= n;) {
-		int q = n / i;
+	if (n == 1)
+		return dp[n] = 1;
+	
+	long long int ans = 0L;
+	
+	// in the naive loop, there are multiple values for k where q = n / k and you recurse for each one
+	// here you only recurse once for each one, and multiply the result by the number of k values
+	for (int k = 2; k <= n; ++k) {
+		int q = n / k;
+		int mink = k;
+		int maxk = n / q;
 		
-		if (n / q != i) {
-			i = n / q;
-			continue;
-		}
-		
-		dep.push_back (i);
-		int last = dep[0];
-		long long ans = 0L;
-
-		for (int k = 1; k < dep.size (); ++k) {
-			int q2 = i / dep[k];
-			
-			if (i / q2 != dep[k])
-				continue;
-			
-			ans += dp.at (q2) * (dep[k] - last);
-			last = dep[k];
-		}
-		
-		dp.insert(make_pair (i, ans));
-		++i;
+		ans += solve (q) * (maxk - mink + 1);
+		k = maxk;
 	}
 	
-	return dp[n];
+	return dp[n] = ans;
 }
 
 int main () {

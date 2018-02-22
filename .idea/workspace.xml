@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf5dc239-6b36-4c09-b580-a8e8c611168e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_388_A.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_415_D.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_907_C.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_17_P2_A_HEAVY_LIGHT_DECOMPOSITION_PROBLEM.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_17_P3_THIRD_PLACE.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_17_P4_COPS_AND_ROBBERS.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dmoj/dmopc/DMOPC_17_P5_IOI_REVISION.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,15 +78,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dmoj/dmopc/DMOPC_17_P1_AN_EARLY_CHRISTMAS_PRESENT.java" />
-        <option value="$PROJECT_DIR$/dmoj/dmopc/DMOPC_17_P2_TOWERS_OF_HANOI.java" />
-        <option value="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P5_TOTAL_ANNIHILATION.java" />
-        <option value="$PROJECT_DIR$/dmoj/dmopc/DMOPC_17_P3_N_KAT.java" />
-        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_780_C.java" />
-        <option value="$PROJECT_DIR$/dmoj/tle/TLE_17_P1_RIDING_THE_CURVE.java" />
-        <option value="$PROJECT_DIR$/dmoj/tle/TLE_17_P3_FAXS_CHRISTMAS_DISH.java" />
-        <option value="$PROJECT_DIR$/coci/2007/COCI_07_P6_REDOKS.java" />
-        <option value="$PROJECT_DIR$/dmoj/tle/TLE_17_P2_MICROWAVE_BUTTONS.java" />
         <option value="$PROJECT_DIR$/dmoj/misc/NEW_YEARS_2018_P1_HAPPY_NEW_YEAR.java" />
         <option value="$PROJECT_DIR$/dmoj/misc/NEW_YEARS_2018_P2_MIMI_AND_CHRISTMAS_CAKE.java" />
         <option value="$PROJECT_DIR$/dmoj/misc/NEW_YEARS_2018_P4_POLAR_EXPRES.java" />
@@ -126,6 +120,15 @@
         <option value="$PROJECT_DIR$/codeforces/CODEFORCES_415_D.java" />
         <option value="$PROJECT_DIR$/codeforces/CODEFORCES_388_A.java" />
         <option value="$PROJECT_DIR$/codeforces/CODEFORCES_264_A.java" />
+        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_935_D.java" />
+        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_935_E.java" />
+        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_272_C.java" />
+        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_907_C.java" />
+        <option value="$PROJECT_DIR$/dmoj/dmopc/DMOPC_17_P3_THIRD_PLACE.java" />
+        <option value="$PROJECT_DIR$/dmoj/dmopc/DMOPC_17_P2_A_HEAVY_LIGHT_DECOMPOSITION_PROBLEM.java" />
+        <option value="$PROJECT_DIR$/dmoj/dmopc/DMOPC_17_P4_COPS_AND_ROBBERS.java" />
+        <option value="$PROJECT_DIR$/dmoj/dmopc/DMOPC_17_P6_BEST_GIRL.java" />
+        <option value="$PROJECT_DIR$/dmoj/dmopc/DMOPC_17_P5_IOI_REVISION.java" />
       </list>
     </option>
   </component>
@@ -135,10 +138,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1280" />
-    <option name="height" value="777" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -164,8 +166,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,12 +176,20 @@
             <path>
               <item name="programming-contest-solutions" type="b2602c69:ProjectViewProjectNode" />
               <item name="programming-contest-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="codeforces" type="462c0819:PsiDirectoryNode" />
+              <item name="dmoj" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="programming-contest-solutions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="programming-contest-solutions" type="462c0819:PsiDirectoryNode" />
+              <item name="dmoj" type="462c0819:PsiDirectoryNode" />
+              <item name="dmopc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -232,7 +240,7 @@
     </configuration>
     <configuration name="java" type="Application" factoryName="Application" singleton="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="CODEFORCES_388_A" />
+      <option name="MAIN_CLASS_NAME" value="DMOPC_17_P5_IOI_REVISION" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -369,22 +377,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="777" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23829788" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23733333" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44113475" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.288" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30390626" sideWeight="0.48" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30390626" sideWeight="0.47466666" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3578125" sideWeight="0.52" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30390626" sideWeight="0.52533334" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53409094" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -470,61 +478,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/misc/LAZY_PROPAGATION.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="133" column="4" lean-forward="false" selection-start-line="133" selection-start-column="4" selection-end-line="141" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/usaco/haybales2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecoo/ECOO_17_R2_P3_LUNCHTIME.java" />
-    <entry file="file://$PROJECT_DIR$/jdcc/JDCC_17_FEBRUARY_A_JUSTIN_IS_TRASH.java" />
-    <entry file="file://$PROJECT_DIR$/spoj/SPOJ_KOICOST.java" />
-    <entry file="file://$PROJECT_DIR$/spoj/SPOJ_KOICOST.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dmoj/tle/TLE_15_P6_ROCK_PAPER_SCISSORS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-833">
-          <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spoj/SPOJ_CAPCITY.java" />
-    <entry file="file://$PROJECT_DIR$/dmoj/misc/NEW_YEARS_2018_P3_WORLD_DOMINATION_FUN.java" />
-    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_670_C.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_389_C.java" />
-    <entry file="file://$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P2_CHEESECAKE_DISTRIBUTION.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_609_C.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="30" column="4" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_289_B.java" />
     <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_543_A.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -679,17 +632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ccc/2018/CCC_18_S3_ROBOTHIEVES.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="254" column="13" lean-forward="false" selection-start-line="254" selection-start-column="13" selection-end-line="254" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1565#1572#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ccc/2018/CCC_18_S1_VORONOI_VILLAGES.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -720,15 +662,105 @@
         <state relative-caret-position="209">
           <caret line="55" column="37" lean-forward="false" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
           <folding>
-            <element signature="e#464#482#0" expanded="true" />
+            <element signature="e#464#482#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_264_A.java">
+    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_264_A.java" />
+    <entry file="file://$PROJECT_DIR$/misc/CALCULATOR.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_935_D.java" />
+    <entry file="file://$PROJECT_DIR$/ccc/2018/CCC_18_S3_ROBOTHIEVES.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="254" column="13" lean-forward="false" selection-start-line="254" selection-start-column="13" selection-end-line="254" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_935_E.java" />
+    <entry file="file://$PROJECT_DIR$/misc/LAZY_PROPAGATION.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-358">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#363#364#0" expanded="false" />
+            <element signature="e#398#399#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_272_C.java" />
+    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_907_C.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="39" column="17" lean-forward="false" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="417" column="0" lean-forward="false" selection-start-line="417" selection-start-column="0" selection-end-line="417" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmoj/tle/TLE_16_P2_HEAVY_LIGHT_DECOMPOSITION.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="76" column="28" lean-forward="false" selection-start-line="76" selection-start-column="28" selection-end-line="76" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmoj/dmopc/DMOPC_17_P3_THIRD_PLACE.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="88" column="25" lean-forward="false" selection-start-line="88" selection-start-column="25" selection-end-line="88" selection-end-column="25" />
+          <folding>
+            <element signature="e#511#520#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmoj/dmopc/DMOPC_17_P2_A_HEAVY_LIGHT_DECOMPOSITION_PROBLEM.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <caret line="101" column="48" lean-forward="false" selection-start-line="101" selection-start-column="48" selection-end-line="101" selection-end-column="48" />
+          <folding>
+            <element signature="e#732#741#0" expanded="false" />
+            <element signature="e#781#790#0" expanded="false" />
+            <element signature="e#2251#2269#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmoj/dmopc/DMOPC_17_P4_COPS_AND_ROBBERS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding>
+            <element signature="e#626#644#0" expanded="false" />
+            <element signature="e#916#925#0" expanded="false" />
+            <element signature="e#976#982#0" expanded="false" />
+            <element signature="e#1033#1039#0" expanded="false" />
+            <element signature="e#1864#1865#0" expanded="false" />
+            <element signature="e#1922#1923#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmoj/dmopc/DMOPC_17_P6_BEST_GIRL.java" />
+    <entry file="file://$PROJECT_DIR$/dmoj/dmopc/DMOPC_17_P5_IOI_REVISION.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="41" column="49" lean-forward="false" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
           <folding />
         </state>
       </provider>

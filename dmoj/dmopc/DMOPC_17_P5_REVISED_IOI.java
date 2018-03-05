@@ -6,7 +6,7 @@ import java.io.PrintWriter;
 // atharva washimkar
 // Feb 21, 2018
 
-public class DMOPC_17_P5_IOI_REVISION {
+public class DMOPC_17_P5_REVISED_IOI {
 
 	public static void main (String[] t) throws IOException {
 		INPUT in = new INPUT (System.in);

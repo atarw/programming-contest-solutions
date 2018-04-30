@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf5dc239-6b36-4c09-b580-a8e8c611168e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_318_A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_344_A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_69_A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_976_C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/CODEJAM_ROUND_1B_18_P1_ROUNDING_ERROR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/CODEJAM_ROUND_1B_18_P2_MYSTERIOUS_ROAD_SIGNS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_976_E.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -157,6 +152,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,7 +170,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -210,7 +205,7 @@
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
     </configuration>
     <configuration name="java" type="Application" factoryName="Application" singleton="true">
-      <option name="MAIN_CLASS_NAME" value="CODEFORCES_976_C" />
+      <option name="MAIN_CLASS_NAME" value="CODEFORCES_976_E" />
       <module name="programming-contest-solutions" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
     </configuration>
@@ -342,42 +337,41 @@
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.328" />
       <window_info anchor="bottom" id="Application Servers" order="11" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.23796791" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.46950355" visible="true" weight="0.19140625" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.46950355" visible="true" weight="0.19140625" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="3" sideWeight="0.5304965" side_tool="true" weight="0.20078126" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.53409094" />
+      <window_info id="Favorites" order="3" sideWeight="0.5304965" side_tool="true" weight="0.20078126" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info id="Image Layers" order="7" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="6" />
       <window_info anchor="right" id="Properties" order="5" />
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Data View" order="10" />
       <window_info id="Nl-Palette" order="4" />
       <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="SciView" order="10" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Data View" order="10" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.19333333" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="Application Servers" order="11" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.44113475" />
       <window_info id="Image Layers" order="7" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.19333333" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.44113475" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="6" />
@@ -389,20 +383,21 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.23829788" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48" visible="true" weight="0.3296875" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Favorites" order="3" sideWeight="0.52" side_tool="true" weight="0.3578125" />
       <window_info anchor="right" id="Data View" order="10" />
       <window_info id="Nl-Palette" order="4" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48" visible="true" weight="0.3296875" />
       <window_info anchor="right" id="SciView" order="11" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
-      <window_info id="Favorites" order="3" sideWeight="0.52" side_tool="true" weight="0.3578125" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.19333333" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.53409094" />
     </layout-to-restore>
   </component>
@@ -450,9 +445,6 @@
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ccc/2018/CCC_18_S2_SUNFLOWERS.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ccc/2018/CCC_18_S4_BALANCED_TREES.cpp">
       <provider selected="true" editor-type-id="text-editor">
@@ -704,8 +696,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_976_E.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        <state relative-caret-position="142">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+          <folding>
+            <element signature="e#1661#1662#0" expanded="true" />
+            <element signature="e#1690#1691#0" expanded="true" />
+            <element signature="e#3512#3513#0" expanded="true" />
+            <element signature="e#3586#3587#0" expanded="true" />
+            <element signature="e#4194#4195#0" expanded="true" />
+            <element signature="e#4237#4238#0" expanded="true" />
+            <element signature="e#4279#4280#0" expanded="true" />
+            <element signature="e#4313#4314#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

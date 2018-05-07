@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf5dc239-6b36-4c09-b580-a8e8c611168e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_977_C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_977_E.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_977_F.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codejam/CODEJAM_ROUND_1B_18_P2_MYSTERIOUS_ROAD_SIGNS.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -66,11 +68,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_225_C.java" />
-        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_918_C.java" />
-        <option value="$PROJECT_DIR$/dmoj/misc/MOCK_CCC_18_S1_A_MATH_PROBLEM.java" />
-        <option value="$PROJECT_DIR$/dmoj/misc/MOCK_CCC_18_S3_A_SIMULATION_PROBLEM.java" />
-        <option value="$PROJECT_DIR$/dmoj/misc/MOCK_CCC_18_S3_A_SIMULATION_PROBLEM.py" />
         <option value="$PROJECT_DIR$/dmoj/misc/MOCK_CCC_18_S4_BAD.java" />
         <option value="$PROJECT_DIR$/dmoj/misc/MOCK_CCC_18_S4_A_GRAPH_PROBLEM_2.java" />
         <option value="$PROJECT_DIR$/dmoj/misc/MOCK_CCC_18_S5_A_PALINDROME_PROBLEM.java" />
@@ -117,6 +114,11 @@
         <option value="$PROJECT_DIR$/codejam/CODEJAM_ROUND_1B_18_P2_MYSTERIOUS_ROAD_SIGNS.java" />
         <option value="$PROJECT_DIR$/codeforces/CODEFORCES_976_C.java" />
         <option value="$PROJECT_DIR$/codeforces/CODEFORCES_976_E.java" />
+        <option value="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P5_A_CLASSIC_PROBLEM.java" />
+        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_977_C.java" />
+        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_977_D.java" />
+        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_977_E.java" />
+        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_977_F.java" />
       </list>
     </option>
   </component>
@@ -135,7 +137,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
@@ -152,8 +154,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -164,12 +164,14 @@
             <path>
               <item name="programming-contest-solutions" type="b2602c69:ProjectViewProjectNode" />
               <item name="programming-contest-solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="codejam" type="462c0819:PsiDirectoryNode" />
+              <item name="codeforces" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -205,7 +207,7 @@
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
     </configuration>
     <configuration name="java" type="Application" factoryName="Application" singleton="true">
-      <option name="MAIN_CLASS_NAME" value="CODEFORCES_976_E" />
+      <option name="MAIN_CLASS_NAME" value="CODEFORCES_977_F" />
       <module name="programming-contest-solutions" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
     </configuration>
@@ -330,23 +332,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="23" width="1280" height="777" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.23663102" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.328" />
       <window_info anchor="bottom" id="Application Servers" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23796791" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24064171" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.46950355" visible="true" weight="0.19140625" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.46950355" visible="true" weight="0.19140625" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="3" sideWeight="0.5304965" side_tool="true" weight="0.20078126" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.53409094" />
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info id="Image Layers" order="7" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -354,7 +358,6 @@
       <window_info anchor="right" id="Properties" order="5" />
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.23663102" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Nl-Palette" order="4" />
@@ -363,33 +366,31 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="SciView" order="10" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Image Layers" order="7" />
       <window_info anchor="right" id="Data View" order="10" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="Application Servers" order="11" />
-      <window_info anchor="right" id="Data View" order="10" />
+      <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.44113475" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32907802" />
       <window_info id="UI Designer" order="6" />
       <window_info anchor="right" id="Properties" order="5" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.23829788" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48" visible="true" weight="0.3296875" />
+      <window_info anchor="right" id="Data View" order="10" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info id="Nl-Palette" order="4" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.19333333" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48" visible="true" weight="0.3296875" />
       <window_info anchor="right" id="SciView" order="11" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -397,6 +398,7 @@
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Structure" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info id="Favorites" order="3" sideWeight="0.52" side_tool="true" weight="0.3578125" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.53409094" />
     </layout-to-restore>
@@ -423,7 +425,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -432,41 +434,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dmoj/misc/MOCK_CCC_18_S1_A_MATH_PROBLEM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dmoj/misc/MOCK_CCO_17_P1_FAST_FUHRER_TRANSFORM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ccc/2018/CCC_18_S4_BALANCED_TREES.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ccc/2018/CCC_18_S1_VORONOI_VILLAGES.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dmoj/misc/MOCK_CCC_18_S4_A_GRAPH_PROBLEM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dmoj/misc/VALENTINES_DAY_18_S3_CAROLS_CACTESIAN_CONQUEST.java" />
     <entry file="file://$PROJECT_DIR$/ccc/2018/CCC_18_S5_MAXIMUM_STRATEGIC_SAVINGS.java" />
     <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_415_D.java">
@@ -646,13 +613,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codejam/CODEJAM_ROUND_1B_18_P2_MYSTERIOUS_ROAD_SIGNS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/codejam/CODEJAM_ROUND_1B_18_P2_MYSTERIOUS_ROAD_SIGNS.java" />
     <entry file="file://$PROJECT_DIR$/dmoj/misc/MOCK_CCC_18_S4_A_GRAPH_PROBLEM_FLOW.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="479">
@@ -671,6 +632,49 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
           <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P5_A_CLASSIC_PROBLEM.java" />
+    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_977_C.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="44" column="24" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_977_D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmoj/misc/DISJOINT_SET_TEST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="93" column="9" lean-forward="true" selection-start-line="67" selection-start-column="8" selection-end-line="93" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_977_E.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_977_F.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
+          <folding>
+            <element signature="e#402#434#0" expanded="true" />
+            <element signature="e#2010#2011#0" expanded="true" />
+            <element signature="e#2039#2040#0" expanded="true" />
+            <element signature="e#3861#3862#0" expanded="true" />
+            <element signature="e#3935#3936#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

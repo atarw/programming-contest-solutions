@@ -16,13 +16,12 @@ for card in cards:
 # - if you take a card with number x, you might as well take ALL cards with number x
 # - order in which you take cards in the optimal solution doesn't matter
 #
-# let dp[i] be the maximum value you get by taking cards with values in the range [i, MAXE]
+# let dp[i] be the maximum value you get by taking cards with values in the range [0, i]
 # to calculate dp[i], you have two choices: take all cards with value i or don't
 
-dp[MAXE] = MAXE * cnt[MAXE]
-dp[MAXE - 1] = (MAXE - 1) * cnt[MAXE - 1]
+dp[1] = cnt[1]
 
-for i in xrange (MAXE - 2, -1, -1):
-	dp[i] = max(dp[i + 1], cnt[i] * i + dp[i + 2])
+for i in xrange (2, MAXE + 1):
+	dp[i] = max (dp[i - 1], cnt[i] * i + dp[i - 2])
 
-print dp[0]
+print dp[MAXE]

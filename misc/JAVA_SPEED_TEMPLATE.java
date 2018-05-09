@@ -38,13 +38,18 @@ public class JAVA_SPEED_TEMPLATE {
 				curChar = 0;
 				numChars = stream.read (buf);
 			}
+			
+			if (numChars == -1)
+				return numChars;
 
 			return buf[curChar++];
 		}
 
 		public int iscan () throws IOException {
 			int c = cscan (), sgn = 1;
-			while (space (c)) c = cscan ();
+			
+			while (space (c))
+				c = cscan ();
 
 			if (c == '-') {
 				sgn = -1;
@@ -65,7 +70,9 @@ public class JAVA_SPEED_TEMPLATE {
 
 		public String sscan () throws IOException {
 			int c = cscan ();
-			while (space (c)) c = cscan ();
+			
+			while (space (c))
+				c = cscan ();
 
 			StringBuilder res = new StringBuilder ();
 
@@ -80,7 +87,9 @@ public class JAVA_SPEED_TEMPLATE {
 
 		public double dscan () throws IOException {
 			int c = cscan (), sgn = 1;
-			while (space (c)) c = cscan ();
+			
+			while (space (c))
+				c = cscan ();
 
 			if (c == '-') {
 				sgn = -1;
@@ -90,7 +99,9 @@ public class JAVA_SPEED_TEMPLATE {
 			double res = 0;
 
 			while (!space (c) && c != '.') {
-				if (c == 'e' || c == 'E') return res * UTILITIES.fast_pow (10, iscan ());
+				if (c == 'e' || c == 'E')
+					return res * UTILITIES.fast_pow (10, iscan ());
+				
 				res *= 10;
 				res += c - '0';
 				c = cscan ();
@@ -101,7 +112,8 @@ public class JAVA_SPEED_TEMPLATE {
 				double m = 1;
 
 				while (!space (c)) {
-					if (c == 'e' || c == 'E') return res * UTILITIES.fast_pow (10, iscan ());
+					if (c == 'e' || c == 'E')
+						return res * UTILITIES.fast_pow (10, iscan ());
 
 					m /= 10;
 					res += (c - '0') * m;
@@ -114,7 +126,9 @@ public class JAVA_SPEED_TEMPLATE {
 
 		public long lscan () throws IOException {
 			int c = cscan (), sgn = 1;
-			while (space (c)) c = cscan ();
+			
+			while (space (c))
+				c = cscan ();
 
 			if (c == '-') {
 				sgn = -1;
@@ -127,7 +141,6 @@ public class JAVA_SPEED_TEMPLATE {
 				res = (res << 1) + (res << 3);
 				res += c - '0';
 				c = cscan ();
-
 			}
 			while (!space (c));
 

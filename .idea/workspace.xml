@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf5dc239-6b36-4c09-b580-a8e8c611168e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_264_B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_339_D.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_382_C.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_242_E.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_439_C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_467_C.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeforces/CODEFORCES_264_B" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,12 +22,22 @@
     <favorites_list name="programming-contest-solutions" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CODEFORCES_264_B.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_264_B.java">
+    <leaf>
+      <file leaf-file-name="CODEFORCES_467_C.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_467_C.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="74" column="34" selection-start-line="74" selection-start-column="34" selection-end-line="74" selection-end-column="34" />
+            <state relative-caret-position="195">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#1169#1170#0" expanded="true" />
+                <element signature="e#1198#1199#0" expanded="true" />
+                <element signature="e#3096#3097#0" expanded="true" />
+                <element signature="e#3170#3171#0" expanded="true" />
+                <element signature="e#3778#3779#0" expanded="true" />
+                <element signature="e#3821#3822#0" expanded="true" />
+                <element signature="e#3863#3864#0" expanded="true" />
+                <element signature="e#3897#3898#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,10 +89,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_407_B.java" />
-        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_540_D.java" />
-        <option value="$PROJECT_DIR$/dmoj/misc/MOCK_CCC_18_S2_A_SQUARE_PROBLEM.java" />
-        <option value="$PROJECT_DIR$/dmoj/misc/MOCK_CCC_18_S4_A_GRAPH_PROBLEM.java" />
         <option value="$PROJECT_DIR$/dmoj/misc/VALENTINES_DAY_18_S3_CAROLS_CACTESIAN_CONQUEST.java" />
         <option value="$PROJECT_DIR$/ccc/2018/CCC_18_S5_MAXIMUM_STRATEGIC_SAVINGS.java" />
         <option value="$PROJECT_DIR$/codeforces/CODEFORCES_415_D.java" />
@@ -129,6 +136,10 @@
         <option value="$PROJECT_DIR$/codeforces/CODEFORCES_369_C.java" />
         <option value="$PROJECT_DIR$/codeforces/CODEFORCES_282_C.java" />
         <option value="$PROJECT_DIR$/codeforces/CODEFORCES_264_B.java" />
+        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_165_C.java" />
+        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_242_E.java" />
+        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_439_C.java" />
+        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_467_C.java" />
       </list>
     </option>
   </component>
@@ -164,8 +175,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -182,6 +191,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -217,7 +228,7 @@
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
     </configuration>
     <configuration name="java" type="Application" factoryName="Application" singleton="true">
-      <option name="MAIN_CLASS_NAME" value="CODEFORCES_264_B" />
+      <option name="MAIN_CLASS_NAME" value="CODEFORCES_467_C" />
       <module name="programming-contest-solutions" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
     </configuration>
@@ -239,55 +250,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <envs />
-    </configuration>
-    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SCRATCH_FILE_ID" value="0" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="programming-contest-solutions" />
-      <envs />
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <envs />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
     </configuration>
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
@@ -353,7 +315,7 @@
       <window_info anchor="bottom" id="Application Servers" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32486632" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23395722" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.46950355" visible="true" weight="0.19140625" />
@@ -363,6 +325,7 @@
       <window_info id="Favorites" order="3" sideWeight="0.5304965" side_tool="true" weight="0.20078126" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.53409094" />
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info id="Image Layers" order="7" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -371,13 +334,12 @@
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Nl-Palette" order="4" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.19333333" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Image Layers" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Data View" order="10" />
     </layout>
     <layout-to-restore>
@@ -397,12 +359,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.23829788" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48" visible="true" weight="0.3296875" />
+      <window_info id="Favorites" order="3" sideWeight="0.52" side_tool="true" weight="0.3578125" />
       <window_info anchor="right" id="Data View" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info id="Nl-Palette" order="4" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.19333333" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48" visible="true" weight="0.3296875" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="SciView" order="11" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -410,8 +372,8 @@
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Structure" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info id="Favorites" order="3" sideWeight="0.52" side_tool="true" weight="0.3578125" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.19333333" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.53409094" />
     </layout-to-restore>
   </component>
@@ -446,29 +408,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_272_C.java" />
-    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_907_C.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/ArrayList.java" />
-    <entry file="file://$PROJECT_DIR$/dmoj/tle/TLE_16_P2_HEAVY_LIGHT_DECOMPOSITION.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="76" column="28" selection-start-line="76" selection-start-column="28" selection-end-line="76" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dmoj/dmopc/DMOPC_17_P4_COPS_AND_ROBBERS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dmoj/dmopc/DMOPC_17_P6_BEST_GIRL.java" />
     <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_217_A.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -696,8 +635,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_264_B.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
+        <state relative-caret-position="668">
           <caret line="74" column="34" selection-start-line="74" selection-start-column="34" selection-end-line="74" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_165_C.java" />
+    <entry file="file://$PROJECT_DIR$/misc/LAZY_PROPAGATION.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="141" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_242_E.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="80" column="29" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#3076#3077#0" expanded="true" />
+            <element signature="e#3105#3106#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_439_C.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="e#481#490#0" expanded="true" />
+            <element signature="e#516#525#0" expanded="true" />
+            <element signature="e#2179#2180#0" expanded="true" />
+            <element signature="e#2208#2209#0" expanded="true" />
+            <element signature="e#4106#4107#0" expanded="true" />
+            <element signature="e#4180#4181#0" expanded="true" />
+            <element signature="e#4788#4789#0" expanded="true" />
+            <element signature="e#4831#4832#0" expanded="true" />
+            <element signature="e#4873#4874#0" expanded="true" />
+            <element signature="e#4907#4908#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_467_C.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#1169#1170#0" expanded="true" />
+            <element signature="e#1198#1199#0" expanded="true" />
+            <element signature="e#3096#3097#0" expanded="true" />
+            <element signature="e#3170#3171#0" expanded="true" />
+            <element signature="e#3778#3779#0" expanded="true" />
+            <element signature="e#3821#3822#0" expanded="true" />
+            <element signature="e#3863#3864#0" expanded="true" />
+            <element signature="e#3897#3898#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

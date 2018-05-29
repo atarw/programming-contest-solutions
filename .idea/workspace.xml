@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf5dc239-6b36-4c09-b580-a8e8c611168e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_269_B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_283_A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_514_D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_463_C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_981_B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_981_C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_981_D.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,7 +22,7 @@
     <favorites_list name="programming-contest-solutions" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -68,13 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/codejam/CODEJAM_ROUND_1B_18_P2_MYSTERIOUS_ROAD_SIGNS.java" />
-        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_976_C.java" />
-        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_976_E.java" />
-        <option value="$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P5_A_CLASSIC_PROBLEM.java" />
-        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_977_C.java" />
-        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_977_D.java" />
-        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_977_E.java" />
         <option value="$PROJECT_DIR$/codeforces/CODEFORCES_977_F.java" />
         <option value="$PROJECT_DIR$/codeforces/CODEFORCES_431_C.java" />
         <option value="$PROJECT_DIR$/codeforces/CODEFORCES_340_D.java" />
@@ -119,6 +113,13 @@
         <option value="$PROJECT_DIR$/codeforces/CODEFORCES_514_D.java" />
         <option value="$PROJECT_DIR$/codeforces/CODEFORCES_269_B.java" />
         <option value="$PROJECT_DIR$/codeforces/CODEFORCES_283_A.java" />
+        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_463_C.java" />
+        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_981_B.java" />
+        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_981_C.java" />
+        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_981_D.java" />
+        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_118_D.java" />
+        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_279_C.java" />
+        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_471_D.java" />
       </list>
     </option>
   </component>
@@ -149,6 +150,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,7 +168,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -193,7 +194,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CODEFORCES_313_C">
+  <component name="RunManager" selected="Application.CODEFORCES_981_D">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -202,23 +203,23 @@
       <module name="programming-contest-solutions" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
     </configuration>
-    <configuration name="CODEFORCES_540_D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CODEFORCES_540_D" />
+    <configuration name="CODEFORCES_463_C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CODEFORCES_463_C" />
       <module name="programming-contest-solutions" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
     </configuration>
-    <configuration name="CODEFORCES_985_B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CODEFORCES_985_B" />
+    <configuration name="CODEFORCES_981_B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CODEFORCES_981_B" />
       <module name="programming-contest-solutions" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
     </configuration>
-    <configuration name="CODEFORCES_985_C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CODEFORCES_985_C" />
+    <configuration name="CODEFORCES_981_C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CODEFORCES_981_C" />
       <module name="programming-contest-solutions" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
     </configuration>
-    <configuration name="CODEFORCES_985_E" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CODEFORCES_985_E" />
+    <configuration name="CODEFORCES_981_D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CODEFORCES_981_D" />
       <module name="programming-contest-solutions" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
     </configuration>
@@ -271,19 +272,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.python" />
-      <item itemvalue="Application.CODEFORCES_540_D" />
-      <item itemvalue="Application.CODEFORCES_985_B" />
-      <item itemvalue="Application.CODEFORCES_985_C" />
-      <item itemvalue="Application.CODEFORCES_985_E" />
       <item itemvalue="Application.CODEFORCES_313_C" />
+      <item itemvalue="Application.CODEFORCES_463_C" />
+      <item itemvalue="Application.CODEFORCES_981_B" />
+      <item itemvalue="Application.CODEFORCES_981_C" />
+      <item itemvalue="Application.CODEFORCES_981_D" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CODEFORCES_981_D" />
+        <item itemvalue="Application.CODEFORCES_981_C" />
+        <item itemvalue="Application.CODEFORCES_981_B" />
+        <item itemvalue="Application.CODEFORCES_463_C" />
         <item itemvalue="Application.CODEFORCES_313_C" />
-        <item itemvalue="Application.CODEFORCES_985_E" />
-        <item itemvalue="Application.CODEFORCES_985_C" />
-        <item itemvalue="Application.CODEFORCES_985_B" />
-        <item itemvalue="Application.CODEFORCES_540_D" />
       </list>
     </recent_temporary>
   </component>
@@ -315,12 +316,11 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.23663102" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32486632" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2513369" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37566844" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.46693388" visible="true" weight="0.19140625" />
@@ -339,10 +339,11 @@
       <window_info anchor="right" id="Properties" order="5" />
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.23663102" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info id="Nl-Palette" order="4" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.19333333" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.5828877" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -380,56 +381,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_431_C.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dmoj/vmss/VMSS_16_P3_GGG.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="54" column="37" lean-forward="true" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_340_D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_349_B.java" />
-    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_282_C.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/misc/JAVA_SPEED_TEMPLATE.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="208" lean-forward="true" selection-start-line="208" selection-end-line="208" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_977_F.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_264_B.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="668">
-          <caret line="74" column="34" selection-start-line="74" selection-start-column="34" selection-end-line="74" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_165_C.java" />
     <entry file="file://$PROJECT_DIR$/misc/LAZY_PROPAGATION.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -701,6 +652,65 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_463_C.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="84" column="9" lean-forward="true" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_981_B.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_981_C.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="72" column="45" selection-start-line="72" selection-start-column="45" selection-end-line="72" selection-end-column="45" />
+          <folding>
+            <element signature="e#1223#1229#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmoj/dmopc/DMOPC_15_P5_TOTAL_ANNIHILATION.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_981_D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_279_C.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_118_D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="43" column="16" lean-forward="true" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_471_D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
         </state>
       </provider>
     </entry>

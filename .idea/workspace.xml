@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf5dc239-6b36-4c09-b580-a8e8c611168e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_987_C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_985_E.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -98,7 +98,6 @@
         <option value="$PROJECT_DIR$/codeforces/CODEFORCES_514_C.java" />
         <option value="$PROJECT_DIR$/codeforces/CODEFORCES_540_D.java" />
         <option value="$PROJECT_DIR$/codeforces/CODEFORCES_985_B.java" />
-        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_985_E.java" />
         <option value="$PROJECT_DIR$/codeforces/CODEFORCES_985_C.java" />
         <option value="$PROJECT_DIR$/codeforces/CODEFORCES_459_D.java" />
         <option value="$PROJECT_DIR$/codeforces/CODEFORCES_339_C.java" />
@@ -117,6 +116,7 @@
         <option value="$PROJECT_DIR$/codeforces/CODEFORCES_987_C.java" />
         <option value="$PROJECT_DIR$/codeforces/CODEFORCES_987_D.java" />
         <option value="$PROJECT_DIR$/codeforces/CODEFORCES_987_F.java" />
+        <option value="$PROJECT_DIR$/codeforces/CODEFORCES_985_E.java" />
       </list>
     </option>
   </component>
@@ -147,8 +147,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,6 +163,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -191,14 +191,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CODEFORCES_987_C">
+  <component name="RunManager" selected="Application.CODEFORCES_985_E">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-    </configuration>
-    <configuration name="CODEFORCES_463_C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CODEFORCES_463_C" />
-      <module name="programming-contest-solutions" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
     </configuration>
     <configuration name="CODEFORCES_981_B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CODEFORCES_981_B" />
@@ -212,6 +207,11 @@
     </configuration>
     <configuration name="CODEFORCES_981_D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CODEFORCES_981_D" />
+      <module name="programming-contest-solutions" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="CODEFORCES_985_E" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CODEFORCES_985_E" />
       <module name="programming-contest-solutions" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
     </configuration>
@@ -269,19 +269,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.python" />
-      <item itemvalue="Application.CODEFORCES_463_C" />
       <item itemvalue="Application.CODEFORCES_981_B" />
       <item itemvalue="Application.CODEFORCES_981_C" />
       <item itemvalue="Application.CODEFORCES_981_D" />
       <item itemvalue="Application.CODEFORCES_987_C" />
+      <item itemvalue="Application.CODEFORCES_985_E" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CODEFORCES_985_E" />
         <item itemvalue="Application.CODEFORCES_987_C" />
         <item itemvalue="Application.CODEFORCES_981_D" />
         <item itemvalue="Application.CODEFORCES_981_C" />
         <item itemvalue="Application.CODEFORCES_981_B" />
-        <item itemvalue="Application.CODEFORCES_463_C" />
       </list>
     </recent_temporary>
   </component>
@@ -313,6 +313,7 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.23663102" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32486632" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
@@ -322,7 +323,6 @@
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.46693388" visible="true" weight="0.19140625" />
       <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.5828877" />
       <window_info anchor="right" id="SciView" order="10" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="3" sideWeight="0.53306615" side_tool="true" weight="0.19140625" />
@@ -337,13 +337,13 @@
       <window_info anchor="right" id="Properties" order="5" />
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.23663102" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Nl-Palette" order="4" />
       <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.5828877" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Data View" order="10" />
     </layout>
   </component>
@@ -573,7 +573,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_985_E.java" />
     <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_985_C.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -698,10 +697,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_987_D.java" />
-    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_987_F.java">
+    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_987_F.java" />
+    <entry file="file://$PROJECT_DIR$/codeforces/CODEFORCES_985_E.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        <state relative-caret-position="249">
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
         </state>
       </provider>
     </entry>

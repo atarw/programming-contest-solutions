@@ -2,6 +2,9 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+// atharva washimkar
+// August 11, 2018
+
 public class ECOO_15_R1_P4_NEANDERTHAL_NUMBERS {
 
 	static int[] cache;

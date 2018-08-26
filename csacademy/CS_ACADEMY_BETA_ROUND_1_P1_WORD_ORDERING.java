@@ -7,6 +7,9 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
+// atharva washimkar
+// August 11, 2018
+
 public class CS_ACADEMY_BETA_ROUND_1_P1_WORD_ORDERING {
 
 	static String order;

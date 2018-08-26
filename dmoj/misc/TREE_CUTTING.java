@@ -6,6 +6,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Queue;
 
+// atharva washimkar
+// August 11, 2018
+
 public class TREE_CUTTING {
 
 	static int[][] maze;
@@ -74,14 +77,14 @@ public class TREE_CUTTING {
 				}
 			}
 		}
-				
+
 		/*Knowing that they can only walk in cardinal directions, how many trees must they remove to arrive at their
 		desired tree?
 		The sum of the heights of the trees you cut must be the minimal over all possible sets of trees to cut to get
 		to the tallest tree.
 		Additionally, you should also minimize the number of trees summing to that minimal height in the event of a
 		tie.
-		
+
 		One integer, the min number of trees Tatsumi and Mine will have to remove to get to their desired tree.*/
 
 		State2[][] cache = new State2[R][C];

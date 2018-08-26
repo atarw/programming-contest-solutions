@@ -9,6 +9,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
+// atharva washimkar
+// August 11, 2018
+
 public class CCC_05_S4_PYRAMID_SCHEME {
 
 	static String[] order;

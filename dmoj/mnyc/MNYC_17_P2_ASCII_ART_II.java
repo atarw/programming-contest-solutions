@@ -5,6 +5,9 @@ import java.io.PrintWriter;
 import java.util.HashMap;
 import java.util.Map;
 
+// atharva washimkar
+// August 11, 2018
+
 public class MNYC_17_P2_ASCII_ART_II {
 
 	public static void main (String[] t) throws IOException {

@@ -2,6 +2,9 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+// atharva washimkar
+// August 11, 2018
+
 public class DMOPC_15_P1_GRUMPY_DWARF {
 
 	public static long getSwords (long bars, long rate) {

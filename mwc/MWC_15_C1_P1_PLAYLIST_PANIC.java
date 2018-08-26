@@ -3,6 +3,9 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
+// atharva washimkar
+// August 11, 2018
+
 public class MWC_15_C1_P1_PLAYLIST_PANIC {
 
 	public static void main (String[] t) throws IOException {

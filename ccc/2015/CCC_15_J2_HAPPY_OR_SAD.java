@@ -4,6 +4,9 @@ import java.io.InputStreamReader;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+// atharva washimkar
+// August 11, 2018
+
 public class CCC_15_J2_HAPPY_OR_SAD {
 
 	public static void main (String[] args) throws IOException {

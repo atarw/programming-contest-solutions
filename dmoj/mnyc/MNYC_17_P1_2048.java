@@ -3,6 +3,9 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
 
+// atharva washimkar
+// August 11, 2018
+
 public class MNYC_17_P1_2048 {
 
 	public static void main (String[] t) throws IOException {

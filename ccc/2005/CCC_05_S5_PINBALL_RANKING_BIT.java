@@ -8,6 +8,9 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
+// atharva washimkar
+// August 11, 2018
+
 public class CCC_05_S5_PINBALL_RANKING_BIT {
 
 	public static void update (int[] bit, int pos, int v) {

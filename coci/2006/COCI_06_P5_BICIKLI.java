@@ -6,6 +6,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+// atharva washimkar
+// August 11, 2018
+
 public class COCI_06_P5_BICIKLI {
 
 	static List<Integer>[] list;

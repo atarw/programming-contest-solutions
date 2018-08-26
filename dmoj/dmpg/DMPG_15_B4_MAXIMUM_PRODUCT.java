@@ -5,6 +5,9 @@ import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 
+// atharva washimkar
+// August 11, 2018
+
 public class DMPG_15_B4_MAXIMUM_PRODUCT {
 
 	public static void main (String[] args) throws IOException {

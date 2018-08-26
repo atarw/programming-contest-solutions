@@ -6,6 +6,9 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
+// atharva washimkar
+// August 11, 2018
+
 public class TLE_16_P2_HEAVY_LIGHT_DECOMPOSITION {
 
 	public static void main (String[] t) throws IOException {

@@ -3,10 +3,10 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
 
-// atharva washimkar
-// Dec 13, 2017
-
 // this code is super hacky, there are cases where it doesn't work but...
+
+// atharva washimkar
+// August 11, 2018
 
 public class DMOPC_17_P2_TOWERS_OF_HANOI {
 

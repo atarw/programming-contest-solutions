@@ -4,6 +4,9 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.util.Arrays;
 
+// atharva washimkar
+// August 11, 2018
+
 public class DMOPC_14_P6_SELECTIVE_CUTTING {
 
 	static Query[] qs;

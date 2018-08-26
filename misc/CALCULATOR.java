@@ -4,6 +4,9 @@ import java.io.InputStreamReader;
 import java.util.Deque;
 import java.util.LinkedList;
 
+// atharva washimkar
+// August 11, 2018
+
 public class CALCULATOR {
 
 	public static int solve (int v1, int v2, String operator) {

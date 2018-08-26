@@ -5,6 +5,9 @@ import java.util.Arrays;
 import java.util.NavigableSet;
 import java.util.TreeSet;
 
+// atharva washimkar
+// August 11, 2018
+
 public class WOBURN_CHALLENGE_15_J3_SHOOTOUT {
 
 	static int[] ppl, doors;

@@ -3,6 +3,9 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
 
+// atharva washimkar
+// August 11, 2018
+
 public class CODEFORCES_714_C {
 
 	static int[][] trie = new int[2000000][2], cnt = new int[2000000][2];

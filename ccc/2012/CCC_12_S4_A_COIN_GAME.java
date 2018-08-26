@@ -10,6 +10,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.Queue;
 
+// atharva washimkar
+// August 11, 2018
+
 public class CCC_12_S4_A_COIN_GAME {
 
 	static int N;

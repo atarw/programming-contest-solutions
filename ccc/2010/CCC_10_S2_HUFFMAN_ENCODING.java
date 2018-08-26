@@ -4,6 +4,9 @@ import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.Map;
 
+// atharva washimkar
+// August 11, 2018
+
 public class CCC_10_S2_HUFFMAN_ENCODING {
 
 	public static void main (String[] args) throws IOException {

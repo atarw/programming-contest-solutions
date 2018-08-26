@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+// atharva washimkar
+// August 11, 2018
+
 public class DMOPC_15_P1_ITAMI_AND_MANGA {
 
 	public static double bestRating;

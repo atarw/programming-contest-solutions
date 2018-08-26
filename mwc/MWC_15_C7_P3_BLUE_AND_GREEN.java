@@ -3,6 +3,9 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
+// atharva washimkar
+// August 11, 2018
+
 public class MWC_15_C7_P3_BLUE_AND_GREEN {
 
 	static int[] cache;//stores max money of each position visited -1 = unvisited, anything higher means visited

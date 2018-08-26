@@ -1,3 +1,6 @@
+// atharva washimkar
+// August 11, 2018
+
 // supports: point/range update, point/range query all in O(logN) - everything is 1-indexed
 
 public class BIT_RANGE {

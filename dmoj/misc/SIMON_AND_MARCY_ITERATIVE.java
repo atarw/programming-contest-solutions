@@ -3,6 +3,9 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 
+// atharva washimkar
+// August 11, 2018
+
 public class SIMON_AND_MARCY_ITERATIVE {
 
 	public static void main (String[] t) throws IOException {

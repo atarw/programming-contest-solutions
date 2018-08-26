@@ -6,6 +6,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+// atharva washimkar
+// August 11, 2018
+
 public class VMSS_16_P3_GGG {
 
 	public static int binary_search_ceil (int[] arr, int from, int to, int val) {

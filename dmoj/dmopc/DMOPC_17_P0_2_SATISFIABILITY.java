@@ -4,7 +4,7 @@ import java.io.InputStream;
 import java.io.PrintWriter;
 
 // atharva washimkar
-// Dec 13, 2017
+// August 11, 2018
 
 public class DMOPC_17_P0_2_SATISFIABILITY {
 

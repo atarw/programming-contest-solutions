@@ -2,6 +2,9 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+// atharva washimkar
+// August 11, 2018
+
 public class CCC_02_S2_FRACTION_ACTION {
 
 	public static String fraction (int N, int D) {

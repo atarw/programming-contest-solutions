@@ -4,6 +4,9 @@ import java.io.PrintWriter;
 import java.math.RoundingMode;
 import java.text.DecimalFormat;
 
+// atharva washimkar
+// August 11, 2018
+
 public class CCC_05_S5_PINBALL_RANKING {
 
 	static long inversions = 0;

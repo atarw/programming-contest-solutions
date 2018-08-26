@@ -2,6 +2,9 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+// atharva washimkar
+// August 11, 2018
+
 public class VMSS_16_P2_JAYDEN_EATS_CHOCOLATE {
 
 	static int X, Y, Z;

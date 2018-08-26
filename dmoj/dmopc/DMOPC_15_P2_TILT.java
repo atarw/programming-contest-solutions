@@ -4,6 +4,9 @@ import java.io.InputStreamReader;
 import java.math.RoundingMode;
 import java.text.DecimalFormat;
 
+// atharva washimkar
+// August 11, 2018
+
 public class DMOPC_15_P2_TILT {
 
 	public static void main (String[] args) throws IOException {

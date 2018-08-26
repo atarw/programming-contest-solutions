@@ -9,6 +9,9 @@ import java.io.PrintWriter;
 import java.util.Iterator;
 import java.util.LinkedList;
 
+// atharva washimkar
+// August 11, 2018
+
 public class JDCC_15_NOVEMBER_D_LUCKY_TICKET {
 
 	static final boolean PRACTICE = false;
@@ -22,10 +25,10 @@ public class JDCC_15_NOVEMBER_D_LUCKY_TICKET {
 
 		return indent.toString ();
 	}
-  
+
   /* CHECKS WHETHER LEFT SIDE SHOULD BE INCREMENTED, HAPPENS ONLY WHEN MAX POSSIBLE RIGHT SIDE IS LESS THAN OR EQUAL
   TO THE ACTUAL RIGHT SIDE
-   * 
+   *
    * E.G. IN THE CASE 113 500, THE LEFT SIDE MUST BE INCREMENTED TO FIND THE NEXT LUCKY TICKET, WHICH IS 114 006
    */
 

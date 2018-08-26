@@ -4,6 +4,9 @@ import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.Queue;
 
+// atharva washimkar
+// August 11, 2018
+
 public class DMOPC_15_P4_ITAMI_AND_CANDY {
 
 	public static Queue<Integer> primes (int N) {

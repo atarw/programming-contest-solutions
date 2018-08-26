@@ -4,6 +4,9 @@ import java.io.InputStreamReader;
 import java.util.HashSet;
 import java.util.Set;
 
+// atharva washimkar
+// August 11, 2018
+
 public class CCC_15_J3_ROVARSPRAKET {
 
 	static final Set<Character> vowels = new HashSet<Character> ();

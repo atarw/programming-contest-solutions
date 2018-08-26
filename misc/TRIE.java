@@ -1,3 +1,6 @@
+// atharva washimkar
+// August 11, 2018
+
 public class TRIE {
 
 	static int[][] trie = new int[1000][26];//set 1000 to max depth of trie

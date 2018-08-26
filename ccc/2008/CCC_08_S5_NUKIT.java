@@ -2,6 +2,9 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+// atharva washimkar
+// August 11, 2018
+
 public class CCC_08_S5_NUKIT {
 
 	static byte[][][][] cache;//0 = undecided, 1 = win for side to play, -1 = loss for side to play

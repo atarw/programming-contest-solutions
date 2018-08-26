@@ -3,6 +3,9 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 
+// atharva washimkar
+// August 11, 2018
+
 public class DMOPC_15_P5_SCRIBE {
 
 	public static long countD (int d, int lim) {

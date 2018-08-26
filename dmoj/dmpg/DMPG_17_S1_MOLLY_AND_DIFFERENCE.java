@@ -5,7 +5,7 @@ import java.io.PrintWriter;
 import java.util.Arrays;
 
 // atharva washimkar
-// May 15, 2017
+// August 11, 2018
 
 public class DMPG_17_S1_MOLLY_AND_DIFFERENCE {
 

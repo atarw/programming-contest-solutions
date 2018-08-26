@@ -6,6 +6,9 @@ import java.util.ArrayDeque;
 import java.util.Arrays;
 import java.util.Queue;
 
+// atharva washimkar
+// August 11, 2018
+
 public class FHC_17_P3_MANIC_MOVING {
 
 	static int[] parent;

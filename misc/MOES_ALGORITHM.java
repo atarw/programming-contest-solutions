@@ -7,6 +7,9 @@ import java.util.Map;
 //for each query, count number of values in range [l,r] which are repeated at least 3 times
 // offline only
 
+// atharva washimkar
+// August 11, 2018
+
 public class MOES_ALGORITHM {
 
 	static int block, curr_ans;

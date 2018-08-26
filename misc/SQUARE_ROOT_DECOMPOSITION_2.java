@@ -5,13 +5,7 @@ import java.io.PrintWriter;
 import java.util.Arrays;
 
 // atharva washimkar
-// Aug 23, 2017
-// given N elements perform Q update and min range queries
-// use square root decomposition to organize elements into buckets
-// keep an array which stores the min for each bucket
-// when updating, simply replace the value in the array and recalculate the min for that bucket in O(sqrt(N))
-// when querying, iterate through all the min values in between the first and last bucket (exclusive), in O(sqrt(N)) time since there are sqrt(N) buckets
-// next, iterate through the elements in the first and last bucket that are in the given query range in O(sqrt(N)) time
+// August 11, 2018
 
 public class SQUARE_ROOT_DECOMPOSITION_2 {
 

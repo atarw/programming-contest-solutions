@@ -2,6 +2,9 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+// atharva washimkar
+// August 11, 2018
+
 public class CODEJAM_QR_16_P2_REVENGE_OF_THE_PANCAKES {
 
 	public static char opp (char c) {

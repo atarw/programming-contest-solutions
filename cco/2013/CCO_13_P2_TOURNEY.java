@@ -3,6 +3,9 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
+// atharva washimkar
+// August 11, 2018
+
 public class CCO_13_P2_TOURNEY {
 
 	static int[] tree;//stores index of competitors

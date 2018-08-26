@@ -3,6 +3,9 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.text.DecimalFormat;
 
+// atharva washimkar
+// August 11, 2018
+
 public class CCC_05_J1_THE_CELL_SELL {
 
 	public static double cost (int D, int E, int W, int dLim, double dRate, double eRate, double wRate) {

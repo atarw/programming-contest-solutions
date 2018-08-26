@@ -2,6 +2,9 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+// atharva washimkar
+// August 11, 2018
+
 public class TROUBLING_TRIANGLES {
 
 	public static void main (String[] t) throws IOException {

@@ -6,6 +6,9 @@ import java.util.HashSet;
 import java.util.Queue;
 import java.util.Set;
 
+// atharva washimkar
+// August 11, 2018
+
 public class MWC_15_C8_P3_DRAW_DOWN {
 
 	static boolean c1, c2, c3;

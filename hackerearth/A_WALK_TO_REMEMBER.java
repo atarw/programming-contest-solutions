@@ -7,6 +7,9 @@ import java.util.ArrayList;
 import java.util.Deque;
 import java.util.List;
 
+// atharva washimkar
+// August 11, 2018
+
 public class A_WALK_TO_REMEMBER implements Runnable {
 
 	static List<Integer>[] list, rev;

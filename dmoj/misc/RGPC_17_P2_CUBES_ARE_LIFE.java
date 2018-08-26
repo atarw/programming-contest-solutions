@@ -5,6 +5,9 @@ import java.io.PrintWriter;
 import java.util.HashMap;
 import java.util.Map;
 
+// atharva washimkar
+// August 11, 2018
+
 public class RGPC_17_P2_CUBES_ARE_LIFE {
 
 	public static void main (String[] t) throws IOException {

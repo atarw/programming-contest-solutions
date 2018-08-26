@@ -6,6 +6,9 @@ import java.util.HashSet;
 import java.util.Queue;
 import java.util.Set;
 
+// atharva washimkar
+// August 11, 2018
+
 public class CODEFORCES_65_D {
 
 	static boolean G, S, H, R;// booleans indicating whether it is possible to be sorted into the house

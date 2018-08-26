@@ -4,6 +4,9 @@ import java.io.InputStreamReader;
 import java.util.HashSet;
 import java.util.Set;
 
+// atharva washimkar
+// August 11, 2018
+
 public class DMOPC_14_P4_SKETCHLEY_PARK {
 
 	static String msg, word = "HAILHYDRA", cipher;

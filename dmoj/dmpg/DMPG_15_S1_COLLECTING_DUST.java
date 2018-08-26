@@ -2,6 +2,9 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+// atharva washimkar
+// August 11, 2018
+
 public class DMPG_15_S1_COLLECTING_DUST {
 
 	public static void main (String[] args) throws IOException {

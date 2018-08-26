@@ -3,6 +3,9 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
+// atharva washimkar
+// August 11, 2018
+
 public class CCC_16_S2_TANDEM_BICYCLE {
 
 	static int[] arr1, arr2;

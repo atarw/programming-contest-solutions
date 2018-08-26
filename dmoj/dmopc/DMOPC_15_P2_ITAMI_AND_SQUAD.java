@@ -3,6 +3,9 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
+// atharva washimkar
+// August 11, 2018
+
 public class DMOPC_15_P2_ITAMI_AND_SQUAD {
 
 	static int soldiers;

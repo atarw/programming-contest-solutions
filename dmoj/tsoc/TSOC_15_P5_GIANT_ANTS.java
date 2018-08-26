@@ -6,6 +6,9 @@ import java.util.ArrayList;
 import java.util.Deque;
 import java.util.List;
 
+// atharva washimkar
+// August 11, 2018
+
 public class TSOC_15_P5_GIANT_ANTS {
 
 	static List<Integer>[] list;

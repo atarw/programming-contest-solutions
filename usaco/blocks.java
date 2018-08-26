@@ -3,6 +3,9 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
 
+// atharva washimkar
+// August 11, 2018
+
 public class blocks {
 
 	public static int[] map (String s) {

@@ -4,6 +4,9 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
 
+// atharva washimkar
+// August 11, 2018
+
 public class STARDUST_SNOW {
 
 	static int[][][][] cache = new int[52][51][51][51];//time, pos, temp, cap -> max

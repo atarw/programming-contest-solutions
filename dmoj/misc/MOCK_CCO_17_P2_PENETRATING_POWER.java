@@ -4,7 +4,7 @@ import java.io.InputStream;
 import java.io.PrintWriter;
 
 // atharva washimkar
-// August 11, 2018
+// Jul 18, 2017
 
 public class MOCK_CCO_17_P2_PENETRATING_POWER {
 

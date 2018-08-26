@@ -7,9 +7,6 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
 
-// atharva washimkar
-// August 11, 2018
-
 public class MACKENZIE_NEW_YEARS_CHALLENGE_P4_ABDOOF {
 
 	public static List<String> split (String i, Set<String> F) {

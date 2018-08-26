@@ -4,7 +4,7 @@ import java.io.InputStream;
 import java.io.PrintWriter;
 
 // atharva washimkar
-// August 11, 2018
+// Jun 02, 2017
 
 public class DMOPC_15_P5_LELEI_AND_DRAGON_SCALES {
 

@@ -4,9 +4,6 @@ import java.io.InputStreamReader;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-// atharva washimkar
-// August 11, 2018
-
 public class FIND_DATES {
 
 	public static boolean leap (int year) {

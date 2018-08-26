@@ -4,9 +4,6 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
-// atharva washimkar
-// August 11, 2018
-
 public class DMOPC_14_P5_SAWMILL_SCHEME {
 
 	public static void main (String[] args) throws IOException {

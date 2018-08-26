@@ -5,7 +5,7 @@ import java.io.PrintWriter;
 import java.util.Arrays;
 
 // atharva washimkar
-// August 11, 2018
+// Jul 25, 2017
 
 public class CCO_17_P1_RAINFALL_STORAGE {
 

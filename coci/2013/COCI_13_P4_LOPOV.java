@@ -5,9 +5,6 @@ import java.util.Arrays;
 import java.util.NavigableMap;
 import java.util.TreeMap;
 
-// atharva washimkar
-// August 11, 2018
-
 public class COCI_13_P4_LOPOV {
 
 	public static void main (String[] t) throws IOException {

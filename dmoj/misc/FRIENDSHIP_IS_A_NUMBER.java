@@ -4,9 +4,6 @@ import java.io.InputStreamReader;
 import java.util.NavigableMap;
 import java.util.TreeMap;
 
-// atharva washimkar
-// August 11, 2018
-
 public class FRIENDSHIP_IS_A_NUMBER {
 
 	public static void main (String[] args) throws IOException {

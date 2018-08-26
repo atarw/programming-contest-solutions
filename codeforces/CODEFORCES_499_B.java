@@ -5,9 +5,6 @@ import java.io.PrintWriter;
 import java.util.HashMap;
 import java.util.Map;
 
-// atharva washimkar
-// August 11, 2018
-
 public class CODEFORCES_499_B {
 
 	public static void main (String[] t) throws IOException {

@@ -6,9 +6,6 @@ import java.util.Comparator;
 import java.util.NavigableSet;
 import java.util.TreeSet;
 
-// atharva washimkar
-// August 11, 2018
-
 public class DMOPC_16_P3_CARNIVAL_PHANTASM {
 
 	static int[] dist;

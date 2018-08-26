@@ -3,9 +3,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
 
-// atharva washimkar
-// August 11, 2018
-
 public class JAVA_SPEED_TEMPLATE {
 
 	public static void main (String[] t) throws IOException {
@@ -14,7 +11,7 @@ public class JAVA_SPEED_TEMPLATE {
 
 		/*
 		code here
-
+		
 		int a = in.iscan ();
 		out.println (a);
 		*/
@@ -41,7 +38,7 @@ public class JAVA_SPEED_TEMPLATE {
 				curChar = 0;
 				numChars = stream.read (buf);
 			}
-
+			
 			if (numChars == -1)
 				return numChars;
 
@@ -50,7 +47,7 @@ public class JAVA_SPEED_TEMPLATE {
 
 		public int iscan () throws IOException {
 			int c = cscan (), sgn = 1;
-
+			
 			while (space (c))
 				c = cscan ();
 
@@ -73,7 +70,7 @@ public class JAVA_SPEED_TEMPLATE {
 
 		public String sscan () throws IOException {
 			int c = cscan ();
-
+			
 			while (space (c))
 				c = cscan ();
 
@@ -90,7 +87,7 @@ public class JAVA_SPEED_TEMPLATE {
 
 		public double dscan () throws IOException {
 			int c = cscan (), sgn = 1;
-
+			
 			while (space (c))
 				c = cscan ();
 
@@ -104,7 +101,7 @@ public class JAVA_SPEED_TEMPLATE {
 			while (!space (c) && c != '.') {
 				if (c == 'e' || c == 'E')
 					return res * UTILITIES.fast_pow (10, iscan ());
-
+				
 				res *= 10;
 				res += c - '0';
 				c = cscan ();
@@ -129,7 +126,7 @@ public class JAVA_SPEED_TEMPLATE {
 
 		public long lscan () throws IOException {
 			int c = cscan (), sgn = 1;
-
+			
 			while (space (c))
 				c = cscan ();
 

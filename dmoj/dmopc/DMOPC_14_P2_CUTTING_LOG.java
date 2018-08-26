@@ -5,9 +5,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-// atharva washimkar
-// August 11, 2018
-
 public class DMOPC_14_P2_CUTTING_LOG {
 
 	public static void main (String[] args) throws IOException {

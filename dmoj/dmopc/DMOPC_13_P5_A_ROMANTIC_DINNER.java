@@ -2,9 +2,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-// atharva washimkar
-// August 11, 2018
-
 public class DMOPC_13_P5_A_ROMANTIC_DINNER {
 
 	static int[] V, T, F;

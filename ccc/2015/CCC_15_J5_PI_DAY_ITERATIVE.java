@@ -3,9 +3,6 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 
-// atharva washimkar
-// August 11, 2018
-
 public class CCC_15_J5_PI_DAY_ITERATIVE {
 
 	public static void main (String[] t) throws IOException {

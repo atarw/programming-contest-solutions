@@ -4,9 +4,6 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
-// atharva washimkar
-// August 11, 2018
-
 public class BTS_16_P5_CHERRY_TREE {
 
 	static int[] cherries, branches;

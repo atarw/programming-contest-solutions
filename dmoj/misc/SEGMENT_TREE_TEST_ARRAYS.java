@@ -3,9 +3,6 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 
-// atharva washimkar
-// August 11, 2018
-
 public class SEGMENT_TREE_TEST_ARRAYS {
 
 	static int[] l_arr, r_arr, min_arr, gcd_arr, count_arr;

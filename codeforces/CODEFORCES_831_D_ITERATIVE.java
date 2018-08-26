@@ -5,7 +5,7 @@ import java.io.PrintWriter;
 import java.util.Arrays;
 
 // atharva washimkar
-// August 11, 2018
+// Jul 13, 2017
 
 public class CODEFORCES_831_D_ITERATIVE {
 

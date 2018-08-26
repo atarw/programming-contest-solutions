@@ -3,9 +3,6 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.HashSet;
 
-// atharva washimkar
-// August 11, 2018
-
 public class WOBURN_CHALLENGE_15_J2_MISSION_BRIEFING {
 
 	public static void main (String[] t) throws IOException {

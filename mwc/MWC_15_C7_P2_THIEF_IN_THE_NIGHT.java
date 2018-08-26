@@ -2,9 +2,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-// atharva washimkar
-// August 11, 2018
-
 public class MWC_15_C7_P2_THIEF_IN_THE_NIGHT {
 
 	static int[][] arr;

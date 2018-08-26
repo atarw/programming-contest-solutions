@@ -4,9 +4,6 @@ import java.io.InputStreamReader;
 import java.util.HashSet;
 import java.util.Set;
 
-// atharva washimkar
-// August 11, 2018
-
 public class DMOPC_14_P3_GLOBALLY_UNIQUE_SHELLS {
 
 	public static void main (String[] args) throws IOException {

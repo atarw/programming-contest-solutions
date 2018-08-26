@@ -4,9 +4,6 @@ import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.Map;
 
-// atharva washimkar
-// August 11, 2018
-
 public class MACKENZIE_NEW_YEARS_CHALLENGE_P6_ROCKS {
 
 	public static int mass (String n) {

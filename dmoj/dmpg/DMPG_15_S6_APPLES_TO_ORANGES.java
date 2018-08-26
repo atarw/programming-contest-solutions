@@ -10,9 +10,6 @@ import java.util.Queue;
 
 //don't need to find scc, idk why i did.
 
-// atharva washimkar
-// August 11, 2018
-
 public class DMPG_15_S6_APPLES_TO_ORANGES {
 
 	public static void main (String[] t) throws IOException {

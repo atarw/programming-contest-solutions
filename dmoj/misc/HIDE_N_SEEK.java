@@ -9,9 +9,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Queue;
 
-// atharva washimkar
-// August 11, 2018
-
 public class HIDE_N_SEEK {
 
 	static char[][] maze;
@@ -129,14 +126,14 @@ public class HIDE_N_SEEK {
 
 		//find shortest paths from griffy to everything else
 		bfs (T, gx, gy);
-
+		
 		/*for (int x = 0; x <= T; ++x) {
-
+			
 			if (x != T)
 				out.println (pos [x][0] + " " + pos [x][1]);
 			else
 				out.println (gx + " " + gy);
-
+			
 			for (int n = 0; n < N; ++n) {
 				for (int m = 0; m < M; ++m) {
 					out.print ((cache [x][n][m] == Integer.MAX_VALUE - 10000 ? "X" : cache [x][n][m]) + " ");

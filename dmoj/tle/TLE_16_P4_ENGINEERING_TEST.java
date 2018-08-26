@@ -6,9 +6,6 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.util.Arrays;
 
-// atharva washimkar
-// August 11, 2018
-
 public class TLE_16_P4_ENGINEERING_TEST {
 
 	static long K;

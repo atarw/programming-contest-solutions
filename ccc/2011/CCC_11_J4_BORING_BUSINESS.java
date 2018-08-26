@@ -4,9 +4,6 @@ import java.io.InputStreamReader;
 import java.util.HashSet;
 import java.util.Set;
 
-// atharva washimkar
-// August 11, 2018
-
 public class CCC_11_J4_BORING_BUSINESS {
 
 	public static void main (String[] args) throws IOException {

@@ -4,9 +4,6 @@ import java.io.InputStreamReader;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-// atharva washimkar
-// August 11, 2018
-
 public class CCC_14_S3_GENEVA_CONFECTION {
 
 	public static boolean possible (Deque<Integer> deque) {

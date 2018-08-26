@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 // atharva washimkar
-// August 11, 2018
+// Jun 07, 2017
 
 public class RTE_16_S1_BATTERY_PYRAMIDS {
 

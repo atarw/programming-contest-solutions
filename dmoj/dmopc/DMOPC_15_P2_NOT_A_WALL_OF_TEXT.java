@@ -2,9 +2,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-// atharva washimkar
-// August 11, 2018
-
 public class DMOPC_15_P2_NOT_A_WALL_OF_TEXT {
 
 	public static void main (String[] t) throws IOException {

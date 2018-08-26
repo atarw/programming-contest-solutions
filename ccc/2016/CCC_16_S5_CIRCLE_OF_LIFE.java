@@ -6,9 +6,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-// atharva washimkar
-// August 11, 2018
-
 public class CCC_16_S5_CIRCLE_OF_LIFE {
 
 	static String pad (String s, int N) {

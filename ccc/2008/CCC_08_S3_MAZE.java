@@ -4,9 +4,6 @@ import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.Queue;
 
-// atharva washimkar
-// August 11, 2018
-
 public class CCC_08_S3_MAZE {
 
 	static char[][] maze;

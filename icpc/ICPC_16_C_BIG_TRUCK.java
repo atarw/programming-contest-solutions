@@ -6,9 +6,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Queue;
 
-// atharva washimkar
-// August 11, 2018
-
 public class ICPC_16_C_BIG_TRUCK {
 
 	public static void main (String[] t) throws IOException {

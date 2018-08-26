@@ -2,9 +2,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-// atharva washimkar
-// August 11, 2018
-
 public class VMSS_15_P5_JEFFREY_AND_FRANK_AND_A_LACK_OF_ROADS {
 
 	static Apple[] A;

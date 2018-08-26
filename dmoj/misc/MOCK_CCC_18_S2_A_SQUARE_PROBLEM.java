@@ -4,7 +4,7 @@ import java.io.InputStream;
 import java.io.PrintWriter;
 
 // atharva washimkar
-// August 11, 2018
+// Jan 30, 2018
 
 public class MOCK_CCC_18_S2_A_SQUARE_PROBLEM {
 

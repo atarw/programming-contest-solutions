@@ -3,9 +3,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
 
-// atharva washimkar
-// August 11, 2018
-
 public class CODEFORCES_743_A {
 
 	public static void main (String[] t) throws IOException {

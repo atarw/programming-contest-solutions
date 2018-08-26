@@ -5,7 +5,8 @@ import java.io.PrintWriter;
 import java.util.Arrays;
 
 // atharva washimkar
-// August 11, 2018
+// Aug 27, 2017
+// given an array of N integers, perform Q range updates and range sum queries
 
 public class SQUARE_ROOT_DECOMPOSITION_3 {
 

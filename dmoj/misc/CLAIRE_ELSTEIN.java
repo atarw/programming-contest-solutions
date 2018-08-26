@@ -5,9 +5,6 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 
-// atharva washimkar
-// August 11, 2018
-
 public class CLAIRE_ELSTEIN {
 
 	public static void main (String[] t) throws IOException {

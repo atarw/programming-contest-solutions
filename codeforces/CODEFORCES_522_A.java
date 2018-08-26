@@ -8,9 +8,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-// atharva washimkar
-// August 11, 2018
-
 /**
  * Built using CHelper plug-in
  * Actual solution is at the top

@@ -2,9 +2,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-// atharva washimkar
-// August 11, 2018
-
 public class XOR {
 
 	public static int val (int a) {

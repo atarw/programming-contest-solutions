@@ -5,9 +5,6 @@ import java.util.Collections;
 import java.util.NavigableMap;
 import java.util.TreeMap;
 
-// atharva washimkar
-// August 11, 2018
-
 public class VMSS_16_P2_PROJECT_FENG_MULTIPLE_STATEMENTS {
 
 	public static void main (String[] args) throws IOException {

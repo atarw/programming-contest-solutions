@@ -5,7 +5,7 @@ import java.io.PrintWriter;
 import java.math.BigInteger;
 
 // atharva washimkar
-// August 11, 2018
+// Sep 08, 2017
 
 public class BTS_17_P2_AVALON {
 

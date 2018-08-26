@@ -4,9 +4,6 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
-// atharva washimkar
-// August 11, 2018
-
 public class MWC_15_C3_P3_BAD_NEWS {
 
 	static char[][] maze;

@@ -6,9 +6,6 @@ import java.util.List;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
-// atharva washimkar
-// August 11, 2018
-
 public class MACKENZIE_NEW_YEARS_CHALLENGE_P5_JELLY {
 
 	static int[][][] maze;

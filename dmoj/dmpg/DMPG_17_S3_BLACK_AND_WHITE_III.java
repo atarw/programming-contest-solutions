@@ -5,7 +5,7 @@ import java.io.PrintWriter;
 import java.math.BigInteger;
 
 // atharva washimkar
-// August 11, 2018
+// May 15, 2017
 
 public class DMPG_17_S3_BLACK_AND_WHITE_III {
 

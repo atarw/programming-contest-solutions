@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 // atharva washimkar
-// August 11, 2018
+// Jun 01, 2017
 
 public class DMOPC_15_P5_TOTAL_ANNIHILATION {
 

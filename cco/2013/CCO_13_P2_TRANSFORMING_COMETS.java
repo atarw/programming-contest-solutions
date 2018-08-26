@@ -3,9 +3,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
 
-// atharva washimkar
-// August 11, 2018
-
 public class CCO_13_P2_TRANSFORMING_COMETS {
 
 	static int[] x1, x2, y1, y2;

@@ -2,9 +2,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-// atharva washimkar
-// August 11, 2018
-
 public class DMPG_16_S5_PIZZA_BAG {
 
 	public static void main (String[] t) throws IOException {

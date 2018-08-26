@@ -3,9 +3,6 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.PrintWriter;
 
-// atharva washimkar
-// August 11, 2018
-
 /**
  * Built using CHelper plug-in
  * Actual solution is at the top

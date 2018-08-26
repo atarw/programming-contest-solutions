@@ -4,9 +4,6 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
-// atharva washimkar
-// August 11, 2018
-
 public class DMPG_15_S3_ZEN_GARDEN {
 
 	public static void main (String[] args) throws IOException {

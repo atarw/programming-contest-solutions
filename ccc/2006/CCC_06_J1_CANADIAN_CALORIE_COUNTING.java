@@ -2,9 +2,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-// atharva washimkar
-// August 11, 2018
-
 public class CCC_06_J1_CANADIAN_CALORIE_COUNTING {
 
 	public static void main (String[] args) throws IOException {

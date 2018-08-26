@@ -2,9 +2,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-// atharva washimkar
-// August 11, 2018
-
 public class VMSS_16_P1_PROJECT_FENG_A_NEW_PRIME_FACTORIZATION {
 
 	public static void primes (int M) {

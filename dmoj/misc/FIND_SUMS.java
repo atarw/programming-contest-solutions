@@ -4,9 +4,6 @@ import java.io.InputStreamReader;
 import java.util.Set;
 import java.util.TreeSet;
 
-// atharva washimkar
-// August 11, 2018
-
 public class FIND_SUMS {
 
 	public static final Set<Integer> set = new TreeSet<Integer> ();

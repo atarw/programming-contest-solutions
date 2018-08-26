@@ -7,7 +7,7 @@ import java.util.Deque;
 import java.util.List;
 
 // atharva washimkar
-// August 11, 2018
+// May 10, 2017
 
 public class TWO_SAT {
 

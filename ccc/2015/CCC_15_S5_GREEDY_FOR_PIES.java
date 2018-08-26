@@ -3,9 +3,6 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
-// atharva washimkar
-// August 11, 2018
-
 public class CCC_15_S5_GREEDY_FOR_PIES {
 
 	static int[] ln, bag;

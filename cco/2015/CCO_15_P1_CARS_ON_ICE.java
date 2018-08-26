@@ -5,9 +5,6 @@ import java.io.PrintWriter;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-// atharva washimkar
-// August 11, 2018
-
 public class CCO_15_P1_CARS_ON_ICE {
 
 	public static void main (String[] t) throws IOException {

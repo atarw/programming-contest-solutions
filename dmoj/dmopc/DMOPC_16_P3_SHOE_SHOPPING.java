@@ -3,9 +3,6 @@ import java.io.InputStream;
 import java.io.PrintWriter;
 import java.util.Arrays;
 
-// atharva washimkar
-// August 11, 2018
-
 public class DMOPC_16_P3_SHOE_SHOPPING {
 
 	static int N;

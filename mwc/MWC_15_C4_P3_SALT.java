@@ -6,9 +6,6 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-// atharva washimkar
-// August 11, 2018
-
 public class MWC_15_C4_P3_SALT {
 
 	static Map<Integer, Set<Integer>> x = new HashMap<Integer, Set<Integer>> ();

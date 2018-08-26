@@ -5,9 +5,6 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.Iterator;
 
-// atharva washimkar
-// August 11, 2018
-
 public class CCC_15_S1_ZERO_THAT_OUT {
 
 	public static void main (String[] args) throws IOException {

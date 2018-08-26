@@ -10,9 +10,6 @@ import java.util.NavigableSet;
 import java.util.Queue;
 import java.util.TreeSet;
 
-// atharva washimkar
-// August 11, 2018
-
 public class CCO_12_P2_THE_HUNGARY_GAMES {
 
 	public static int[] sp (int u, List<Edge>[] list) {

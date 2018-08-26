@@ -5,7 +5,7 @@ import java.io.PrintWriter;
 import java.math.BigDecimal;
 
 // atharva washimkar
-// August 11, 2018
+// Sep 11, 2017
 
 public class BTS_17_P3_PHYSICS {
 

@@ -3,9 +3,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
 
-// atharva washimkar
-// August 11, 2018
-
 public class TLE_16_P1_MATH_HELPER {
 
 	public static void main (String[] t) throws IOException {

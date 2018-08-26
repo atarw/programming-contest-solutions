@@ -6,9 +6,6 @@ import java.util.HashSet;
 import java.util.Queue;
 import java.util.Set;
 
-// atharva washimkar
-// August 11, 2018
-
 public class VMSS_15_P4_FRANK_AND_ROADS {
 
 	public static void main (String[] args) throws IOException {

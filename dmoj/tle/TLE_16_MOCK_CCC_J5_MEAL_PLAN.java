@@ -4,9 +4,6 @@ import java.io.InputStream;
 import java.io.PrintWriter;
 import java.util.Arrays;
 
-// atharva washimkar
-// August 11, 2018
-
 public class TLE_16_MOCK_CCC_J5_MEAL_PLAN {
 
 	public static void main (String[] t) throws IOException {

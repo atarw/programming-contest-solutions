@@ -5,9 +5,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-// atharva washimkar
-// August 11, 2018
-
 public class CCC_07_J1_WHOS_IN_THE_MIDDLE {
 
 	public static void main (String[] args) throws IOException {

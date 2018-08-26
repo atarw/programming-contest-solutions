@@ -6,9 +6,6 @@ import java.util.Arrays;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
-// atharva washimkar
-// August 11, 2018
-
 public class WC_17_P2_YOURE_DEAD {
 
 	public static void main (String[] t) throws IOException {

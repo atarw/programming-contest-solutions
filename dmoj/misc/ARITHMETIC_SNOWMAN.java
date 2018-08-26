@@ -7,9 +7,6 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-// atharva washimkar
-// August 11, 2018
-
 public class ARITHMETIC_SNOWMAN {
 
 	public static void main (String[] args) throws IOException {

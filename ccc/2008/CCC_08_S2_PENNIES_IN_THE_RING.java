@@ -4,9 +4,6 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
-// atharva washimkar
-// August 11, 2018
-
 public class CCC_08_S2_PENNIES_IN_THE_RING {
 
 	public static int pennies (int radius) {

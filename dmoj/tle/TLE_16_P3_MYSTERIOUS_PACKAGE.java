@@ -10,9 +10,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-// atharva washimkar
-// August 11, 2018
-
 public class TLE_16_P3_MYSTERIOUS_PACKAGE {
 
 	public static void main (String[] t) throws IOException {

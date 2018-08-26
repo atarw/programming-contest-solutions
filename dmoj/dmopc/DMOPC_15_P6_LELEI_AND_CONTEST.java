@@ -6,9 +6,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
 
-// atharva washimkar
-// August 11, 2018
-
 public class DMOPC_15_P6_LELEI_AND_CONTEST {
 
 	static long[] bit1, bit2;

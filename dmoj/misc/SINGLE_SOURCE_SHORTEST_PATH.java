@@ -5,9 +5,6 @@ import java.util.ArrayDeque;
 import java.util.Arrays;
 import java.util.Queue;
 
-// atharva washimkar
-// August 11, 2018
-
 public class SINGLE_SOURCE_SHORTEST_PATH {
 
 	public static void main (String[] args) throws IOException {

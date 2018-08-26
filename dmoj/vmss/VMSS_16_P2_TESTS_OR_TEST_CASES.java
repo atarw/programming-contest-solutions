@@ -9,9 +9,6 @@ import java.util.NavigableSet;
 import java.util.TreeMap;
 import java.util.TreeSet;
 
-// atharva washimkar
-// August 11, 2018
-
 public class VMSS_16_P2_TESTS_OR_TEST_CASES {
 
 	static NavigableMap<Integer, NavigableSet<Character>> map = new TreeMap<Integer, NavigableSet<Character>> ();

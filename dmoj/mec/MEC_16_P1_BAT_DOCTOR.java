@@ -6,9 +6,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-// atharva washimkar
-// August 11, 2018
-
 public class MEC_16_P1_BAT_DOCTOR {
 
 	public static double solve (P p1, P p2) {

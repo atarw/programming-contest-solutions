@@ -2,9 +2,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-// atharva washimkar
-// August 11, 2018
-
 public class ECOO_13_R3_P4_TOUR_DE_FORCE {
 
 	static int[][] cache;

@@ -6,9 +6,6 @@ import java.util.Arrays;
 import java.util.NavigableMap;
 import java.util.TreeMap;
 
-// atharva washimkar
-// August 11, 2018
-
 public class CCC_14_S4_TINTED_GLASS_WINDOW {
 
 	public static void main (String[] t) throws IOException {

@@ -6,9 +6,6 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Arrays;
 
-// atharva washimkar
-// August 11, 2018
-
 public class JDCC_15_FEBUARY_E_POCKET_CHANGE {
 
 	static int[] grocer, rosie, cache2;

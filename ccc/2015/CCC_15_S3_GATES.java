@@ -4,9 +4,6 @@ import java.io.InputStreamReader;
 import java.util.NavigableSet;
 import java.util.TreeSet;
 
-// atharva washimkar
-// August 11, 2018
-
 public class CCC_15_S3_GATES {
 
 	public static void main (String[] args) throws IOException {

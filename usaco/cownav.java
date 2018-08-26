@@ -5,9 +5,6 @@ import java.io.PrintWriter;
 import java.util.ArrayDeque;
 import java.util.Queue;
 
-// atharva washimkar
-// August 11, 2018
-
 public class cownav {
 
 	static int N;
@@ -127,7 +124,7 @@ public class cownav {
 		for (int n = 0; n < N; ++n)
 			for (int n2 = 0; n2 < N; ++n2)
 				maze[n][n2] = maze2[N - n2 - 1][n];
-
+				
 		/*for (int n = 0; n < N; ++n) {
 			for (int n2 = 0; n2 < N; ++n2)
 				out.print (maze [n][n2] ? "E" : "H");

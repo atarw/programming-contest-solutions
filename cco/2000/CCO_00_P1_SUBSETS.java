@@ -13,9 +13,6 @@ import java.util.Set;
 import java.util.TreeMap;
 import java.util.TreeSet;
 
-// atharva washimkar
-// August 11, 2018
-
 public class CCO_00_P1_SUBSETS {
 
 	public static void main (String[] args) throws IOException {

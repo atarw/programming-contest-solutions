@@ -4,9 +4,6 @@ import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.Map;
 
-// atharva washimkar
-// August 11, 2018
-
 public class CCC_97_S4_DYNAMIC_DICTIONARY_CODING {
 
 	static int x = 1;

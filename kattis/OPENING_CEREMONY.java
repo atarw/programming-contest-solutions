@@ -5,9 +5,6 @@ import java.io.PrintWriter;
 import java.util.NavigableMap;
 import java.util.TreeMap;
 
-// atharva washimkar
-// August 11, 2018
-
 public class OPENING_CEREMONY {
 
 	public static void main (String[] t) throws IOException {

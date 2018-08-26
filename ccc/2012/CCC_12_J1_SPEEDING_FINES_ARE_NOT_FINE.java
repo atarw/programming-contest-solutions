@@ -2,9 +2,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-// atharva washimkar
-// August 11, 2018
-
 public class CCC_12_J1_SPEEDING_FINES_ARE_NOT_FINE {
 
 	public static void main (String[] args) throws IOException {

@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.List;
 
 // atharva washimkar
-// August 11, 2018
+// May 01, 2017
 
 public class SPOJ_LCA {
 

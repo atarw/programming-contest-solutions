@@ -5,9 +5,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-// atharva washimkar
-// August 11, 2018
-
 public class CCC_13_S3_CHANCES_OF_WINNING {
 
 	static int[] scores = new int[5];//convenience :P

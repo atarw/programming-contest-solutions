@@ -7,9 +7,6 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-// atharva washimkar
-// August 11, 2018
-
 public class VMSS_15_P3_AGRIPHILISOPHICAL_DATA_SLAVES {
 
 	public static void main (String[] args) throws IOException {

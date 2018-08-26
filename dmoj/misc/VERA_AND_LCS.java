@@ -4,7 +4,7 @@ import java.io.InputStream;
 import java.io.PrintWriter;
 
 // atharva washimkar
-// August 11, 2018
+// Jun 20, 2017
 
 public class VERA_AND_LCS {
 

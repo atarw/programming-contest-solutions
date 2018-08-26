@@ -1,9 +1,6 @@
 import java.io.*;
 import java.util.*;
 
-// atharva washimkar
-// August 11, 2018
-
 public class shop2 {
 
 	public static void main (String[] t) throws IOException {
@@ -11,37 +8,37 @@ public class shop2 {
 		PrintWriter out = new PrintWriter (System.out);
 
 		int T = in.iscan ();
-
+		
 		for (int tt = 1; tt <= T; ++tt) {
 			int N = in.iscan ();
 			int[] arr = new int[N + 1];
-
+			
 			for (int n = 1; n <= N; ++n)
 				arr[n] = in.iscan ();
-
+			
 			int[] dp = new int[N + 1];
 			dp[1] = arr[1];
-
+			
 			if (N != 1) {
 				dp[2] = Math.max (arr[1], arr[2]);
-
+				
 				NavigableMap<Integer, Integer> map = new TreeMap<Integer, Integer> ();
 				map.put (Math.max (arr[1], arr[2]), 1);
-
-				for (int n = 3; n <= N; ++n) {
+							
+				for (int n = 3; n <= N; ++n) {				
 					if (n % 2 == 1) {
 						int min = map.firstKey ();
-
+						
 						if (dp[n - 1] > dp[n - 1] - min + arr[n])
 							dp[n] = dp[n - 1];
 						else {
 							dp[n] = dp[n - 1] - min + arr[n];
-
+							
 							if(map.get (min) == 1)
 								map.pollFirstEntry ();
 							else
 								map.put (min, map.get (min) - 1);
-
+							
 							if (map.containsKey (arr[n]))
 								map.put (arr[n], map.get (arr[n]) + 1);
 							else
@@ -50,7 +47,7 @@ public class shop2 {
 					}
 					else {
 						dp[n] = dp[n - 1] + arr[n];
-
+						
 						if (map.containsKey (arr[n]))
 							map.put (arr[n], map.get (arr[n]) + 1);
 						else
@@ -58,7 +55,7 @@ public class shop2 {
 					}
 				}
 			}
-
+			
 			out.printf ("Spree #%d: %d\n", tt, dp[N]);
 		}
 

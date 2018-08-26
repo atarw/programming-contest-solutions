@@ -2,9 +2,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-// atharva washimkar
-// August 11, 2018
-
 public class TSOC_16_P3_YOU_AND_CROSSROADS {
 
 	public static int get (int sx, int ex, int sy, int ey, boolean[][] maze) {

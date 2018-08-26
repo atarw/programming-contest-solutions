@@ -7,9 +7,6 @@ import java.util.TreeMap;
 
 //switches to uncompressed coordinates (which has better performance apparently) when N < 1000
 
-// atharva washimkar
-// August 11, 2018
-
 public class DMPG_15_S5_BLACK_AND_WHITE {
 
 	public static void main (String[] t) throws IOException {

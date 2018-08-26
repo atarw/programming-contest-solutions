@@ -5,9 +5,6 @@ import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 
-// atharva washimkar
-// August 11, 2018
-
 public class DMOPC_14_P3_SAWMILL {
 
 	public static List<Integer> get (String input) {

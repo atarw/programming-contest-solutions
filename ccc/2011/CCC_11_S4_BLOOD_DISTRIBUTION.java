@@ -2,9 +2,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-// atharva washimkar
-// August 11, 2018
-
 public class CCC_11_S4_BLOOD_DISTRIBUTION {
 
 	public static final int O_MINUS = 0, O_PLUS = 1, A_MINUS = 2, A_PLUS = 3, B_MINUS = 4, B_PLUS = 5, AB_MINUS = 6,

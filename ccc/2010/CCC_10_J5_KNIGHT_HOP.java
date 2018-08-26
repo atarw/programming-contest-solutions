@@ -7,9 +7,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Queue;
 
-// atharva washimkar
-// August 11, 2018
-
 public class CCC_10_J5_KNIGHT_HOP {
 
 	static final int[] movement = {18, 14, 31, 33, -18, -14, -31, -33};

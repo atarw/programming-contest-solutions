@@ -2,9 +2,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-// atharva washimkar
-// August 11, 2018
-
 public class FHC_15_P3_WINNING_AT_SPORTS {
 
 	static int[][] cache;

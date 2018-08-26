@@ -6,9 +6,6 @@ import java.util.ArrayDeque;
 import java.util.Arrays;
 import java.util.Queue;
 
-// atharva washimkar
-// August 11, 2018
-
 public class CCC_18_S3_ROBOTHIEVES {
 
 	public static void main (String[] t) throws IOException {

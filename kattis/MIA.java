@@ -3,9 +3,6 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
-// atharva washimkar
-// August 11, 2018
-
 public class MIA {
 
 	public static void main (String[] t) throws IOException {

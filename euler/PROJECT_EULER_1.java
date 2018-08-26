@@ -1,6 +1,3 @@
-// atharva washimkar
-// August 11, 2018
-
 public class PROJECT_EULER_1 {
 
 	public static void main (String[] args) {

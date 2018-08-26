@@ -4,9 +4,6 @@ import java.io.InputStreamReader;
 import java.util.ArrayDeque;
 import java.util.Queue;
 
-// atharva washimkar
-// August 11, 2018
-
 public class VMSS_15_P2_TOMB_ROBBING {
 
 	static boolean[][] maze;

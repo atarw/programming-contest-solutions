@@ -4,9 +4,6 @@ import java.io.InputStreamReader;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
-// atharva washimkar
-// August 11, 2018
-
 public class DMOPC_14_P4_PERFECT_TIMING {
 
 	public static void main (String[] args) throws IOException {

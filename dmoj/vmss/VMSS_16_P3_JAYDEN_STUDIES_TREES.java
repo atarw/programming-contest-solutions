@@ -8,9 +8,6 @@ import java.util.Map;
 import java.util.Queue;
 import java.util.Set;
 
-// atharva washimkar
-// August 11, 2018
-
 public class VMSS_16_P3_JAYDEN_STUDIES_TREES {
 
 	public static void main (String[] args) throws IOException {

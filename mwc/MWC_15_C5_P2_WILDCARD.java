@@ -4,9 +4,6 @@ import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.Map;
 
-// atharva washimkar
-// August 11, 2018
-
 public class MWC_15_C5_P2_WILDCARD {
 
 	public static void main (String[] t) throws IOException {

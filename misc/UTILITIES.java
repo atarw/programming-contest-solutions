@@ -1,6 +1,3 @@
-// atharva washimkar
-// August 11, 2018
-
 public class UTILITIES {
 
 	static final double EPS = 10e-6;

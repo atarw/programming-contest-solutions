@@ -4,9 +4,6 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.util.Arrays;
 
-// atharva washimkar
-// August 11, 2018
-
 public class CCOQR_16_Q1_STUPENDOUS_BOWTIES {
 
 	public static void main (String[] t) throws IOException {

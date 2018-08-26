@@ -4,9 +4,6 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
-// atharva washimkar
-// August 11, 2018
-
 public class MWC_15_C4_P4_DEALING_WITH_KNOTS {
 
 	static List<Integer>[] list;

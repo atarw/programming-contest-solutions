@@ -5,9 +5,6 @@ import java.io.PrintWriter;
 import java.util.HashSet;
 import java.util.Set;
 
-// atharva washimkar
-// August 11, 2018
-
 public class VERA_AND_DOGS {
 
 	public static void main (String[] t) throws IOException {

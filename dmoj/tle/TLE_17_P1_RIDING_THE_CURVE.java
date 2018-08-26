@@ -4,7 +4,7 @@ import java.io.InputStream;
 import java.io.PrintWriter;
 
 // atharva washimkar
-// August 11, 2018
+// Dec 23, 2017
 
 public class TLE_17_P1_RIDING_THE_CURVE {
 

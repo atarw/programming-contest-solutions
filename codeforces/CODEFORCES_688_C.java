@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.List;
 
 // atharva washimkar
-// August 11, 2018
+// Jun 22, 2017
 
 public class CODEFORCES_688_C {
 

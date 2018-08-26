@@ -9,9 +9,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Queue;
 
-// atharva washimkar
-// August 11, 2018
-
 public class ERRATIC_ANTS {
 
 	public static int best (Map<Pair, List<Pair>> map, Pair end) {

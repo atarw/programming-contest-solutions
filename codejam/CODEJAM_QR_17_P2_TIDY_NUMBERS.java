@@ -6,9 +6,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-// atharva washimkar
-// August 11, 2018
-
 public class CODEJAM_QR_17_P2_TIDY_NUMBERS {
 
 	static List<Long> num;

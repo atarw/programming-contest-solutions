@@ -4,9 +4,6 @@ import java.io.InputStreamReader;
 import java.util.HashSet;
 import java.util.Set;
 
-// atharva washimkar
-// August 11, 2018
-
 public class ECOO_16_R1_P2_SPINDIE {
 
 	public static void main (String[] t) throws IOException {

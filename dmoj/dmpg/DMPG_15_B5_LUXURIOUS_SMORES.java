@@ -2,9 +2,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-// atharva washimkar
-// August 11, 2018
-
 public class DMPG_15_B5_LUXURIOUS_SMORES {
 
 	public static void main (String[] t) throws IOException {

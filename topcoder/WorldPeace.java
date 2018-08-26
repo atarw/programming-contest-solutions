@@ -1,6 +1,3 @@
-// atharva washimkar
-// August 11, 2018
-
 public class WorldPeace {
 
 	public static long numGroups (int k, int[] countries) {

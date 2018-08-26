@@ -4,9 +4,6 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.util.Arrays;
 
-// atharva washimkar
-// August 11, 2018
-
 public class TSOC_16_P4_BOBS_PRIMES {
 
 	static int N, M;

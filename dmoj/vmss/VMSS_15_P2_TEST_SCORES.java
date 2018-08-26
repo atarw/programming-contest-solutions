@@ -4,9 +4,6 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.Collections;
 
-// atharva washimkar
-// August 11, 2018
-
 public class VMSS_15_P2_TEST_SCORES {
 
 	public static void main (String[] args) throws IOException {

@@ -6,9 +6,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-// atharva washimkar
-// August 11, 2018
-
 public class DMOPC_13_P1_SHARING_IS_CARING {
 
 	public static void main (String[] args) throws IOException {

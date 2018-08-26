@@ -2,9 +2,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-// atharva washimkar
-// August 11, 2018
-
 public class TSOC_15_P2_DIAMONDS {
 
 	public static void print (int spaces, int H) {

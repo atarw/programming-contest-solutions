@@ -5,9 +5,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-// atharva washimkar
-// August 11, 2018
-
 public class DMOPC_15_P4_LINE_GRAPH {
 
 	static int[] parent, rank;

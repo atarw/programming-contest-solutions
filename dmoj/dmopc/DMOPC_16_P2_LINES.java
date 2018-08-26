@@ -6,9 +6,6 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-// atharva washimkar
-// August 11, 2018
-
 public class DMOPC_16_P2_LINES {
 
 	public static void main (String[] t) throws IOException {

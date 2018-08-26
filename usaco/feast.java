@@ -5,9 +5,6 @@ import java.io.PrintWriter;
 import java.util.ArrayDeque;
 import java.util.Queue;
 
-// atharva washimkar
-// August 11, 2018
-
 public class feast {
 
 	public static void main (String[] t) throws IOException {

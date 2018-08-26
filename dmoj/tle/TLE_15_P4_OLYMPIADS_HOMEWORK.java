@@ -2,9 +2,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-// atharva washimkar
-// August 11, 2018
-
 public class TLE_15_P4_OLYMPIADS_HOMEWORK {
 
 	public static final int mod = 1000000013;

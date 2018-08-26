@@ -4,7 +4,7 @@ import java.io.InputStream;
 import java.io.PrintWriter;
 
 // atharva washimkar
-// August 11, 2018
+// Feb 06, 2018
 
 public class CODEFORCES_369_A {
 

@@ -4,9 +4,6 @@ import java.io.InputStreamReader;
 import java.util.NavigableSet;
 import java.util.TreeSet;
 
-// atharva washimkar
-// August 11, 2018
-
 public class MACKENZIE_NEW_YEARS_CHALLENGE_P3_ECOO {
 
 	public static void main (String[] args) throws IOException {

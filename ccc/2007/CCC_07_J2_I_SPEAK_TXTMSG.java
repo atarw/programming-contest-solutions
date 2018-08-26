@@ -2,9 +2,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-// atharva washimkar
-// August 11, 2018
-
 public class CCC_07_J2_I_SPEAK_TXTMSG {
 
 	public static String conv (String in) {

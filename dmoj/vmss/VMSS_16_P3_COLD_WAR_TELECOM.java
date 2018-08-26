@@ -5,9 +5,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-// atharva washimkar
-// August 11, 2018
-
 public class VMSS_16_P3_COLD_WAR_TELECOM {
 
 	static List<Integer>[] list;

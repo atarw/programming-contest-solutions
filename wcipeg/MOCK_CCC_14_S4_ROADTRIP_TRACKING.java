@@ -12,9 +12,6 @@ to check if two different paths exist, find first path, and set all edge weights
 find second path, and if distance travelled is less, there is a new path
 */
 
-// atharva washimkar
-// August 11, 2018
-
 public class MOCK_CCC_14_S4_ROADTRIP_TRACKING {
 
 	static List<Integer>[] list;

@@ -5,7 +5,7 @@ import java.io.PrintWriter;
 import java.util.Arrays;
 
 // atharva washimkar
-// August 11, 2018
+// Apr 30, 2018
 
 public class CODEFORCES_976_E {
 
@@ -18,7 +18,7 @@ public class CODEFORCES_976_E {
 
 		for (int n = 0; n < N; ++n)
 			arr[n] = new Pair (in.iscan (), in.iscan ());
-
+		
 		Arrays.sort (arr, (a, b) -> {
 			return Long.compare (b.hp - b.dmg, a.hp - a.dmg);
 		});

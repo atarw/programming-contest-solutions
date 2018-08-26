@@ -7,9 +7,6 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-// atharva washimkar
-// August 11, 2018
-
 public class ICPC_05_A_ACM {
 
 	static String acronym;

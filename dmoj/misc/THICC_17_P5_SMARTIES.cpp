@@ -25,7 +25,7 @@ int main () {
 			if (++cnt[arr[b++]] == 1)
 					++frq;
 
-		if (frq >= K) {
+		while (frq >= K) {
 			ans += (N - b + 1L);
 			
 			if (--cnt[arr[a++]] == 0)

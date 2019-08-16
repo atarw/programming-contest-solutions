@@ -1,8 +1,8 @@
 #!/usr/bin/python
 import os, fnmatch
 
-root = '/Users/atharva/Movies/Avatar The Last Airbender'
-ext = ['*.m4v']
+root = '/Users/atharva/Movies/Gravity Falls/Episodes'
+ext = ['*.mp4']
 to_rename = []
 
 for dir_name, sub_dir, files in os.walk (root):
@@ -17,7 +17,7 @@ for f in to_rename:
 	last = len (tok) - 1
 	
 	l = tok [last].rfind ('-')
-	r = tok [last].rfind ('.m4v')
+	r = tok [last].rfind ('.mp4')
 	
 	tok [last] = tok [last][0:l] + tok [last][r:]
 	

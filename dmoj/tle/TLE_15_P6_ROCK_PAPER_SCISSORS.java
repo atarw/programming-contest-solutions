@@ -81,6 +81,20 @@ public class TLE_15_P6_ROCK_PAPER_SCISSORS {
 		}
 
 		// do scc and compress graph
+		// how scc works:
+		// 1. do topological sort in first dfs
+		// 2. visit nodes in the topological order calculated in
+		// second dfs: any nodes reachable in reverse graph are 
+		// in the same component.
+		//
+		// this is true because if a child is reachable from the parent
+		// in the reverse graph, there is a path from the child to the parent
+		// in the normal graph.
+		//
+		// there is also a path from the parent to the child in the normal graph,
+		// since if there wasn't, then the parent would not be topologically higher
+		// than the child (since there's a path from child to parent, but not parent to child),
+		// and it wouldn't be visited first, since nodes are visited in topological order.
 		vis = new boolean[N];
 		id = new int[N];
 		stack = new ArrayDeque<Integer> (N);

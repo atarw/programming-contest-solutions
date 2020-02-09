@@ -78,6 +78,9 @@
       <sourceFolder url="file://$MODULE_DIR$/coci/2007" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/coci/2015" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ccc/2018" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cco/2008" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dmoj/ac" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lcc" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -2,25 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf5dc239-6b36-4c09-b580-a8e8c611168e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/file.template.settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_1099_C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_1099_D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_1180_B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_1180_C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_1182_B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_1186_D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_1189_C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_1189_D1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_246_D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_427_C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_482_B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_494_A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/CODEFORCE_1186_C.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/atharva.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/atharva.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_1191_C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_1195_C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_1234_A.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_1234_B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_1234_D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_1255_A.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_1255_B.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_1255_C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_165_C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_214_A.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/CODEFORCES_219_C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lcc/LCC_19_S1_BEANS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lcc/LCC_19_S4_AUTOBATTLER.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lcc/LCC_19_S5_HIP_HOP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/programming-contest-solutions.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/programming-contest-solutions.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/misc/TV_EPISODE_RENAMER.py" beforeDir="false" afterPath="$PROJECT_DIR$/misc/TV_EPISODE_RENAMER.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,10 +84,6 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1280" />
-    <option name="height" value="800" />
-  </component>
   <component name="ProjectId" id="1Ovd2FHL0dKTB9jY0tINopHBo46" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -134,12 +127,13 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/atharva/Github/programming-contest-solutions/codeforces/CODEFORCES_446_A.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="/usr/bin/python" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.25023168" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -158,7 +152,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CODEFORCES_1173_C">
+  <component name="RunManager" selected="Application.CODEFORCES_1255_C">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -189,40 +183,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CODEFORCES_1099_C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CODEFORCES_1099_C" />
+    <configuration name="CODEFORCES_1255_C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CODEFORCES_1255_C" />
       <module name="programming-contest-solutions" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CODEFORCES_1099_D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CODEFORCES_1099_D" />
+    <configuration name="CODEFORCES_165_C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CODEFORCES_165_C" />
       <module name="programming-contest-solutions" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CODEFORCES_1173_C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CODEFORCES_1173_C" />
+    <configuration name="CODEFORCES_219_C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CODEFORCES_219_C" />
       <module name="programming-contest-solutions" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CODEFORCES_1181_D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CODEFORCES_1181_D" />
+    <configuration name="LCC_19_S4_AUTOBATTLER" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LCC_19_S4_AUTOBATTLER" />
       <module name="programming-contest-solutions" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CODEFORCES_1182_B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CODEFORCES_1182_B" />
+    <configuration name="LCC_19_S5_HIP_HOP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LCC_19_S5_HIP_HOP" />
       <module name="programming-contest-solutions" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <method v="2">
@@ -254,21 +248,25 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.CODEFORCES_1181_D" />
-      <item itemvalue="Application.CODEFORCES_1099_C" />
-      <item itemvalue="Application.CODEFORCES_1099_D" />
-      <item itemvalue="Application.CODEFORCES_1182_B" />
-      <item itemvalue="Application.CODEFORCES_1173_C" />
+      <item itemvalue="Application.CODEFORCES_219_C" />
+      <item itemvalue="Application.CODEFORCES_165_C" />
+      <item itemvalue="Application.LCC_19_S4_AUTOBATTLER" />
+      <item itemvalue="Application.LCC_19_S5_HIP_HOP" />
+      <item itemvalue="Application.CODEFORCES_1255_C" />
+      <item itemvalue="Python.python" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CODEFORCES_1173_C" />
-        <item itemvalue="Application.CODEFORCES_1182_B" />
-        <item itemvalue="Application.CODEFORCES_1099_D" />
-        <item itemvalue="Application.CODEFORCES_1099_C" />
-        <item itemvalue="Application.CODEFORCES_1181_D" />
+        <item itemvalue="Application.CODEFORCES_1255_C" />
+        <item itemvalue="Application.LCC_19_S5_HIP_HOP" />
+        <item itemvalue="Application.LCC_19_S4_AUTOBATTLER" />
+        <item itemvalue="Application.CODEFORCES_165_C" />
+        <item itemvalue="Application.CODEFORCES_219_C" />
       </list>
     </recent_temporary>
   </component>
@@ -310,7 +308,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -318,6 +318,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="fixed some stuff intellij pointed out" />
     <MESSAGE value="consistent indenting??" />
     <MESSAGE value="mock ccc + some random codeforces" />
@@ -326,123 +327,5 @@
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="dp2" language="JAVA" />
-      </configuration>
-    </watches-manager>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.25023168" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="Copyright.UI">
-        <settings>
-          <last-edited>default</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.25023168" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>groovy-2.4.12</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>Java 8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.25023168" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>programming-contest-solutions</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.25023168" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.25023168" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.66228646" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
